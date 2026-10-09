@@ -5,4 +5,4 @@ Allow 47 to loosen up a bit.
 
 ---
 
-`Charc0al.Drunk47` v0.3.0, by Charc0al. This README was automatically generated from the mod's manifest.
+`Charc0al.Drunk47` v1.0.0, by Charc0al. This README was automatically generated from the mod's manifest.
