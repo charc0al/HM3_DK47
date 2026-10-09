@@ -53,17 +53,6 @@
       ]
     },
     {
-      "name": "Safehouse | Beer",
-      "tooltip": "Adds six drinkable beer bottles floating one metre above the Freelancer safehouse Picnic location. Also enables the required Beer package.",
-      "group": "Safehouse",
-      "type": "checkbox",
-      "enabledByDefault": true,
-      "contentFolders": [
-        "content/safehouse_beer",
-        "content/beer"
-      ]
-    },
-    {
       "name": "Safehouse | Vodka",
       "tooltip": "Adds a drinkable vodka bottle to the Freelancer safehouse garage.",
       "group": "Safehouse",
