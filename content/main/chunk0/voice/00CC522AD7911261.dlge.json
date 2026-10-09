@@ -1,0 +1,24 @@
+{
+  "$schema": "https://tonytools.win/schemas/dlge.schema.json",
+  "hash": "[assembly:/localization/hitman6/conversations/island/29000_elusive/29000_penicillin/29000_penicillin_story/dr29865_47wincongrats.sweetdialog?/dr29865_47wincongrats_47_002.sweetdialogitem].pc_dialogevent",
+  "DITL": "[assembly:/localization/hitman6.sweet].pc_dialogsoundtemplatelist",
+  "CLNG": "[assembly:/localization/hitman6.sweet].pc_cascadinglanguagedependencies",
+  "rootContainer": {
+    "type": "WavFile",
+    "wavName": "dr29865_47wincongrats_47_002",
+    "soundtag": "In-world_Maincharacter",
+    "defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/island/29000_elusive/29000_penicillin/29000_penicillin_story/dr29865_47wincongrats_47_002.wav].pc_wes",
+    "defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/island/29000_elusive/29000_penicillin/29000_penicillin_story/dr29865_47wincongrats_47_002.animset].pc_animset",
+    "languages": {
+      "en": "//(0,30)\\\\Just doing my job.",
+      "fr": "//(0,30)\\\\J'ai simplement fait mon travail.",
+      "it": "//(0,30)\\\\Faccio solo il mio lavoro.",
+      "de": "//(0,30)\\\\Ich mache nur meine Arbeit.",
+      "es": "//(0,30)\\\\Tan solo hago mi trabajo.",
+      "ru": "//(0,30)\\\\Работа у меня такая.",
+      "cn": "//(0,30)\\\\我只是在干本职工作而已。",
+      "tc": "//(0,30)\\\\我只是在盡我的職責。",
+      "jp": "//(0,30)\\\\仕事をこなしたまでだ。"
+    }
+  }
+}

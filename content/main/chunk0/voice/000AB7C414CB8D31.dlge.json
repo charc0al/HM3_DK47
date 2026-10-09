@@ -1,0 +1,24 @@
+{
+  "$schema": "https://tonytools.win/schemas/dlge.schema.json",
+  "hash": "[assembly:/localization/hitman6/conversations/colombia/23000_hippo/23000_story/dr23547_hallowedground_assistant47shamanacknowledge.sweetdialog?/dr23547_hallowedground_assistant47shamanacknowledge_47_002.sweetdialogitem].pc_dialogevent",
+  "DITL": "[assembly:/localization/hitman6.sweet].pc_dialogsoundtemplatelist",
+  "CLNG": "[assembly:/localization/hitman6.sweet].pc_cascadinglanguagedependencies",
+  "rootContainer": {
+    "type": "WavFile",
+    "wavName": "dr23547_hallowedground_assistant47shamanacknowledge_47_002",
+    "soundtag": "In-world_Maincharacter",
+    "defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/colombia/23000_hippo/23000_story/dr23547_hallowedground_assistant47shamanacknowledge_47_002.wav].pc_wes",
+    "defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/colombia/23000_hippo/23000_story/dr23547_hallowedground_assistant47shamanacknowledge_47_002.animset].pc_animset",
+    "languages": {
+      "en": "//(0,30)\\\\Excellent.",
+      "fr": "//(0,30)\\\\Excellent.",
+      "it": "//(0,30)\\\\Eccellente.",
+      "de": "//(0,30)\\\\Hervorragend.",
+      "es": "//(0,30)\\\\Excelente.",
+      "ru": "//(0,30)\\\\Отлично.",
+      "cn": "//(0,30)\\\\很好。",
+      "tc": "//(0,30)\\\\很好。",
+      "jp": "//(0,30)\\\\それは助かる。"
+    }
+  }
+}

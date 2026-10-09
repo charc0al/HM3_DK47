@@ -1,0 +1,24 @@
+{
+  "$schema": "https://tonytools.win/schemas/dlge.schema.json",
+  "hash": "[assembly:/localization/hitman6/conversations/edgy/fox/42000_story/dr42378_opdrug47push01.sweetdialog?/dr42378_opdrug47push01_47_001.sweetdialogitem].pc_dialogevent",
+  "DITL": "[assembly:/localization/hitman6.sweet].pc_dialogsoundtemplatelist",
+  "CLNG": "[assembly:/localization/hitman6.sweet].pc_cascadinglanguagedependencies",
+  "rootContainer": {
+    "type": "WavFile",
+    "wavName": "dr42378_opdrug47push01_47_001",
+    "soundtag": "In-world_Maincharacter",
+    "defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/edgy/fox/42000_story/dr42378_opdrug47push01_47_001.wav].pc_wes",
+    "defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/edgy/fox/42000_story/dr42378_opdrug47push01_47_001.animset].pc_animset",
+    "languages": {
+      "en": "//(0,30)\\\\You want to be stoned? Like me?",
+      "fr": "//(0,30)\\\\Tu veux te défoncer ? Comme moi ?",
+      "it": "//(0,30)\\\\Vuoi sballarti? Come me?",
+      "de": "//(0,30)\\\\Du willst stoned sein? Wie ich?",
+      "es": "//(0,30)\\\\¿Quieres colocarte? ¿Como yo?",
+      "ru": "//(0,30)\\\\Хочешь ширнуться? Как я?",
+      "cn": "//(0,30)\\\\想要嗨一下吗？要我的货吗？",
+      "tc": "//(0,30)\\\\你想要跟我一樣嗨嗎？",
+      "jp": "//(0,30)\\\\ハイになりたいか？俺みたいに？"
+    }
+  }
+}

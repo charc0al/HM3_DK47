@@ -100,3 +100,11 @@ The result of this would be a changelog like this:
     -   new feature 1
 -   Improvements
     -   some improvement
+
+## Local development tools
+
+Development tools and authoring/test notes live outside this mod in
+`../../agentTools/HM3_D47`. See its `README.md` for builder, validator, and
+formatter commands. The existing `format:entities` and `test:entity-format`
+npm scripts use that location. Keep agentTools backed up separately from this
+repository; deployable resources remain under `content`.

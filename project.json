@@ -1,4 +1,15 @@
 {
-	"$schema": "https://raw.githubusercontent.com/atampy25/quickentity-editor-next/main/src/lib/project-schema.json",
-	"customPaths": []
+  "$schema": "https://raw.githubusercontent.com/atampy25/quickentity-editor-next/main/src/lib/project-schema.json",
+  "customPaths": [
+    "[assembly:/localization/hitman6/conversations/ui/pro/drunk47_actions.sweetmenutext?/ui_drunk47_action_drink.sweetline].pc_sweetline",
+    "[assembly:/localization/hitman6/conversations/ui/pro/drunk47_actions.sweetmenutext?/ui_drunk47_action_use_bathroom.sweetline].pc_sweetline",
+    "[assembly:/localization/hitman6/conversations/ui/pro/drunk47_actions.sweetmenutext?/ui_drunk47_action_black_out.sweetline].pc_sweetline",
+    "[assembly:/localization/hitman6/conversations/ui/pro/drunk47_actions.sweetmenutext?/ui_drunk47_action_dance.sweetline].pc_sweetline",
+    "[assembly:/localization/hitman6/conversations/ui/pro/drunk47_actions.sweetmenutext?/ui_drunk47_action_vomit.sweetline].pc_sweetline",
+    "[assembly:/localization/hitman6/conversations/ui/pro/drunk47_actions.sweetmenutext?/ui_drunk47_action_use_toilet.sweetline].pc_sweetline",
+    "[assembly:/localization/hitman6/conversations/ui/pro/drunk47_actions.sweetmenutext?/ui_drunk47_action_open_lid.sweetline].pc_sweetline",
+    "[assembly:/_pro/design/items/drunk47.template?/prop_melee_champagne_proper.entitytemplate].pc_entitytemplate",
+    "[assembly:/_pro/design/items/drunk47.template?/prop_melee_champagne_proper.entitytemplate].pc_entityblueprint",
+    "[assembly:/drunk47/animationnetworks/hitman01_walk_test.aln].pc_rtn"
+  ]
 }

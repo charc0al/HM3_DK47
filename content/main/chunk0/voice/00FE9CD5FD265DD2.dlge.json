@@ -1,0 +1,24 @@
+{
+  "$schema": "https://tonytools.win/schemas/dlge.schema.json",
+  "hash": "[assembly:/localization/hitman6/conversations/ancestral/bulldog/41000_story/dr41455_photoalexaandphotographer47aftershoot.sweetdialog?/dr41455_photoalexaandphotographer47aftershoot_47_002.sweetdialogitem].pc_dialogevent",
+  "DITL": "[assembly:/localization/hitman6.sweet].pc_dialogsoundtemplatelist",
+  "CLNG": "[assembly:/localization/hitman6.sweet].pc_cascadinglanguagedependencies",
+  "rootContainer": {
+    "type": "WavFile",
+    "wavName": "dr41455_photoalexaandphotographer47aftershoot_47_002",
+    "soundtag": "In-world_Maincharacter",
+    "defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/ancestral/bulldog/41000_story/dr41455_photoalexaandphotographer47aftershoot_47_002.wav].pc_wes",
+    "defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/ancestral/bulldog/41000_story/dr41455_photoalexaandphotographer47aftershoot_47_002.animset].pc_animset",
+    "languages": {
+      "en": "//(0,30)\\\\No one will ever know I was here.",
+      "fr": "//(0,30)\\\\Personne ne saura que j'étais là.",
+      "it": "//(0,30)\\\\Nessuno saprà che sono stato qui.",
+      "de": "//(0,30)\\\\Niemand wird je erfahren, dass ich hier war.",
+      "es": "//(0,30)\\\\Nadie sabrá nunca que he estado aquí.",
+      "ru": "//(0,30)\\\\Никто никогда не узнает, что я был здесь.",
+      "cn": "//(0,30)\\\\决不能让任何人知道我来过这里。",
+      "tc": "//(0,30)\\\\誰都不會知道我曾在這裡。",
+      "jp": "//(0,30)\\\\私がここに来たことは、誰も知り得ません。"
+    }
+  }
+}

@@ -1,0 +1,1832 @@
+{
+  "tempHash": "00E1A44A66B120C0",
+  "tbluHash": "00E1A44A66B120C1",
+  "rootEntity": "975617a94a7708b2",
+  "entities": {
+    "d47b000000000100": {
+      "parent": "975617a94a7708b2",
+      "name": "FX_Piss_Puddle_Small",
+      "factory": "[assembly:/_pro/effects/templates/water/fx_water_leaks.template?/fx_water_leak_3x3m_a.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/effects/templates/water/fx_water_leaks.template?/fx_water_leak_3x3m_a.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0.03
+            }
+          }
+        },
+        "m_eRoomBehaviour": {
+          "type": "ZSpatialEntity.ERoomBehaviour",
+          "value": "ROOM_DYNAMIC"
+        },
+        "LeakSpeed": {
+          "type": "float32",
+          "value": 0.20000000298023224
+        },
+        "ConstantColorRGB_01_Value": {
+          "type": "SColorRGB",
+          "value": "#7a660d"
+        },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "dbc101917b6c0c62",
+          "postInit": true
+        },
+        "m_PrimitiveScale": {
+          "type": "SVector3",
+          "value": {
+            "x": 0.45,
+            "y": 0.45,
+            "z": 0.45
+          }
+        }
+      }
+    },
+    "d47b000000000101": {
+      "parent": "975617a94a7708b2",
+      "name": "FX_Piss_Puddle_Huge",
+      "factory": "[assembly:/_pro/effects/templates/water/fx_water_leaks.template?/fx_water_leak_3x3m_a.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/effects/templates/water/fx_water_leaks.template?/fx_water_leak_3x3m_a.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0.03
+            }
+          }
+        },
+        "m_eRoomBehaviour": {
+          "type": "ZSpatialEntity.ERoomBehaviour",
+          "value": "ROOM_DYNAMIC"
+        },
+        "LeakSpeed": {
+          "type": "float32",
+          "value": 0.07
+        },
+        "ConstantColorRGB_01_Value": {
+          "type": "SColorRGB",
+          "value": "#7a660d"
+        },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "d47b000000000108",
+          "postInit": true
+        },
+        "m_PrimitiveScale": {
+          "type": "SVector3",
+          "value": {
+            "x": 1.35,
+            "y": 1.35,
+            "z": 1.35
+          }
+        }
+      }
+    },
+    "dfac4441e9f822ff": {
+      "parent": "975617a94a7708b2",
+      "name": "ItemCoreNoPhys",
+      "factory": "[assembly:/_pro/design/gamecore/itemcore.template?/itemcorenophys.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/gamecore/itemcore.template?/itemcorenophys.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_bKinematic": {
+          "type": "bool",
+          "value": true
+        },
+        "m_rGeomentity": {
+          "type": "SEntityTemplateReference",
+          "value": {
+            "ref": "beef1ea44a66b20a",
+            "externalScene": null,
+            "exposedEntity": "FX_Water_Leak_3x3m_A"
+          }
+        }
+      },
+      "events": {
+        "OnVisible": {
+          "Activate": [
+            "dbc101917b6c0c62"
+          ],
+          "In": [
+            "beef1ea44a66b209",
+            "d47b000000000003"
+          ],
+          "SetTrue": [
+            "d47b000000000001"
+          ]
+        }
+      },
+      "subsets": {
+        "Replicable": [
+          "975617a94a7708b2"
+        ]
+      }
+    },
+    "beef1ea44a66b20a": {
+      "parent": "975617a94a7708b2",
+      "name": "PissPuddle_ItemCoreGeometryAnchor",
+      "factory": "[assembly:/_pro/effects/templates/water/fx_water_leaks.template?/fx_water_leak_3x3m_a.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/effects/templates/water/fx_water_leaks.template?/fx_water_leak_3x3m_a.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          }
+        },
+        "m_eRoomBehaviour": {
+          "type": "ZSpatialEntity.ERoomBehaviour",
+          "value": "ROOM_DYNAMIC"
+        },
+        "m_bKinematic": {
+          "type": "bool",
+          "value": true
+        },
+        "m_bVisible": {
+          "type": "bool",
+          "value": false
+        },
+        "m_bRemovePhysics": {
+          "type": "bool",
+          "value": true
+        },
+        "m_PrimitiveScale": {
+          "type": "SVector3",
+          "value": {
+            "x": 0.001,
+            "y": 0.001,
+            "z": 0.001
+          }
+        },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": null,
+          "postInit": true
+        }
+      }
+    },
+    "6d7c0746337380e2": {
+      "parent": "975617a94a7708b2",
+      "name": "PropHelper_SlipperyFloors",
+      "factory": "[assembly:/_pro/design/gamecore/prophelpers.template?/prophelper_slipperyfloors.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/gamecore/prophelpers.template?/prophelper_slipperyfloors.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          }
+        },
+        "m_eRoomBehaviour": {
+          "type": "ZSpatialEntity.ERoomBehaviour",
+          "value": "ROOM_DYNAMIC"
+        },
+        "WaterPresent": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": [
+            {
+              "ref": "dfac4441e9f822ff",
+              "externalScene": null,
+              "exposedEntity": "ItemVisible"
+            }
+          ]
+        },
+        "AllowSoap": {
+          "type": "bool",
+          "value": true
+        },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "dbc101917b6c0c62",
+          "postInit": true
+        },
+        "m_Boxes": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": [
+            {
+              "ref": "dbc101917b6c0c62",
+              "externalScene": null,
+              "exposedEntity": "VolumeBox_electrify"
+            }
+          ],
+          "postInit": true
+        }
+      }
+    },
+    "dbc101917b6c0c62": {
+      "parent": "975617a94a7708b2",
+      "name": "PropHelper_WaterSpill",
+      "factory": "[assembly:/_pro/design/gamecore/prophelpers.template?/prophelper_waterspill_scalable_evergreen.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/gamecore/prophelpers.template?/prophelper_waterspill_scalable_evergreen.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          }
+        },
+        "NPCKillVolumem_vGlobalSize": {
+          "type": "SVector3",
+          "value": {
+            "x": 0.9,
+            "y": 0.9,
+            "z": 0.550000011920929
+          }
+        },
+        "m_sId": {
+          "type": "ZGuid",
+          "value": "562b2b9d-d342-47ef-9434-54d1529ad4ae"
+        },
+        "m_eRoomBehaviour": {
+          "type": "ZSpatialEntity.ERoomBehaviour",
+          "value": "ROOM_DYNAMIC"
+        },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": null
+        }
+      },
+      "events": {
+        "WaterSpillActivated": {
+          "Signal": [
+            "d47b000000000008"
+          ]
+        }
+      },
+      "subsets": {
+        "AudioEmitters": [
+          "975617a94a7708b2"
+        ]
+      }
+    },
+    "975617a94a7708b2": {
+      "parent": null,
+      "name": "BathroomPissPuddle_Runtime",
+      "factory": "[modules:/zentity.class].pc_entitytype",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "position": {
+              "x": 0,
+              "y": 5.283631801605225,
+              "z": 0
+            }
+          }
+        }
+      },
+      "propertyAliases": {
+        "m_eidParent": [
+          {
+            "originalProperty": "m_eidParent",
+            "originalEntity": "dbc101917b6c0c62"
+          }
+        ],
+        "m_mTransform": [
+          {
+            "originalProperty": "m_mTransform",
+            "originalEntity": "dbc101917b6c0c62"
+          }
+        ]
+      },
+      "exposedEntities": {
+        "m_bIsElectrifiedTrap": {
+          "isArray": false,
+          "refersTo": []
+        }
+      },
+      "exposedInterfaces": {
+        "ZHM5Item": "dfac4441e9f822ff",
+        "IItemBase": "dfac4441e9f822ff",
+        "IItem": "dfac4441e9f822ff",
+        "ZSpatialEntity": "dbc101917b6c0c62"
+      }
+    },
+    "cafe7a11c0ffee21": {
+      "parent": "975617a94a7708b2",
+      "name": "WaterPuddleSlipVolume_01",
+      "factory": "[modules:/zspherevolumeentity.class].pc_entitytype",
+      "blueprint": "[modules:/zspherevolumeentity.class].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          }
+        },
+        "m_fRadius": {
+          "type": "float32",
+          "value": 0.45
+        },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "dbc101917b6c0c62",
+          "postInit": true
+        }
+      }
+    },
+    "cafe7a11c0ffee22": {
+      "parent": "975617a94a7708b2",
+      "name": "ItemHelper_Logic_BananaSlip_01",
+      "factory": "[assembly:/_pro/design/gamecore/itemhelpers.template?/itemhelper_logic_bananaslip.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/gamecore/itemhelpers.template?/itemhelper_logic_bananaslip.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_sId": {
+          "type": "ZGuid",
+          "value": "8ae0cb3c-9534-4a45-b05c-20c9f1248784"
+        },
+        "m_Spheres": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": [
+            "cafe7a11c0ffee21"
+          ],
+          "postInit": true
+        },
+        "m_rItem": {
+          "type": "SEntityTemplateReference",
+          "value": "dfac4441e9f822ff",
+          "postInit": true
+        },
+        "m_rGeomEntity": {
+          "type": "SEntityTemplateReference",
+          "value": {
+            "ref": "d47b000000000100",
+            "externalScene": null,
+            "exposedEntity": "FX_Water_Leak_3x3m_A"
+          }
+        }
+      },
+      "events": {
+        "OnSprung": {
+          "TransmitEvent": [
+            "cafe7a11c0ffee23"
+          ],
+          "In": [
+            "d47b000000000210"
+          ]
+        }
+      }
+    },
+    "cafe7a11c0ffee23": {
+      "parent": "975617a94a7708b2",
+      "name": "EventChannelTransmitter_Drunk47BathroomPuddleNPCSlip",
+      "factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_void.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_void.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_rChannelToken": {
+          "type": "SEntityTemplateReference",
+          "value": "cafe7a11c0ffee24",
+          "postInit": true
+        }
+      }
+    },
+    "cafe7a11c0ffee24": {
+      "parent": "cafe7a11c0ffee23",
+      "name": "TokenID_Drunk47_BathroomPuddleNPCSlip",
+      "factory": "[modules:/ztokenidentity.class].pc_entitytype",
+      "blueprint": "[modules:/ztokenidentity.class].pc_entityblueprint",
+      "properties": {
+        "m_sName": {
+          "type": "ZString",
+          "value": "Drunk47_BathroomPuddleNPCSlip"
+        }
+      }
+    },
+    "beef1ea44a66b209": {
+      "parent": "975617a94a7708b2",
+      "name": "DetachFromSpawnerDelay",
+      "factory": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "Delay time (ms)": {
+          "type": "int32",
+          "value": 100
+        }
+      },
+      "events": {
+        "Out": {
+          "Detach": [
+            "dbc101917b6c0c62"
+          ]
+        }
+      }
+    },
+    "d47b000000000001": {
+      "parent": "975617a94a7708b2",
+      "name": "ValueBool_Drunk47BathroomPuddleRearmActive",
+      "factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint"
+    },
+    "d47b000000000002": {
+      "parent": "975617a94a7708b2",
+      "name": "Poll_Drunk47BathroomPuddleRearmActive",
+      "factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_rValueEntity": {
+          "type": "SEntityTemplateReference",
+          "value": "d47b000000000001"
+        }
+      },
+      "events": {
+        "PollTrue": {
+          "Activate": [
+            "dbc101917b6c0c62"
+          ],
+          "In": [
+            "d47b000000000003"
+          ]
+        }
+      }
+    },
+    "d47b000000000003": {
+      "parent": "975617a94a7708b2",
+      "name": "Drunk47BathroomPuddleElectricRearmTimer",
+      "factory": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "Delay time (ms)": {
+          "type": "int32",
+          "value": 1000
+        }
+      },
+      "events": {
+        "Out": {
+          "Poll": [
+            "d47b000000000002"
+          ]
+        }
+      }
+    },
+    "d47b000000000004": {
+      "parent": "975617a94a7708b2",
+      "name": "EventChannelReceiver_Drunk47BathroomEffectsStart_PuddleRearm",
+      "factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_void.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_void.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_rChannelToken": {
+          "type": "SEntityTemplateReference",
+          "value": "d47b000000000005",
+          "postInit": true
+        }
+      },
+      "events": {
+        "EventReceived": {
+          "SetTrue": [
+            "d47b000000000001"
+          ],
+          "In": [
+            "d47b000000000003"
+          ]
+        }
+      }
+    },
+    "d47b000000000005": {
+      "parent": "d47b000000000004",
+      "name": "TokenID_Drunk47_BathroomEffectsStart_PuddleRearm",
+      "factory": "[modules:/ztokenidentity.class].pc_entitytype",
+      "blueprint": "[modules:/ztokenidentity.class].pc_entityblueprint",
+      "properties": {
+        "m_sName": {
+          "type": "ZString",
+          "value": "Drunk47_BathroomEffectsStart"
+        }
+      }
+    },
+    "d47b000000000006": {
+      "parent": "975617a94a7708b2",
+      "name": "EventChannelReceiver_Drunk47BathroomStop_PuddleRearm",
+      "factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_void.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_void.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_rChannelToken": {
+          "type": "SEntityTemplateReference",
+          "value": "d47b000000000007",
+          "postInit": true
+        }
+      },
+      "events": {
+        "EventReceived": {
+          "SetFalse": [
+            "d47b000000000001"
+          ],
+          "Stop": [
+            "d47b000000000003"
+          ]
+        }
+      }
+    },
+    "d47b000000000007": {
+      "parent": "d47b000000000006",
+      "name": "TokenID_Drunk47_BathroomStop_PuddleRearm",
+      "factory": "[modules:/ztokenidentity.class].pc_entitytype",
+      "blueprint": "[modules:/ztokenidentity.class].pc_entityblueprint",
+      "properties": {
+        "m_sName": {
+          "type": "ZString",
+          "value": "Drunk47_BathroomStop"
+        }
+      }
+    },
+    "d47b000000000008": {
+      "parent": "975617a94a7708b2",
+      "name": "VoidSignalOnce_Drunk47BathroomPuddleVariantStart",
+      "factory": "[assembly:/_pro/design/logic/signalpipes.template?/voidsignalonce_simple.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/logic/signalpipes.template?/voidsignalonce_simple.entitytemplate].pc_entityblueprint",
+      "events": {
+        "Out": {}
+      }
+    },
+    "d47b000000000102": {
+      "parent": "975617a94a7708b2",
+      "name": "ValueInt_Drunk47Drunkenness_PuddleSize",
+      "factory": "[assembly:/_pro/design/logic/valueint.template?/valueint_basic.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint_basic.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_nValue": {
+          "type": "int32",
+          "value": 0
+        },
+        "m_bSetValueAlwaysTriggerChangedEvent": {
+          "type": "bool",
+          "value": true
+        }
+      },
+      "events": {
+        "OnValue": {
+          "Signal": [
+            "d47b00000000010a"
+          ]
+        }
+      }
+    },
+    "d47b000000000103": {
+      "parent": "975617a94a7708b2",
+      "name": "EventChannelReceiver_Drunk47DrunkennessLevel_PuddleSize",
+      "factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_int32.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_int32.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_rChannelToken": {
+          "type": "SEntityTemplateReference",
+          "value": "d47b000000000107",
+          "postInit": true
+        }
+      },
+      "events": {
+        "EventReceived": {
+          "SetValue": [
+            "d47b000000000102"
+          ]
+        }
+      }
+    },
+    "d47b000000000104": {
+      "parent": "975617a94a7708b2",
+      "name": "DrunkennessAbove8_PuddleHuge",
+      "factory": "[assembly:/_pro/design/logic/valueint.template?/valueint_comparator_poll.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint_comparator_poll.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_rFirstValueInt": {
+          "type": "SEntityTemplateReference",
+          "value": "d47b000000000102"
+        },
+        "m_rSecondValueInt": {
+          "type": "SEntityTemplateReference",
+          "value": "d47b000000000105"
+        },
+        "m_eEvaluation": {
+          "type": "ZValueInt_Comparator_Poll.EEvaluationType",
+          "value": "HIGHER"
+        }
+      },
+      "events": {
+        "GetTrue": {
+          "Deactivate": [
+            "d47b000000000100"
+          ],
+          "Activate": [
+            "d47b000000000108"
+          ],
+          "EnableSlipping": [
+            "d47b00000000010b"
+          ],
+          "Rig": [
+            "d47b00000000010d"
+          ]
+        },
+        "GetFalse": {
+          "Get": [
+            "d47b00000000011b"
+          ]
+        }
+      }
+    },
+    "d47b000000000105": {
+      "parent": "975617a94a7708b2",
+      "name": "ValueInt_PuddleHugeThreshold8",
+      "factory": "[assembly:/_pro/design/logic/valueint.template?/valueint_basic.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint_basic.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_nValue": {
+          "type": "int32",
+          "value": 8
+        }
+      }
+    },
+    "d47b000000000106": {
+      "parent": "975617a94a7708b2",
+      "name": "Delay_Drunk47PuddleVariantSelection",
+      "factory": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "Delay time (ms)": {
+          "type": "int32",
+          "value": 1
+        }
+      },
+      "events": {
+        "Out": {
+          "Get": [
+            "d47b000000000104"
+          ]
+        }
+      }
+    },
+    "d47b000000000107": {
+      "parent": "d47b000000000103",
+      "name": "TokenID_Drunk47_Drunkenness_LevelChanged_PuddleSize",
+      "factory": "[modules:/ztokenidentity.class].pc_entitytype",
+      "blueprint": "[modules:/ztokenidentity.class].pc_entityblueprint",
+      "properties": {
+        "m_sName": {
+          "type": "ZString",
+          "value": "Drunk47_Drunkenness_LevelChanged"
+        }
+      }
+    },
+    "d47b000000000108": {
+      "parent": "975617a94a7708b2",
+      "name": "PropHelper_WaterSpill_PissPuddleHugeVisual",
+      "factory": "[assembly:/_pro/design/gamecore/prophelpers.template?/prophelper_waterspill_scalable_evergreen.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/gamecore/prophelpers.template?/prophelper_waterspill_scalable_evergreen.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          }
+        },
+        "NPCKillVolumem_vGlobalSize": {
+          "type": "SVector3",
+          "value": {
+            "x": 2.7,
+            "y": 2.7,
+            "z": 1.65
+          }
+        },
+        "m_sId": {
+          "type": "ZGuid",
+          "value": "d47fdd76-83e2-4b8c-936a-c6ba7bf22a53"
+        },
+        "m_eRoomBehaviour": {
+          "type": "ZSpatialEntity.ERoomBehaviour",
+          "value": "ROOM_DYNAMIC"
+        },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "dbc101917b6c0c62",
+          "postInit": true
+        }
+      },
+      "events": {
+        "WaterSpillActivated": {
+          "Signal": [
+            "d47b000000000109"
+          ]
+        }
+      }
+    },
+    "d47b000000000109": {
+      "parent": "975617a94a7708b2",
+      "name": "VoidSignalOnce_PissPuddleHugeVisualActivation",
+      "factory": "[assembly:/_pro/design/logic/signalpipes.template?/voidsignalonce_simple.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/logic/signalpipes.template?/voidsignalonce_simple.entitytemplate].pc_entityblueprint",
+      "events": {
+        "Out": {
+          "Activate": [
+            "d47b000000000101"
+          ]
+        }
+      }
+    },
+    "d47b00000000010a": {
+      "parent": "975617a94a7708b2",
+      "name": "VoidSignalOnce_Drunk47PuddleDrunkennessCaptured",
+      "factory": "[assembly:/_pro/design/logic/signalpipes.template?/voidsignalonce_simple.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/logic/signalpipes.template?/voidsignalonce_simple.entitytemplate].pc_entityblueprint",
+      "events": {
+        "Out": {
+          "In": [
+            "d47b000000000106"
+          ]
+        }
+      }
+    },
+    "d47b00000000010b": {
+      "parent": "975617a94a7708b2",
+      "name": "PropHelper_SlipperyFloors_PissPuddleHuge",
+      "factory": "[assembly:/_pro/design/gamecore/prophelpers.template?/prophelper_slipperyfloors.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/gamecore/prophelpers.template?/prophelper_slipperyfloors.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          }
+        },
+        "m_eRoomBehaviour": {
+          "type": "ZSpatialEntity.ERoomBehaviour",
+          "value": "ROOM_DYNAMIC"
+        },
+        "WaterPresent": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": [
+            {
+              "ref": "dfac4441e9f822ff",
+              "externalScene": null,
+              "exposedEntity": "ItemVisible"
+            }
+          ]
+        },
+        "AllowSoap": {
+          "type": "bool",
+          "value": true
+        },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "d47b000000000108",
+          "postInit": true
+        },
+        "m_Boxes": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": [
+            {
+              "ref": "d47b000000000108",
+              "externalScene": null,
+              "exposedEntity": "VolumeBox_electrify"
+            }
+          ],
+          "postInit": true
+        }
+      }
+    },
+    "d47b00000000010c": {
+      "parent": "975617a94a7708b2",
+      "name": "WaterPuddleSlipVolume_Huge",
+      "factory": "[modules:/zspherevolumeentity.class].pc_entitytype",
+      "blueprint": "[modules:/zspherevolumeentity.class].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          }
+        },
+        "m_fRadius": {
+          "type": "float32",
+          "value": 1.35
+        },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "d47b000000000108",
+          "postInit": true
+        }
+      }
+    },
+    "d47b00000000010d": {
+      "parent": "975617a94a7708b2",
+      "name": "ItemHelper_Logic_BananaSlip_Huge",
+      "factory": "[assembly:/_pro/design/gamecore/itemhelpers.template?/itemhelper_logic_bananaslip.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/gamecore/itemhelpers.template?/itemhelper_logic_bananaslip.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_sId": {
+          "type": "ZGuid",
+          "value": "f6f514e4-82a2-4ed4-8999-df3e798a7c31"
+        },
+        "m_Spheres": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": [
+            "d47b00000000010c"
+          ],
+          "postInit": true
+        },
+        "m_rItem": {
+          "type": "SEntityTemplateReference",
+          "value": "dfac4441e9f822ff",
+          "postInit": true
+        },
+        "m_rGeomEntity": {
+          "type": "SEntityTemplateReference",
+          "value": {
+            "ref": "d47b000000000101",
+            "externalScene": null,
+            "exposedEntity": "FX_Water_Leak_3x3m_A"
+          }
+        }
+      },
+      "events": {
+        "OnSprung": {
+          "TransmitEvent": [
+            "cafe7a11c0ffee23"
+          ],
+          "In": [
+            "d47b000000000216"
+          ]
+        }
+      }
+    },
+    "d47b00000000010e": {
+      "parent": "975617a94a7708b2",
+      "name": "FX_Piss_Puddle_Medium",
+      "factory": "[assembly:/_pro/effects/templates/water/fx_water_leaks.template?/fx_water_leak_3x3m_a.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/effects/templates/water/fx_water_leaks.template?/fx_water_leak_3x3m_a.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0.03
+            }
+          }
+        },
+        "m_eRoomBehaviour": {
+          "type": "ZSpatialEntity.ERoomBehaviour",
+          "value": "ROOM_DYNAMIC"
+        },
+        "LeakSpeed": {
+          "type": "float32",
+          "value": 0.15000000029802324
+        },
+        "ConstantColorRGB_01_Value": {
+          "type": "SColorRGB",
+          "value": "#7a660d"
+        },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "d47b00000000010f",
+          "postInit": true
+        },
+        "m_PrimitiveScale": {
+          "type": "SVector3",
+          "value": {
+            "x": 0.675,
+            "y": 0.675,
+            "z": 0.675
+          }
+        }
+      }
+    },
+    "d47b00000000010f": {
+      "parent": "975617a94a7708b2",
+      "name": "PropHelper_WaterSpill_PissPuddleMediumVisual",
+      "factory": "[assembly:/_pro/design/gamecore/prophelpers.template?/prophelper_waterspill_scalable_evergreen.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/gamecore/prophelpers.template?/prophelper_waterspill_scalable_evergreen.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          }
+        },
+        "NPCKillVolumem_vGlobalSize": {
+          "type": "SVector3",
+          "value": {
+            "x": 1.35,
+            "y": 1.35,
+            "z": 0.825
+          }
+        },
+        "m_sId": {
+          "type": "ZGuid",
+          "value": "51452620-14dc-4828-8f56-3b4e15500668"
+        },
+        "m_eRoomBehaviour": {
+          "type": "ZSpatialEntity.ERoomBehaviour",
+          "value": "ROOM_DYNAMIC"
+        },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "dbc101917b6c0c62",
+          "postInit": true
+        }
+      },
+      "events": {
+        "WaterSpillActivated": {
+          "Signal": [
+            "d47b000000000110"
+          ]
+        }
+      }
+    },
+    "d47b000000000110": {
+      "parent": "975617a94a7708b2",
+      "name": "VoidSignalOnce_PissPuddleMediumVisualActivation",
+      "factory": "[assembly:/_pro/design/logic/signalpipes.template?/voidsignalonce_simple.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/logic/signalpipes.template?/voidsignalonce_simple.entitytemplate].pc_entityblueprint",
+      "events": {
+        "Out": {
+          "Activate": [
+            "d47b00000000010e"
+          ]
+        }
+      }
+    },
+    "d47b000000000111": {
+      "parent": "975617a94a7708b2",
+      "name": "PropHelper_SlipperyFloors_PissPuddleMedium",
+      "factory": "[assembly:/_pro/design/gamecore/prophelpers.template?/prophelper_slipperyfloors.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/gamecore/prophelpers.template?/prophelper_slipperyfloors.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          }
+        },
+        "m_eRoomBehaviour": {
+          "type": "ZSpatialEntity.ERoomBehaviour",
+          "value": "ROOM_DYNAMIC"
+        },
+        "WaterPresent": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": [
+            {
+              "ref": "dfac4441e9f822ff",
+              "externalScene": null,
+              "exposedEntity": "ItemVisible"
+            }
+          ]
+        },
+        "AllowSoap": {
+          "type": "bool",
+          "value": true
+        },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "d47b00000000010f",
+          "postInit": true
+        },
+        "m_Boxes": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": [
+            {
+              "ref": "d47b00000000010f",
+              "externalScene": null,
+              "exposedEntity": "VolumeBox_electrify"
+            }
+          ],
+          "postInit": true
+        }
+      }
+    },
+    "d47b000000000112": {
+      "parent": "975617a94a7708b2",
+      "name": "WaterPuddleSlipVolume_Medium",
+      "factory": "[modules:/zspherevolumeentity.class].pc_entitytype",
+      "blueprint": "[modules:/zspherevolumeentity.class].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          }
+        },
+        "m_fRadius": {
+          "type": "float32",
+          "value": 0.675
+        },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "d47b00000000010f",
+          "postInit": true
+        }
+      }
+    },
+    "d47b000000000113": {
+      "parent": "975617a94a7708b2",
+      "name": "ItemHelper_Logic_BananaSlip_Medium",
+      "factory": "[assembly:/_pro/design/gamecore/itemhelpers.template?/itemhelper_logic_bananaslip.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/gamecore/itemhelpers.template?/itemhelper_logic_bananaslip.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_sId": {
+          "type": "ZGuid",
+          "value": "ffc32424-68ee-47b6-9b06-bd9a9237c028"
+        },
+        "m_Spheres": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": [
+            "d47b000000000112"
+          ],
+          "postInit": true
+        },
+        "m_rItem": {
+          "type": "SEntityTemplateReference",
+          "value": "dfac4441e9f822ff",
+          "postInit": true
+        },
+        "m_rGeomEntity": {
+          "type": "SEntityTemplateReference",
+          "value": {
+            "ref": "d47b00000000010e",
+            "externalScene": null,
+            "exposedEntity": "FX_Water_Leak_3x3m_A"
+          }
+        }
+      },
+      "events": {
+        "OnSprung": {
+          "TransmitEvent": [
+            "cafe7a11c0ffee23"
+          ],
+          "In": [
+            "d47b000000000212"
+          ]
+        }
+      }
+    },
+    "d47b000000000114": {
+      "parent": "975617a94a7708b2",
+      "name": "FX_Piss_Puddle_Large",
+      "factory": "[assembly:/_pro/effects/templates/water/fx_water_leaks.template?/fx_water_leak_3x3m_a.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/effects/templates/water/fx_water_leaks.template?/fx_water_leak_3x3m_a.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0.03
+            }
+          }
+        },
+        "m_eRoomBehaviour": {
+          "type": "ZSpatialEntity.ERoomBehaviour",
+          "value": "ROOM_DYNAMIC"
+        },
+        "LeakSpeed": {
+          "type": "float32",
+          "value": 0.10000000298023223
+        },
+        "ConstantColorRGB_01_Value": {
+          "type": "SColorRGB",
+          "value": "#7a660d"
+        },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "d47b000000000115",
+          "postInit": true
+        },
+        "m_PrimitiveScale": {
+          "type": "SVector3",
+          "value": {
+            "x": 0.9,
+            "y": 0.9,
+            "z": 0.9
+          }
+        }
+      }
+    },
+    "d47b000000000115": {
+      "parent": "975617a94a7708b2",
+      "name": "PropHelper_WaterSpill_PissPuddleLargeVisual",
+      "factory": "[assembly:/_pro/design/gamecore/prophelpers.template?/prophelper_waterspill_scalable_evergreen.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/gamecore/prophelpers.template?/prophelper_waterspill_scalable_evergreen.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          }
+        },
+        "NPCKillVolumem_vGlobalSize": {
+          "type": "SVector3",
+          "value": {
+            "x": 1.8,
+            "y": 1.8,
+            "z": 1.1
+          }
+        },
+        "m_sId": {
+          "type": "ZGuid",
+          "value": "05327bbd-210b-462f-bd7f-e799203f224b"
+        },
+        "m_eRoomBehaviour": {
+          "type": "ZSpatialEntity.ERoomBehaviour",
+          "value": "ROOM_DYNAMIC"
+        },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "dbc101917b6c0c62",
+          "postInit": true
+        }
+      },
+      "events": {
+        "WaterSpillActivated": {
+          "Signal": [
+            "d47b000000000116"
+          ]
+        }
+      }
+    },
+    "d47b000000000116": {
+      "parent": "975617a94a7708b2",
+      "name": "VoidSignalOnce_PissPuddleLargeVisualActivation",
+      "factory": "[assembly:/_pro/design/logic/signalpipes.template?/voidsignalonce_simple.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/logic/signalpipes.template?/voidsignalonce_simple.entitytemplate].pc_entityblueprint",
+      "events": {
+        "Out": {
+          "Activate": [
+            "d47b000000000114"
+          ]
+        }
+      }
+    },
+    "d47b000000000117": {
+      "parent": "975617a94a7708b2",
+      "name": "PropHelper_SlipperyFloors_PissPuddleLarge",
+      "factory": "[assembly:/_pro/design/gamecore/prophelpers.template?/prophelper_slipperyfloors.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/gamecore/prophelpers.template?/prophelper_slipperyfloors.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          }
+        },
+        "m_eRoomBehaviour": {
+          "type": "ZSpatialEntity.ERoomBehaviour",
+          "value": "ROOM_DYNAMIC"
+        },
+        "WaterPresent": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": [
+            {
+              "ref": "dfac4441e9f822ff",
+              "externalScene": null,
+              "exposedEntity": "ItemVisible"
+            }
+          ]
+        },
+        "AllowSoap": {
+          "type": "bool",
+          "value": true
+        },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "d47b000000000115",
+          "postInit": true
+        },
+        "m_Boxes": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": [
+            {
+              "ref": "d47b000000000115",
+              "externalScene": null,
+              "exposedEntity": "VolumeBox_electrify"
+            }
+          ],
+          "postInit": true
+        }
+      }
+    },
+    "d47b000000000118": {
+      "parent": "975617a94a7708b2",
+      "name": "WaterPuddleSlipVolume_Large",
+      "factory": "[modules:/zspherevolumeentity.class].pc_entitytype",
+      "blueprint": "[modules:/zspherevolumeentity.class].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          }
+        },
+        "m_fRadius": {
+          "type": "float32",
+          "value": 0.9
+        },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "d47b000000000115",
+          "postInit": true
+        }
+      }
+    },
+    "d47b000000000119": {
+      "parent": "975617a94a7708b2",
+      "name": "ItemHelper_Logic_BananaSlip_Large",
+      "factory": "[assembly:/_pro/design/gamecore/itemhelpers.template?/itemhelper_logic_bananaslip.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/gamecore/itemhelpers.template?/itemhelper_logic_bananaslip.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_sId": {
+          "type": "ZGuid",
+          "value": "a4e486bb-bd12-47d4-8b56-df1a9cb2b857"
+        },
+        "m_Spheres": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": [
+            "d47b000000000118"
+          ],
+          "postInit": true
+        },
+        "m_rItem": {
+          "type": "SEntityTemplateReference",
+          "value": "dfac4441e9f822ff",
+          "postInit": true
+        },
+        "m_rGeomEntity": {
+          "type": "SEntityTemplateReference",
+          "value": {
+            "ref": "d47b000000000114",
+            "externalScene": null,
+            "exposedEntity": "FX_Water_Leak_3x3m_A"
+          }
+        }
+      },
+      "events": {
+        "OnSprung": {
+          "TransmitEvent": [
+            "cafe7a11c0ffee23"
+          ],
+          "In": [
+            "d47b000000000214"
+          ]
+        }
+      }
+    },
+    "d47b00000000011a": {
+      "parent": "975617a94a7708b2",
+      "name": "ValueInt_PuddleLargeThreshold5",
+      "factory": "[assembly:/_pro/design/logic/valueint.template?/valueint_basic.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint_basic.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_nValue": {
+          "type": "int32",
+          "value": 5
+        }
+      }
+    },
+    "d47b00000000011b": {
+      "parent": "975617a94a7708b2",
+      "name": "DrunkennessAbove5_PuddleLarge",
+      "factory": "[assembly:/_pro/design/logic/valueint.template?/valueint_comparator_poll.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint_comparator_poll.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_rFirstValueInt": {
+          "type": "SEntityTemplateReference",
+          "value": "d47b000000000102"
+        },
+        "m_rSecondValueInt": {
+          "type": "SEntityTemplateReference",
+          "value": "d47b00000000011a"
+        },
+        "m_eEvaluation": {
+          "type": "ZValueInt_Comparator_Poll.EEvaluationType",
+          "value": "HIGHER"
+        }
+      },
+      "events": {
+        "GetTrue": {
+          "Deactivate": [
+            "d47b000000000100"
+          ],
+          "Activate": [
+            "d47b000000000115"
+          ],
+          "EnableSlipping": [
+            "d47b000000000117"
+          ],
+          "Rig": [
+            "d47b000000000119"
+          ]
+        },
+        "GetFalse": {
+          "Get": [
+            "d47b00000000011d"
+          ]
+        }
+      }
+    },
+    "d47b00000000011c": {
+      "parent": "975617a94a7708b2",
+      "name": "ValueInt_PuddleMediumThreshold2",
+      "factory": "[assembly:/_pro/design/logic/valueint.template?/valueint_basic.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint_basic.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_nValue": {
+          "type": "int32",
+          "value": 2
+        }
+      }
+    },
+    "d47b00000000011d": {
+      "parent": "975617a94a7708b2",
+      "name": "DrunkennessAbove2_PuddleMedium",
+      "factory": "[assembly:/_pro/design/logic/valueint.template?/valueint_comparator_poll.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint_comparator_poll.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_rFirstValueInt": {
+          "type": "SEntityTemplateReference",
+          "value": "d47b000000000102"
+        },
+        "m_rSecondValueInt": {
+          "type": "SEntityTemplateReference",
+          "value": "d47b00000000011c"
+        },
+        "m_eEvaluation": {
+          "type": "ZValueInt_Comparator_Poll.EEvaluationType",
+          "value": "HIGHER"
+        }
+      },
+      "events": {
+        "GetTrue": {
+          "Deactivate": [
+            "d47b000000000100"
+          ],
+          "Activate": [
+            "d47b00000000010f"
+          ],
+          "EnableSlipping": [
+            "d47b000000000111"
+          ],
+          "Rig": [
+            "d47b000000000113"
+          ]
+        },
+        "GetFalse": {
+          "Activate": [
+            "d47b000000000100"
+          ],
+          "EnableSlipping": [
+            "6d7c0746337380e2"
+          ],
+          "Rig": [
+            "cafe7a11c0ffee22"
+          ]
+        }
+      }
+    },
+    "d47b000000000200": {
+      "parent": "975617a94a7708b2",
+      "name": "ValueBool_PissPuddleContinuousSlipRearmActive",
+      "factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_bValue": {
+          "type": "bool",
+          "value": false
+        }
+      }
+    },
+    "d47b000000000201": {
+      "parent": "975617a94a7708b2",
+      "name": "EventChannelReceiver_PissPuddleContinuousSlipEligibility",
+      "factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_bool.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_bool.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_rChannelToken": {
+          "type": "SEntityTemplateReference",
+          "value": "d47b000000000202",
+          "postInit": true
+        }
+      },
+      "events": {
+        "OnTrue": {
+          "SetTrue": [
+            "d47b000000000200"
+          ],
+          "Disable": [
+            "d47b000000000201"
+          ]
+        },
+        "OnFalse": {
+          "SetFalse": [
+            "d47b000000000200"
+          ],
+          "Disable": [
+            "d47b000000000201"
+          ]
+        }
+      }
+    },
+    "d47b000000000202": {
+      "parent": "975617a94a7708b2",
+      "name": "TokenID_Drunk47_PuddleContinuousSlipEligible",
+      "factory": "[modules:/ztokenidentity.class].pc_entitytype",
+      "blueprint": "[modules:/ztokenidentity.class].pc_entityblueprint",
+      "properties": {
+        "m_sName": {
+          "type": "ZString",
+          "value": "Drunk47_PuddleContinuousSlipEligible"
+        }
+      }
+    },
+    "d47b000000000203": {
+      "parent": "975617a94a7708b2",
+      "name": "EventChannelReceiver_PissPuddleSlipRearmStop_BathroomEnded",
+      "factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_void.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_void.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_rChannelToken": {
+          "type": "SEntityTemplateReference",
+          "value": "d47b000000000204",
+          "postInit": true
+        }
+      },
+      "events": {
+        "EventReceived": {
+          "SetFalse": [
+            "d47b000000000200"
+          ],
+          "Disable": [
+            "d47b000000000201"
+          ]
+        }
+      }
+    },
+    "d47b000000000204": {
+      "parent": "975617a94a7708b2",
+      "name": "TokenID_PissPuddleSlipRearmStop_BathroomEnded",
+      "factory": "[modules:/ztokenidentity.class].pc_entitytype",
+      "blueprint": "[modules:/ztokenidentity.class].pc_entityblueprint",
+      "properties": {
+        "m_sName": {
+          "type": "ZString",
+          "value": "Drunk47_BathroomIllegalStop"
+        }
+      }
+    },
+    "d47b000000000205": {
+      "parent": "975617a94a7708b2",
+      "name": "EventChannelReceiver_PissPuddleSlipRearmStop_BlackoutStarted",
+      "factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_void.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_void.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_rChannelToken": {
+          "type": "SEntityTemplateReference",
+          "value": "d47b000000000206",
+          "postInit": true
+        }
+      },
+      "events": {
+        "EventReceived": {
+          "SetFalse": [
+            "d47b000000000200"
+          ],
+          "Disable": [
+            "d47b000000000201"
+          ]
+        }
+      }
+    },
+    "d47b000000000206": {
+      "parent": "975617a94a7708b2",
+      "name": "TokenID_PissPuddleSlipRearmStop_BlackoutStarted",
+      "factory": "[modules:/ztokenidentity.class].pc_entitytype",
+      "blueprint": "[modules:/ztokenidentity.class].pc_entityblueprint",
+      "properties": {
+        "m_sName": {
+          "type": "ZString",
+          "value": "Drunk47_BlackoutStart"
+        }
+      }
+    },
+    "d47b000000000210": {
+      "parent": "975617a94a7708b2",
+      "name": "PissPuddleSlipRearmDelay_Small",
+      "factory": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "Delay time (ms)": {
+          "type": "int32",
+          "value": 100
+        }
+      },
+      "events": {
+        "Out": {
+          "Poll": [
+            "d47b000000000211"
+          ]
+        }
+      }
+    },
+    "d47b000000000211": {
+      "parent": "975617a94a7708b2",
+      "name": "Poll_PissPuddleContinuousSlipRearmActive_Small",
+      "factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_rValueEntity": {
+          "type": "SEntityTemplateReference",
+          "value": "d47b000000000200",
+          "postInit": true
+        }
+      },
+      "events": {
+        "PollTrue": {
+          "Rig": [
+            "cafe7a11c0ffee22"
+          ]
+        }
+      }
+    },
+    "d47b000000000212": {
+      "parent": "975617a94a7708b2",
+      "name": "PissPuddleSlipRearmDelay_Medium",
+      "factory": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "Delay time (ms)": {
+          "type": "int32",
+          "value": 100
+        }
+      },
+      "events": {
+        "Out": {
+          "Poll": [
+            "d47b000000000213"
+          ]
+        }
+      }
+    },
+    "d47b000000000213": {
+      "parent": "975617a94a7708b2",
+      "name": "Poll_PissPuddleContinuousSlipRearmActive_Medium",
+      "factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_rValueEntity": {
+          "type": "SEntityTemplateReference",
+          "value": "d47b000000000200",
+          "postInit": true
+        }
+      },
+      "events": {
+        "PollTrue": {
+          "Rig": [
+            "d47b000000000113"
+          ]
+        }
+      }
+    },
+    "d47b000000000214": {
+      "parent": "975617a94a7708b2",
+      "name": "PissPuddleSlipRearmDelay_Large",
+      "factory": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "Delay time (ms)": {
+          "type": "int32",
+          "value": 100
+        }
+      },
+      "events": {
+        "Out": {
+          "Poll": [
+            "d47b000000000215"
+          ]
+        }
+      }
+    },
+    "d47b000000000215": {
+      "parent": "975617a94a7708b2",
+      "name": "Poll_PissPuddleContinuousSlipRearmActive_Large",
+      "factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_rValueEntity": {
+          "type": "SEntityTemplateReference",
+          "value": "d47b000000000200",
+          "postInit": true
+        }
+      },
+      "events": {
+        "PollTrue": {
+          "Rig": [
+            "d47b000000000119"
+          ]
+        }
+      }
+    },
+    "d47b000000000216": {
+      "parent": "975617a94a7708b2",
+      "name": "PissPuddleSlipRearmDelay_Huge",
+      "factory": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "Delay time (ms)": {
+          "type": "int32",
+          "value": 100
+        }
+      },
+      "events": {
+        "Out": {
+          "Poll": [
+            "d47b000000000217"
+          ]
+        }
+      }
+    },
+    "d47b000000000217": {
+      "parent": "975617a94a7708b2",
+      "name": "Poll_PissPuddleContinuousSlipRearmActive_Huge",
+      "factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_rValueEntity": {
+          "type": "SEntityTemplateReference",
+          "value": "d47b000000000200",
+          "postInit": true
+        }
+      },
+      "events": {
+        "PollTrue": {
+          "Rig": [
+            "d47b00000000010d"
+          ]
+        }
+      }
+    }
+  },
+  "propertyOverrides": [],
+  "overrideDeletes": [],
+  "pinConnectionOverrides": [],
+  "pinConnectionOverrideDeletes": [],
+  "externalScenes": [],
+  "subType": "template",
+  "quickEntityVersion": 3.1,
+  "extraFactoryDependencies": [
+    {
+      "resource": "[assembly:/_pro/effects/textures/liquid/fx_decal_liquid_leakmasks_01.texture?/mask_a.tex](asheightmap).pc_tex",
+      "flag": "5F"
+    },
+    {
+      "resource": "[assembly:/_pro/effects/textures/misc/fx_generic_flowmaps.texture?/flow_expanding.tex](asheightmap).pc_tex",
+      "flag": "5F"
+    }
+  ],
+  "extraBlueprintDependencies": [],
+  "comments": []
+}

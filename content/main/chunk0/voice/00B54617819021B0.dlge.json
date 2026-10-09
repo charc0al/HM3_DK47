@@ -1,0 +1,24 @@
+{
+  "$schema": "https://tonytools.win/schemas/dlge.schema.json",
+  "hash": "[assembly:/localization/hitman6/conversations/paris/3000_elusive/3700_frenchmartini/3700_story/dr3759_vip47move.sweetdialog?/dr3759_vip47move_47_021.sweetdialogitem].pc_dialogevent",
+  "DITL": "[assembly:/localization/hitman6.sweet].pc_dialogsoundtemplatelist",
+  "CLNG": "[assembly:/localization/hitman6.sweet].pc_cascadinglanguagedependencies",
+  "rootContainer": {
+    "type": "WavFile",
+    "wavName": "dr3759_vip47move_47_021",
+    "soundtag": "In-world_Maincharacter",
+    "defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/paris/3000_elusive/3700_frenchmartini/3700_story/dr3759_vip47move_47_021.wav].pc_wes",
+    "defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/paris/3000_elusive/3700_frenchmartini/3700_story/dr3759_vip47move_47_021.animset].pc_animset",
+    "languages": {
+      "en": "//(0,30)\\\\All In...",
+      "fr": "//(0,30)\\\\Tapis.",
+      "it": "//(0,30)\\\\Vado... all in.",
+      "de": "//(0,30)\\\\Ich gehe ... All-In ...",
+      "es": "//(0,30)\\\\Voy... con todo...",
+      "ru": "//(0,30)\\\\Я... олл-ин...",
+      "cn": "//(0,30)\\\\我要......全押......",
+      "tc": "//(0,30)\\\\我......全下......",
+      "jp": "//(0,30)\\\\オール... イン..."
+    }
+  }
+}

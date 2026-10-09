@@ -1,0 +1,398 @@
+{
+	"tempHash": "00D347CBA29EE6BA",
+	"tbluHash": "000A263E54999100",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"180e665baca3348e",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_RuntimeNetworkResourceID",
+						"value": {
+							"resource": "[assembly:/drunk47/animationnetworks/hitman01_walk_test.aln].pc_rtn",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe850aaa3d8c91",
+				{
+					"parent": "158cb860b1fce56d",
+					"name": "Drunk47WalkControlFlag",
+					"factory": "[modules:/zentity.class].pc_entitytype",
+					"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe2a1a4577636a",
+				{
+					"parent": "cafe850aaa3d8c91",
+					"name": "Pair_Drunk47WalkControlFlag",
+					"factory": "[modules:/zpairvalueentity_zstring_zvariant.class].pc_entitytype",
+					"blueprint": "[modules:/zpairvalueentity_zstring_zvariant.class].pc_entityblueprint",
+					"properties": {
+						"m_Left": {
+							"type": "ZString",
+							"value": "Drunk47WalkBlend"
+						},
+						"m_bForwardOnSet": {
+							"type": "bool",
+							"value": false
+						}
+					},
+					"events": {
+						"Value": {
+							"SetControlParameter": ["180e665baca3348e"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe3976e2129340",
+				{
+					"parent": "cafe850aaa3d8c91",
+					"name": "ValueFloat_Drunk47WalkControlFlag",
+					"factory": "[modules:/zhm5valueentity_float32.class].pc_entitytype",
+					"blueprint": "[modules:/zhm5valueentity_float32.class].pc_entityblueprint",
+					"properties": {
+						"m_Value": { "type": "float32", "value": 0.0 },
+						"m_bForwardOnSet": {
+							"type": "bool",
+							"value": false
+						},
+						"m_bGenerateOnStart": {
+							"type": "bool",
+							"value": false
+						}
+					},
+					"events": {
+						"Value": { "SetRight": ["cafe2a1a4577636a"] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe96db707b6f6e",
+				{
+					"parent": "cafe850aaa3d8c91",
+					"name": "EventChannelReceiver_Drunk47WalkLevelChanged",
+					"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_int32.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_int32.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_rChannelToken": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe2444c03f7fd9",
+							"postInit": true
+						}
+					},
+					"events": {
+						"EventReceived": { "Poll": ["cafee90f1c00492e"] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe2444c03f7fd9",
+				{
+					"parent": "cafe96db707b6f6e",
+					"name": "TokenID_Drunk47WalkLevelChanged",
+					"factory": "[modules:/ztokenidentity.class].pc_entitytype",
+					"blueprint": "[modules:/ztokenidentity.class].pc_entityblueprint",
+					"properties": {
+						"m_sName": {
+							"type": "ZString",
+							"value": "Drunk47_Drunkenness_LevelChanged"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe0523b51afdc0",
+				{
+					"parent": "cafe850aaa3d8c91",
+					"name": "DrunkennessIs8_HaggardWalk",
+					"factory": "[assembly:/_pro/design/logic/valueint.template?/valueint_comparator_poll.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint_comparator_poll.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_rFirstValueInt": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe1ea44a66d741"
+						},
+						"m_rSecondValueInt": {
+							"type": "SEntityTemplateReference",
+							"value": "cafea98597d558e4"
+						},
+						"m_eEvaluation": {
+							"type": "ZValueInt_Comparator_Poll.EEvaluationType",
+							"value": "EQUAL"
+						}
+					},
+					"events": {
+						"GetTrue": { "In": ["cafe1b7b0b21f986"] },
+						"GetFalse": { "Get": ["cafe0d7c1891a9df"] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafea98597d558e4",
+				{
+					"parent": "cafe850aaa3d8c91",
+					"name": "ValueInt_Drunk47HaggardWalkLevel8",
+					"factory": "[assembly:/_pro/design/logic/valueint.template?/valueint.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_nValue": { "type": "int32", "value": 8 }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe28e9764658a0",
+				{
+					"parent": "cafe850aaa3d8c91",
+					"name": "ValueFloat_Drunk47HaggardWalk",
+					"factory": "[modules:/zhm5valueentity_float32.class].pc_entitytype",
+					"blueprint": "[modules:/zhm5valueentity_float32.class].pc_entityblueprint",
+					"properties": {
+						"m_Value": { "type": "float32", "value": 1.0 },
+						"m_bForwardOnSet": {
+							"type": "bool",
+							"value": false
+						},
+						"m_bGenerateOnStart": {
+							"type": "bool",
+							"value": false
+						}
+					},
+					"events": {
+						"Value": { "SetRight": ["cafe2a1a4577636a"] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe1b7b0b21f986",
+				{
+					"parent": "cafe850aaa3d8c91",
+					"name": "SetThenSend_Drunk47HaggardWalk",
+					"factory": "[modules:/zsignalforkentity_void.class].pc_entitytype",
+					"blueprint": "[modules:/zsignalforkentity_void.class].pc_entityblueprint",
+					"events": {
+						"Out01": { "Get": ["cafe28e9764658a0"] },
+						"Out02": { "Get": ["cafe2a1a4577636a"] },
+						"Out03": { "Activate": ["cafe65cb8773c067"] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe19c0664bb95d",
+				{
+					"parent": "cafe850aaa3d8c91",
+					"name": "SetThenSend_Drunk47SoberWalk",
+					"factory": "[modules:/zsignalforkentity_void.class].pc_entitytype",
+					"blueprint": "[modules:/zsignalforkentity_void.class].pc_entityblueprint",
+					"events": {
+						"Out01": { "Get": ["cafe3976e2129340"] },
+						"Out02": { "Get": ["cafe2a1a4577636a"] },
+						"Out03": { "Deactivate": ["cafe65cb8773c067"] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe65cb8773c067",
+				{
+					"parent": "cafe850aaa3d8c91",
+					"name": "CrippleBox_Drunk47HaggardNoSprint",
+					"factory": "[modules:/zhm5cripplebox.class].pc_entitytype",
+					"blueprint": "[modules:/zhm5cripplebox.class].pc_entityblueprint",
+					"properties": {
+						"m_bRun": { "type": "bool", "value": false },
+						"m_bActivateOnStart": {
+							"type": "bool",
+							"value": false
+						},
+						"m_bInSequence": {
+							"type": "bool",
+							"value": false
+						},
+						"m_rHitmanCharacter": {
+							"type": "SEntityTemplateReference",
+							"value": "158cb860b1fce56d",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafee90f1c00492e",
+				{
+					"parent": "cafe850aaa3d8c91",
+					"name": "Poll_Drunk47BlackoutActive_HaggardWalk",
+					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_rValueEntity": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe1ea44a66d819"
+						}
+					},
+					"events": {
+						"PollTrue": { "Get": ["cafe21d5530c44c9"] },
+						"PollFalse": { "Get": ["cafe0523b51afdc0"] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe0d7c1891a9df",
+				{
+					"parent": "cafe850aaa3d8c91",
+					"name": "DrunkennessIs9_HaggardWalk",
+					"factory": "[assembly:/_pro/design/logic/valueint.template?/valueint_comparator_poll.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint_comparator_poll.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_rFirstValueInt": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe1ea44a66d741"
+						},
+						"m_rSecondValueInt": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe4e4390384a42"
+						},
+						"m_eEvaluation": {
+							"type": "ZValueInt_Comparator_Poll.EEvaluationType",
+							"value": "EQUAL"
+						}
+					},
+					"events": {
+						"GetTrue": { "In": ["cafe1b7b0b21f986"] },
+						"GetFalse": { "In": ["cafe19c0664bb95d"] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe21d5530c44c9",
+				{
+					"parent": "cafe850aaa3d8c91",
+					"name": "DrunkennessIs1_HaggardWalkBlackout",
+					"factory": "[assembly:/_pro/design/logic/valueint.template?/valueint_comparator_poll.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint_comparator_poll.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_rFirstValueInt": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe1ea44a66d741"
+						},
+						"m_rSecondValueInt": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe18ba5a9bd193"
+						},
+						"m_eEvaluation": {
+							"type": "ZValueInt_Comparator_Poll.EEvaluationType",
+							"value": "EQUAL"
+						}
+					},
+					"events": {
+						"GetTrue": { "In": ["cafe1b7b0b21f986"] },
+						"GetFalse": { "Get": ["cafebdecdd450160"] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafebdecdd450160",
+				{
+					"parent": "cafe850aaa3d8c91",
+					"name": "DrunkennessIs2_HaggardWalkBlackout",
+					"factory": "[assembly:/_pro/design/logic/valueint.template?/valueint_comparator_poll.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint_comparator_poll.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_rFirstValueInt": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe1ea44a66d741"
+						},
+						"m_rSecondValueInt": {
+							"type": "SEntityTemplateReference",
+							"value": "cafebb8e7a172d27"
+						},
+						"m_eEvaluation": {
+							"type": "ZValueInt_Comparator_Poll.EEvaluationType",
+							"value": "EQUAL"
+						}
+					},
+					"events": {
+						"GetTrue": { "In": ["cafe1b7b0b21f986"] },
+						"GetFalse": { "In": ["cafe19c0664bb95d"] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe4e4390384a42",
+				{
+					"parent": "cafe850aaa3d8c91",
+					"name": "ValueInt_Drunk47HaggardWalkLevel9",
+					"factory": "[assembly:/_pro/design/logic/valueint.template?/valueint.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_nValue": { "type": "int32", "value": 9 }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe18ba5a9bd193",
+				{
+					"parent": "cafe850aaa3d8c91",
+					"name": "ValueInt_Drunk47HaggardWalkLevel1",
+					"factory": "[assembly:/_pro/design/logic/valueint.template?/valueint.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_nValue": { "type": "int32", "value": 1 }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafebb8e7a172d27",
+				{
+					"parent": "cafe850aaa3d8c91",
+					"name": "ValueInt_Drunk47HaggardWalkLevel2",
+					"factory": "[assembly:/_pro/design/logic/valueint.template?/valueint.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_nValue": { "type": "int32", "value": 2 }
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

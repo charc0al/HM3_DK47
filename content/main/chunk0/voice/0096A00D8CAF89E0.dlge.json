@@ -1,0 +1,24 @@
+{
+  "$schema": "https://tonytools.win/schemas/dlge.schema.json",
+  "hash": "[assembly:/localization/hitman6/conversations/italy/1000_virus/1000_story/dr1237_caruso47leaveflowers.sweetdialog?/dr1237_caruso47leaveflowers_47_003.sweetdialogitem].pc_dialogevent",
+  "DITL": "[assembly:/localization/hitman6.sweet].pc_dialogsoundtemplatelist",
+  "CLNG": "[assembly:/localization/hitman6.sweet].pc_cascadinglanguagedependencies",
+  "rootContainer": {
+    "type": "WavFile",
+    "wavName": "dr1237_caruso47leaveflowers_47_003",
+    "soundtag": "In-world_Maincharacter",
+    "defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/italy/1000_virus/1000_story/dr1237_caruso47leaveflowers_47_003.wav].pc_wes",
+    "defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/italy/1000_virus/1000_story/dr1237_caruso47leaveflowers_47_003.animset].pc_animset",
+    "languages": {
+      "en": "//(0,30)\\\\Of course.",
+      "fr": "//(0,30)\\\\Bien sûr.",
+      "it": "//(0,30)\\\\Naturalmente.",
+      "de": "//(0,30)\\\\Natürlich.",
+      "es": "//(0,30)\\\\Claro.",
+      "ru": "//(0,30)\\\\Конечно.",
+      "cn": "//(0,30)\\\\当然。",
+      "tc": "//(0,30)\\\\沒問題。",
+      "jp": "//(0,30)\\\\わかりました。"
+    }
+  }
+}

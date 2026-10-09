@@ -1,0 +1,24 @@
+{
+  "$schema": "https://tonytools.win/schemas/dlge.schema.json",
+  "hash": "[assembly:/localization/hitman6/conversations/suburbia/27000_elusive/27000_alabamaslammer/27000_alabamaslammer_story/dr27415_killerchat47.sweetdialog?/dr27415_killerchat47_47_002.sweetdialogitem].pc_dialogevent",
+  "DITL": "[assembly:/localization/hitman6.sweet].pc_dialogsoundtemplatelist",
+  "CLNG": "[assembly:/localization/hitman6.sweet].pc_cascadinglanguagedependencies",
+  "rootContainer": {
+    "type": "WavFile",
+    "wavName": "dr27415_killerchat47_47_002",
+    "soundtag": "In-world_Maincharacter",
+    "defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/suburbia/27000_elusive/27000_alabamaslammer/27000_alabamaslammer_story/dr27415_killerchat47_47_002.wav].pc_wes",
+    "defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/suburbia/27000_elusive/27000_alabamaslammer/27000_alabamaslammer_story/dr27415_killerchat47_47_002.animset].pc_animset",
+    "languages": {
+      "en": "//(0,30)\\\\I’ve seen worse.",
+      "fr": "//(0,30)\\\\J'ai vu pire.",
+      "it": "//(0,30)\\\\Ho visto di peggio.",
+      "de": "//(0,30)\\\\Ich habe schon Schlimmeres gesehen.",
+      "es": "//(0,30)\\\\Los he visto peores.",
+      "ru": "//(0,30)\\\\Я и похуже видел.",
+      "cn": "//(0,30)\\\\我见过更糟糕的。",
+      "tc": "//(0,30)\\\\我見過更糟糕的。",
+      "jp": "//(0,30)\\\\まだましな方だ。"
+    }
+  }
+}

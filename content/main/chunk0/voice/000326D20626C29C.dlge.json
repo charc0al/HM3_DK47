@@ -1,0 +1,24 @@
+{
+  "$schema": "https://tonytools.win/schemas/dlge.schema.json",
+  "hash": "[assembly:/localization/hitman6/conversations/suburbia/27000_skunk/27000_story/dr27188_mole47jobdone.sweetdialog?/dr27188_mole47jobdone_47_001.sweetdialogitem].pc_dialogevent",
+  "DITL": "[assembly:/localization/hitman6.sweet].pc_dialogsoundtemplatelist",
+  "CLNG": "[assembly:/localization/hitman6.sweet].pc_cascadinglanguagedependencies",
+  "rootContainer": {
+    "type": "WavFile",
+    "wavName": "dr27188_mole47jobdone_47_001",
+    "soundtag": "In-world_Maincharacter",
+    "defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/suburbia/27000_skunk/27000_story/dr27188_mole47jobdone_47_001.wav].pc_wes",
+    "defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/suburbia/27000_skunk/27000_story/dr27188_mole47jobdone_47_001.animset].pc_animset",
+    "languages": {
+      "en": "//(0,30)\\\\I'm done.",
+      "fr": "//(0,30)\\\\J'ai terminé.",
+      "it": "//(0,30)\\\\Ho finito.",
+      "de": "//(0,30)\\\\Ich bin fertig.",
+      "es": "//(0,30)\\\\He terminado.",
+      "ru": "//(0,30)\\\\Готово.",
+      "cn": "//(0,30)\\\\办好了。",
+      "tc": "//(0,30)\\\\我完成了。",
+      "jp": "//(0,30)\\\\作業は終わりました。"
+    }
+  }
+}

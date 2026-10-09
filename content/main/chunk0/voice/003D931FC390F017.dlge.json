@@ -1,0 +1,24 @@
+{
+  "$schema": "https://tonytools.win/schemas/dlge.schema.json",
+  "hash": "[assembly:/localization/hitman6/conversations/island/29000_magpie/29000_story/dr29325_47constantescort1.sweetdialog?/dr29325_47constantescort1_47_004.sweetdialogitem].pc_dialogevent",
+  "DITL": "[assembly:/localization/hitman6.sweet].pc_dialogsoundtemplatelist",
+  "CLNG": "[assembly:/localization/hitman6.sweet].pc_cascadinglanguagedependencies",
+  "rootContainer": {
+    "type": "WavFile",
+    "wavName": "dr29325_47constantescort1_47_004",
+    "soundtag": "In-world_Maincharacter",
+    "defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/island/29000_magpie/29000_story/dr29325_47constantescort1_47_004.wav].pc_wes",
+    "defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/island/29000_magpie/29000_story/dr29325_47constantescort1_47_004.animset].pc_animset",
+    "languages": {
+      "en": "//(0,30)\\\\Just keep walking.",
+      "fr": "//(0,30)\\\\Contentez-vous de marcher.",
+      "it": "//(0,30)\\\\Continua a camminare.",
+      "de": "//(0,30)\\\\Gehen Sie einfach weiter.",
+      "es": "//(0,30)\\\\Siga andando.",
+      "ru": "//(0,30)\\\\Шагайте дальше.",
+      "cn": "//(0,30)\\\\继续走。",
+      "tc": "//(0,30)\\\\繼續走。",
+      "jp": "//(0,30)\\\\歩け。今はそれだけに集中しろ。"
+    }
+  }
+}

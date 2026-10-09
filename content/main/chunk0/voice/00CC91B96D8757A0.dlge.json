@@ -1,0 +1,24 @@
+{
+  "$schema": "https://tonytools.win/schemas/dlge.schema.json",
+  "hash": "[assembly:/localization/hitman6/conversations/edgy/fox/42000_story/dr42378_opdrug47push01.sweetdialog?/dr42378_opdrug47push01_47_002.sweetdialogitem].pc_dialogevent",
+  "DITL": "[assembly:/localization/hitman6.sweet].pc_dialogsoundtemplatelist",
+  "CLNG": "[assembly:/localization/hitman6.sweet].pc_cascadinglanguagedependencies",
+  "rootContainer": {
+    "type": "WavFile",
+    "wavName": "dr42378_opdrug47push01_47_002",
+    "soundtag": "In-world_Maincharacter",
+    "defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/edgy/fox/42000_story/dr42378_opdrug47push01_47_002.wav].pc_wes",
+    "defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/edgy/fox/42000_story/dr42378_opdrug47push01_47_002.animset].pc_animset",
+    "languages": {
+      "en": "//(0,30)\\\\Do you like drugs? I got some.",
+      "fr": "//(0,30)\\\\T'aimes les drogues ? J'en ai.",
+      "it": "//(0,30)\\\\Ti piacciono le droghe? Ne ho un po'.",
+      "de": "//(0,30)\\\\Magst du Drogen? Ich habe welche.",
+      "es": "//(0,30)\\\\¿Te gustan las drogas? Yo tengo.",
+      "ru": "//(0,30)\\\\Любишь вещества? У меня есть.",
+      "cn": "//(0,30)\\\\喜欢毒品吗？我有货。",
+      "tc": "//(0,30)\\\\你喜歡毒品嗎？我這裡有貨呢。",
+      "jp": "//(0,30)\\\\ドラッグは好きか？あるぜ。"
+    }
+  }
+}

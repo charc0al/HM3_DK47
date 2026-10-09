@@ -1,0 +1,24 @@
+{
+  "$schema": "https://tonytools.win/schemas/dlge.schema.json",
+  "hash": "[assembly:/localization/hitman6/conversations/bangkok/4000_elusive/4000_baiju/4300_baiju_story/dr4450_fgtjudge47nxtmtch.sweetdialog?/dr4450_fgtjudge47nxtmtch_47_001.sweetdialogitem].pc_dialogevent",
+  "DITL": "[assembly:/localization/hitman6.sweet].pc_dialogsoundtemplatelist",
+  "CLNG": "[assembly:/localization/hitman6.sweet].pc_cascadinglanguagedependencies",
+  "rootContainer": {
+    "type": "WavFile",
+    "wavName": "dr4450_fgtjudge47nxtmtch_47_001",
+    "soundtag": "In-world_Maincharacter",
+    "defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/bangkok/4000_elusive/4000_baiju/4300_baiju_story/dr4450_fgtjudge47nxtmtch_47_001.wav].pc_wes",
+    "defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/bangkok/4000_elusive/4000_baiju/4300_baiju_story/dr4450_fgtjudge47nxtmtch_47_001.animset].pc_animset",
+    "languages": {
+      "en": "//(0,30)\\\\Next up...",
+      "fr": "//(0,30)\\\\Ensuite...",
+      "it": "//(0,30)\\\\Segue...",
+      "de": "//(0,30)\\\\Als Nächstes kommen ...",
+      "es": "//(0,1.256196)\\\\A continuación...,",
+      "ru": "//(0,1.321)\\\\Далее...",
+      "cn": "//(0,30)\\\\接下来是......",
+      "tc": "//(0,1.2)\\\\下一位是......",
+      "jp": "//(1.225,31.225)\\\\次は..."
+    }
+  }
+}

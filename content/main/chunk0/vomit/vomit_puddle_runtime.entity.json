@@ -1,0 +1,585 @@
+{
+  "tempHash": "0037A4C2EDE35D08",
+  "tbluHash": "00143EF1D2EFD321",
+  "rootEntity": "975617a94a7708b2",
+  "entities": {
+    "d47b000000000100": {
+      "parent": "975617a94a7708b2",
+      "name": "FX_Drunk47VomitPuddle",
+      "factory": "[assembly:/_pro/effects/templates/water/fx_water_leaks.template?/fx_water_leak_3x3m_a.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/effects/templates/water/fx_water_leaks.template?/fx_water_leak_3x3m_a.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0.03
+            }
+          }
+        },
+        "m_eRoomBehaviour": {
+          "type": "ZSpatialEntity.ERoomBehaviour",
+          "value": "ROOM_DYNAMIC"
+        },
+        "LeakSpeed": {
+          "type": "float32",
+          "value": 0.20000000298023224
+        },
+        "ConstantColorRGB_01_Value": {
+          "type": "SColorRGB",
+          "value": "#304526"
+        },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "dbc101917b6c0c62",
+          "postInit": true
+        },
+        "m_PrimitiveScale": {
+          "type": "SVector3",
+          "value": {
+            "x": 0.45,
+            "y": 0.45,
+            "z": 0.45
+          }
+        }
+      }
+    },
+    "dfac4441e9f822ff": {
+      "parent": "975617a94a7708b2",
+      "name": "ItemCoreNoPhys",
+      "factory": "[assembly:/_pro/design/gamecore/itemcore.template?/itemcorenophys.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/gamecore/itemcore.template?/itemcorenophys.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_bKinematic": {
+          "type": "bool",
+          "value": true
+        },
+        "m_rGeomentity": {
+          "type": "SEntityTemplateReference",
+          "value": {
+            "ref": "beef1ea44a66b20a",
+            "externalScene": null,
+            "exposedEntity": "FX_Water_Leak_3x3m_A"
+          }
+        }
+      },
+      "events": {
+        "OnVisible": {
+          "Activate": [
+            "dbc101917b6c0c62"
+          ],
+          "In": [
+            "beef1ea44a66b209"
+          ]
+        }
+      },
+      "subsets": {
+        "Replicable": [
+          "975617a94a7708b2"
+        ]
+      }
+    },
+    "beef1ea44a66b20a": {
+      "parent": "975617a94a7708b2",
+      "name": "VomitPuddle_ItemCoreGeometryAnchor",
+      "factory": "[assembly:/_pro/effects/templates/water/fx_water_leaks.template?/fx_water_leak_3x3m_a.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/effects/templates/water/fx_water_leaks.template?/fx_water_leak_3x3m_a.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          }
+        },
+        "m_eRoomBehaviour": {
+          "type": "ZSpatialEntity.ERoomBehaviour",
+          "value": "ROOM_DYNAMIC"
+        },
+        "m_bKinematic": {
+          "type": "bool",
+          "value": true
+        },
+        "m_bVisible": {
+          "type": "bool",
+          "value": false
+        },
+        "m_bRemovePhysics": {
+          "type": "bool",
+          "value": true
+        },
+        "m_PrimitiveScale": {
+          "type": "SVector3",
+          "value": {
+            "x": 0.001,
+            "y": 0.001,
+            "z": 0.001
+          }
+        },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": null,
+          "postInit": true
+        }
+      }
+    },
+    "dbc101917b6c0c62": {
+      "parent": "975617a94a7708b2",
+      "name": "PropHelper_WaterSpill",
+      "factory": "[assembly:/_pro/design/gamecore/prophelpers.template?/prophelper_waterspill_scalable_evergreen.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/gamecore/prophelpers.template?/prophelper_waterspill_scalable_evergreen.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          }
+        },
+        "NPCKillVolumem_vGlobalSize": {
+          "type": "SVector3",
+          "value": {
+            "x": 0.9,
+            "y": 0.9,
+            "z": 0.550000011920929
+          }
+        },
+        "m_sId": {
+          "type": "ZGuid",
+          "value": "8164a63f-48f6-4ad5-b00c-2aef050249ee"
+        },
+        "m_eRoomBehaviour": {
+          "type": "ZSpatialEntity.ERoomBehaviour",
+          "value": "ROOM_DYNAMIC"
+        },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": null
+        }
+      },
+      "events": {
+        "WaterSpillActivated": {
+          "Signal": [
+            "d47b000000000008"
+          ]
+        }
+      },
+      "subsets": {
+        "AudioEmitters": [
+          "975617a94a7708b2"
+        ]
+      }
+    },
+    "975617a94a7708b2": {
+      "parent": null,
+      "name": "Drunk47VomitPuddle_Runtime",
+      "factory": "[modules:/zentity.class].pc_entitytype",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          }
+        }
+      },
+      "propertyAliases": {
+        "m_eidParent": [
+          {
+            "originalProperty": "m_eidParent",
+            "originalEntity": "dbc101917b6c0c62"
+          }
+        ],
+        "m_mTransform": [
+          {
+            "originalProperty": "m_mTransform",
+            "originalEntity": "dbc101917b6c0c62"
+          }
+        ]
+      },
+      "exposedEntities": {
+        "m_bIsElectrifiedTrap": {
+          "isArray": false,
+          "refersTo": []
+        }
+      },
+      "exposedInterfaces": {
+        "ZHM5Item": "dfac4441e9f822ff",
+        "IItemBase": "dfac4441e9f822ff",
+        "IItem": "dfac4441e9f822ff",
+        "ZSpatialEntity": "dbc101917b6c0c62"
+      }
+    },
+    "beef1ea44a66b209": {
+      "parent": "975617a94a7708b2",
+      "name": "DetachFromSpawnerDelay",
+      "factory": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "Delay time (ms)": {
+          "type": "int32",
+          "value": 100
+        }
+      },
+      "events": {
+        "Out": {
+          "Detach": [
+            "dbc101917b6c0c62"
+          ]
+        }
+      }
+    },
+    "d47b000000000008": {
+      "parent": "975617a94a7708b2",
+      "name": "VoidSignalOnce_Drunk47VomitPuddleActivation",
+      "factory": "[assembly:/_pro/design/logic/signalpipes.template?/voidsignalonce_simple.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/logic/signalpipes.template?/voidsignalonce_simple.entitytemplate].pc_entityblueprint",
+      "events": {
+        "Out": {
+          "Activate": [
+            "d47b000000000100"
+          ],
+          "Start": [
+            "d47b000000000120"
+          ]
+        }
+      }
+    },
+    "d47b000000000120": {
+      "parent": "975617a94a7708b2",
+      "name": "Drunk47VomitPuddleEmeticZone",
+      "factory": "[modules:/zcompositeentity.class].pc_entitytype",
+      "blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          }
+        },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "dbc101917b6c0c62",
+          "postInit": true
+        }
+      },
+      "inputCopying": {
+        "Start": {
+          "SetTrue": [
+            "d47b000000000127"
+          ],
+          "In": [
+            "d47b000000000129"
+          ]
+        },
+        "Stop": {
+          "SetFalse": [
+            "d47b000000000127"
+          ],
+          "Stop": [
+            "d47b000000000129",
+            "d47b00000000012a",
+            "d47b000000000126"
+          ]
+        }
+      }
+    },
+    "d47b000000000121": {
+      "parent": "d47b000000000120",
+      "name": "ActorPicker_Drunk47VomitPuddleEmetic",
+      "factory": "[modules:/zactorpicker.class].pc_entitytype",
+      "blueprint": "[modules:/zactorpicker.class].pc_entityblueprint",
+      "properties": {
+        "m_aVolumes": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": [
+            "d47b000000000122"
+          ],
+          "postInit": true
+        },
+        "m_aEnterEffects": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": [
+            "d47b000000000123",
+            "d47b00000000012c"
+          ],
+          "postInit": true
+        },
+        "m_aFilters": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": [
+            "d47b000000000125"
+          ],
+          "postInit": true
+        }
+      }
+    },
+    "d47b000000000122": {
+      "parent": "d47b000000000120",
+      "name": "VolumeSphere_Drunk47VomitPuddleEmetic_2m",
+      "factory": "[modules:/zspherevolumeentity.class].pc_entitytype",
+      "blueprint": "[modules:/zspherevolumeentity.class].pc_entityblueprint",
+      "properties": {
+        "m_fRadius": {
+          "type": "float32",
+          "value": 2
+        },
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          }
+        },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "d47b000000000120",
+          "postInit": true
+        }
+      }
+    },
+    "d47b000000000123": {
+      "parent": "d47b000000000120",
+      "name": "ActorPickerEffectDrama_Drunk47VomitPuddleEmetic",
+      "factory": "[modules:/zactorpickereffectdrama.class].pc_entitytype",
+      "blueprint": "[modules:/zactorpickereffectdrama.class].pc_entityblueprint",
+      "properties": {
+        "m_pDramaTemplate": {
+          "type": "ZRuntimeResourceID",
+          "value": {
+            "resource": "[assembly:/_pro/design/gamecore/deatheffects.template?/animstand_poison_sick_btoverride.entitytemplate].pc_entitytemplate",
+            "flag": "5F"
+          }
+        },
+        "m_rItem": {
+          "type": "SEntityTemplateReference",
+          "value": null
+        },
+        "m_rSetpiece": {
+          "type": "SEntityTemplateReference",
+          "value": "d47b000000000124",
+          "postInit": true
+        }
+      }
+    },
+    "d47b000000000124": {
+      "parent": "d47b000000000120",
+      "name": "Setpiece_Drunk47VomitPuddleEmetic",
+      "factory": "[modules:/zsetpieceentity.class].pc_entitytype",
+      "blueprint": "[modules:/zsetpieceentity.class].pc_entityblueprint",
+      "properties": {
+        "m_sId": {
+          "type": "ZGuid",
+          "value": "8d5d0efb-c0b2-4fdb-b372-9a36f16e06c5"
+        },
+        "m_rSpatial": {
+          "type": "SEntityTemplateReference",
+          "value": "d47b000000000120",
+          "postInit": true
+        },
+        "m_rSetpiece": {
+          "type": "SEntityTemplateReference",
+          "value": "d47b000000000120",
+          "postInit": true
+        }
+      }
+    },
+    "d47b000000000125": {
+      "parent": "d47b000000000120",
+      "name": "ActorPickerFilter_Drunk47VomitPuddleEmetic",
+      "factory": "[assembly:/_pro/design/items/prop_device_ica_modular_runtimes.template?/prophelper_ica_payload_gas_actorpickerfilter.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/items/prop_device_ica_modular_runtimes.template?/prophelper_ica_payload_gas_actorpickerfilter.entitytemplate].pc_entityblueprint"
+    },
+    "d47b000000000126": {
+      "parent": "d47b000000000120",
+      "name": "Timer_Drunk47VomitPuddleEmeticPulse_2s",
+      "factory": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "Delay time (ms)": {
+          "type": "int32",
+          "value": 2000
+        }
+      },
+      "events": {
+        "Out": {
+          "Poll": [
+            "d47b000000000128"
+          ]
+        }
+      }
+    },
+    "d47b000000000127": {
+      "parent": "d47b000000000120",
+      "name": "ValueBool_Drunk47VomitPuddleEmeticActive",
+      "factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint"
+    },
+    "d47b000000000128": {
+      "parent": "d47b000000000120",
+      "name": "Poll_Drunk47VomitPuddleEmeticActive",
+      "factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_rValueEntity": {
+          "type": "SEntityTemplateReference",
+          "value": "d47b000000000127"
+        }
+      },
+      "events": {
+        "PollTrue": {
+          "Pick": [
+            "d47b000000000121"
+          ],
+          "In": [
+            "d47b000000000126"
+          ]
+        }
+      }
+    },
+    "d47b000000000129": {
+      "parent": "d47b000000000120",
+      "name": "Delay_Drunk47VomitPuddleEmeticStart",
+      "factory": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "Delay time (ms)": {
+          "type": "int32",
+          "value": 1
+        }
+      },
+      "events": {
+        "Out": {
+          "Poll": [
+            "d47b00000000012b"
+          ]
+        }
+      }
+    },
+    "d47b00000000012a": {
+      "parent": "d47b000000000120",
+      "name": "Timer_Drunk47VomitPuddleEmeticLifetime_60s",
+      "factory": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "Delay time (ms)": {
+          "type": "int32",
+          "value": 60000
+        }
+      },
+      "events": {
+        "Out": {
+          "SetFalse": [
+            "d47b000000000127"
+          ],
+          "Stop": [
+            "d47b000000000126"
+          ]
+        }
+      }
+    },
+    "d47b00000000012b": {
+      "parent": "d47b000000000120",
+      "name": "Poll_Drunk47VomitPuddleEmeticStartAllowed",
+      "factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_rValueEntity": {
+          "type": "SEntityTemplateReference",
+          "value": "d47b000000000127"
+        }
+      },
+      "events": {
+        "PollTrue": {
+          "Poll": [
+            "d47b000000000128"
+          ],
+          "In": [
+            "d47b00000000012a"
+          ]
+        }
+      }
+    },
+    "d47b00000000012c": {
+      "parent": "d47b000000000120",
+      "name": "ActorPickerEffectReference_Drunk47VomitPuddleEmetic",
+      "factory": "[modules:/zactorpickereffectreference.class].pc_entitytype",
+      "blueprint": "[modules:/zactorpickereffectreference.class].pc_entityblueprint",
+      "events": {
+        "OnIActor": {
+          "RemoveActor": [
+            "d47b000000000121"
+          ]
+        }
+      }
+    }
+  },
+  "propertyOverrides": [],
+  "overrideDeletes": [],
+  "pinConnectionOverrides": [],
+  "pinConnectionOverrideDeletes": [],
+  "externalScenes": [],
+  "subType": "template",
+  "quickEntityVersion": 3.1,
+  "extraFactoryDependencies": [
+    {
+      "resource": "[assembly:/_pro/effects/textures/liquid/fx_decal_liquid_leakmasks_01.texture?/mask_a.tex](asheightmap).pc_tex",
+      "flag": "5F"
+    },
+    {
+      "resource": "[assembly:/_pro/effects/textures/misc/fx_generic_flowmaps.texture?/flow_expanding.tex](asheightmap).pc_tex",
+      "flag": "5F"
+    }
+  ],
+  "extraBlueprintDependencies": [],
+  "comments": []
+}

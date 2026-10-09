@@ -1,0 +1,24 @@
+{
+  "$schema": "https://tonytools.win/schemas/dlge.schema.json",
+  "hash": "[assembly:/localization/hitman6/conversations/suburbia/27000_skunk/27000_story/dr27118_blaketourmeets47.sweetdialog?/dr27118_blaketourmeets47_47_002.sweetdialogitem].pc_dialogevent",
+  "DITL": "[assembly:/localization/hitman6.sweet].pc_dialogsoundtemplatelist",
+  "CLNG": "[assembly:/localization/hitman6.sweet].pc_cascadinglanguagedependencies",
+  "rootContainer": {
+    "type": "WavFile",
+    "wavName": "dr27118_blaketourmeets47_47_002",
+    "soundtag": "In-world_Maincharacter",
+    "defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/suburbia/27000_skunk/27000_story/dr27118_blaketourmeets47_47_002.wav].pc_wes",
+    "defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/suburbia/27000_skunk/27000_story/dr27118_blaketourmeets47_47_002.animset].pc_animset",
+    "languages": {
+      "en": "//(0,30)\\\\I'm not from around here.",
+      "fr": "//(0,30)\\\\Je ne suis pas du quartier.",
+      "it": "//(0,30)\\\\Non sono di queste parti.",
+      "de": "//(0,30)\\\\Ich bin nicht von hier.",
+      "es": "//(0,30)\\\\No soy de aquí.",
+      "ru": "//(0,30)\\\\Я здесь не живу.",
+      "cn": "//(0,30)\\\\我不是本地人。",
+      "tc": "//(0,30)\\\\我不是本地人。",
+      "jp": "//(0,30)\\\\この辺りの出身ではない。"
+    }
+  }
+}

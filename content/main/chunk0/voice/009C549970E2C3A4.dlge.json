@@ -1,0 +1,24 @@
+{
+  "$schema": "https://tonytools.win/schemas/dlge.schema.json",
+  "hash": "[assembly:/localization/hitman6/conversations/island/29000_elusive/29000_pomada/29000_pomada_story/dt29838_ntrostaunt47rply.sweetdialog?/dt29838_ntrostaunt47rply_47_007.sweetdialogitem].pc_dialogevent",
+  "DITL": "[assembly:/localization/hitman6.sweet].pc_dialogsoundtemplatelist",
+  "CLNG": "[assembly:/localization/hitman6.sweet].pc_cascadinglanguagedependencies",
+  "rootContainer": {
+    "type": "WavFile",
+    "wavName": "dt29838_ntrostaunt47rply_47_007",
+    "soundtag": "In-world_Maincharacter",
+    "defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/island/29000_elusive/29000_pomada/29000_pomada_story/dt29838_ntrostaunt47rply_47_007.wav].pc_wes",
+    "defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/island/29000_elusive/29000_pomada/29000_pomada_story/dt29838_ntrostaunt47rply_47_007.animset].pc_animset",
+    "languages": {
+      "en": "//(0,30)\\\\This is not my first rodeo.",
+      "fr": "//(0,30)\\\\J'ai déjà fait ça, vous savez.",
+      "it": "//(0,30)\\\\Non sono mica un novellino.",
+      "de": "//(0,30)\\\\Das ist nicht mein erstes Rodeo.",
+      "es": "//(0,30)\\\\Este no es mi primer rodeo.",
+      "ru": "//(0,30)\\\\Мне такое не впервой.",
+      "cn": "//(0,30)\\\\这不是我第一次打擂台。",
+      "tc": "//(0,30)\\\\這不是我第一次上場比賽。",
+      "jp": "//(0,30)\\\\これが初めてではないのでね。"
+    }
+  }
+}

@@ -1,0 +1,1935 @@
+{
+  "tempHash": "00097AA87B144150",
+  "tbluHash": "00E738E7CF7A35E1",
+  "patch": [
+    {
+      "AddEntity": [
+        "cafe1ea44a66e001",
+        {
+          "parent": "d35decb0584ad3d4",
+          "name": "Drunk47_Health_Regen",
+          "factory": "[modules:/zentity.class].pc_entitytype",
+          "blueprint": "[modules:/zentity.class].pc_entityblueprint"
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e002",
+        {
+          "parent": "cafe1ea44a66e001",
+          "name": "ValueFloat_EntityProperty_DefaultHealthRegenRate",
+          "factory": "[modules:/zvaluefloat_entityproperty.class].pc_entitytype",
+          "blueprint": "[modules:/zvaluefloat_entityproperty.class].pc_entityblueprint",
+          "properties": {
+            "m_rEntity": {
+              "type": "SEntityTemplateReference",
+              "value": "767c7565ca90f862"
+            },
+            "m_sPropertyName": {
+              "type": "ZString",
+              "value": "m_fValue"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e003",
+        {
+          "parent": "cafe1ea44a66e001",
+          "name": "ValueFloat_Set_DefaultHealthRegenRate",
+          "factory": "[modules:/zvaluefloat_set.class].pc_entitytype",
+          "blueprint": "[modules:/zvaluefloat_set.class].pc_entityblueprint",
+          "properties": {
+            "m_rValueEntity": {
+              "type": "SEntityTemplateReference",
+              "value": "cafe1ea44a66e002",
+              "postInit": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e004",
+        {
+          "parent": "cafe1ea44a66e001",
+          "name": "ValueFloat_EntityProperty_HardHealthRegenRate",
+          "factory": "[modules:/zvaluefloat_entityproperty.class].pc_entitytype",
+          "blueprint": "[modules:/zvaluefloat_entityproperty.class].pc_entityblueprint",
+          "properties": {
+            "m_rEntity": {
+              "type": "SEntityTemplateReference",
+              "value": "61130f737ba7864e"
+            },
+            "m_sPropertyName": {
+              "type": "ZString",
+              "value": "m_fValue"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e005",
+        {
+          "parent": "cafe1ea44a66e001",
+          "name": "ValueFloat_Set_HardHealthRegenRate",
+          "factory": "[modules:/zvaluefloat_set.class].pc_entitytype",
+          "blueprint": "[modules:/zvaluefloat_set.class].pc_entityblueprint",
+          "properties": {
+            "m_rValueEntity": {
+              "type": "SEntityTemplateReference",
+              "value": "cafe1ea44a66e004",
+              "postInit": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e006",
+        {
+          "parent": "cafe1ea44a66e001",
+          "name": "ValueFloat_EntityProperty_EasyHealthRegenRate",
+          "factory": "[modules:/zvaluefloat_entityproperty.class].pc_entitytype",
+          "blueprint": "[modules:/zvaluefloat_entityproperty.class].pc_entityblueprint",
+          "properties": {
+            "m_rEntity": {
+              "type": "SEntityTemplateReference",
+              "value": "2a223de5723f42d2"
+            },
+            "m_sPropertyName": {
+              "type": "ZString",
+              "value": "m_fValue"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e007",
+        {
+          "parent": "cafe1ea44a66e001",
+          "name": "ValueFloat_Set_EasyHealthRegenRate",
+          "factory": "[modules:/zvaluefloat_set.class].pc_entitytype",
+          "blueprint": "[modules:/zvaluefloat_set.class].pc_entityblueprint",
+          "properties": {
+            "m_rValueEntity": {
+              "type": "SEntityTemplateReference",
+              "value": "cafe1ea44a66e006",
+              "postInit": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e008",
+        {
+          "parent": "cafe1ea44a66e001",
+          "name": "ValueFloat_Zero_HealthRegenRate",
+          "factory": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entitytype",
+          "blueprint": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entityblueprint",
+          "properties": {
+            "m_fValue": {
+              "type": "float32",
+              "value": 0
+            }
+          },
+          "events": {
+            "Value": {
+              "SetValue": [
+                "cafe1ea44a66e003",
+                "cafe1ea44a66e005",
+                "cafe1ea44a66e007"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e009",
+        {
+          "parent": "cafe1ea44a66e001",
+          "name": "ValueFloat_Five_HealthRegenRate",
+          "factory": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entitytype",
+          "blueprint": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entityblueprint",
+          "properties": {
+            "m_fValue": {
+              "type": "float32",
+              "value": 5
+            }
+          },
+          "events": {
+            "Value": {
+              "SetValue": [
+                "cafe1ea44a66e003",
+                "cafe1ea44a66e007"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e00a",
+        {
+          "parent": "cafe1ea44a66e001",
+          "name": "ValueFloat_Two_HealthRegenRate",
+          "factory": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entitytype",
+          "blueprint": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entityblueprint",
+          "properties": {
+            "m_fValue": {
+              "type": "float32",
+              "value": 2
+            }
+          },
+          "events": {
+            "Value": {
+              "SetValue": [
+                "cafe1ea44a66e005"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e00b",
+        {
+          "parent": "cafe1ea44a66e001",
+          "name": "EventChannelReceiver_Drunk47HealthRegenDisable",
+          "factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_void.entitytemplate].pc_entitytype",
+          "blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_void.entitytemplate].pc_entityblueprint",
+          "properties": {
+            "m_rChannelToken": {
+              "type": "SEntityTemplateReference",
+              "value": "cafe1ea44a66e00c",
+              "postInit": true
+            }
+          },
+          "events": {
+            "EventReceived": {
+              "Get": [
+                "cafe1ea44a66e008"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e00c",
+        {
+          "parent": "cafe1ea44a66e00b",
+          "name": "TokenID_Drunk47_HealthRegenDisable",
+          "factory": "[modules:/ztokenidentity.class].pc_entitytype",
+          "blueprint": "[modules:/ztokenidentity.class].pc_entityblueprint",
+          "properties": {
+            "m_sName": {
+              "type": "ZString",
+              "value": "Drunk47_HealthRegenDisable"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e00d",
+        {
+          "parent": "cafe1ea44a66e001",
+          "name": "EventChannelReceiver_Drunk47HealthRegenEnable",
+          "factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_void.entitytemplate].pc_entitytype",
+          "blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_void.entitytemplate].pc_entityblueprint",
+          "properties": {
+            "m_rChannelToken": {
+              "type": "SEntityTemplateReference",
+              "value": "cafe1ea44a66e00e",
+              "postInit": true
+            }
+          },
+          "events": {
+            "EventReceived": {
+              "Get": [
+                "cafe1ea44a66e009",
+                "cafe1ea44a66e00a"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e00e",
+        {
+          "parent": "cafe1ea44a66e00d",
+          "name": "TokenID_Drunk47_HealthRegenEnable",
+          "factory": "[modules:/ztokenidentity.class].pc_entitytype",
+          "blueprint": "[modules:/ztokenidentity.class].pc_entityblueprint",
+          "properties": {
+            "m_sName": {
+              "type": "ZString",
+              "value": "Drunk47_HealthRegenEnable"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e100",
+        {
+          "parent": "d35decb0584ad3d4",
+          "name": "Drunk47_DamageResistance",
+          "factory": "[modules:/zentity.class].pc_entitytype",
+          "blueprint": "[modules:/zentity.class].pc_entityblueprint"
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e101",
+        {
+          "parent": "cafe1ea44a66e100",
+          "name": "EventChannelReceiver_Drunk47DrunkennessLevel_DamageResistance",
+          "factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_int32.entitytemplate].pc_entitytype",
+          "blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_int32.entitytemplate].pc_entityblueprint",
+          "properties": {
+            "m_rChannelToken": {
+              "type": "SEntityTemplateReference",
+              "value": "cafe1ea44a66e102",
+              "postInit": true
+            }
+          },
+          "events": {
+            "EventReceived": {
+              "SetValue": [
+                "cafe1ea44a66e103"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e102",
+        {
+          "parent": "cafe1ea44a66e100",
+          "name": "TokenID_Drunk47_Drunkenness_LevelChanged_DamageResistance",
+          "factory": "[modules:/ztokenidentity.class].pc_entitytype",
+          "blueprint": "[modules:/ztokenidentity.class].pc_entityblueprint",
+          "properties": {
+            "m_sName": {
+              "type": "ZString",
+              "value": "Drunk47_Drunkenness_LevelChanged"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e103",
+        {
+          "parent": "cafe1ea44a66e100",
+          "name": "ValueInt_DrunkennessMirror_DamageResistance",
+          "factory": "[assembly:/_pro/design/logic/valueint.template?/valueint_basic.entitytemplate].pc_entitytype",
+          "blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint_basic.entitytemplate].pc_entityblueprint",
+          "properties": {
+            "m_nValue": {
+              "type": "int32",
+              "value": 0
+            },
+            "m_bSetValueAlwaysTriggerChangedEvent": {
+              "type": "bool",
+              "value": true
+            }
+          },
+          "events": {
+            "OnValue": {
+              "Get": [
+                "cafe1ea44a66e105",
+                "cafe1ea44a66e107",
+                "cafe1ea44a66e109",
+                "cafe1ea44a66e10b",
+                "cafe1ea44a66e10d",
+                "cafe1ea44a66e10f",
+                "cafe1ea44a66e111",
+                "cafe1ea44a66e113",
+                "cafe1ea44a66e115",
+                "cafe1ea44a66e117",
+                "cafe1ea44a66e118"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e104",
+        {
+          "parent": "cafe1ea44a66e100",
+          "name": "ValueInt_Zero_DamageResistance",
+          "factory": "[assembly:/_pro/design/logic/valueint.template?/valueint.entitytemplate].pc_entitytype",
+          "blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint.entitytemplate].pc_entityblueprint",
+          "properties": {
+            "m_nValue": {
+              "type": "int32",
+              "value": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e105",
+        {
+          "parent": "cafe1ea44a66e100",
+          "name": "DrunkennessZero_DamageResistance",
+          "factory": "[assembly:/_pro/design/logic/valueint.template?/valueint_comparator_poll.entitytemplate].pc_entitytype",
+          "blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint_comparator_poll.entitytemplate].pc_entityblueprint",
+          "properties": {
+            "m_rFirstValueInt": {
+              "type": "SEntityTemplateReference",
+              "value": "cafe1ea44a66e103"
+            },
+            "m_rSecondValueInt": {
+              "type": "SEntityTemplateReference",
+              "value": "cafe1ea44a66e104"
+            },
+            "m_eEvaluation": {
+              "type": "ZValueInt_Comparator_Poll.EEvaluationType",
+              "value": "EQUAL"
+            }
+          },
+          "events": {
+            "GetTrue": {
+              "Get": [
+                "cafe1ea44a66e126",
+                "cafe1ea44a66e127",
+                "cafe1ea44a66e128",
+                "cafe1ea44a66e129",
+                "cafe1ea44a66e12a",
+                "cafe1ea44a66e12b"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e106",
+        {
+          "parent": "cafe1ea44a66e100",
+          "name": "ValueInt_One_DamageResistance",
+          "factory": "[assembly:/_pro/design/logic/valueint.template?/valueint.entitytemplate].pc_entitytype",
+          "blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint.entitytemplate].pc_entityblueprint",
+          "properties": {
+            "m_nValue": {
+              "type": "int32",
+              "value": 1
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e107",
+        {
+          "parent": "cafe1ea44a66e100",
+          "name": "DrunkennessOne_DamageResistance",
+          "factory": "[assembly:/_pro/design/logic/valueint.template?/valueint_comparator_poll.entitytemplate].pc_entitytype",
+          "blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint_comparator_poll.entitytemplate].pc_entityblueprint",
+          "properties": {
+            "m_rFirstValueInt": {
+              "type": "SEntityTemplateReference",
+              "value": "cafe1ea44a66e103"
+            },
+            "m_rSecondValueInt": {
+              "type": "SEntityTemplateReference",
+              "value": "cafe1ea44a66e106"
+            },
+            "m_eEvaluation": {
+              "type": "ZValueInt_Comparator_Poll.EEvaluationType",
+              "value": "EQUAL"
+            }
+          },
+          "events": {
+            "GetTrue": {
+              "Get": [
+                "cafe1ea44a66e12c",
+                "cafe1ea44a66e12d",
+                "cafe1ea44a66e12e",
+                "cafe1ea44a66e12f",
+                "cafe1ea44a66e130",
+                "cafe1ea44a66e131"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e108",
+        {
+          "parent": "cafe1ea44a66e100",
+          "name": "ValueInt_Two_DamageResistance",
+          "factory": "[assembly:/_pro/design/logic/valueint.template?/valueint.entitytemplate].pc_entitytype",
+          "blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint.entitytemplate].pc_entityblueprint",
+          "properties": {
+            "m_nValue": {
+              "type": "int32",
+              "value": 2
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e109",
+        {
+          "parent": "cafe1ea44a66e100",
+          "name": "DrunkennessTwo_DamageResistance",
+          "factory": "[assembly:/_pro/design/logic/valueint.template?/valueint_comparator_poll.entitytemplate].pc_entitytype",
+          "blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint_comparator_poll.entitytemplate].pc_entityblueprint",
+          "properties": {
+            "m_rFirstValueInt": {
+              "type": "SEntityTemplateReference",
+              "value": "cafe1ea44a66e103"
+            },
+            "m_rSecondValueInt": {
+              "type": "SEntityTemplateReference",
+              "value": "cafe1ea44a66e108"
+            },
+            "m_eEvaluation": {
+              "type": "ZValueInt_Comparator_Poll.EEvaluationType",
+              "value": "EQUAL"
+            }
+          },
+          "events": {
+            "GetTrue": {
+              "Get": [
+                "cafe1ea44a66e12c",
+                "cafe1ea44a66e12d",
+                "cafe1ea44a66e12e",
+                "cafe1ea44a66e12f",
+                "cafe1ea44a66e130",
+                "cafe1ea44a66e131"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e10a",
+        {
+          "parent": "cafe1ea44a66e100",
+          "name": "ValueInt_Three_DamageResistance",
+          "factory": "[assembly:/_pro/design/logic/valueint.template?/valueint.entitytemplate].pc_entitytype",
+          "blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint.entitytemplate].pc_entityblueprint",
+          "properties": {
+            "m_nValue": {
+              "type": "int32",
+              "value": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e10b",
+        {
+          "parent": "cafe1ea44a66e100",
+          "name": "DrunkennessThree_DamageResistance",
+          "factory": "[assembly:/_pro/design/logic/valueint.template?/valueint_comparator_poll.entitytemplate].pc_entitytype",
+          "blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint_comparator_poll.entitytemplate].pc_entityblueprint",
+          "properties": {
+            "m_rFirstValueInt": {
+              "type": "SEntityTemplateReference",
+              "value": "cafe1ea44a66e103"
+            },
+            "m_rSecondValueInt": {
+              "type": "SEntityTemplateReference",
+              "value": "cafe1ea44a66e10a"
+            },
+            "m_eEvaluation": {
+              "type": "ZValueInt_Comparator_Poll.EEvaluationType",
+              "value": "EQUAL"
+            }
+          },
+          "events": {
+            "GetTrue": {
+              "Get": [
+                "cafe1ea44a66e12c",
+                "cafe1ea44a66e12d",
+                "cafe1ea44a66e12e",
+                "cafe1ea44a66e12f",
+                "cafe1ea44a66e130",
+                "cafe1ea44a66e131"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e10c",
+        {
+          "parent": "cafe1ea44a66e100",
+          "name": "ValueInt_Four_DamageResistance",
+          "factory": "[assembly:/_pro/design/logic/valueint.template?/valueint.entitytemplate].pc_entitytype",
+          "blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint.entitytemplate].pc_entityblueprint",
+          "properties": {
+            "m_nValue": {
+              "type": "int32",
+              "value": 4
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e10d",
+        {
+          "parent": "cafe1ea44a66e100",
+          "name": "DrunkennessFour_DamageResistance",
+          "factory": "[assembly:/_pro/design/logic/valueint.template?/valueint_comparator_poll.entitytemplate].pc_entitytype",
+          "blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint_comparator_poll.entitytemplate].pc_entityblueprint",
+          "properties": {
+            "m_rFirstValueInt": {
+              "type": "SEntityTemplateReference",
+              "value": "cafe1ea44a66e103"
+            },
+            "m_rSecondValueInt": {
+              "type": "SEntityTemplateReference",
+              "value": "cafe1ea44a66e10c"
+            },
+            "m_eEvaluation": {
+              "type": "ZValueInt_Comparator_Poll.EEvaluationType",
+              "value": "EQUAL"
+            }
+          },
+          "events": {
+            "GetTrue": {
+              "Get": [
+                "cafe1ea44a66e132",
+                "cafe1ea44a66e133",
+                "cafe1ea44a66e134",
+                "cafe1ea44a66e135",
+                "cafe1ea44a66e136",
+                "cafe1ea44a66e137"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e10e",
+        {
+          "parent": "cafe1ea44a66e100",
+          "name": "ValueInt_Five_DamageResistance",
+          "factory": "[assembly:/_pro/design/logic/valueint.template?/valueint.entitytemplate].pc_entitytype",
+          "blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint.entitytemplate].pc_entityblueprint",
+          "properties": {
+            "m_nValue": {
+              "type": "int32",
+              "value": 5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e10f",
+        {
+          "parent": "cafe1ea44a66e100",
+          "name": "DrunkennessFive_DamageResistance",
+          "factory": "[assembly:/_pro/design/logic/valueint.template?/valueint_comparator_poll.entitytemplate].pc_entitytype",
+          "blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint_comparator_poll.entitytemplate].pc_entityblueprint",
+          "properties": {
+            "m_rFirstValueInt": {
+              "type": "SEntityTemplateReference",
+              "value": "cafe1ea44a66e103"
+            },
+            "m_rSecondValueInt": {
+              "type": "SEntityTemplateReference",
+              "value": "cafe1ea44a66e10e"
+            },
+            "m_eEvaluation": {
+              "type": "ZValueInt_Comparator_Poll.EEvaluationType",
+              "value": "EQUAL"
+            }
+          },
+          "events": {
+            "GetTrue": {
+              "Get": [
+                "cafe1ea44a66e132",
+                "cafe1ea44a66e133",
+                "cafe1ea44a66e134",
+                "cafe1ea44a66e135",
+                "cafe1ea44a66e136",
+                "cafe1ea44a66e137"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e110",
+        {
+          "parent": "cafe1ea44a66e100",
+          "name": "ValueInt_Six_DamageResistance",
+          "factory": "[assembly:/_pro/design/logic/valueint.template?/valueint.entitytemplate].pc_entitytype",
+          "blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint.entitytemplate].pc_entityblueprint",
+          "properties": {
+            "m_nValue": {
+              "type": "int32",
+              "value": 6
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e111",
+        {
+          "parent": "cafe1ea44a66e100",
+          "name": "DrunkennessSix_DamageResistance",
+          "factory": "[assembly:/_pro/design/logic/valueint.template?/valueint_comparator_poll.entitytemplate].pc_entitytype",
+          "blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint_comparator_poll.entitytemplate].pc_entityblueprint",
+          "properties": {
+            "m_rFirstValueInt": {
+              "type": "SEntityTemplateReference",
+              "value": "cafe1ea44a66e103"
+            },
+            "m_rSecondValueInt": {
+              "type": "SEntityTemplateReference",
+              "value": "cafe1ea44a66e110"
+            },
+            "m_eEvaluation": {
+              "type": "ZValueInt_Comparator_Poll.EEvaluationType",
+              "value": "EQUAL"
+            }
+          },
+          "events": {
+            "GetTrue": {
+              "Get": [
+                "cafe1ea44a66e132",
+                "cafe1ea44a66e133",
+                "cafe1ea44a66e134",
+                "cafe1ea44a66e135",
+                "cafe1ea44a66e136",
+                "cafe1ea44a66e137"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e112",
+        {
+          "parent": "cafe1ea44a66e100",
+          "name": "ValueInt_Seven_DamageResistance",
+          "factory": "[assembly:/_pro/design/logic/valueint.template?/valueint.entitytemplate].pc_entitytype",
+          "blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint.entitytemplate].pc_entityblueprint",
+          "properties": {
+            "m_nValue": {
+              "type": "int32",
+              "value": 7
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e113",
+        {
+          "parent": "cafe1ea44a66e100",
+          "name": "DrunkennessSeven_DamageResistance",
+          "factory": "[assembly:/_pro/design/logic/valueint.template?/valueint_comparator_poll.entitytemplate].pc_entitytype",
+          "blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint_comparator_poll.entitytemplate].pc_entityblueprint",
+          "properties": {
+            "m_rFirstValueInt": {
+              "type": "SEntityTemplateReference",
+              "value": "cafe1ea44a66e103"
+            },
+            "m_rSecondValueInt": {
+              "type": "SEntityTemplateReference",
+              "value": "cafe1ea44a66e112"
+            },
+            "m_eEvaluation": {
+              "type": "ZValueInt_Comparator_Poll.EEvaluationType",
+              "value": "EQUAL"
+            }
+          },
+          "events": {
+            "GetTrue": {
+              "Get": [
+                "cafe1ea44a66e138",
+                "cafe1ea44a66e139",
+                "cafe1ea44a66e13a",
+                "cafe1ea44a66e13b",
+                "cafe1ea44a66e13c",
+                "cafe1ea44a66e13d"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e114",
+        {
+          "parent": "cafe1ea44a66e100",
+          "name": "ValueInt_Eight_DamageResistance",
+          "factory": "[assembly:/_pro/design/logic/valueint.template?/valueint.entitytemplate].pc_entitytype",
+          "blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint.entitytemplate].pc_entityblueprint",
+          "properties": {
+            "m_nValue": {
+              "type": "int32",
+              "value": 8
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e115",
+        {
+          "parent": "cafe1ea44a66e100",
+          "name": "DrunkennessEight_DamageResistance",
+          "factory": "[assembly:/_pro/design/logic/valueint.template?/valueint_comparator_poll.entitytemplate].pc_entitytype",
+          "blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint_comparator_poll.entitytemplate].pc_entityblueprint",
+          "properties": {
+            "m_rFirstValueInt": {
+              "type": "SEntityTemplateReference",
+              "value": "cafe1ea44a66e103"
+            },
+            "m_rSecondValueInt": {
+              "type": "SEntityTemplateReference",
+              "value": "cafe1ea44a66e114"
+            },
+            "m_eEvaluation": {
+              "type": "ZValueInt_Comparator_Poll.EEvaluationType",
+              "value": "EQUAL"
+            }
+          },
+          "events": {
+            "GetTrue": {
+              "Get": [
+                "cafe1ea44a66e138",
+                "cafe1ea44a66e139",
+                "cafe1ea44a66e13a",
+                "cafe1ea44a66e13b",
+                "cafe1ea44a66e13c",
+                "cafe1ea44a66e13d"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e116",
+        {
+          "parent": "cafe1ea44a66e100",
+          "name": "ValueInt_Nine_DamageResistance",
+          "factory": "[assembly:/_pro/design/logic/valueint.template?/valueint.entitytemplate].pc_entitytype",
+          "blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint.entitytemplate].pc_entityblueprint",
+          "properties": {
+            "m_nValue": {
+              "type": "int32",
+              "value": 9
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e117",
+        {
+          "parent": "cafe1ea44a66e100",
+          "name": "DrunkennessNine_DamageResistance",
+          "factory": "[assembly:/_pro/design/logic/valueint.template?/valueint_comparator_poll.entitytemplate].pc_entitytype",
+          "blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint_comparator_poll.entitytemplate].pc_entityblueprint",
+          "properties": {
+            "m_rFirstValueInt": {
+              "type": "SEntityTemplateReference",
+              "value": "cafe1ea44a66e103"
+            },
+            "m_rSecondValueInt": {
+              "type": "SEntityTemplateReference",
+              "value": "cafe1ea44a66e116"
+            },
+            "m_eEvaluation": {
+              "type": "ZValueInt_Comparator_Poll.EEvaluationType",
+              "value": "EQUAL"
+            }
+          },
+          "events": {
+            "GetTrue": {
+              "Get": [
+                "cafe1ea44a66e138",
+                "cafe1ea44a66e139",
+                "cafe1ea44a66e13a",
+                "cafe1ea44a66e13b",
+                "cafe1ea44a66e13c",
+                "cafe1ea44a66e13d"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e119",
+        {
+          "parent": "cafe1ea44a66e100",
+          "name": "ValueInt_AboveNine_DamageResistance",
+          "factory": "[assembly:/_pro/design/logic/valueint.template?/valueint.entitytemplate].pc_entitytype",
+          "blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint.entitytemplate].pc_entityblueprint",
+          "properties": {
+            "m_nValue": {
+              "type": "int32",
+              "value": 9
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e118",
+        {
+          "parent": "cafe1ea44a66e100",
+          "name": "DrunkennessAboveNine_DamageResistance",
+          "factory": "[assembly:/_pro/design/logic/valueint.template?/valueint_comparator_poll.entitytemplate].pc_entitytype",
+          "blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint_comparator_poll.entitytemplate].pc_entityblueprint",
+          "properties": {
+            "m_rFirstValueInt": {
+              "type": "SEntityTemplateReference",
+              "value": "cafe1ea44a66e103"
+            },
+            "m_rSecondValueInt": {
+              "type": "SEntityTemplateReference",
+              "value": "cafe1ea44a66e119"
+            },
+            "m_eEvaluation": {
+              "type": "ZValueInt_Comparator_Poll.EEvaluationType",
+              "value": "HIGHER"
+            }
+          },
+          "events": {
+            "GetTrue": {
+              "Get": [
+                "cafe1ea44a66e13e",
+                "cafe1ea44a66e13f",
+                "cafe1ea44a66e140",
+                "cafe1ea44a66e141",
+                "cafe1ea44a66e142",
+                "cafe1ea44a66e143"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e11a",
+        {
+          "parent": "cafe1ea44a66e100",
+          "name": "ValueFloat_EntityProperty_Default_PlayerDPSLimitNear_DamageResistance",
+          "factory": "[modules:/zvaluefloat_entityproperty.class].pc_entitytype",
+          "blueprint": "[modules:/zvaluefloat_entityproperty.class].pc_entityblueprint",
+          "properties": {
+            "m_rEntity": {
+              "type": "SEntityTemplateReference",
+              "value": "c87ae4da3078f2b7"
+            },
+            "m_sPropertyName": {
+              "type": "ZString",
+              "value": "m_fValue"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e120",
+        {
+          "parent": "cafe1ea44a66e100",
+          "name": "ValueFloat_Set_Default_PlayerDPSLimitNear_DamageResistance",
+          "factory": "[modules:/zvaluefloat_set.class].pc_entitytype",
+          "blueprint": "[modules:/zvaluefloat_set.class].pc_entityblueprint",
+          "properties": {
+            "m_rValueEntity": {
+              "type": "SEntityTemplateReference",
+              "value": "cafe1ea44a66e11a",
+              "postInit": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e11b",
+        {
+          "parent": "cafe1ea44a66e100",
+          "name": "ValueFloat_EntityProperty_Default_PlayerDPSLimitFar_DamageResistance",
+          "factory": "[modules:/zvaluefloat_entityproperty.class].pc_entitytype",
+          "blueprint": "[modules:/zvaluefloat_entityproperty.class].pc_entityblueprint",
+          "properties": {
+            "m_rEntity": {
+              "type": "SEntityTemplateReference",
+              "value": "1c08f1a4bad1a23e"
+            },
+            "m_sPropertyName": {
+              "type": "ZString",
+              "value": "m_fValue"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e121",
+        {
+          "parent": "cafe1ea44a66e100",
+          "name": "ValueFloat_Set_Default_PlayerDPSLimitFar_DamageResistance",
+          "factory": "[modules:/zvaluefloat_set.class].pc_entitytype",
+          "blueprint": "[modules:/zvaluefloat_set.class].pc_entityblueprint",
+          "properties": {
+            "m_rValueEntity": {
+              "type": "SEntityTemplateReference",
+              "value": "cafe1ea44a66e11b",
+              "postInit": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e11c",
+        {
+          "parent": "cafe1ea44a66e100",
+          "name": "ValueFloat_EntityProperty_Hard_PlayerDPSLimitNear_DamageResistance",
+          "factory": "[modules:/zvaluefloat_entityproperty.class].pc_entitytype",
+          "blueprint": "[modules:/zvaluefloat_entityproperty.class].pc_entityblueprint",
+          "properties": {
+            "m_rEntity": {
+              "type": "SEntityTemplateReference",
+              "value": "12acebaf6dcbb8dd"
+            },
+            "m_sPropertyName": {
+              "type": "ZString",
+              "value": "m_fValue"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e122",
+        {
+          "parent": "cafe1ea44a66e100",
+          "name": "ValueFloat_Set_Hard_PlayerDPSLimitNear_DamageResistance",
+          "factory": "[modules:/zvaluefloat_set.class].pc_entitytype",
+          "blueprint": "[modules:/zvaluefloat_set.class].pc_entityblueprint",
+          "properties": {
+            "m_rValueEntity": {
+              "type": "SEntityTemplateReference",
+              "value": "cafe1ea44a66e11c",
+              "postInit": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e11d",
+        {
+          "parent": "cafe1ea44a66e100",
+          "name": "ValueFloat_EntityProperty_Hard_PlayerDPSLimitFar_DamageResistance",
+          "factory": "[modules:/zvaluefloat_entityproperty.class].pc_entitytype",
+          "blueprint": "[modules:/zvaluefloat_entityproperty.class].pc_entityblueprint",
+          "properties": {
+            "m_rEntity": {
+              "type": "SEntityTemplateReference",
+              "value": "20c5cf8b4dcffbda"
+            },
+            "m_sPropertyName": {
+              "type": "ZString",
+              "value": "m_fValue"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e123",
+        {
+          "parent": "cafe1ea44a66e100",
+          "name": "ValueFloat_Set_Hard_PlayerDPSLimitFar_DamageResistance",
+          "factory": "[modules:/zvaluefloat_set.class].pc_entitytype",
+          "blueprint": "[modules:/zvaluefloat_set.class].pc_entityblueprint",
+          "properties": {
+            "m_rValueEntity": {
+              "type": "SEntityTemplateReference",
+              "value": "cafe1ea44a66e11d",
+              "postInit": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e11e",
+        {
+          "parent": "cafe1ea44a66e100",
+          "name": "ValueFloat_EntityProperty_Easy_PlayerDPSLimitNear_DamageResistance",
+          "factory": "[modules:/zvaluefloat_entityproperty.class].pc_entitytype",
+          "blueprint": "[modules:/zvaluefloat_entityproperty.class].pc_entityblueprint",
+          "properties": {
+            "m_rEntity": {
+              "type": "SEntityTemplateReference",
+              "value": "e94bb6dce2ba81b7"
+            },
+            "m_sPropertyName": {
+              "type": "ZString",
+              "value": "m_fValue"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e124",
+        {
+          "parent": "cafe1ea44a66e100",
+          "name": "ValueFloat_Set_Easy_PlayerDPSLimitNear_DamageResistance",
+          "factory": "[modules:/zvaluefloat_set.class].pc_entitytype",
+          "blueprint": "[modules:/zvaluefloat_set.class].pc_entityblueprint",
+          "properties": {
+            "m_rValueEntity": {
+              "type": "SEntityTemplateReference",
+              "value": "cafe1ea44a66e11e",
+              "postInit": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e11f",
+        {
+          "parent": "cafe1ea44a66e100",
+          "name": "ValueFloat_EntityProperty_Easy_PlayerDPSLimitFar_DamageResistance",
+          "factory": "[modules:/zvaluefloat_entityproperty.class].pc_entitytype",
+          "blueprint": "[modules:/zvaluefloat_entityproperty.class].pc_entityblueprint",
+          "properties": {
+            "m_rEntity": {
+              "type": "SEntityTemplateReference",
+              "value": "c1afa64b8ced6f98"
+            },
+            "m_sPropertyName": {
+              "type": "ZString",
+              "value": "m_fValue"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e125",
+        {
+          "parent": "cafe1ea44a66e100",
+          "name": "ValueFloat_Set_Easy_PlayerDPSLimitFar_DamageResistance",
+          "factory": "[modules:/zvaluefloat_set.class].pc_entitytype",
+          "blueprint": "[modules:/zvaluefloat_set.class].pc_entityblueprint",
+          "properties": {
+            "m_rValueEntity": {
+              "type": "SEntityTemplateReference",
+              "value": "cafe1ea44a66e11f",
+              "postInit": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e126",
+        {
+          "parent": "cafe1ea44a66e100",
+          "name": "ValueFloat_Restore_Default_PlayerDPSLimitNear",
+          "factory": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entitytype",
+          "blueprint": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entityblueprint",
+          "properties": {
+            "m_fValue": {
+              "type": "float32",
+              "value": 25
+            }
+          },
+          "events": {
+            "Value": {
+              "SetValue": [
+                "cafe1ea44a66e120"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e127",
+        {
+          "parent": "cafe1ea44a66e100",
+          "name": "ValueFloat_Restore_Default_PlayerDPSLimitFar",
+          "factory": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entitytype",
+          "blueprint": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entityblueprint",
+          "properties": {
+            "m_fValue": {
+              "type": "float32",
+              "value": 18
+            }
+          },
+          "events": {
+            "Value": {
+              "SetValue": [
+                "cafe1ea44a66e121"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e128",
+        {
+          "parent": "cafe1ea44a66e100",
+          "name": "ValueFloat_Restore_Hard_PlayerDPSLimitNear",
+          "factory": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entitytype",
+          "blueprint": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entityblueprint",
+          "properties": {
+            "m_fValue": {
+              "type": "float32",
+              "value": 100
+            }
+          },
+          "events": {
+            "Value": {
+              "SetValue": [
+                "cafe1ea44a66e122"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e129",
+        {
+          "parent": "cafe1ea44a66e100",
+          "name": "ValueFloat_Restore_Hard_PlayerDPSLimitFar",
+          "factory": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entitytype",
+          "blueprint": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entityblueprint",
+          "properties": {
+            "m_fValue": {
+              "type": "float32",
+              "value": 50
+            }
+          },
+          "events": {
+            "Value": {
+              "SetValue": [
+                "cafe1ea44a66e123"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e12a",
+        {
+          "parent": "cafe1ea44a66e100",
+          "name": "ValueFloat_Restore_Easy_PlayerDPSLimitNear",
+          "factory": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entitytype",
+          "blueprint": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entityblueprint",
+          "properties": {
+            "m_fValue": {
+              "type": "float32",
+              "value": 9
+            }
+          },
+          "events": {
+            "Value": {
+              "SetValue": [
+                "cafe1ea44a66e124"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e12b",
+        {
+          "parent": "cafe1ea44a66e100",
+          "name": "ValueFloat_Restore_Easy_PlayerDPSLimitFar",
+          "factory": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entitytype",
+          "blueprint": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entityblueprint",
+          "properties": {
+            "m_fValue": {
+              "type": "float32",
+              "value": 5
+            }
+          },
+          "events": {
+            "Value": {
+              "SetValue": [
+                "cafe1ea44a66e125"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e12c",
+        {
+          "parent": "cafe1ea44a66e100",
+          "name": "ValueFloat_Drunkenness1To3_80Percent_Default_PlayerDPSLimitNear",
+          "factory": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entitytype",
+          "blueprint": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entityblueprint",
+          "properties": {
+            "m_fValue": {
+              "type": "float32",
+              "value": 20
+            }
+          },
+          "events": {
+            "Value": {
+              "SetValue": [
+                "cafe1ea44a66e120"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e12d",
+        {
+          "parent": "cafe1ea44a66e100",
+          "name": "ValueFloat_Drunkenness1To3_80Percent_Default_PlayerDPSLimitFar",
+          "factory": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entitytype",
+          "blueprint": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entityblueprint",
+          "properties": {
+            "m_fValue": {
+              "type": "float32",
+              "value": 14.4
+            }
+          },
+          "events": {
+            "Value": {
+              "SetValue": [
+                "cafe1ea44a66e121"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e12e",
+        {
+          "parent": "cafe1ea44a66e100",
+          "name": "ValueFloat_Drunkenness1To3_80Percent_Hard_PlayerDPSLimitNear",
+          "factory": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entitytype",
+          "blueprint": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entityblueprint",
+          "properties": {
+            "m_fValue": {
+              "type": "float32",
+              "value": 80
+            }
+          },
+          "events": {
+            "Value": {
+              "SetValue": [
+                "cafe1ea44a66e122"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e12f",
+        {
+          "parent": "cafe1ea44a66e100",
+          "name": "ValueFloat_Drunkenness1To3_80Percent_Hard_PlayerDPSLimitFar",
+          "factory": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entitytype",
+          "blueprint": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entityblueprint",
+          "properties": {
+            "m_fValue": {
+              "type": "float32",
+              "value": 40
+            }
+          },
+          "events": {
+            "Value": {
+              "SetValue": [
+                "cafe1ea44a66e123"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e130",
+        {
+          "parent": "cafe1ea44a66e100",
+          "name": "ValueFloat_Drunkenness1To3_80Percent_Easy_PlayerDPSLimitNear",
+          "factory": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entitytype",
+          "blueprint": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entityblueprint",
+          "properties": {
+            "m_fValue": {
+              "type": "float32",
+              "value": 7.2
+            }
+          },
+          "events": {
+            "Value": {
+              "SetValue": [
+                "cafe1ea44a66e124"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e131",
+        {
+          "parent": "cafe1ea44a66e100",
+          "name": "ValueFloat_Drunkenness1To3_80Percent_Easy_PlayerDPSLimitFar",
+          "factory": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entitytype",
+          "blueprint": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entityblueprint",
+          "properties": {
+            "m_fValue": {
+              "type": "float32",
+              "value": 4
+            }
+          },
+          "events": {
+            "Value": {
+              "SetValue": [
+                "cafe1ea44a66e125"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e132",
+        {
+          "parent": "cafe1ea44a66e100",
+          "name": "ValueFloat_Drunkenness4To6_50Percent_Default_PlayerDPSLimitNear",
+          "factory": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entitytype",
+          "blueprint": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entityblueprint",
+          "properties": {
+            "m_fValue": {
+              "type": "float32",
+              "value": 12.5
+            }
+          },
+          "events": {
+            "Value": {
+              "SetValue": [
+                "cafe1ea44a66e120"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e133",
+        {
+          "parent": "cafe1ea44a66e100",
+          "name": "ValueFloat_Drunkenness4To6_50Percent_Default_PlayerDPSLimitFar",
+          "factory": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entitytype",
+          "blueprint": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entityblueprint",
+          "properties": {
+            "m_fValue": {
+              "type": "float32",
+              "value": 9
+            }
+          },
+          "events": {
+            "Value": {
+              "SetValue": [
+                "cafe1ea44a66e121"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e134",
+        {
+          "parent": "cafe1ea44a66e100",
+          "name": "ValueFloat_Drunkenness4To6_50Percent_Hard_PlayerDPSLimitNear",
+          "factory": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entitytype",
+          "blueprint": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entityblueprint",
+          "properties": {
+            "m_fValue": {
+              "type": "float32",
+              "value": 50
+            }
+          },
+          "events": {
+            "Value": {
+              "SetValue": [
+                "cafe1ea44a66e122"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e135",
+        {
+          "parent": "cafe1ea44a66e100",
+          "name": "ValueFloat_Drunkenness4To6_50Percent_Hard_PlayerDPSLimitFar",
+          "factory": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entitytype",
+          "blueprint": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entityblueprint",
+          "properties": {
+            "m_fValue": {
+              "type": "float32",
+              "value": 25
+            }
+          },
+          "events": {
+            "Value": {
+              "SetValue": [
+                "cafe1ea44a66e123"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e136",
+        {
+          "parent": "cafe1ea44a66e100",
+          "name": "ValueFloat_Drunkenness4To6_50Percent_Easy_PlayerDPSLimitNear",
+          "factory": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entitytype",
+          "blueprint": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entityblueprint",
+          "properties": {
+            "m_fValue": {
+              "type": "float32",
+              "value": 4.5
+            }
+          },
+          "events": {
+            "Value": {
+              "SetValue": [
+                "cafe1ea44a66e124"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e137",
+        {
+          "parent": "cafe1ea44a66e100",
+          "name": "ValueFloat_Drunkenness4To6_50Percent_Easy_PlayerDPSLimitFar",
+          "factory": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entitytype",
+          "blueprint": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entityblueprint",
+          "properties": {
+            "m_fValue": {
+              "type": "float32",
+              "value": 2.5
+            }
+          },
+          "events": {
+            "Value": {
+              "SetValue": [
+                "cafe1ea44a66e125"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e138",
+        {
+          "parent": "cafe1ea44a66e100",
+          "name": "ValueFloat_Drunkenness7To9_25Percent_Default_PlayerDPSLimitNear",
+          "factory": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entitytype",
+          "blueprint": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entityblueprint",
+          "properties": {
+            "m_fValue": {
+              "type": "float32",
+              "value": 6.25
+            }
+          },
+          "events": {
+            "Value": {
+              "SetValue": [
+                "cafe1ea44a66e120"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e139",
+        {
+          "parent": "cafe1ea44a66e100",
+          "name": "ValueFloat_Drunkenness7To9_25Percent_Default_PlayerDPSLimitFar",
+          "factory": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entitytype",
+          "blueprint": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entityblueprint",
+          "properties": {
+            "m_fValue": {
+              "type": "float32",
+              "value": 4.5
+            }
+          },
+          "events": {
+            "Value": {
+              "SetValue": [
+                "cafe1ea44a66e121"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e13a",
+        {
+          "parent": "cafe1ea44a66e100",
+          "name": "ValueFloat_Drunkenness7To9_25Percent_Hard_PlayerDPSLimitNear",
+          "factory": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entitytype",
+          "blueprint": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entityblueprint",
+          "properties": {
+            "m_fValue": {
+              "type": "float32",
+              "value": 25
+            }
+          },
+          "events": {
+            "Value": {
+              "SetValue": [
+                "cafe1ea44a66e122"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e13b",
+        {
+          "parent": "cafe1ea44a66e100",
+          "name": "ValueFloat_Drunkenness7To9_25Percent_Hard_PlayerDPSLimitFar",
+          "factory": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entitytype",
+          "blueprint": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entityblueprint",
+          "properties": {
+            "m_fValue": {
+              "type": "float32",
+              "value": 12.5
+            }
+          },
+          "events": {
+            "Value": {
+              "SetValue": [
+                "cafe1ea44a66e123"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e13c",
+        {
+          "parent": "cafe1ea44a66e100",
+          "name": "ValueFloat_Drunkenness7To9_25Percent_Easy_PlayerDPSLimitNear",
+          "factory": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entitytype",
+          "blueprint": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entityblueprint",
+          "properties": {
+            "m_fValue": {
+              "type": "float32",
+              "value": 2.25
+            }
+          },
+          "events": {
+            "Value": {
+              "SetValue": [
+                "cafe1ea44a66e124"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e13d",
+        {
+          "parent": "cafe1ea44a66e100",
+          "name": "ValueFloat_Drunkenness7To9_25Percent_Easy_PlayerDPSLimitFar",
+          "factory": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entitytype",
+          "blueprint": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entityblueprint",
+          "properties": {
+            "m_fValue": {
+              "type": "float32",
+              "value": 1.25
+            }
+          },
+          "events": {
+            "Value": {
+              "SetValue": [
+                "cafe1ea44a66e125"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e13e",
+        {
+          "parent": "cafe1ea44a66e100",
+          "name": "ValueFloat_Drunkenness10Plus_10Percent_Default_PlayerDPSLimitNear",
+          "factory": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entitytype",
+          "blueprint": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entityblueprint",
+          "properties": {
+            "m_fValue": {
+              "type": "float32",
+              "value": 2.5
+            }
+          },
+          "events": {
+            "Value": {
+              "SetValue": [
+                "cafe1ea44a66e120"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e13f",
+        {
+          "parent": "cafe1ea44a66e100",
+          "name": "ValueFloat_Drunkenness10Plus_10Percent_Default_PlayerDPSLimitFar",
+          "factory": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entitytype",
+          "blueprint": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entityblueprint",
+          "properties": {
+            "m_fValue": {
+              "type": "float32",
+              "value": 1.8
+            }
+          },
+          "events": {
+            "Value": {
+              "SetValue": [
+                "cafe1ea44a66e121"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e140",
+        {
+          "parent": "cafe1ea44a66e100",
+          "name": "ValueFloat_Drunkenness10Plus_10Percent_Hard_PlayerDPSLimitNear",
+          "factory": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entitytype",
+          "blueprint": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entityblueprint",
+          "properties": {
+            "m_fValue": {
+              "type": "float32",
+              "value": 10
+            }
+          },
+          "events": {
+            "Value": {
+              "SetValue": [
+                "cafe1ea44a66e122"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e141",
+        {
+          "parent": "cafe1ea44a66e100",
+          "name": "ValueFloat_Drunkenness10Plus_10Percent_Hard_PlayerDPSLimitFar",
+          "factory": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entitytype",
+          "blueprint": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entityblueprint",
+          "properties": {
+            "m_fValue": {
+              "type": "float32",
+              "value": 5
+            }
+          },
+          "events": {
+            "Value": {
+              "SetValue": [
+                "cafe1ea44a66e123"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e142",
+        {
+          "parent": "cafe1ea44a66e100",
+          "name": "ValueFloat_Drunkenness10Plus_10Percent_Easy_PlayerDPSLimitNear",
+          "factory": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entitytype",
+          "blueprint": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entityblueprint",
+          "properties": {
+            "m_fValue": {
+              "type": "float32",
+              "value": 1
+            }
+          },
+          "events": {
+            "Value": {
+              "SetValue": [
+                "cafe1ea44a66e124"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "cafe1ea44a66e143",
+        {
+          "parent": "cafe1ea44a66e100",
+          "name": "ValueFloat_Drunkenness10Plus_10Percent_Easy_PlayerDPSLimitFar",
+          "factory": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entitytype",
+          "blueprint": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entityblueprint",
+          "properties": {
+            "m_fValue": {
+              "type": "float32",
+              "value": 1
+            }
+          },
+          "events": {
+            "Value": {
+              "SetValue": [
+                "cafe1ea44a66e125"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "patchVersion": 6
+}
+

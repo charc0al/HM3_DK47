@@ -1,0 +1,24 @@
+{
+  "$schema": "https://tonytools.win/schemas/dlge.schema.json",
+  "hash": "[assembly:/localization/hitman6/conversations/suburbia/27000_skunk/27000_story/dr27152_kelly47blakepitch.sweetdialog?/dr27152_kelly47blakepitch_47_004.sweetdialogitem].pc_dialogevent",
+  "DITL": "[assembly:/localization/hitman6.sweet].pc_dialogsoundtemplatelist",
+  "CLNG": "[assembly:/localization/hitman6.sweet].pc_cascadinglanguagedependencies",
+  "rootContainer": {
+    "type": "WavFile",
+    "wavName": "dr27152_kelly47blakepitch_47_004",
+    "soundtag": "In-world_Maincharacter",
+    "defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/suburbia/27000_skunk/27000_story/dr27152_kelly47blakepitch_47_004.wav].pc_wes",
+    "defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/suburbia/27000_skunk/27000_story/dr27152_kelly47blakepitch_47_004.animset].pc_animset",
+    "languages": {
+      "en": "//(0,30)\\\\I don't care much for politics.",
+      "fr": "//(0,30)\\\\La politique ne m'intéresse pas.",
+      "it": "//(0,30)\\\\La politica non mi interessa granché.",
+      "de": "//(0,30)\\\\Mich interessiert Politik nicht besonders.",
+      "es": "//(0,30)\\\\No me interesa mucho la política.",
+      "ru": "//(0,30)\\\\Я далек от политики.",
+      "cn": "//(0,30)\\\\我对政治没什么兴趣。",
+      "tc": "//(0,30)\\\\我對政治沒什麼興趣。",
+      "jp": "//(0,30)\\\\政治にはあまり関心がなくてね。"
+    }
+  }
+}

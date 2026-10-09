@@ -1,0 +1,24 @@
+{
+  "$schema": "https://tonytools.win/schemas/dlge.schema.json",
+  "hash": "[assembly:/localization/hitman6/conversations/ancestral/bulldog/41000_story/dr41111_murderstaffgreets47answer.sweetdialog?/dr41111_murderstaffgreets47answer_47_001.sweetdialogitem].pc_dialogevent",
+  "DITL": "[assembly:/localization/hitman6.sweet].pc_dialogsoundtemplatelist",
+  "CLNG": "[assembly:/localization/hitman6.sweet].pc_cascadinglanguagedependencies",
+  "rootContainer": {
+    "type": "WavFile",
+    "wavName": "dr41111_murderstaffgreets47answer_47_001",
+    "soundtag": "In-world_Maincharacter",
+    "defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/ancestral/bulldog/41000_story/dr41111_murderstaffgreets47answer_47_001.wav].pc_wes",
+    "defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/ancestral/bulldog/41000_story/dr41111_murderstaffgreets47answer_47_001.animset].pc_animset",
+    "languages": {
+      "en": "//(0,30)\\\\Yes, please.",
+      "fr": "//(0,30)\\\\Je vous suis.",
+      "it": "//(0,30)\\\\Sì, grazie.",
+      "de": "//(0,30)\\\\Ja, bitte.",
+      "es": "//(0,30)\\\\Sí, por favor.",
+      "ru": "//(0,30)\\\\Да, пожалуйста.",
+      "cn": "//(0,30)\\\\好的，麻烦你。",
+      "tc": "//(0,30)\\\\請。",
+      "jp": "//(0,30)\\\\はい、お願いします。"
+    }
+  }
+}

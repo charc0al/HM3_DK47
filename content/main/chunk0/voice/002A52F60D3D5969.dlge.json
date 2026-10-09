@@ -1,0 +1,24 @@
+{
+  "$schema": "https://tonytools.win/schemas/dlge.schema.json",
+  "hash": "[assembly:/localization/hitman6/conversations/colombia/23000_hippo/23000_story/dr23455_deadlyart_rico47tattoistgreetingalone.sweetdialog?/dr23455_deadlyart_rico47tattoistgreetingalone_47_004.sweetdialogitem].pc_dialogevent",
+  "DITL": "[assembly:/localization/hitman6.sweet].pc_dialogsoundtemplatelist",
+  "CLNG": "[assembly:/localization/hitman6.sweet].pc_cascadinglanguagedependencies",
+  "rootContainer": {
+    "type": "WavFile",
+    "wavName": "dr23455_deadlyart_rico47tattoistgreetingalone_47_004",
+    "soundtag": "In-world_Maincharacter",
+    "defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/colombia/23000_hippo/23000_story/dr23455_deadlyart_rico47tattoistgreetingalone_47_004.wav].pc_wes",
+    "defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/colombia/23000_hippo/23000_story/dr23455_deadlyart_rico47tattoistgreetingalone_47_004.animset].pc_animset",
+    "languages": {
+      "en": "//(0,30)\\\\I just had surgery.",
+      "fr": "//(0,30)\\\\Je viens de me faire opérer.",
+      "it": "//(0,30)\\\\Mi sono fatto operare da poco.",
+      "de": "//(0,30)\\\\Ich hatte gerade eine Operation.",
+      "es": "//(0,30)\\\\Me hice la estética hace poco.",
+      "ru": "//(0,30)\\\\Я недавно сделал пластику.",
+      "cn": "//(0,30)\\\\我刚刚动过手术。",
+      "tc": "//(0,30)\\\\我剛剛動過手術。",
+      "jp": "//(0,30)\\\\整形したんです。"
+    }
+  }
+}

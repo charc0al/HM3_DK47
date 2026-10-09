@@ -1,0 +1,24 @@
+{
+  "$schema": "https://tonytools.win/schemas/dlge.schema.json",
+  "hash": "[assembly:/localization/hitman6/conversations/paris/3000_elusive/3700_frenchmartini/3700_story/dr3740_slotagentsmith.sweetdialog?/dr3740_slotagentsmith_47_010.sweetdialogitem].pc_dialogevent",
+  "DITL": "[assembly:/localization/hitman6.sweet].pc_dialogsoundtemplatelist",
+  "CLNG": "[assembly:/localization/hitman6.sweet].pc_cascadinglanguagedependencies",
+  "rootContainer": {
+    "type": "WavFile",
+    "wavName": "dr3740_slotagentsmith_47_010",
+    "soundtag": "In-world_Maincharacter",
+    "defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/paris/3000_elusive/3700_frenchmartini/3700_story/dr3740_slotagentsmith_47_010.wav].pc_wes",
+    "defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/paris/3000_elusive/3700_frenchmartini/3700_story/dr3740_slotagentsmith_47_010.animset].pc_animset",
+    "languages": {
+      "en": "//(0,30)\\\\I need it.",
+      "fr": "//(0,30)\\\\J'en ai besoin.",
+      "it": "//(0,30)\\\\Mi serve.",
+      "de": "//(0,30)\\\\Ich brauche eine.",
+      "es": "//(0,30)\\\\La necesito.",
+      "ru": "//(0,30)\\\\Отдай его мне.",
+      "cn": "//(0,30)\\\\我需要它。",
+      "tc": "//(0,30)\\\\我需要它。",
+      "jp": "//(0,30)\\\\必要だ。"
+    }
+  }
+}

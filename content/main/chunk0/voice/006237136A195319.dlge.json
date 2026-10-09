@@ -1,0 +1,24 @@
+{
+  "$schema": "https://tonytools.win/schemas/dlge.schema.json",
+  "hash": "[assembly:/localization/hitman6/conversations/opulent/34000_stingray/34000_story/dr34095_47docdiagnosewilliams2.sweetdialog?/dr34095_47docdiagnosewilliams2_47_004.sweetdialogitem].pc_dialogevent",
+  "DITL": "[assembly:/localization/hitman6.sweet].pc_dialogsoundtemplatelist",
+  "CLNG": "[assembly:/localization/hitman6.sweet].pc_cascadinglanguagedependencies",
+  "rootContainer": {
+    "type": "WavFile",
+    "wavName": "dr34095_47docdiagnosewilliams2_47_004",
+    "soundtag": "In-world_Maincharacter",
+    "defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/opulent/34000_stingray/34000_story/dr34095_47docdiagnosewilliams2_47_004.wav].pc_wes",
+    "defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/opulent/34000_stingray/34000_story/dr34095_47docdiagnosewilliams2_47_004.animset].pc_animset",
+    "languages": {
+      "en": "//(0,30)\\\\We'll be done soon.",
+      "fr": "//(0,30)\\\\Je n'en aurai pas pour longtemps.",
+      "it": "//(0,30)\\\\Abbiamo quasi finito.",
+      "de": "//(0,30)\\\\Wir sind gleich fertig.",
+      "es": "//(0,30)\\\\Pronto habremos acabado.",
+      "ru": "//(0,30)\\\\Мы уже скоро закончим.",
+      "cn": "//(0,30)\\\\我一会儿就好。",
+      "tc": "//(0,30)\\\\我們馬上就好了。",
+      "jp": "//(0,30)\\\\もうすぐ終わりますよ。"
+    }
+  }
+}

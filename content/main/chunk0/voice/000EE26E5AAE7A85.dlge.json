@@ -1,0 +1,24 @@
+{
+  "$schema": "https://tonytools.win/schemas/dlge.schema.json",
+  "hash": "[assembly:/localization/hitman6/conversations/miami/21000_elusive/21000_sambuca/21000_sambuca_story/dr21663_47wrongoutfitapproachready.sweetdialog?/dr21663_47wrongoutfitapproachready_47_002.sweetdialogitem].pc_dialogevent",
+  "DITL": "[assembly:/localization/hitman6.sweet].pc_dialogsoundtemplatelist",
+  "CLNG": "[assembly:/localization/hitman6.sweet].pc_cascadinglanguagedependencies",
+  "rootContainer": {
+    "type": "WavFile",
+    "wavName": "dr21663_47wrongoutfitapproachready_47_002",
+    "soundtag": "In-world_Maincharacter",
+    "defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/miami/21000_elusive/21000_sambuca/21000_sambuca_story/dr21663_47wrongoutfitapproachready_47_002.wav].pc_wes",
+    "defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/miami/21000_elusive/21000_sambuca/21000_sambuca_story/dr21663_47wrongoutfitapproachready_47_002.animset].pc_animset",
+    "languages": {
+      "en": "//(0,30)\\\\Is this all right?",
+      "fr": "//(0,30)\\\\Ça ira, comme ça ?",
+      "it": "//(0,30)\\\\Va bene?",
+      "de": "//(0,30)\\\\Passt das so?",
+      "es": "//(0,30)\\\\¿Te parece bien esto?",
+      "ru": "//(0,30)\\\\Сгодится?",
+      "cn": "//(0,30)\\\\这样可以吗？",
+      "tc": "//(0,30)\\\\這樣可以嗎？",
+      "jp": "//(0,30)\\\\これで大丈夫か？"
+    }
+  }
+}

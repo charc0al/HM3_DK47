@@ -1,0 +1,24 @@
+{
+  "$schema": "https://tonytools.win/schemas/dlge.schema.json",
+  "hash": "[assembly:/localization/hitman6/conversations/wet/rat/43000_story/dr43263_testsubjectstagehush.sweetdialog?/dr43263_testsubjectstagehush_47_002.sweetdialogitem].pc_dialogevent",
+  "DITL": "[assembly:/localization/hitman6.sweet].pc_dialogsoundtemplatelist",
+  "CLNG": "[assembly:/localization/hitman6.sweet].pc_cascadinglanguagedependencies",
+  "rootContainer": {
+    "type": "WavFile",
+    "wavName": "dr43263_testsubjectstagehush_47_002",
+    "soundtag": "In-world_Maincharacter",
+    "defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/wet/rat/43000_story/dr43263_testsubjectstagehush_47_002.wav].pc_wes",
+    "defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/wet/rat/43000_story/dr43263_testsubjectstagehush_47_002.animset].pc_animset",
+    "languages": {
+      "en": "//(0,30)\\\\I’ll just follow my impulses.",
+      "fr": "//(0,30)\\\\Je suivrai mes impulsions.",
+      "it": "//(0,30)\\\\Asseconderò solo i miei impulsi.",
+      "de": "//(0,30)\\\\Ich folge einfach nur meinen Impulsen.",
+      "es": "//(0,30)\\\\Me limitaré a seguir mis propios impulsos.",
+      "ru": "//(0,30)\\\\Я просто буду следовать своим импульсам.",
+      "cn": "//(0,30)\\\\我只遵从我自己的冲动。",
+      "tc": "//(0,30)\\\\我會跟隨我的直覺。",
+      "jp": "//(0,30)\\\\衝動に従うだけだ。"
+    }
+  }
+}

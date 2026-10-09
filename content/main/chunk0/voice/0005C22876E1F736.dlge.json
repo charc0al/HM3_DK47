@@ -1,0 +1,24 @@
+{
+  "$schema": "https://tonytools.win/schemas/dlge.schema.json",
+  "hash": "[assembly:/localization/hitman6/conversations/cutscenes_s03/m05_llama/m05_llama_ingamemoment_briefing_v3.sweetdialog?/m05_llama_ingamemoment_briefing_v3_47_006.sweetdialogitem].pc_dialogevent",
+  "DITL": "[assembly:/localization/hitman6.sweet].pc_dialogsoundtemplatelist",
+  "CLNG": "[assembly:/localization/hitman6.sweet].pc_cascadinglanguagedependencies",
+  "rootContainer": {
+    "type": "WavFile",
+    "wavName": "m05_llama_ingamemoment_briefing_v3_47_006",
+    "soundtag": "In-world_Maincharacter",
+    "defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/cutscenes_s03/m05_llama/m05_llama_ingamemoment_briefing_v3_47_006.wav].pc_wes",
+    "defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/cutscenes_s03/m05_llama/m05_llama_ingamemoment_briefing_v3_47_006.animset].pc_animset",
+    "languages": {
+      "en": "//[47]\\\\//(0,30)\\\\So. What happens now?",
+      "fr": "//[47]\\\\//(0,30)\\\\Et maintenant ?",
+      "it": "//[47]\\\\//(0,30)\\\\Allora... Cosa facciamo adesso?",
+      "de": "//[47]\\\\//(0,30)\\\\So. Was passiert jetzt?",
+      "es": "//[47]\\\\//(0,30)\\\\¿Y ahora qué?",
+      "ru": "//[47]\\\\//(0,30)\\\\Ну и что дальше?",
+      "cn": "//[47]\\\\//(0,30)\\\\那么，现在怎么办？",
+      "tc": "//[47]\\\\//(0,30)\\\\那麼，現在怎麼辦？",
+      "jp": "//[47]\\\\//(0,30)\\\\それで？これからどうする？"
+    }
+  }
+}

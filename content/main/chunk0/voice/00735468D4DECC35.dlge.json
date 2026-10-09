@@ -1,0 +1,24 @@
+{
+  "$schema": "https://tonytools.win/schemas/dlge.schema.json",
+  "hash": "[assembly:/localization/hitman6/conversations/edgy/fox/42000_story/dr42348_opconffooled.sweetdialog?/dr42348_opconffooled_47_004.sweetdialogitem].pc_dialogevent",
+  "DITL": "[assembly:/localization/hitman6.sweet].pc_dialogsoundtemplatelist",
+  "CLNG": "[assembly:/localization/hitman6.sweet].pc_cascadinglanguagedependencies",
+  "rootContainer": {
+    "type": "WavFile",
+    "wavName": "dr42348_opconffooled_47_004",
+    "soundtag": "In-world_Maincharacter",
+    "defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/edgy/fox/42000_story/dr42348_opconffooled_47_004.wav].pc_wes",
+    "defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/edgy/fox/42000_story/dr42348_opconffooled_47_004.animset].pc_animset",
+    "languages": {
+      "en": "//(0,30)\\\\Legends die. I’m alive.",
+      "fr": "//(0,30)\\\\Les légendes meurent. Je suis vivant.",
+      "it": "//(0,30)\\\\Le leggende muoiono. Io sono vivo.",
+      "de": "//(0,30)\\\\Legenden sterben. Ich lebe.",
+      "es": "//(0,30)\\\\Las leyendas mueren. Yo estoy vivo.",
+      "ru": "//(0,30)\\\\Легенды умирают. А я жив.",
+      "cn": "//(0,30)\\\\传奇易逝。我还活着。",
+      "tc": "//(0,30)\\\\但傳奇會死，我卻還活著。",
+      "jp": "//(0,30)\\\\伝説は死ぬものだ。俺は生きている。"
+    }
+  }
+}

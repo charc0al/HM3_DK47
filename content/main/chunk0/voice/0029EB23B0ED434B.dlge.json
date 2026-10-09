@@ -1,0 +1,24 @@
+{
+  "$schema": "https://tonytools.win/schemas/dlge.schema.json",
+  "hash": "[assembly:/localization/hitman6/conversations/colombia/23000_hippo/23000_story/dr23023_heartofstonebassplayer2.sweetdialog?/dr23023_heartofstonebassplayer2_47_002.sweetdialogitem].pc_dialogevent",
+  "DITL": "[assembly:/localization/hitman6.sweet].pc_dialogsoundtemplatelist",
+  "CLNG": "[assembly:/localization/hitman6.sweet].pc_cascadinglanguagedependencies",
+  "rootContainer": {
+    "type": "WavFile",
+    "wavName": "dr23023_heartofstonebassplayer2_47_002",
+    "soundtag": "In-world_Mission_Important",
+    "defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/colombia/23000_hippo/23000_story/dr23023_heartofstonebassplayer2_47_002.wav].pc_wes",
+    "defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/colombia/23000_hippo/23000_story/dr23023_heartofstonebassplayer2_47_002.animset].pc_animset",
+    "languages": {
+      "en": "//(0,30)\\\\Good party?",
+      "fr": "//(0,30)\\\\Bonne soirée ?",
+      "it": "//(0,30)\\\\Bella festa?",
+      "de": "//(0,30)\\\\Rauschendes Fest?",
+      "es": "//(0,30)\\\\¿Una buena fiesta?",
+      "ru": "//(0,30)\\\\Хорошо повеселились?",
+      "cn": "//(0,30)\\\\聚会玩得开心吗？",
+      "tc": "//(0,30)\\\\聚會玩得開心嗎？",
+      "jp": "//(0,30)\\\\昨夜は楽しかったか？"
+    }
+  }
+}

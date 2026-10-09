@@ -1,0 +1,24 @@
+{
+  "$schema": "https://tonytools.win/schemas/dlge.schema.json",
+  "hash": "[assembly:/localization/hitman6/conversations/rocky/dugong/46000_story/dr46139_farahboxreply.sweetdialog?/dr46139_farahboxreply_47_001.sweetdialogitem].pc_dialogevent",
+  "DITL": "[assembly:/localization/hitman6.sweet].pc_dialogsoundtemplatelist",
+  "CLNG": "[assembly:/localization/hitman6.sweet].pc_cascadinglanguagedependencies",
+  "rootContainer": {
+    "type": "WavFile",
+    "wavName": "dr46139_farahboxreply_47_001",
+    "soundtag": "In-world_Maincharacter",
+    "defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/rocky/dugong/46000_story/dr46139_farahboxreply_47_001.wav].pc_wes",
+    "defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/rocky/dugong/46000_story/dr46139_farahboxreply_47_001.animset].pc_animset",
+    "languages": {
+      "en": "//(0,30)\\\\Sure, why not?",
+      "fr": "//(0,30)\\\\Allez, pourquoi pas ?",
+      "it": "//(0,30)\\\\Certo, perché no?",
+      "de": "//(0,30)\\\\Sicher, warum nicht?",
+      "es": "//(0,30)\\\\Claro, ¿por qué no?",
+      "ru": "//(0,30)\\\\Конечно. Почему нет?",
+      "cn": "//(0,30)\\\\当然了，有何不可呢？",
+      "tc": "//(0,30)\\\\當然了，有何不可呢？",
+      "jp": "//(0,30)\\\\ああ、もちろん。"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "$schema": "https://tonytools.win/schemas/dlge.schema.json",
+  "hash": "[assembly:/localization/hitman6/conversations/marrakech/11000_python/11000_story/dr11163_47relax.sweetdialog?/dr11163_47relax_47_001.sweetdialogitem].pc_dialogevent",
+  "DITL": "[assembly:/localization/hitman6.sweet].pc_dialogsoundtemplatelist",
+  "CLNG": "[assembly:/localization/hitman6.sweet].pc_cascadinglanguagedependencies",
+  "rootContainer": {
+    "type": "WavFile",
+    "wavName": "dr11163_47relax_47_001",
+    "soundtag": "In-world_Maincharacter",
+    "defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/marrakech/11000_python/11000_story/dr11163_47relax_47_001.wav].pc_wes",
+    "defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/marrakech/11000_python/11000_story/dr11163_47relax_47_001.animset].pc_animset",
+    "languages": {
+      "en": "//(0,30)\\\\Don't worry, you should live a little.",
+      "fr": "//(0,1.2)\\\\Ne vous en faites pas.//(1.2,31.2)\\\\Faut bien profiter un peu de la vie.",
+      "it": "//(0,30)\\\\Non si preoccupi. Si goda la visita.",
+      "de": "//(0,30)\\\\Keine Sorge. Beruhigen Sie sich.",
+      "es": "//(0,30)\\\\No se preocupe. Debería soltarse un poco.",
+      "ru": "//(0,30)\\\\Ничего страшного. Просто прогулка.",
+      "cn": "//(0,30)\\\\别太紧张，放轻松。",
+      "tc": "//(0,30)\\\\別太緊張，放輕鬆。",
+      "jp": "//(0,30)\\\\大丈夫。まだ死にはしませんよ。"
+    }
+  }
+}

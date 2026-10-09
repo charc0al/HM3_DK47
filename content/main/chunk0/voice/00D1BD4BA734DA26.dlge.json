@@ -1,0 +1,24 @@
+{
+  "$schema": "https://tonytools.win/schemas/dlge.schema.json",
+  "hash": "[assembly:/localization/hitman6/conversations/colombia/23000_hippo/23000_story/dr23670_backpacker_47guardstatue2.sweetdialog?/dr23670_backpacker_47guardstatue2_47_001.sweetdialogitem].pc_dialogevent",
+  "DITL": "[assembly:/localization/hitman6.sweet].pc_dialogsoundtemplatelist",
+  "CLNG": "[assembly:/localization/hitman6.sweet].pc_cascadinglanguagedependencies",
+  "rootContainer": {
+    "type": "WavFile",
+    "wavName": "dr23670_backpacker_47guardstatue2_47_001",
+    "soundtag": "In-world_Maincharacter",
+    "defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/colombia/23000_hippo/23000_story/dr23670_backpacker_47guardstatue2_47_001.wav].pc_wes",
+    "defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/colombia/23000_hippo/23000_story/dr23670_backpacker_47guardstatue2_47_001.animset].pc_animset",
+    "languages": {
+      "en": "//(0,30)\\\\Here it is.",
+      "fr": "//(0,30)\\\\La voilà.",
+      "it": "//(0,30)\\\\Ecco qua.",
+      "de": "//(0,30)\\\\Da wären wir.",
+      "es": "//(0,30)\\\\Aquí está.",
+      "ru": "//(0,30)\\\\Вот.",
+      "cn": "//(0,30)\\\\在这儿呢。",
+      "tc": "//(0,30)\\\\在這兒呢。",
+      "jp": "//(0,30)\\\\これだ。"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "$schema": "https://tonytools.win/schemas/dlge.schema.json",
+  "hash": "[assembly:/localization/hitman6/conversations/suburbia/27000_skunk/27000_story/dr27186_mole47guardaskinstructions.sweetdialog?/dr27186_mole47guardaskinstructions_47_001.sweetdialogitem].pc_dialogevent",
+  "DITL": "[assembly:/localization/hitman6.sweet].pc_dialogsoundtemplatelist",
+  "CLNG": "[assembly:/localization/hitman6.sweet].pc_cascadinglanguagedependencies",
+  "rootContainer": {
+    "type": "WavFile",
+    "wavName": "dr27186_mole47guardaskinstructions_47_001",
+    "soundtag": "In-world_Maincharacter",
+    "defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/suburbia/27000_skunk/27000_story/dr27186_mole47guardaskinstructions_47_001.wav].pc_wes",
+    "defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/suburbia/27000_skunk/27000_story/dr27186_mole47guardaskinstructions_47_001.animset].pc_animset",
+    "languages": {
+      "en": "//(0,30)\\\\What was I supposed to do again?",
+      "fr": "//(0,30)\\\\Que vouliez-vous que je fasse, déjà ?",
+      "it": "//(0,30)\\\\Cos'è che dovrei fare?",
+      "de": "//(0,30)\\\\Was sollte ich noch mal machen?",
+      "es": "//(0,30)\\\\¿Qué se supone que tenía que hacer?",
+      "ru": "//(0,30)\\\\Можете еще раз объяснить мне задачу?",
+      "cn": "//(0,30)\\\\我要干什么来着？",
+      "tc": "//(0,30)\\\\我要幹什麼？",
+      "jp": "//(0,30)\\\\何をすれば良いかもう一度教えてください。"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "$schema": "https://tonytools.win/schemas/dlge.schema.json",
+  "hash": "[assembly:/localization/hitman6/conversations/hokkaido/2000_elusive/2000_bellini/2700_bellini_story/dr2754_rst47seeeatspg.sweetdialog?/dr2754_rst47seeeatspg_47_001.sweetdialogitem].pc_dialogevent",
+  "DITL": "[assembly:/localization/hitman6.sweet].pc_dialogsoundtemplatelist",
+  "CLNG": "[assembly:/localization/hitman6.sweet].pc_cascadinglanguagedependencies",
+  "rootContainer": {
+    "type": "WavFile",
+    "wavName": "dr2754_rst47seeeatspg_47_001",
+    "soundtag": "In-world_Maincharacter",
+    "defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/hokkaido/2000_elusive/2000_bellini/2700_bellini_story/dr2754_rst47seeeatspg_47_001.wav].pc_wes",
+    "defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/hokkaido/2000_elusive/2000_bellini/2700_bellini_story/dr2754_rst47seeeatspg_47_001.animset].pc_animset",
+    "languages": {
+      "en": "//(0,30)\\\\It's my take on a classic.",
+      "fr": "//(0,30)\\\\Un classique, revisité à ma façon.",
+      "it": "//(0,30)\\\\È la mia rivisitazione di un classico della cucina.",
+      "de": "//(0,30)\\\\Das ist meine Variante eines Klassikers.",
+      "es": "//(0,30)\\\\Es mi visión de un clásico.",
+      "ru": "//(0,30)\\\\Это мой вариант классического рецепта.",
+      "cn": "//(0,30)\\\\这是我对经典的重新诠释。",
+      "tc": "//(0,30)\\\\這是我對經典的重新詮釋。",
+      "jp": "//(0,30)\\\\私なりに工夫してみました。"
+    }
+  }
+}

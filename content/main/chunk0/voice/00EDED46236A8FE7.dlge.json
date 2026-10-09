@@ -1,0 +1,24 @@
+{
+  "$schema": "https://tonytools.win/schemas/dlge.schema.json",
+  "hash": "[assembly:/localization/hitman6/conversations/suburbia/27000_skunk/27000_story/dr27068_intelopp_andersonexplains.sweetdialog?/dr27068_intelopp_andersonexplains_47_006.sweetdialogitem].pc_dialogevent",
+  "DITL": "[assembly:/localization/hitman6.sweet].pc_dialogsoundtemplatelist",
+  "CLNG": "[assembly:/localization/hitman6.sweet].pc_cascadinglanguagedependencies",
+  "rootContainer": {
+    "type": "WavFile",
+    "wavName": "dr27068_intelopp_andersonexplains_47_006",
+    "soundtag": "In-world_Maincharacter",
+    "defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/suburbia/27000_skunk/27000_story/dr27068_intelopp_andersonexplains_47_006.wav].pc_wes",
+    "defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/suburbia/27000_skunk/27000_story/dr27068_intelopp_andersonexplains_47_006.animset].pc_animset",
+    "languages": {
+      "en": "//(0,30)\\\\Consider it done.",
+      "fr": "//(0,30)\\\\C'est comme si c'était fait.",
+      "it": "//(0,30)\\\\Consideralo fatto.",
+      "de": "//(0,30)\\\\Betrachten Sie es als erledigt.",
+      "es": "//(0,30)\\\\Dalo por hecho.",
+      "ru": "//(0,30)\\\\Будет сделано.",
+      "cn": "//(0,30)\\\\交给我吧。",
+      "tc": "//(0,30)\\\\交給我吧。",
+      "jp": "//(0,30)\\\\任せてください。"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "$schema": "https://tonytools.win/schemas/dlge.schema.json",
+  "hash": "[assembly:/localization/hitman6/conversations/suburbia/27000_skunk/27000_story/dr27084_health47janusbanter.sweetdialog?/dr27084_health47janusbanter_47_009.sweetdialogitem].pc_dialogevent",
+  "DITL": "[assembly:/localization/hitman6.sweet].pc_dialogsoundtemplatelist",
+  "CLNG": "[assembly:/localization/hitman6.sweet].pc_cascadinglanguagedependencies",
+  "rootContainer": {
+    "type": "WavFile",
+    "wavName": "dr27084_health47janusbanter_47_009",
+    "soundtag": "In-world_Maincharacter",
+    "defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/suburbia/27000_skunk/27000_story/dr27084_health47janusbanter_47_009.wav].pc_wes",
+    "defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/suburbia/27000_skunk/27000_story/dr27084_health47janusbanter_47_009.animset].pc_animset",
+    "languages": {
+      "en": "//(0,30)\\\\Almost done, yes.",
+      "fr": "//(0,30)\\\\Presque.",
+      "it": "//(0,30)\\\\Quasi finito, sì.",
+      "de": "//(0,30)\\\\Fast fertig, ja.",
+      "es": "//(0,30)\\\\Casi.",
+      "ru": "//(0,30)\\\\Да, почти всё.",
+      "cn": "//(0,30)\\\\差不多好了。",
+      "tc": "//(0,30)\\\\差不多好了。",
+      "jp": "//(0,30)\\\\もうすぐ終わります。はい。"
+    }
+  }
+}

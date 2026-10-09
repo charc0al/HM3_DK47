@@ -1,0 +1,139 @@
+TO-DO TASKS ------
+[x] 47 says "i need to use the bathroom" at different drunk levels
+[x] 47 says "sorry" when NPCs slip
+[x] 10 continuous seconds in bathroom state reduces drunkenness by 1
+[x] Blackout drunk features
+[x] Fix hand attacher offset during drinking animation
+[x] Drinking restores health
+[x] Fix prompts showing when busy
+[x] Electric trap on puddles
+[x] Fix invisible piss
+[x] Fix beer prompt showing when not equipped
+[x] Dynamically sized piss particles - bigger stream of piss when more drunk
+[x] Blackout state illegal the whole time
+[x] Fine tune raycast piss trajectory
+    [x] Dynamic TTL for particle emitters
+	[-] ParticleModifierCollisionPlane
+[x] Fix offset of animation stepping left
+[x] Adjust beer weight to sometimes not break
+[x] level 9 drunk dancing
+[x] Blackout goes to lvl 14
+[x] NPCs can hear active piss puddle splashing and investigate
+[x] Drunkenness > 0 prevents health regen
+[x] Legally use in-level toilets
+[x] Larger puddles the drunker you are
+[X] Drunkenness increases damage resistance
+[x] DOF drunk filter as well
+[x] Disable drink prompt > level 5 when in blackout
+[x] Elevate puddles to 0.02 to fix clipping floor textures
+[x] Vomiting at level 8
+[x] Vomiting makes nearby NPCs sick
+[*] Unzip SFX before piss - play_fol_pissing_zipdown 0057BDB7BEE1FB6C (chunk0)
+[x] Puking at end of blackout / randomly
+[x] More voice lines - search for _47_ on https://mediabrowser.hitmaps.com/audio
+	INVOLUNTARY
+		x - I can't wait - dr33138_jobinterviewaccountkeycard_47_002 0090AF95945995A0 chunk12
+		x - Can't wait - dr3854_bsment47wakealt_47_013 00857C5495319389 (chunk27)
+		x - wasn't planning on it - dr33115_itproblem47timnod_47_004 002FFB44699F2BE2 (chunk12)
+		x - Just keep walking - dr29325_47constantescort1_47_004 00C59A90EB7F4489 (chunk15)
+		x - I've seen worse - dr27415_killerchat47_47_002  00F535952A898D6C (chunk16)
+		x - I don't care much for politics - dr27152_kelly47blakepitch_47_004 00943C7C91B6E19B (chunk16) *already imported earlier
+		x - I belive this is yours - dr23242_undyinglovehectorjoy_47_001 0054C66093315E81 (chunk18)
+		x - Sure, why not dr23466_deadlyart_catalinaselfie47yes_47_001 00649908CDEF77D5 (chunk9)
+		x - Alright, you asked for it - 47_slappers_47_about2slap_agent47_agent47_002 (0077E29517AB0005)
+		x - The Hidden Hand - 00032DB45CEBC603 (chunk28)
+		x - Legends die, I'm alive - 001CB0A6132AC707 (chunk4)
+		x - It's my take on a classic 0007DE1B43D58FCF (chunk22)
+	VOLUNTARY
+		x- Break time. - dr42266_opjuice47diss_47_004 0080C231B74AB599 (chunk4)
+		x- Don't worry, you should live a little. - dr11163_47relax_47_001 (chunk25)
+		x- How about this? - dr21663_47wrongoutfitapproachready_47_001
+		x- Good party? - dr23023_heartofstonebassplayer2_47_002
+		x- I don't care much for politics - dr27152_kelly47blakepitch_47_004
+		x- Is this all right? - dr21663_47wrongoutfitapproachready_47_002
+		x- Boo - dr23698_47francoshouldertap_47_003
+		x- I don't miss 00411D52E9DEE041 (chunk24)
+		x- I'll make this quick 00D41477E0848CE8 (chunk24)
+		x- I'm not from around here - dr27118_blaketourmeets47_47_002 00275562D758FBA6 (chunk16)
+		x- I just had surgery - 00B1F7DBA8F51EEE (chunk18)
+		x- In the right hands, anything can be a deadly weapon - dr21654_47murderpromptrepliesrandom_47_001
+		x- Next Up - 00796CE11B7B2A3B (chunk24)
+		x- I found this - dr25104_fandirector47thanks_47_001
+		x- I found this(alt) - dr46094_stdntflowertrade_47_001
+		x- Nothing quite like it - dr44264_vidalrieperescort_47_003
+		- It's what I do - dr4152_crossdesilvabalcony_47_008
+		x- I'll just follow my impulses - dr43263_testsubjectstagehush_47_002
+		x- So, what happens now - m05_llama_ingamemoment_briefing_v3_47_006
+	DRINKING
+		x- what was I supposed to do again - dr27186_mole47guardaskinstructions_47_001
+		- OK - dr33130_jobinterviewcard3_47_001
+		- alright - dr33123_jobinterviewhrgreet_47_004
+		x- Groovy - dr23161_backpacker47sicariofrancoexpect_47_002, dr46099_47hippyakkameet_47_008
+		x - Of course - dr1237_caruso47leaveflowers_47_003
+		x- Yes please - dr41111_murderstaffgreets47answer_47_001
+		x- To old friends - dr44059_dianablack47toast_47_003
+		x- I need it - dr3740_slotagentsmith_47_010
+	BLACKOUT
+		x - All in - 00EFB41D71EE025B (chunk27)
+		x - Corporate liquidator - 00EA4C4B3662D980 (chunk5)
+		x - Sure, why not - 003A0C13D66B47A5 (chunk28)
+		x - I believe in forgiveness - 0074E84FE2B51AB2 (chunk26)
+		x - FLUID MOVEMENT - 00F23B15B40E6387 (chunk28)
+		x - I am sorry - 00D934D9550055AC (chunk28)
+		x - I'm known to be the best - 00D6EFF4A095B22E (chunk28)
+		x - This is not my first rodeo 00E563320F377C74 (chunk15)
+	TOILET START
+		x - practical - dr33143_goldboxprivacy_47_002, dr46157_slapcrestspeech_47_002 006796CB3C584345 (chunk12)
+		x - all the comforts of home - dr27043_housesalecassidyhaggling_47_004
+		x - Here we are - dr12297_47_request_target_enterfirst_47_ws_004
+		x - I'm tapping in - dr42266_opjuice47diss_47_002
+		x - Excellent. - dr23547_hallowedground_assistant47shamanacknowledge_47_002
+		x - Here it is - dr23670_backpacker_47guardstatue2_47_001
+		x - just doing my job - dr29865_47wincongrats_47_002
+		x - Ah, there you are. - dr21613_47weaponsdemofabareturns_47_002
+		x - Here we are - dr4501_morganarrivesuiteshort_47_001
+		x - you are what you eat 003E5C91C667329A (chunk0)
+	TOILET FINISH
+		x - I'm done - dr27188_mole47jobdone_47_001 009CFC8BA8B4D4F7 (chunk16)
+		x - Done. - dr25251_barber_47doneshavingrandom_47_005 005575566564928C (chunk17)
+		x - consider it done - dr27068_intelopp_andersonexplains_47_006 00CBA02A2356733C (chunk16)
+		x - the site is clean now - dr23706_hallowedground_foremanisitdone_47_002 - 00E1D49191233842 (chunk18)
+	URINAING
+		x - No one will ever know I was here - 0009231ED7A75867 (chunk3)
+		x - Almost done, yes. - 000CFB8D53EA2C10 (chunk16)
+		x - We'll be done soon - 0062E80C5FFA407D (chunk9)
+		x - I’ve got this. - 002DB1C87BBB702B (chunk4)
+	
+[x] More dancing animations - 
+	[x] Berlin - general rave dance 00925B1C9F15271B
+	[/] Berlin - alittlebithigh 00E762A3EEC1E7F8
+	[x] Berlin - handpushdown 006B3E851AE735B3
+	[x] Berlin - pump 004C6585BD803217
+	[/] Berlin - shoulders 00A0662567EBD4C2
+	[x] Berlin - sidetoside 0046DA8BEB7FD9D0
+	[/] Hokkaido - dance mat, normal 0057FAF3553CC24A
+	[/] Hokkaido - dance mat, slow 0015EBAC31900D26
+	[x] Chongqing - lambic dance, three loops 003B230334534305
+
+----- Maybe Happening -----
+[ ] Stealing NPC drinks and drinking them
+[ ] Slow down game speed for 2 seconds when smashing someone in the face with a beer bottle
+
+------ Probably Not -------
+[*] Dynamic sized piss puddles
+[ ] Different walking animations for drunk
+[n/a] manifest options for no health regen or slow health regen
+
+---- Trailer ----
+Berry & Fulcher line
+Train rooftop doorway trap
+Pissing in toilet -> drowning
+the site is clean now
+good party?
+dancing + more on carusos mothers grave
+
+
+Audio filters:
+	Sloth | harebell_dream - 00319A1B59D6BD36, chunk3 | InSloth, OutofStamina | Lowered pitch; the exhausted state also applies low-pass muffling on affected audio branches
+	Lust | ambrosia_dream - 009C10DC1621305A, chunk4 | InLust | Low-pass filtering and a **Wwise Flanger**
+	Gluttony | azalea_dream - 004890230B513D01, chunk6 | InGluttony | Pitch/filter changes on selected sounds and music

@@ -1,0 +1,24 @@
+{
+  "$schema": "https://tonytools.win/schemas/dlge.schema.json",
+  "hash": "[assembly:/localization/hitman6/conversations/edgy/fox/42000_story/dr42266_opjuice47diss.sweetdialog?/dr42266_opjuice47diss_47_005.sweetdialogitem].pc_dialogevent",
+  "DITL": "[assembly:/localization/hitman6.sweet].pc_dialogsoundtemplatelist",
+  "CLNG": "[assembly:/localization/hitman6.sweet].pc_cascadinglanguagedependencies",
+  "rootContainer": {
+    "type": "WavFile",
+    "wavName": "dr42266_opjuice47diss_47_005",
+    "soundtag": "In-world_Maincharacter",
+    "defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/edgy/fox/42000_story/dr42266_opjuice47diss_47_005.wav].pc_wes",
+    "defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/edgy/fox/42000_story/dr42266_opjuice47diss_47_005.animset].pc_animset",
+    "languages": {
+      "en": "//(0,30)\\\\I’ve got this.",
+      "fr": "//(0,30)\\\\Je me charge du reste.",
+      "it": "//(0,30)\\\\Ci penso io.",
+      "de": "//(0,30)\\\\Ich übernehme das.",
+      "es": "//(0,30)\\\\Yo me encargo.",
+      "ru": "//(0,30)\\\\Я тебя сменю.",
+      "cn": "//(0,30)\\\\我来接你的班了。",
+      "tc": "//(0,30)\\\\該我接班了。",
+      "jp": "//(0,30)\\\\ここは受け持つ。"
+    }
+  }
+}

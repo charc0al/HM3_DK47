@@ -1,0 +1,24 @@
+{
+  "$schema": "https://tonytools.win/schemas/dlge.schema.json",
+  "hash": "[assembly:/localization/hitman6/conversations/colombia/23000_hippo/23000_story/dr23706_hallowedground_foremanisitdone.sweetdialog?/dr23706_hallowedground_foremanisitdone_47_002.sweetdialogitem].pc_dialogevent",
+  "DITL": "[assembly:/localization/hitman6.sweet].pc_dialogsoundtemplatelist",
+  "CLNG": "[assembly:/localization/hitman6.sweet].pc_cascadinglanguagedependencies",
+  "rootContainer": {
+    "type": "WavFile",
+    "wavName": "dr23706_hallowedground_foremanisitdone_47_002",
+    "soundtag": "In-world_Maincharacter",
+    "defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/colombia/23000_hippo/23000_story/dr23706_hallowedground_foremanisitdone_47_002.wav].pc_wes",
+    "defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/colombia/23000_hippo/23000_story/dr23706_hallowedground_foremanisitdone_47_002.animset].pc_animset",
+    "languages": {
+      "en": "//(0,30)\\\\The site is clean now.",
+      "fr": "//(0,30)\\\\Votre site est à présent exorcisé.",
+      "it": "//(0,30)\\\\Il cantiere è stato purificato.",
+      "de": "//(0,30)\\\\Die Stätte ist jetzt gereinigt.",
+      "es": "//(0,30)\\\\La obra está purificada.",
+      "ru": "//(0,30)\\\\Площадка освящена.",
+      "cn": "//(0,30)\\\\工地已经净化完毕。",
+      "tc": "//(0,30)\\\\工地已經淨化完畢。",
+      "jp": "//(0,30)\\\\現場は浄化されたよ。"
+    }
+  }
+}

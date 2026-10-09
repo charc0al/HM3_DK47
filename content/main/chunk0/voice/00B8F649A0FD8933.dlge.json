@@ -1,0 +1,24 @@
+{
+  "$schema": "https://tonytools.win/schemas/dlge.schema.json",
+  "hash": "[assembly:/localization/hitman6/conversations/miami/21000_elusive/21000_sambuca/21000_sambuca_story/dr21654_47murderpromptrepliesrandom.sweetdialog?/dr21654_47murderpromptrepliesrandom_47_001.sweetdialogitem].pc_dialogevent",
+  "DITL": "[assembly:/localization/hitman6.sweet].pc_dialogsoundtemplatelist",
+  "CLNG": "[assembly:/localization/hitman6.sweet].pc_cascadinglanguagedependencies",
+  "rootContainer": {
+    "type": "WavFile",
+    "wavName": "dr21654_47murderpromptrepliesrandom_47_001",
+    "soundtag": "In-world_Maincharacter",
+    "defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/miami/21000_elusive/21000_sambuca/21000_sambuca_story/dr21654_47murderpromptrepliesrandom_47_001.wav].pc_wes",
+    "defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/miami/21000_elusive/21000_sambuca/21000_sambuca_story/dr21654_47murderpromptrepliesrandom_47_001.animset].pc_animset",
+    "languages": {
+      "en": "//(0,30)\\\\In the right hands, anything can be a deadly weapon.",
+      "fr": "//(0,2.968)\\\\N'importe quel objet peut devenir une arme entre de bonnes mains.",
+      "it": "//(0,0.9239293)\\\\Nelle mani giuste,//(0.9239293,2.968)\\\\qualsiasi cosa può diventare un'arma letale.",
+      "de": "//(0,1.222393)\\\\In den richtigen Händen//(1.222393,3.576687)\\\\ist alles eine tödliche Waffe.",
+      "es": "//(0,1.012238)\\\\En las manos adecuadas,//(1.012238,2.968)\\\\cualquier cosa puede ser un arma letal.",
+      "ru": "//(0,30)\\\\В умелых руках любая вещь способна убить.",
+      "cn": "//(0,30)\\\\只要懂得如何使用，任何东西都可以成为致命的武器。",
+      "tc": "//(0,30)\\\\在高手的手中，任何事物都能成為致命的武器。",
+      "jp": "//(0,30)\\\\使い方次第では、何でも致命的な武器になり得ます。"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "$schema": "https://tonytools.win/schemas/dlge.schema.json",
+  "hash": "[assembly:/localization/hitman6/conversations/colombia/23000_hippo/23000_story/dr23698_47francoshouldertap.sweetdialog?/dr23698_47francoshouldertap_47_003.sweetdialogitem].pc_dialogevent",
+  "DITL": "[assembly:/localization/hitman6.sweet].pc_dialogsoundtemplatelist",
+  "CLNG": "[assembly:/localization/hitman6.sweet].pc_cascadinglanguagedependencies",
+  "rootContainer": {
+    "type": "WavFile",
+    "wavName": "dr23698_47francoshouldertap_47_003",
+    "soundtag": "In-world_Maincharacter",
+    "defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/colombia/23000_hippo/23000_story/dr23698_47francoshouldertap_47_003.wav].pc_wes",
+    "defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/colombia/23000_hippo/23000_story/dr23698_47francoshouldertap_47_003.animset].pc_animset",
+    "languages": {
+      "en": "//(0,30)\\\\Boo!",
+      "fr": "//(0,30)\\\\Bouh !",
+      "it": "//(0,30)\\\\Bù!",
+      "de": "//(0,30)\\\\Buh!",
+      "es": "//(0,30)\\\\¡Buuu!",
+      "ru": "//(0,30)\\\\Бу!",
+      "cn": "//(0,30)\\\\嘘！",
+      "tc": "//(0,30)\\\\噓！",
+      "jp": "//(0,30)\\\\ワッ！"
+    }
+  }
+}

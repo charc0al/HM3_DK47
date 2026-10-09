@@ -1,0 +1,24 @@
+{
+  "$schema": "https://tonytools.win/schemas/dlge.schema.json",
+  "hash": "[assembly:/localization/hitman6/conversations/elegant/llama/44000_story/dr44059_dianablack47toast.sweetdialog?/dr44059_dianablack47toast_47_003.sweetdialogitem].pc_dialogevent",
+  "DITL": "[assembly:/localization/hitman6.sweet].pc_dialogsoundtemplatelist",
+  "CLNG": "[assembly:/localization/hitman6.sweet].pc_cascadinglanguagedependencies",
+  "rootContainer": {
+    "type": "WavFile",
+    "wavName": "dr44059_dianablack47toast_47_003",
+    "soundtag": "In-world_Mission_Important",
+    "defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/elegant/llama/44000_story/dr44059_dianablack47toast_47_003.wav].pc_wes",
+    "defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/elegant/llama/44000_story/dr44059_dianablack47toast_47_003.animset].pc_animset",
+    "languages": {
+      "en": "//(0,30)\\\\To old friends.",
+      "fr": "//(0,30)\\\\Aux vieux amis.",
+      "it": "//(0,30)\\\\Ai vecchi amici.",
+      "de": "//(0,30)\\\\Auf alte Freunde.",
+      "es": "//(0,30)\\\\Por los viejos amigos.",
+      "ru": "//(0,30)\\\\За старых друзей.",
+      "cn": "//(0,30)\\\\敬老朋友们。",
+      "tc": "//(0,30)\\\\敬老朋友。",
+      "jp": "//(0,30)\\\\古い友人たちに。"
+    }
+  }
+}

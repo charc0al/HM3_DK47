@@ -1,0 +1,8 @@
+{
+  "PROP_MELEE_PINOTNOIR": {
+    "Subtype": "evergreen_kill_method_drown"
+  },
+  "PROP_MELEE_COCKTAILSHAKER": {
+    "Subtype": "evergreen_kill_method_drown"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "$schema": "https://tonytools.win/schemas/dlge.schema.json",
+  "hash": "[assembly:/localization/hitman6/conversations/golden/gecko/40000_story/dr40255_oppchefingramtalks0247.sweetdialog?/dr40255_oppchefingramtalks0247_47_002.sweetdialogitem].pc_dialogevent",
+  "DITL": "[assembly:/localization/hitman6.sweet].pc_dialogsoundtemplatelist",
+  "CLNG": "[assembly:/localization/hitman6.sweet].pc_cascadinglanguagedependencies",
+  "rootContainer": {
+    "type": "WavFile",
+    "wavName": "dr40255_oppchefingramtalks0247_47_002",
+    "soundtag": "In-world_Maincharacter",
+    "defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/golden/gecko/40000_story/dr40255_oppchefingramtalks0247_47_002.wav].pc_wes",
+    "defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/golden/gecko/40000_story/dr40255_oppchefingramtalks0247_47_002.animset].pc_animset",
+    "languages": {
+      "en": "//(0,30)\\\\You are what you eat.",
+      "fr": "//(0,30)\\\\On est ce qu'on mange.",
+      "it": "//(0,30)\\\\Si è ciò che si mangia.",
+      "de": "//(0,30)\\\\Man ist, was man isst.",
+      "es": "//(0,30)\\\\Eres lo que comes.",
+      "ru": "//(0,30)\\\\Мы — это то, что мы едим.",
+      "cn": "//(0,30)\\\\食物决定身份。",
+      "tc": "//(0,30)\\\\吃什麼長什麼。",
+      "jp": "//(0,30)\\\\人は食によって決まる、と言いますから。"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "$schema": "https://tonytools.win/schemas/dlge.schema.json",
+  "hash": "[assembly:/localization/hitman6/conversations/italy/7000_mamba/7000_story/dr7060_abiatticonfession47.sweetdialog?/dr7060_abiatticonfession47_47_006.sweetdialogitem].pc_dialogevent",
+  "DITL": "[assembly:/localization/hitman6.sweet].pc_dialogsoundtemplatelist",
+  "CLNG": "[assembly:/localization/hitman6.sweet].pc_cascadinglanguagedependencies",
+  "rootContainer": {
+    "type": "WavFile",
+    "wavName": "dr7060_abiatticonfession47_47_006",
+    "soundtag": "In-world_Mission_Important",
+    "defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/italy/7000_mamba/7000_story/dr7060_abiatticonfession47_47_006.wav].pc_wes",
+    "defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/italy/7000_mamba/7000_story/dr7060_abiatticonfession47_47_006.animset].pc_animset",
+    "languages": {
+      "en": "//(0,30)\\\\I believe in forgiveness.",
+      "fr": "//(0,30)\\\\Je crois au pardon.",
+      "it": "//(0,30)\\\\Credo nel perdono.",
+      "de": "//(0,30)\\\\Ich glaube an die Vergebung.",
+      "es": "//(0,30)\\\\Creo en el perdón.",
+      "ru": "//(0,30)\\\\Я верю в прощение.",
+      "cn": "//(0,30)\\\\我相信宽恕的理念。",
+      "tc": "//(0,30)\\\\我相信寬恕的理念。",
+      "jp": "//(0,30)\\\\私は許しを信じている。"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "$schema": "https://tonytools.win/schemas/dlge.schema.json",
+  "hash": "[assembly:/localization/hitman6/conversations/elegant/llama/44000_story/dr44264_vidalrieperescort.sweetdialog?/dr44264_vidalrieperescort_47_003.sweetdialogitem].pc_dialogevent",
+  "DITL": "[assembly:/localization/hitman6.sweet].pc_dialogsoundtemplatelist",
+  "CLNG": "[assembly:/localization/hitman6.sweet].pc_cascadinglanguagedependencies",
+  "rootContainer": {
+    "type": "WavFile",
+    "wavName": "dr44264_vidalrieperescort_47_003",
+    "soundtag": "In-world_Mission_Important",
+    "defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/elegant/llama/44000_story/dr44264_vidalrieperescort_47_003.wav].pc_wes",
+    "defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/elegant/llama/44000_story/dr44264_vidalrieperescort_47_003.animset].pc_animset",
+    "languages": {
+      "en": "//(0,30)\\\\Nothing quite like it.",
+      "fr": "//(0,30)\\\\Vous n'imaginez même pas.",
+      "it": "//(0,30)\\\\Non c'è paragone.",
+      "de": "//(0,30)\\\\Wie nichts anderes.",
+      "es": "//(0,30)\\\\Es algo único, sí.",
+      "ru": "//(0,30)\\\\Другой такой не найти.",
+      "cn": "//(0,30)\\\\确实如此。",
+      "tc": "//(0,30)\\\\的確如此。",
+      "jp": "//(0,30)\\\\格別だ。"
+    }
+  }
+}

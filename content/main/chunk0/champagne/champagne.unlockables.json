@@ -1,0 +1,33 @@
+{
+  "PACKAGE_STARTING_PACKAGE": {
+    "Properties": {
+      "Unlocks": [
+        "PROP_MELEE_CHAMPAGNE_PROPER"
+      ]
+    }
+  },
+  "PROP_MELEE_CHAMPAGNE_PROPER": {
+    "Id": "PROP_MELEE_CHAMPAGNE_PROPER",
+    "Guid": "fd06d57a-6311-4dc1-af40-85c65bbc7b1f",
+    "Type": "weapon",
+    "Subtype": "evergreen_kill_method_drown",
+    "RMTPrice": -1,
+    "GamePrice": -1,
+    "IsPurchasable": false,
+    "IsPublished": true,
+    "IsDroppable": false,
+    "Capabilities": [],
+    "Qualities": {},
+    "Properties": {
+      "Gameplay": {},
+      "Quality": 4,
+      "Rarity": "common",
+      "LoadoutSlot": "gear",
+      "RepositoryId": "3ba7244f-2bf0-4e7f-b688-6d4b3be1c692",
+      "RepositoryAssets": [
+        "3ba7244f-2bf0-4e7f-b688-6d4b3be1c692"
+      ]
+    },
+    "Rarity": "common"
+  }
+}

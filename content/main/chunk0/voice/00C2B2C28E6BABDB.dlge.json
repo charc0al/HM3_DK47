@@ -1,0 +1,24 @@
+{
+  "$schema": "https://tonytools.win/schemas/dlge.schema.json",
+  "hash": "[assembly:/localization/hitman6/conversations/greedy/33000_raccoon/33000_story/dr33143_goldboxprivacy.sweetdialog?/dr33143_goldboxprivacy_47_002.sweetdialogitem].pc_dialogevent",
+  "DITL": "[assembly:/localization/hitman6.sweet].pc_dialogsoundtemplatelist",
+  "CLNG": "[assembly:/localization/hitman6.sweet].pc_cascadinglanguagedependencies",
+  "rootContainer": {
+    "type": "WavFile",
+    "wavName": "dr33143_goldboxprivacy_47_002",
+    "soundtag": "In-world_Maincharacter",
+    "defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/greedy/33000_raccoon/33000_story/dr33143_goldboxprivacy_47_002.wav].pc_wes",
+    "defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/greedy/33000_raccoon/33000_story/dr33143_goldboxprivacy_47_002.animset].pc_animset",
+    "languages": {
+      "en": "//(0,30)\\\\Practical.",
+      "fr": "//(0,30)\\\\Pratique.",
+      "it": "//(0,30)\\\\Molto pratico.",
+      "de": "//(0,30)\\\\Praktisch.",
+      "es": "//(0,30)\\\\Qué útil.",
+      "ru": "//(0,30)\\\\Удобно.",
+      "cn": "//(0,30)\\\\很实用。",
+      "tc": "//(0,30)\\\\真是實用。",
+      "jp": "//(0,30)\\\\実用的ですね。"
+    }
+  }
+}

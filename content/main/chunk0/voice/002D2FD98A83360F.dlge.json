@@ -1,0 +1,24 @@
+{
+  "$schema": "https://tonytools.win/schemas/dlge.schema.json",
+  "hash": "[assembly:/localization/hitman6/conversations/mumbai/25000_mongoose/25000_story/dr25251_barber_47doneshavingrandom.sweetdialog?/dr25251_barber_47doneshavingrandom_47_005.sweetdialogitem].pc_dialogevent",
+  "DITL": "[assembly:/localization/hitman6.sweet].pc_dialogsoundtemplatelist",
+  "CLNG": "[assembly:/localization/hitman6.sweet].pc_cascadinglanguagedependencies",
+  "rootContainer": {
+    "type": "WavFile",
+    "wavName": "dr25251_barber_47doneshavingrandom_47_005",
+    "soundtag": "In-world_Maincharacter",
+    "defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/mumbai/25000_mongoose/25000_story/dr25251_barber_47doneshavingrandom_47_005.wav].pc_wes",
+    "defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/mumbai/25000_mongoose/25000_story/dr25251_barber_47doneshavingrandom_47_005.animset].pc_animset",
+    "languages": {
+      "en": "//(0,30)\\\\Done.",
+      "fr": "//(0,30)\\\\Fini.",
+      "it": "//(0,30)\\\\Finito.",
+      "de": "//(0,30)\\\\Fertig.",
+      "es": "//(0,30)\\\\Listo.",
+      "ru": "//(0,30)\\\\Готово.",
+      "cn": "//(0,30)\\\\好了。",
+      "tc": "//(0,30)\\\\好了。",
+      "jp": "//(0,30)\\\\終わりました。"
+    }
+  }
+}

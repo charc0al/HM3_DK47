@@ -1,0 +1,24 @@
+{
+  "$schema": "https://tonytools.win/schemas/dlge.schema.json",
+  "hash": "[assembly:/localization/hitman6/conversations/colombia/23000_hippo/23000_story/dr23164_backpacker47sicariowalkchatter2.sweetdialog?/dr23164_backpacker47sicariowalkchatter2_47_003.sweetdialogitem].pc_dialogevent",
+  "DITL": "[assembly:/localization/hitman6.sweet].pc_dialogsoundtemplatelist",
+  "CLNG": "[assembly:/localization/hitman6.sweet].pc_cascadinglanguagedependencies",
+  "rootContainer": {
+    "type": "WavFile",
+    "wavName": "dr23164_backpacker47sicariowalkchatter2_47_003",
+    "soundtag": "In-world_Maincharacter",
+    "defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/colombia/23000_hippo/23000_story/dr23164_backpacker47sicariowalkchatter2_47_003.wav].pc_wes",
+    "defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/colombia/23000_hippo/23000_story/dr23164_backpacker47sicariowalkchatter2_47_003.animset].pc_animset",
+    "languages": {
+      "en": "//(0,30)\\\\I live by my own rules.",
+      "fr": "//(0,30)\\\\Je suis mes propres règles.",
+      "it": "//(0,30)\\\\Io vivo secondo le mie regole.",
+      "de": "//(0,30)\\\\Ich lebe nach meinen eigenen Regeln.",
+      "es": "//(0,30)\\\\Yo sigo mis propias reglas.",
+      "ru": "//(0,30)\\\\Я живу по своим правилам.",
+      "cn": "//(0,30)\\\\我按照我自己的规则做事。",
+      "tc": "//(0,30)\\\\我有我自己的規則。",
+      "jp": "//(0,30)\\\\俺は自分のルールで生きる。"
+    }
+  }
+}

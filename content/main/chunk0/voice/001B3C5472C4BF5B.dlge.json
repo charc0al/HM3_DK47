@@ -1,0 +1,24 @@
+{
+  "$schema": "https://tonytools.win/schemas/dlge.schema.json",
+  "hash": "[assembly:/localization/hitman6/conversations/paris/3000_elusive/3700_frenchmartini/3700_story/dr3854_bsment47wakealt.sweetdialog?/dr3854_bsment47wakealt_47_013.sweetdialogitem].pc_dialogevent",
+  "DITL": "[assembly:/localization/hitman6.sweet].pc_dialogsoundtemplatelist",
+  "CLNG": "[assembly:/localization/hitman6.sweet].pc_cascadinglanguagedependencies",
+  "rootContainer": {
+    "type": "WavFile",
+    "wavName": "dr3854_bsment47wakealt_47_013",
+    "soundtag": "In-world_Maincharacter",
+    "defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/paris/3000_elusive/3700_frenchmartini/3700_story/dr3854_bsment47wakealt_47_013.wav].pc_wes",
+    "defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/paris/3000_elusive/3700_frenchmartini/3700_story/dr3854_bsment47wakealt_47_013.animset].pc_animset",
+    "languages": {
+      "en": "//(0,30)\\\\Can't wait...",
+      "fr": "//(0,30)\\\\Ne me faites pas trop attendre.",
+      "it": "//(0,30)\\\\Non vedo l'ora...",
+      "de": "//(0,30)\\\\Ich kann es kaum erwarten ...",
+      "es": "//(0,30)\\\\Me muero de ganas...",
+      "ru": "//(0,30)\\\\Буду ждать!",
+      "cn": "//(0,30)\\\\别让我久等哦！",
+      "tc": "//(0,30)\\\\我等不及了......",
+      "jp": "//(0,30)\\\\待ち遠しいよ..."
+    }
+  }
+}

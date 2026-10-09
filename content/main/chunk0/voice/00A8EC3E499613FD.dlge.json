@@ -1,0 +1,24 @@
+{
+  "$schema": "https://tonytools.win/schemas/dlge.schema.json",
+  "hash": "[assembly:/localization/hitman6/conversations/bangkok/4000_cross/4000_story/dr4501_morganarrivesuiteshort.sweetdialog?/dr4501_morganarrivesuiteshort_47_001.sweetdialogitem].pc_dialogevent",
+  "DITL": "[assembly:/localization/hitman6.sweet].pc_dialogsoundtemplatelist",
+  "CLNG": "[assembly:/localization/hitman6.sweet].pc_cascadinglanguagedependencies",
+  "rootContainer": {
+    "type": "WavFile",
+    "wavName": "dr4501_morganarrivesuiteshort_47_001",
+    "soundtag": "In-world_Maincharacter",
+    "defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/bangkok/4000_cross/4000_story/dr4501_morganarrivesuiteshort_47_001.wav].pc_wes",
+    "defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/bangkok/4000_cross/4000_story/dr4501_morganarrivesuiteshort_47_001.animset].pc_animset",
+    "languages": {
+      "en": "//(0,30)\\\\Here we are.",
+      "fr": "//(0,30)\\\\Nous y voilà.",
+      "it": "//(0,30)\\\\Eccoci qua.",
+      "de": "//(0,30)\\\\Da wären wir.",
+      "es": "//(0,30)\\\\Aquí estamos.",
+      "ru": "//(0,30)\\\\Мы на месте.",
+      "cn": "//(0,30)\\\\我们到了。",
+      "tc": "//(0,30)\\\\我們到了。",
+      "jp": "//(0,30)\\\\こちらです。"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "$schema": "https://tonytools.win/schemas/dlge.schema.json",
+  "hash": "[assembly:/localization/hitman6/conversations/greedy/33000_raccoon/33000_story/dr33115_itproblem47timnod.sweetdialog?/dr33115_itproblem47timnod_47_004.sweetdialogitem].pc_dialogevent",
+  "DITL": "[assembly:/localization/hitman6.sweet].pc_dialogsoundtemplatelist",
+  "CLNG": "[assembly:/localization/hitman6.sweet].pc_cascadinglanguagedependencies",
+  "rootContainer": {
+    "type": "WavFile",
+    "wavName": "dr33115_itproblem47timnod_47_004",
+    "soundtag": "In-world_Maincharacter",
+    "defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/greedy/33000_raccoon/33000_story/dr33115_itproblem47timnod_47_004.wav].pc_wes",
+    "defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/greedy/33000_raccoon/33000_story/dr33115_itproblem47timnod_47_004.animset].pc_animset",
+    "languages": {
+      "en": "//(0,30)\\\\Wasn't planning on it.",
+      "fr": "//(0,30)\\\\Je n'y comptais pas.",
+      "it": "//(0,30)\\\\Non pensavo di farlo.",
+      "de": "//(0,30)\\\\Hatte ich nicht vor.",
+      "es": "//(0,30)\\\\No pretendía hacerlo.",
+      "ru": "//(0,30)\\\\У меня в плане такого нет.",
+      "cn": "//(0,30)\\\\我本来也没想。",
+      "tc": "//(0,30)\\\\我也是這麼打算的。",
+      "jp": "//(0,30)\\\\それは計画にない。"
+    }
+  }
+}

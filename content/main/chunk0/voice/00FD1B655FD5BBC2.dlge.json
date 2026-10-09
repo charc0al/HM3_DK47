@@ -1,0 +1,24 @@
+{
+  "$schema": "https://tonytools.win/schemas/dlge.schema.json",
+  "hash": "[assembly:/localization/hitman6/conversations/suburbia/27000_skunk/27000_story/dr27043_housesalecassidyhaggling.sweetdialog?/dr27043_housesalecassidyhaggling_47_004.sweetdialogitem].pc_dialogevent",
+  "DITL": "[assembly:/localization/hitman6.sweet].pc_dialogsoundtemplatelist",
+  "CLNG": "[assembly:/localization/hitman6.sweet].pc_cascadinglanguagedependencies",
+  "rootContainer": {
+    "type": "WavFile",
+    "wavName": "dr27043_housesalecassidyhaggling_47_004",
+    "soundtag": "In-world_Maincharacter",
+    "defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/suburbia/27000_skunk/27000_story/dr27043_housesalecassidyhaggling_47_004.wav].pc_wes",
+    "defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/suburbia/27000_skunk/27000_story/dr27043_housesalecassidyhaggling_47_004.animset].pc_animset",
+    "languages": {
+      "en": "//(0,30)\\\\All the comforts of home.",
+      "fr": "//(0,30)\\\\Tout le confort d'un foyer.",
+      "it": "//(0,30)\\\\Tutti i comfort di casa.",
+      "de": "//(0,0.3974421)\\\\Alle Bequemlichkeiten,//(0.3974421,1.825625)\\\\die man sich für zu Hause wünscht.",
+      "es": "//(0,30)\\\\Todas las comodidades del hogar.",
+      "ru": "//(0,30)\\\\Чтобы вы чувствовали себя как дома.",
+      "cn": "//(0,30)\\\\您入住的话，这些便利就唾手可得了。",
+      "tc": "//(0,30)\\\\您入住的話，這些便利就唾手可得。",
+      "jp": "//(0,30)\\\\快適な家に必要なものは揃ってます。"
+    }
+  }
+}
