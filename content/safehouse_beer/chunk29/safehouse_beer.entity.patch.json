@@ -1,0 +1,378 @@
+{
+	"tempHash": "00A9B93A825F5BDC",
+	"tbluHash": "005BA5CA6AC00627",
+	"patch": [
+		{
+			"AddEntity": [
+				"cafebb24c3aa410e",
+				{
+					"parent": "bdd2f3ef19f86bbb",
+					"name": "Drunk47_SafehouseBeer_Picnic",
+					"factory": "[modules:/zentity.class].pc_entitytype",
+					"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe5773f7f85527",
+				{
+					"parent": "cafebb24c3aa410e",
+					"name": "Item_Drunk47_Beer_Picnic_1",
+					"factory": "[modules:/zitemspawner.class].pc_entitytype",
+					"blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": 0,
+									"y": 0,
+									"z": 10.13115843829901
+								},
+								"position": {
+									"x": -42.843210312942496,
+									"y": -156.46344571748247,
+									"z": -11.339528769254684
+								}
+							}
+						},
+						"m_bSpawnOnStart": {
+							"type": "bool",
+							"value": true
+						},
+						"m_bVisible": { "type": "bool", "value": true },
+						"m_rMainItemKey": {
+							"type": "SEntityTemplateReference",
+							"value": "cafeb8c8ab4ab660",
+							"postInit": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafeb8c8ab4ab660",
+				{
+					"parent": "cafe5773f7f85527",
+					"name": "ItemRepositoryKey_Drunk47_Beer_Picnic_1",
+					"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+					"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+					"properties": {
+						"m_RepositoryId": {
+							"type": "ZGuid",
+							"value": "c5e815bd-f0c9-4d7e-9a76-b5dd670ee895"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe0cb10c817bca",
+				{
+					"parent": "cafebb24c3aa410e",
+					"name": "Item_Drunk47_Beer_Picnic_2",
+					"factory": "[modules:/zitemspawner.class].pc_entitytype",
+					"blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": 0,
+									"y": 0,
+									"z": 10.13115843829901
+								},
+								"position": {
+									"x": -42.59710839620854,
+									"y": -156.41947019497422,
+									"z": -11.339528769254684
+								}
+							}
+						},
+						"m_bSpawnOnStart": {
+							"type": "bool",
+							"value": true
+						},
+						"m_bVisible": { "type": "bool", "value": true },
+						"m_rMainItemKey": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe344a85dd2df3",
+							"postInit": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe344a85dd2df3",
+				{
+					"parent": "cafe0cb10c817bca",
+					"name": "ItemRepositoryKey_Drunk47_Beer_Picnic_2",
+					"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+					"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+					"properties": {
+						"m_RepositoryId": {
+							"type": "ZGuid",
+							"value": "c5e815bd-f0c9-4d7e-9a76-b5dd670ee895"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe56d21a792e6f",
+				{
+					"parent": "cafebb24c3aa410e",
+					"name": "Item_Drunk47_Beer_Picnic_3",
+					"factory": "[modules:/zitemspawner.class].pc_entitytype",
+					"blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": 0,
+									"y": 0,
+									"z": 10.13115843829901
+								},
+								"position": {
+									"x": -42.351006479474584,
+									"y": -156.37549467246598,
+									"z": -11.339528769254684
+								}
+							}
+						},
+						"m_bSpawnOnStart": {
+							"type": "bool",
+							"value": true
+						},
+						"m_bVisible": { "type": "bool", "value": true },
+						"m_rMainItemKey": {
+							"type": "SEntityTemplateReference",
+							"value": "cafeb431503d366e",
+							"postInit": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafeb431503d366e",
+				{
+					"parent": "cafe56d21a792e6f",
+					"name": "ItemRepositoryKey_Drunk47_Beer_Picnic_3",
+					"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+					"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+					"properties": {
+						"m_RepositoryId": {
+							"type": "ZGuid",
+							"value": "c5e815bd-f0c9-4d7e-9a76-b5dd670ee895"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe0daa99ac95af",
+				{
+					"parent": "cafebb24c3aa410e",
+					"name": "Item_Drunk47_Beer_Picnic_4",
+					"factory": "[modules:/zitemspawner.class].pc_entitytype",
+					"blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": 0,
+									"y": 0,
+									"z": 10.13115843829901
+								},
+								"position": {
+									"x": -42.88718583545076,
+									"y": -156.21734380074852,
+									"z": -11.339528769254684
+								}
+							}
+						},
+						"m_bSpawnOnStart": {
+							"type": "bool",
+							"value": true
+						},
+						"m_bVisible": { "type": "bool", "value": true },
+						"m_rMainItemKey": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe9ec9b151403b",
+							"postInit": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe9ec9b151403b",
+				{
+					"parent": "cafe0daa99ac95af",
+					"name": "ItemRepositoryKey_Drunk47_Beer_Picnic_4",
+					"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+					"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+					"properties": {
+						"m_RepositoryId": {
+							"type": "ZGuid",
+							"value": "c5e815bd-f0c9-4d7e-9a76-b5dd670ee895"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafead6f83254dfc",
+				{
+					"parent": "cafebb24c3aa410e",
+					"name": "Item_Drunk47_Beer_Picnic_5",
+					"factory": "[modules:/zitemspawner.class].pc_entitytype",
+					"blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": 0,
+									"y": 0,
+									"z": 10.13115843829901
+								},
+								"position": {
+									"x": -42.6410839187168,
+									"y": -156.17336827824028,
+									"z": -11.339528769254684
+								}
+							}
+						},
+						"m_bSpawnOnStart": {
+							"type": "bool",
+							"value": true
+						},
+						"m_bVisible": { "type": "bool", "value": true },
+						"m_rMainItemKey": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe258b4e623a3f",
+							"postInit": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe258b4e623a3f",
+				{
+					"parent": "cafead6f83254dfc",
+					"name": "ItemRepositoryKey_Drunk47_Beer_Picnic_5",
+					"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+					"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+					"properties": {
+						"m_RepositoryId": {
+							"type": "ZGuid",
+							"value": "c5e815bd-f0c9-4d7e-9a76-b5dd670ee895"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafef87b4f8f4136",
+				{
+					"parent": "cafebb24c3aa410e",
+					"name": "Item_Drunk47_Beer_Picnic_6",
+					"factory": "[modules:/zitemspawner.class].pc_entitytype",
+					"blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": 0,
+									"y": 0,
+									"z": 10.13115843829901
+								},
+								"position": {
+									"x": -42.39498200198285,
+									"y": -156.12939275573203,
+									"z": -11.339528769254684
+								}
+							}
+						},
+						"m_bSpawnOnStart": {
+							"type": "bool",
+							"value": true
+						},
+						"m_bVisible": { "type": "bool", "value": true },
+						"m_rMainItemKey": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe273f732d2156",
+							"postInit": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe273f732d2156",
+				{
+					"parent": "cafef87b4f8f4136",
+					"name": "ItemRepositoryKey_Drunk47_Beer_Picnic_6",
+					"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+					"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+					"properties": {
+						"m_RepositoryId": {
+							"type": "ZGuid",
+							"value": "c5e815bd-f0c9-4d7e-9a76-b5dd670ee895"
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
