@@ -11,19 +11,103 @@
   "contentFolders": [
     "content/main"
   ],
+  "options": [
+    {
+      "name": "Beer",
+      "tooltip": "Adds Beer as a new item, available under Drinks at the loadout.",
+      "group": "Drinks",
+      "type": "checkbox",
+      "enabledByDefault": true,
+      "contentFolders": [
+        "content/beer"
+      ]
+    },
+    {
+      "name": "Champagne",
+      "tooltip": "Adds Champagne as a new item, available under Drinks at the loadout.",
+      "group": "Drinks",
+      "type": "checkbox",
+      "enabledByDefault": true,
+      "contentFolders": [
+        "content/champagne"
+      ]
+    },
+    {
+      "name": "Glasses (See tooltip)",
+      "tooltip": "(DUPLICATE OF DRINKS & LIQUIDS MOD ITEMS - DONT ENABLE THESE ON BOTH MODS) Adds Champagne and Whiskey glasses as a new items, available under Drinks at the loadout.",
+      "group": "Drinks",
+      "type": "checkbox",
+      "enabledByDefault": false,
+      "contentFolders": [
+        "content/glasses"
+      ]
+    },
+    {
+      "name": "Unlockables",
+      "tooltip": "Adds vodka and whiskey bottles to the loadout screen.",
+      "group": "Drinks",
+      "type": "checkbox",
+      "enabledByDefault": true,
+      "contentFolders": [
+        "content/unlockables"
+      ]
+    },
+    {
+      "name": "Safehouse | Vodka",
+      "tooltip": "Adds a drinkable vodka bottle to the Freelancer safehouse garage.",
+      "group": "Safehouse",
+      "type": "checkbox",
+      "enabledByDefault": true,
+      "contentFolders": [
+        "content/safehouse_vodka"
+      ]
+    },
+    {
+      "name": "Safehouse | Whiskey",
+      "tooltip": "Adds a drinkable whiskey bottle to the Freelancer safehouse.",
+      "group": "Safehouse",
+      "type": "checkbox",
+      "enabledByDefault": true,
+      "contentFolders": [
+        "content/safehouse_whiskey"
+      ]
+    },
+    {
+      "name": "Safehouse | Champagne Glass",
+      "tooltip": "Adds a champagne glass to the safehouse. Enable the Glasses option for this.",
+      "group": "Safehouse",
+      "type": "checkbox",
+      "enabledByDefault": false,
+      "contentFolders": [
+        "content/safehouse_champagne_glass",
+        "content/glasses"
+      ]
+    },
+    {
+      "name": "Safehouse | Whiskey Glass",
+      "tooltip": "Adds a drinkable whiskey glass to the safehouse. Enable the Glasses option for this.",
+      "group": "Safehouse",
+      "type": "checkbox",
+      "enabledByDefault": false,
+      "contentFolders": [
+        "content/safehouse_whiskey_glass",
+        "content/glasses"
+      ]
+    }
+  ],
   "dependencies": [
     "007D7BD3E9CEE479",
     {
       "runtimeID": "00AA7D810E6E17CD",
       "portFromChunk1": true,
       "toChunk": 0,
-      "comment": "Haggard walk animation for Drunk47 conditional walking (chunk1)"
+      "comment": "Haggard walk animation (chunk1)"
     },
     {
       "runtimeID": "005BB3F6F13E0DC3",
       "portFromChunk1": true,
       "toChunk": 0,
-      "comment": "Haggard walk footstep/synchronization events (chunk1)"
+      "comment": "Haggard walk sync events (chunk1)"
     },
     {
       "runtimeID": "009AA702F51DEA4F",
@@ -34,227 +118,227 @@
       "runtimeID": "00A56284F6897CE8",
       "portFromChunk1": true,
       "toChunk": 0,
-      "comment": "Pipe-valve water leak loop for Drunk47 bathroom audio"
+      "comment": "water leak loop"
     },
     {
       "runtimeID": "000A40395157F021",
       "toChunk": 0,
-      "comment": "47 random drink-start dialogue: Groovy. (chunk18)"
+      "comment": "Groovy. (chunk18)"
     },
     {
       "runtimeID": "004095871E69CD8F",
       "toChunk": 0,
-      "comment": "47 random drink-start dialogue: Yes, please. (chunk3)"
+      "comment": "Yes, please. (chunk3)"
     },
     {
       "runtimeID": "00D9E84CBF42B275",
       "toChunk": 0,
-      "comment": "FaceFX for 47 random drink-start dialogue: Groovy. (chunk18)"
+      "comment": "Groovy. (chunk18)"
     },
     {
       "runtimeID": "00B5654FF4C11299",
       "toChunk": 0,
-      "comment": "FaceFX for 47 random drink-start dialogue: Yes, please. (chunk3)"
+      "comment": "Yes, please. (chunk3)"
     },
     {
       "runtimeID": "00A1A7834E435668",
       "toChunk": 0,
-      "comment": "47 random drink-start dialogue: What was I supposed to do again? (chunk16)"
+      "comment": "What was I supposed to do again? (chunk16)"
     },
     {
       "runtimeID": "004E9AE157193516",
       "toChunk": 0,
-      "comment": "FaceFX for 47 random drink-start dialogue: What was I supposed to do again? (chunk16)"
+      "comment": "What was I supposed to do again? (chunk16)"
     },
     {
       "runtimeID": "003B6AB79338D794",
       "toChunk": 0,
-      "comment": "47 random drink-start dialogue: To old friends. (chunk5)"
+      "comment": "To old friends. (chunk5)"
     },
     {
       "runtimeID": "006534342D47E912",
       "toChunk": 0,
-      "comment": "FaceFX for 47 random drink-start dialogue: To old friends. (chunk5)"
+      "comment": "To old friends. (chunk5)"
     },
     {
       "runtimeID": "00119EF710C40277",
       "toChunk": 0,
-      "comment": "47 random drink-start dialogue: I need it. (chunk27)"
+      "comment": "I need it. (chunk27)"
     },
     {
       "runtimeID": "00600C83B12AFB81",
       "toChunk": 0,
-      "comment": "FaceFX for 47 random drink-start dialogue: I need it. (chunk27)"
+      "comment": "I need it. (chunk27)"
     },
     {
       "runtimeID": "00D2AD32F0C0463B",
       "toChunk": 0,
-      "comment": "47 random drink-start dialogue: Of course. (chunk26)"
+      "comment": "Of course. (chunk26)"
     },
     {
       "runtimeID": "0016DA384B4E22A5",
       "toChunk": 0,
-      "comment": "FaceFX for 47 random drink-start dialogue: Of course. (chunk26)"
+      "comment": "Of course. (chunk26)"
     },
     {
       "runtimeID": "0021E8EDEA4F03B3",
       "toChunk": 0,
-      "comment": "47 random voluntary-bathroom dialogue: Don't worry, you should live a little. (chunk25)"
+      "comment": "Don't worry, you should live a little. (chunk25)"
     },
     {
       "runtimeID": "009EE272C32505A4",
       "toChunk": 0,
-      "comment": "FaceFX for 47 random voluntary-bathroom dialogue: Don't worry, you should live a little. (chunk25)"
+      "comment": "FaceFX for Don't worry, you should live a little. (chunk25)"
     },
     {
       "runtimeID": "0080C231B74AB599",
       "toChunk": 0,
-      "comment": "47 random voluntary-bathroom dialogue: Break time. (chunk4)"
+      "comment": "Break time. (chunk4)"
     },
     {
       "runtimeID": "009B9919B93E8215",
       "toChunk": 0,
-      "comment": "FaceFX for 47 random voluntary-bathroom dialogue: Break time. (chunk4)"
+      "comment": "FaceFX for Break time. (chunk4)"
     },
     {
       "runtimeID": "008849AD90693FE4",
       "toChunk": 0,
-      "comment": "47 random voluntary-bathroom dialogue: How about this? (chunk19)"
+      "comment": "How about this? (chunk19)"
     },
     {
       "runtimeID": "00339A49C0FE698C",
       "toChunk": 0,
-      "comment": "FaceFX for 47 random voluntary-bathroom dialogue: How about this? (chunk19)"
+      "comment": "FaceFX for How about this? (chunk19)"
     },
     {
       "runtimeID": "00B80DAFFE79BF2A",
       "toChunk": 0,
-      "comment": "47 random voluntary-bathroom dialogue: Good party? (chunk18)"
+      "comment": "Good party? (chunk18)"
     },
     {
       "runtimeID": "00866608BD8FD4D1",
       "toChunk": 0,
-      "comment": "FaceFX for 47 random voluntary-bathroom dialogue: Good party? (chunk18)"
+      "comment": "FaceFX for Good party? (chunk18)"
     },
     {
       "runtimeID": "00943C7C91B6E19B",
       "toChunk": 0,
-      "comment": "47 random voluntary-bathroom dialogue: I don't care much for politics. (chunk16)"
+      "comment": "I don't care much for politics. (chunk16)"
     },
     {
       "runtimeID": "003676511A1ADDA3",
       "toChunk": 0,
-      "comment": "FaceFX for 47 random voluntary-bathroom dialogue: I don't care much for politics. (chunk16)"
+      "comment": "FaceFX for I don't care much for politics. (chunk16)"
     },
     {
       "runtimeID": "00AD79B6514CD5B2",
       "toChunk": 0,
-      "comment": "47 random voluntary-bathroom dialogue: Is this all right? (chunk19)"
+      "comment": "Is this all right? (chunk19)"
     },
     {
       "runtimeID": "00FB4A4812C815AE",
       "toChunk": 0,
-      "comment": "FaceFX for 47 random voluntary-bathroom dialogue: Is this all right? (chunk19)"
+      "comment": "FaceFX for Is this all right? (chunk19)"
     },
     {
       "runtimeID": "0056C877C579B0E5",
       "toChunk": 0,
-      "comment": "47 random voluntary-bathroom dialogue: Boo! (chunk18)"
+      "comment": "Boo! (chunk18)"
     },
     {
       "runtimeID": "00E078065837ED0B",
       "toChunk": 0,
-      "comment": "FaceFX for 47 random voluntary-bathroom dialogue: Boo! (chunk18)"
+      "comment": "FaceFX for Boo! (chunk18)"
     },
     {
       "runtimeID": "001B46BC7D51782D",
       "toChunk": 0,
-      "comment": "47 random voluntary-bathroom dialogue: In the right hands, anything can be a deadly weapon. (chunk19)"
+      "comment": "In the right hands, anything can be a deadly weapon. (chunk19)"
     },
     {
       "runtimeID": "00CB086D9FE14AA2",
       "toChunk": 0,
-      "comment": "FaceFX for 47 random voluntary-bathroom dialogue: In the right hands, anything can be a deadly weapon. (chunk19)"
+      "comment": "FaceFX for In the right hands, anything can be a deadly weapon. (chunk19)"
     },
     {
       "runtimeID": "00796CE11B7B2A3B",
       "toChunk": 0,
-      "comment": "47 random voluntary-bathroom dialogue: Next up... (chunk24)"
+      "comment": "Next up... (chunk24)"
     },
     {
       "runtimeID": "00E1C81981F786E3",
       "toChunk": 0,
-      "comment": "FaceFX for 47 random voluntary-bathroom dialogue: Next up... (chunk24)"
+      "comment": "FaceFX for Next up... (chunk24)"
     },
     {
       "runtimeID": "007984F8943C6F17",
       "toChunk": 0,
-      "comment": "47 random voluntary-bathroom dialogue: Nothing quite like it. (chunk5)"
+      "comment": "Nothing quite like it. (chunk5)"
     },
     {
       "runtimeID": "00C230B35DE64840",
       "toChunk": 0,
-      "comment": "FaceFX for 47 random voluntary-bathroom dialogue: Nothing quite like it. (chunk5)"
+      "comment": "FaceFX for Nothing quite like it. (chunk5)"
     },
     {
       "runtimeID": "00275562D758FBA6",
       "toChunk": 0,
-      "comment": "47 random voluntary-bathroom dialogue: I'm not from around here. (chunk16)"
+      "comment": "I'm not from around here. (chunk16)"
     },
     {
       "runtimeID": "00E1B188F3852ABD",
       "toChunk": 0,
-      "comment": "FaceFX for 47 random voluntary-bathroom dialogue: I'm not from around here. (chunk16)"
+      "comment": "FaceFX for I'm not from around here. (chunk16)"
     },
     {
       "runtimeID": "00D41477E0848CE8",
       "toChunk": 0,
-      "comment": "47 random voluntary-bathroom dialogue: dr4365_fgt 47greet_47_002 (chunk24)"
+      "comment": "dr4365_fgt 47greet_47_002 (chunk24)"
     },
     {
       "runtimeID": "00FA48D6F79652F3",
       "toChunk": 0,
-      "comment": "FaceFX for 47 random voluntary-bathroom dialogue: dr4365_fgt 47greet_47_002 (chunk24)"
+      "comment": "FaceFX for dr4365_fgt 47greet_47_002 (chunk24)"
     },
     {
       "runtimeID": "00B1F7DBA8F51EEE",
       "toChunk": 0,
-      "comment": "47 random voluntary-bathroom dialogue: I just had surgery. (chunk18)"
+      "comment": "I just had surgery. (chunk18)"
     },
     {
       "runtimeID": "00419703C1A51CFC",
       "toChunk": 0,
-      "comment": "FaceFX for 47 random voluntary-bathroom dialogue: I just had surgery. (chunk18)"
+      "comment": "FaceFX for I just had surgery. (chunk18)"
     },
     {
       "runtimeID": "0052642DA796EA93",
       "toChunk": 0,
-      "comment": "47 random voluntary-bathroom dialogue: I’ll just follow my impulses. (chunk6)"
+      "comment": "I’ll just follow my impulses. (chunk6)"
     },
     {
       "runtimeID": "0045F3B22688DCE1",
       "toChunk": 0,
-      "comment": "FaceFX for 47 random voluntary-bathroom dialogue: I’ll just follow my impulses. (chunk6)"
+      "comment": "FaceFX for I’ll just follow my impulses. (chunk6)"
     },
     {
       "runtimeID": "00DA974A9D7FE995",
       "toChunk": 0,
-      "comment": "47 random voluntary-bathroom dialogue: So. What happens now? (chunk5)"
+      "comment": "So. What happens now? (chunk5)"
     },
     {
       "runtimeID": "007E4ED0C0DEAA0C",
       "toChunk": 0,
-      "comment": "FaceFX for 47 random voluntary-bathroom dialogue: So. What happens now? (chunk5)"
+      "comment": "FaceFX for So. What happens now? (chunk5)"
     },
     {
       "runtimeID": "00411D52E9DEE041",
       "toChunk": 0,
-      "comment": "47 random voluntary-bathroom dialogue: dr4365_fgt 47greet_47_001 (chunk24)"
+      "comment": "dr4365_fgt 47greet_47_001 (chunk24)"
     },
     {
       "runtimeID": "0020EC2C7860E82C",
       "toChunk": 0,
-      "comment": "FaceFX for 47 random voluntary-bathroom dialogue: dr4365_fgt 47greet_47_001 (chunk24)"
+      "comment": "FaceFX for dr4365_fgt 47greet_47_001 (chunk24)"
     },
     {
       "runtimeID": "0090AF95945995A0",
@@ -369,252 +453,252 @@
     {
       "runtimeID": "006796CB3C584345",
       "toChunk": 0,
-      "comment": "47 random legal-toilet dialogue: dr33143_goldboxprivacy_47_002 (chunk12)"
+      "comment": "dr33143_goldboxprivacy_47_002 (chunk12)"
     },
     {
       "runtimeID": "007CC973804F4D4A",
       "toChunk": 0,
-      "comment": "FaceFX for 47 random legal-toilet dialogue: dr33143_goldboxprivacy_47_002 (chunk12)"
+      "comment": "FaceFX for dr33143_goldboxprivacy_47_002 (chunk12)"
     },
     {
       "runtimeID": "00A219A90E331740",
       "toChunk": 0,
-      "comment": "47 random legal-toilet dialogue: dr27043_housesalecassidyhaggling_47_004 (chunk16)"
+      "comment": "dr27043_housesalecassidyhaggling_47_004 (chunk16)"
     },
     {
       "runtimeID": "00B77F136F44C272",
       "toChunk": 0,
-      "comment": "FaceFX for 47 random legal-toilet dialogue: dr27043_housesalecassidyhaggling_47_004 (chunk16)"
+      "comment": "FaceFX for dr27043_housesalecassidyhaggling_47_004 (chunk16)"
     },
     {
       "runtimeID": "00F65A94E9D1B040",
       "toChunk": 0,
-      "comment": "47 random legal-toilet dialogue: dr12297_47_request_target_enterfirst_47_ws_004 (chunk26)"
+      "comment": "dr12297_47_request_target_enterfirst_47_ws_004 (chunk26)"
     },
     {
       "runtimeID": "004B72B979E0CB71",
       "toChunk": 0,
-      "comment": "FaceFX for 47 random legal-toilet dialogue: dr12297_47_request_target_enterfirst_47_ws_004 (chunk26)"
+      "comment": "FaceFX for dr12297_47_request_target_enterfirst_47_ws_004 (chunk26)"
     },
     {
       "runtimeID": "002563EE66E83895",
       "toChunk": 0,
-      "comment": "47 random legal-toilet dialogue: dr42266_opjuice47diss_47_002 (chunk4)"
+      "comment": "dr42266_opjuice47diss_47_002 (chunk4)"
     },
     {
       "runtimeID": "008D02B021D35894",
       "toChunk": 0,
-      "comment": "FaceFX for 47 random legal-toilet dialogue: dr42266_opjuice47diss_47_002 (chunk4)"
+      "comment": "FaceFX for dr42266_opjuice47diss_47_002 (chunk4)"
     },
     {
       "runtimeID": "00C56B7CDBA3B146",
       "toChunk": 0,
-      "comment": "47 random legal-toilet dialogue: dr23547_hallowedground_assistant47shamanacknowledge_47_002 (chunk18)"
+      "comment": "dr23547_hallowedground_assistant47shamanacknowledge_47_002 (chunk18)"
     },
     {
       "runtimeID": "00C435AE10A92BBF",
       "toChunk": 0,
-      "comment": "FaceFX for 47 random legal-toilet dialogue: dr23547_hallowedground_assistant47shamanacknowledge_47_002 (chunk18)"
+      "comment": "FaceFX for dr23547_hallowedground_assistant47shamanacknowledge_47_002 (chunk18)"
     },
     {
       "runtimeID": "00B5BDD66BB10285",
       "toChunk": 0,
-      "comment": "47 random legal-toilet dialogue: dr23670_backpacker_47guardstatue2_47_001 (chunk18)"
+      "comment": "dr23670_backpacker_47guardstatue2_47_001 (chunk18)"
     },
     {
       "runtimeID": "00F5B87E470C1DC1",
       "toChunk": 0,
-      "comment": "FaceFX for 47 random legal-toilet dialogue: dr23670_backpacker_47guardstatue2_47_001 (chunk18)"
+      "comment": "FaceFX for dr23670_backpacker_47guardstatue2_47_001 (chunk18)"
     },
     {
       "runtimeID": "0085446DD44BE8E5",
       "toChunk": 0,
-      "comment": "47 random legal-toilet dialogue: dr29865_47wincongrats_47_002 (chunk15)"
+      "comment": "dr29865_47wincongrats_47_002 (chunk15)"
     },
     {
       "runtimeID": "00EE4743603D798B",
       "toChunk": 0,
-      "comment": "FaceFX for 47 random legal-toilet dialogue: dr29865_47wincongrats_47_002 (chunk15)"
+      "comment": "FaceFX for dr29865_47wincongrats_47_002 (chunk15)"
     },
     {
       "runtimeID": "0092EDF340143E05",
       "toChunk": 0,
-      "comment": "47 random legal-toilet dialogue: dr21613_47weaponsdemofabareturns_47_002 (chunk19)"
+      "comment": "dr21613_47weaponsdemofabareturns_47_002 (chunk19)"
     },
     {
       "runtimeID": "00CFBF38EE15C50A",
       "toChunk": 0,
-      "comment": "FaceFX for 47 random legal-toilet dialogue: dr21613_47weaponsdemofabareturns_47_002 (chunk19)"
+      "comment": "FaceFX for dr21613_47weaponsdemofabareturns_47_002 (chunk19)"
     },
     {
       "runtimeID": "00840C7E50D43164",
       "toChunk": 0,
-      "comment": "47 random legal-toilet dialogue: dr4501_morganarrivesuiteshort_47_001 (chunk24)"
+      "comment": "dr4501_morganarrivesuiteshort_47_001 (chunk24)"
     },
     {
       "runtimeID": "00BBA3D715F42A53",
       "toChunk": 0,
-      "comment": "FaceFX for 47 random legal-toilet dialogue: dr4501_morganarrivesuiteshort_47_001 (chunk24)"
+      "comment": "FaceFX for dr4501_morganarrivesuiteshort_47_001 (chunk24)"
     },
     {
       "runtimeID": "009CFC8BA8B4D4F7",
       "toChunk": 0,
-      "comment": "47 random legal-toilet auto-exit dialogue: dr27188_mole47jobdone_47_001 (chunk16)"
+      "comment": "dr27188_mole47jobdone_47_001 (chunk16)"
     },
     {
       "runtimeID": "00B413A1CFFB7377",
       "toChunk": 0,
-      "comment": "FaceFX for 47 random legal-toilet auto-exit dialogue: dr27188_mole47jobdone_47_001 (chunk16)"
+      "comment": "FaceFX for dr27188_mole47jobdone_47_001 (chunk16)"
     },
     {
       "runtimeID": "005575566564928C",
       "toChunk": 0,
-      "comment": "47 random legal-toilet auto-exit dialogue: dr25251_barber_47doneshavingrandom_47_005 (chunk17)"
+      "comment": "dr25251_barber_47doneshavingrandom_47_005 (chunk17)"
     },
     {
       "runtimeID": "00F788A2E1F6D73A",
       "toChunk": 0,
-      "comment": "FaceFX for 47 random legal-toilet auto-exit dialogue: dr25251_barber_47doneshavingrandom_47_005 (chunk17)"
+      "comment": "FaceFX for dr25251_barber_47doneshavingrandom_47_005 (chunk17)"
     },
     {
       "runtimeID": "00CBA02A2356733C",
       "toChunk": 0,
-      "comment": "47 random legal-toilet auto-exit dialogue: dr27068_intelopp_andersonexplains_47_006 (chunk16)"
+      "comment": "dr27068_intelopp_andersonexplains_47_006 (chunk16)"
     },
     {
       "runtimeID": "00202430485CF687",
       "toChunk": 0,
-      "comment": "FaceFX for 47 random legal-toilet auto-exit dialogue: dr27068_intelopp_andersonexplains_47_006 (chunk16)"
+      "comment": "FaceFX for dr27068_intelopp_andersonexplains_47_006 (chunk16)"
     },
     {
       "runtimeID": "00E1D49191233842",
       "toChunk": 0,
-      "comment": "47 random legal-toilet auto-exit dialogue: dr23706_hallowedground_foremanisitdone_47_002 (chunk18)"
+      "comment": "dr23706_hallowedground_foremanisitdone_47_002 (chunk18)"
     },
     {
       "runtimeID": "0014DC4CFBB4726D",
       "toChunk": 0,
-      "comment": "FaceFX for 47 random legal-toilet auto-exit dialogue: dr23706_hallowedground_foremanisitdone_47_002 (chunk18)"
+      "comment": "FaceFX for dr23706_hallowedground_foremanisitdone_47_002 (chunk18)"
     },
     {
       "runtimeID": "0009231ED7A75867",
       "toChunk": 0,
-      "comment": "47 random during-urination dialogue: NoOneWillEverKnow (chunk3)"
+      "comment": "NoOneWillEverKnow (chunk3)"
     },
     {
       "runtimeID": "00E7618CABB29A91",
       "toChunk": 0,
-      "comment": "FaceFX for 47 random during-urination dialogue: NoOneWillEverKnow (chunk3)"
+      "comment": "FaceFX for NoOneWillEverKnow (chunk3)"
     },
     {
       "runtimeID": "000CFB8D53EA2C10",
       "toChunk": 0,
-      "comment": "47 random during-urination dialogue: AlmostDone (chunk16)"
+      "comment": "AlmostDone (chunk16)"
     },
     {
       "runtimeID": "00C2B42E0A25C2FA",
       "toChunk": 0,
-      "comment": "FaceFX for 47 random during-urination dialogue: AlmostDone (chunk16)"
+      "comment": "FaceFX for AlmostDone (chunk16)"
     },
     {
       "runtimeID": "0062E80C5FFA407D",
       "toChunk": 0,
-      "comment": "47 random during-urination dialogue: WellBeDoneSoon (chunk9)"
+      "comment": "WellBeDoneSoon (chunk9)"
     },
     {
       "runtimeID": "0054638C172C0A87",
       "toChunk": 0,
-      "comment": "FaceFX for 47 random during-urination dialogue: WellBeDoneSoon (chunk9)"
+      "comment": "FaceFX for WellBeDoneSoon (chunk9)"
     },
     {
       "runtimeID": "002DB1C87BBB702B",
       "toChunk": 0,
-      "comment": "47 random during-urination dialogue: IveGotThis (chunk4)"
+      "comment": "IveGotThis (chunk4)"
     },
     {
       "runtimeID": "007ADFF1FFE831AD",
       "toChunk": 0,
-      "comment": "FaceFX for 47 random during-urination dialogue: IveGotThis (chunk4)"
+      "comment": "FaceFX for IveGotThis (chunk4)"
     },
     {
       "runtimeID": "00EFB41D71EE025B",
       "toChunk": 0,
-      "comment": "47 random blackout dialogue: dr3759_vip47move_47_021 (chunk27)"
+      "comment": "dr3759_vip47move_47_021 (chunk27)"
     },
     {
       "runtimeID": "00D88F4A3B7DD3A9",
       "toChunk": 0,
-      "comment": "FaceFX for 47 random blackout dialogue: dr3759_vip47move_47_021 (chunk27)"
+      "comment": "FaceFX for dr3759_vip47move_47_021 (chunk27)"
     },
     {
       "runtimeID": "00EA4C4B3662D980",
       "toChunk": 0,
-      "comment": "47 random blackout dialogue: dr44261_dianarieper2_47_005 (chunk5)"
+      "comment": "dr44261_dianarieper2_47_005 (chunk5)"
     },
     {
       "runtimeID": "00D898DCFDEF97B7",
       "toChunk": 0,
-      "comment": "FaceFX for 47 random blackout dialogue: dr44261_dianarieper2_47_005 (chunk5)"
+      "comment": "FaceFX for dr44261_dianarieper2_47_005 (chunk5)"
     },
     {
       "runtimeID": "003A0C13D66B47A5",
       "toChunk": 0,
-      "comment": "47 random blackout dialogue: dr46139_farahboxreply_47_001 (chunk28)"
+      "comment": "dr46139_farahboxreply_47_001 (chunk28)"
     },
     {
       "runtimeID": "006A73AD7758469A",
       "toChunk": 0,
-      "comment": "FaceFX for 47 random blackout dialogue: dr46139_farahboxreply_47_001 (chunk28)"
+      "comment": "FaceFX for dr46139_farahboxreply_47_001 (chunk28)"
     },
     {
       "runtimeID": "0074E84FE2B51AB2",
       "toChunk": 0,
-      "comment": "47 random blackout dialogue: dr7060_abiatticonfession47_47_006 (chunk26)"
+      "comment": "dr7060_abiatticonfession47_47_006 (chunk26)"
     },
     {
       "runtimeID": "0062F49A9918DA3F",
       "toChunk": 0,
-      "comment": "FaceFX for 47 random blackout dialogue: dr7060_abiatticonfession47_47_006 (chunk26)"
+      "comment": "FaceFX for dr7060_abiatticonfession47_47_006 (chunk26)"
     },
     {
       "runtimeID": "00F23B15B40E6387",
       "toChunk": 0,
-      "comment": "47 random blackout dialogue: 47_slappers_47_about2slap_agent47_agent47_001 (chunk28)"
+      "comment": "47_slappers_47_about2slap_agent47_agent47_001 (chunk28)"
     },
     {
       "runtimeID": "0009833CD4916E9C",
       "toChunk": 0,
-      "comment": "FaceFX for 47 random blackout dialogue: 47_slappers_47_about2slap_agent47_agent47_001 (chunk28)"
+      "comment": "FaceFX for 47_slappers_47_about2slap_agent47_agent47_001 (chunk28)"
     },
     {
       "runtimeID": "00D934D9550055AC",
       "toChunk": 0,
-      "comment": "47 random blackout dialogue: 47_slappers_47_about2slap_agent47_agent47_010 (chunk28)"
+      "comment": "47_slappers_47_about2slap_agent47_agent47_010 (chunk28)"
     },
     {
       "runtimeID": "007FA54F419FFC92",
       "toChunk": 0,
-      "comment": "FaceFX for 47 random blackout dialogue: 47_slappers_47_about2slap_agent47_agent47_010 (chunk28)"
+      "comment": "FaceFX for 47_slappers_47_about2slap_agent47_agent47_010 (chunk28)"
     },
     {
       "runtimeID": "00D6EFF4A095B22E",
       "toChunk": 0,
-      "comment": "47 random blackout dialogue: 47_slappers_47_about2slap_agent47_agent47_009 (chunk28)"
+      "comment": "47_slappers_47_about2slap_agent47_agent47_009 (chunk28)"
     },
     {
       "runtimeID": "007E65EEC31FF1B2",
       "toChunk": 0,
-      "comment": "FaceFX for 47 random blackout dialogue: 47_slappers_47_about2slap_agent47_agent47_009 (chunk28)"
+      "comment": "FaceFX for 47_slappers_47_about2slap_agent47_agent47_009 (chunk28)"
     },
     {
       "runtimeID": "00E563320F377C74",
       "toChunk": 0,
-      "comment": "47 random blackout dialogue: dt29838_ntrostaunt47rply_47_007 (chunk15)"
+      "comment": "dt29838_ntrostaunt47rply_47_007 (chunk15)"
     },
     {
       "runtimeID": "00094359522478AE",
       "toChunk": 0,
-      "comment": "FaceFX for 47 random blackout dialogue: dt29838_ntrostaunt47rply_47_007 (chunk15)"
+      "comment": "FaceFX for dt29838_ntrostaunt47rply_47_007 (chunk15)"
     },
     {
       "runtimeID": "001F623C9CC984FD",
@@ -723,32 +807,32 @@
     {
       "runtimeID": "00A784F5340A6049",
       "toChunk": 0,
-      "comment": "47 random manual dance dialogue: dr42378_opdrug47push01_47_001 (chunk4)"
+      "comment": "dr42378_opdrug47push01_47_001 (chunk4)"
     },
     {
       "runtimeID": "00BF5AAF18819214",
       "toChunk": 0,
-      "comment": "FaceFX for 47 random manual dance dialogue: dr42378_opdrug47push01_47_001 (chunk4)"
+      "comment": "FaceFX for dr42378_opdrug47push01_47_001 (chunk4)"
     },
     {
       "runtimeID": "006A11AC095BFE1F",
       "toChunk": 0,
-      "comment": "47 random manual dance dialogue: dr42378_opdrug47push01_47_002 (chunk4)"
+      "comment": "dr42378_opdrug47push01_47_002 (chunk4)"
     },
     {
       "runtimeID": "00559C8B16F1E29D",
       "toChunk": 0,
-      "comment": "FaceFX for 47 random manual dance dialogue: dr42378_opdrug47push01_47_002 (chunk4)"
+      "comment": "FaceFX for dr42378_opdrug47push01_47_002 (chunk4)"
     },
     {
       "runtimeID": "0009AF5CA41614F0",
       "toChunk": 0,
-      "comment": "47 random manual dance dialogue: dr23164_backpacker47sicariowalkchatter2_47_003 (chunk18)"
+      "comment": "dr23164_backpacker47sicariowalkchatter2_47_003 (chunk18)"
     },
     {
       "runtimeID": "00C56941239F6EA0",
       "toChunk": 0,
-      "comment": "FaceFX for 47 random manual dance dialogue: dr23164_backpacker47sicariowalkchatter2_47_003 (chunk18)"
+      "comment": "FaceFX for dr23164_backpacker47sicariowalkchatter2_47_003 (chunk18)"
     }
   ],
   "localisation": {
@@ -772,120 +856,120 @@
       "ui_prop_melee_whiskey_glass_desc": "Un solide verre à whisky. Brisez-le pour créer une flaque glissante.",
       "ui_prop_melee_beer_bottle_name": "Bouteille de bière",
       "ui_prop_melee_beer_bottle_desc": "Une solide bouteille de bière. Brisez-la pour créer une flaque glissante.",
-      "UI_DRUNK47_ACTION_DRINK": "Drink",
-      "UI_DRUNK47_ACTION_USE_BATHROOM": "Use bathroom",
+      "UI_DRUNK47_ACTION_DRINK": "Boire",
+      "UI_DRUNK47_ACTION_USE_BATHROOM": "Uriner",
       "UI_DRUNK47_ACTION_BLACK_OUT": "Black out",
-      "UI_DRUNK47_ACTION_DANCE": "Dance",
-      "UI_DRUNK47_ACTION_VOMIT": "Vomit",
-      "UI_DRUNK47_ACTION_USE_TOILET": "Use toilet",
-      "UI_DRUNK47_ACTION_OPEN_LID": "Open lid",
-      "UI_ITEM_SUBTYPE_EVERGREEN_KILL_METHOD_DROWN": "Drinks",
-      "UI_ITEM_SUBTYPE_IN_PLURAL_EVERGREEN_KILL_METHOD_DROWN": "Drinks"
+      "UI_DRUNK47_ACTION_DANCE": "Danse",
+      "UI_DRUNK47_ACTION_VOMIT": "Vomir",
+      "UI_DRUNK47_ACTION_USE_TOILET": "Utiliser les toilettes",
+      "UI_DRUNK47_ACTION_OPEN_LID": "Ouvrir",
+      "UI_ITEM_SUBTYPE_EVERGREEN_KILL_METHOD_DROWN": "Boissons",
+      "UI_ITEM_SUBTYPE_IN_PLURAL_EVERGREEN_KILL_METHOD_DROWN": "Boissons"
     },
     "italian": {
       "ui_prop_melee_whiskey_glass_name": "Bicchiere da whisky",
       "ui_prop_melee_whiskey_glass_desc": "Un robusto bicchiere da whisky. Rompilo per creare una pozza scivolosa.",
       "ui_prop_melee_beer_bottle_name": "Bottiglia di birra",
       "ui_prop_melee_beer_bottle_desc": "Una robusta bottiglia di birra. Rompila per creare una pozza scivolosa.",
-      "UI_DRUNK47_ACTION_DRINK": "Drink",
-      "UI_DRUNK47_ACTION_USE_BATHROOM": "Use bathroom",
-      "UI_DRUNK47_ACTION_BLACK_OUT": "Black out",
-      "UI_DRUNK47_ACTION_DANCE": "Dance",
-      "UI_DRUNK47_ACTION_VOMIT": "Vomit",
-      "UI_DRUNK47_ACTION_USE_TOILET": "Use toilet",
-      "UI_DRUNK47_ACTION_OPEN_LID": "Open lid",
-      "UI_ITEM_SUBTYPE_EVERGREEN_KILL_METHOD_DROWN": "Drinks",
-      "UI_ITEM_SUBTYPE_IN_PLURAL_EVERGREEN_KILL_METHOD_DROWN": "Drinks"
+      "UI_DRUNK47_ACTION_DRINK": "Bere",
+      "UI_DRUNK47_ACTION_USE_BATHROOM": "Urinare",
+      "UI_DRUNK47_ACTION_BLACK_OUT": "Ubriacati",
+      "UI_DRUNK47_ACTION_DANCE": "Ballare",
+      "UI_DRUNK47_ACTION_VOMIT": "Vomito",
+      "UI_DRUNK47_ACTION_USE_TOILET": "Usa il bagno",
+      "UI_DRUNK47_ACTION_OPEN_LID": "Sollevare",
+      "UI_ITEM_SUBTYPE_EVERGREEN_KILL_METHOD_DROWN": "Bevande",
+      "UI_ITEM_SUBTYPE_IN_PLURAL_EVERGREEN_KILL_METHOD_DROWN": "Bevande"
     },
     "german": {
       "ui_prop_melee_whiskey_glass_name": "Whiskyglas",
       "ui_prop_melee_whiskey_glass_desc": "Ein stabiles Whiskyglas. Zerbrich es, um eine rutschige Pfütze zu erzeugen.",
       "ui_prop_melee_beer_bottle_name": "Bierflasche",
       "ui_prop_melee_beer_bottle_desc": "Eine robuste Bierflasche. Zerbrich sie, um eine rutschige Pfütze zu erzeugen.",
-      "UI_DRUNK47_ACTION_DRINK": "Drink",
-      "UI_DRUNK47_ACTION_USE_BATHROOM": "Use bathroom",
-      "UI_DRUNK47_ACTION_BLACK_OUT": "Black out",
-      "UI_DRUNK47_ACTION_DANCE": "Dance",
-      "UI_DRUNK47_ACTION_VOMIT": "Vomit",
-      "UI_DRUNK47_ACTION_USE_TOILET": "Use toilet",
-      "UI_DRUNK47_ACTION_OPEN_LID": "Open lid",
-      "UI_ITEM_SUBTYPE_EVERGREEN_KILL_METHOD_DROWN": "Drinks",
-      "UI_ITEM_SUBTYPE_IN_PLURAL_EVERGREEN_KILL_METHOD_DROWN": "Drinks"
+      "UI_DRUNK47_ACTION_DRINK": "Trinken",
+      "UI_DRUNK47_ACTION_USE_BATHROOM": "Urinieren",
+      "UI_DRUNK47_ACTION_BLACK_OUT": "Betrink dich",
+      "UI_DRUNK47_ACTION_DANCE": "Tanzen",
+      "UI_DRUNK47_ACTION_VOMIT": "Sich erbrechen",
+      "UI_DRUNK47_ACTION_USE_TOILET": "Toilette benutzen",
+      "UI_DRUNK47_ACTION_OPEN_LID": "Aufzug",
+      "UI_ITEM_SUBTYPE_EVERGREEN_KILL_METHOD_DROWN": "Getränke",
+      "UI_ITEM_SUBTYPE_IN_PLURAL_EVERGREEN_KILL_METHOD_DROWN": "Getränke"
     },
     "spanish": {
       "ui_prop_melee_whiskey_glass_name": "Vaso de whisky",
       "ui_prop_melee_whiskey_glass_desc": "Un resistente vaso de whisky. Rómpelo para crear un charco resbaladizo.",
       "ui_prop_melee_beer_bottle_name": "Botella de cerveza",
       "ui_prop_melee_beer_bottle_desc": "Una resistente botella de cerveza. Rómpela para crear un charco resbaladizo.",
-      "UI_DRUNK47_ACTION_DRINK": "Drink",
-      "UI_DRUNK47_ACTION_USE_BATHROOM": "Use bathroom",
-      "UI_DRUNK47_ACTION_BLACK_OUT": "Black out",
-      "UI_DRUNK47_ACTION_DANCE": "Dance",
-      "UI_DRUNK47_ACTION_VOMIT": "Vomit",
-      "UI_DRUNK47_ACTION_USE_TOILET": "Use toilet",
-      "UI_DRUNK47_ACTION_OPEN_LID": "Open lid",
-      "UI_ITEM_SUBTYPE_EVERGREEN_KILL_METHOD_DROWN": "Drinks",
-      "UI_ITEM_SUBTYPE_IN_PLURAL_EVERGREEN_KILL_METHOD_DROWN": "Drinks"
+      "UI_DRUNK47_ACTION_DRINK": "Beber",
+      "UI_DRUNK47_ACTION_USE_BATHROOM": "Mear",
+      "UI_DRUNK47_ACTION_BLACK_OUT": "Emborracharse",
+      "UI_DRUNK47_ACTION_DANCE": "Bailar",
+      "UI_DRUNK47_ACTION_VOMIT": "Vomitar",
+      "UI_DRUNK47_ACTION_USE_TOILET": "Usar el baño",
+      "UI_DRUNK47_ACTION_OPEN_LID": "Elevar",
+      "UI_ITEM_SUBTYPE_EVERGREEN_KILL_METHOD_DROWN": "Bebidas",
+      "UI_ITEM_SUBTYPE_IN_PLURAL_EVERGREEN_KILL_METHOD_DROWN": "Bebidas"
     },
     "russian": {
       "ui_prop_melee_whiskey_glass_name": "Стакан для виски",
       "ui_prop_melee_whiskey_glass_desc": "Прочный стакан для виски. Разбейте его, чтобы создать скользкую лужу.",
       "ui_prop_melee_beer_bottle_name": "Бутылка пива",
       "ui_prop_melee_beer_bottle_desc": "Прочная бутылка пива. Разбейте её, чтобы создать скользкую лужу.",
-      "UI_DRUNK47_ACTION_DRINK": "Drink",
-      "UI_DRUNK47_ACTION_USE_BATHROOM": "Use bathroom",
-      "UI_DRUNK47_ACTION_BLACK_OUT": "Black out",
-      "UI_DRUNK47_ACTION_DANCE": "Dance",
-      "UI_DRUNK47_ACTION_VOMIT": "Vomit",
-      "UI_DRUNK47_ACTION_USE_TOILET": "Use toilet",
-      "UI_DRUNK47_ACTION_OPEN_LID": "Open lid",
-      "UI_ITEM_SUBTYPE_EVERGREEN_KILL_METHOD_DROWN": "Drinks",
-      "UI_ITEM_SUBTYPE_IN_PLURAL_EVERGREEN_KILL_METHOD_DROWN": "Drinks"
+      "UI_DRUNK47_ACTION_DRINK": "пить",
+      "UI_DRUNK47_ACTION_USE_BATHROOM": "мочиться",
+      "UI_DRUNK47_ACTION_BLACK_OUT": "пьяный",
+      "UI_DRUNK47_ACTION_DANCE": "танцевать",
+      "UI_DRUNK47_ACTION_VOMIT": "рвота",
+      "UI_DRUNK47_ACTION_USE_TOILET": "туалет",
+      "UI_DRUNK47_ACTION_OPEN_LID": "открыть",
+      "UI_ITEM_SUBTYPE_EVERGREEN_KILL_METHOD_DROWN": "Напитки",
+      "UI_ITEM_SUBTYPE_IN_PLURAL_EVERGREEN_KILL_METHOD_DROWN": "Напитки"
     },
     "chineseSimplified": {
       "ui_prop_melee_whiskey_glass_name": "威士忌酒杯",
       "ui_prop_melee_whiskey_glass_desc": "一个结实的威士忌酒杯。打碎它会形成一滩湿滑的液体。",
       "ui_prop_melee_beer_bottle_name": "啤酒瓶",
       "ui_prop_melee_beer_bottle_desc": "一个结实的啤酒瓶。打碎它会形成一滩湿滑的液体。",
-      "UI_DRUNK47_ACTION_DRINK": "Drink",
-      "UI_DRUNK47_ACTION_USE_BATHROOM": "Use bathroom",
-      "UI_DRUNK47_ACTION_BLACK_OUT": "Black out",
-      "UI_DRUNK47_ACTION_DANCE": "Dance",
-      "UI_DRUNK47_ACTION_VOMIT": "Vomit",
-      "UI_DRUNK47_ACTION_USE_TOILET": "Use toilet",
-      "UI_DRUNK47_ACTION_OPEN_LID": "Open lid",
-      "UI_ITEM_SUBTYPE_EVERGREEN_KILL_METHOD_DROWN": "Drinks",
-      "UI_ITEM_SUBTYPE_IN_PLURAL_EVERGREEN_KILL_METHOD_DROWN": "Drinks"
+      "UI_DRUNK47_ACTION_DRINK": "喝",
+      "UI_DRUNK47_ACTION_USE_BATHROOM": "排尿",
+      "UI_DRUNK47_ACTION_BLACK_OUT": "喝到断片",
+      "UI_DRUNK47_ACTION_DANCE": "舞蹈",
+      "UI_DRUNK47_ACTION_VOMIT": "呕吐",
+      "UI_DRUNK47_ACTION_USE_TOILET": "使用卫生间",
+      "UI_DRUNK47_ACTION_OPEN_LID": "开放",
+      "UI_ITEM_SUBTYPE_EVERGREEN_KILL_METHOD_DROWN": "饮料",
+      "UI_ITEM_SUBTYPE_IN_PLURAL_EVERGREEN_KILL_METHOD_DROWN": "饮料"
     },
     "chineseTraditional": {
       "ui_prop_melee_whiskey_glass_name": "威士忌酒杯",
       "ui_prop_melee_whiskey_glass_desc": "一個結實的威士忌酒杯。打碎它會形成一灘濕滑的液體。",
       "ui_prop_melee_beer_bottle_name": "啤酒瓶",
       "ui_prop_melee_beer_bottle_desc": "一個結實的啤酒瓶。打碎它會形成一灘濕滑的液體。",
-      "UI_DRUNK47_ACTION_DRINK": "Drink",
-      "UI_DRUNK47_ACTION_USE_BATHROOM": "Use bathroom",
-      "UI_DRUNK47_ACTION_BLACK_OUT": "Black out",
-      "UI_DRUNK47_ACTION_DANCE": "Dance",
-      "UI_DRUNK47_ACTION_VOMIT": "Vomit",
-      "UI_DRUNK47_ACTION_USE_TOILET": "Use toilet",
-      "UI_DRUNK47_ACTION_OPEN_LID": "Open lid",
-      "UI_ITEM_SUBTYPE_EVERGREEN_KILL_METHOD_DROWN": "Drinks",
-      "UI_ITEM_SUBTYPE_IN_PLURAL_EVERGREEN_KILL_METHOD_DROWN": "Drinks"
+      "UI_DRUNK47_ACTION_DRINK": "喝",
+      "UI_DRUNK47_ACTION_USE_BATHROOM": "排尿",
+      "UI_DRUNK47_ACTION_BLACK_OUT": "喝到断片",
+      "UI_DRUNK47_ACTION_DANCE": "舞蹈",
+      "UI_DRUNK47_ACTION_VOMIT": "呕吐",
+      "UI_DRUNK47_ACTION_USE_TOILET": "使用卫生间",
+      "UI_DRUNK47_ACTION_OPEN_LID": "开放",
+      "UI_ITEM_SUBTYPE_EVERGREEN_KILL_METHOD_DROWN": "飲料",
+      "UI_ITEM_SUBTYPE_IN_PLURAL_EVERGREEN_KILL_METHOD_DROWN": "飲料"
     },
     "japanese": {
       "ui_prop_melee_whiskey_glass_name": "ウイスキーグラス",
       "ui_prop_melee_whiskey_glass_desc": "丈夫なウイスキーグラス。割ると滑りやすい水たまりができる。",
       "ui_prop_melee_beer_bottle_name": "ビール瓶",
       "ui_prop_melee_beer_bottle_desc": "丈夫なビール瓶。割ると滑りやすい水たまりができる。",
-      "UI_DRUNK47_ACTION_DRINK": "Drink",
-      "UI_DRUNK47_ACTION_USE_BATHROOM": "Use bathroom",
-      "UI_DRUNK47_ACTION_BLACK_OUT": "Black out",
-      "UI_DRUNK47_ACTION_DANCE": "Dance",
-      "UI_DRUNK47_ACTION_VOMIT": "Vomit",
-      "UI_DRUNK47_ACTION_USE_TOILET": "Use toilet",
-      "UI_DRUNK47_ACTION_OPEN_LID": "Open lid",
-      "UI_ITEM_SUBTYPE_EVERGREEN_KILL_METHOD_DROWN": "Drinks",
-      "UI_ITEM_SUBTYPE_IN_PLURAL_EVERGREEN_KILL_METHOD_DROWN": "Drinks"
+      "UI_DRUNK47_ACTION_DRINK": "飲む",
+      "UI_DRUNK47_ACTION_USE_BATHROOM": "排尿する",
+      "UI_DRUNK47_ACTION_BLACK_OUT": "泥酔して記憶をなくすこと",
+      "UI_DRUNK47_ACTION_DANCE": "踊る",
+      "UI_DRUNK47_ACTION_VOMIT": "吐く",
+      "UI_DRUNK47_ACTION_USE_TOILET": "トイレを使う",
+      "UI_DRUNK47_ACTION_OPEN_LID": "開ける",
+      "UI_ITEM_SUBTYPE_EVERGREEN_KILL_METHOD_DROWN": "ドリンク",
+      "UI_ITEM_SUBTYPE_IN_PLURAL_EVERGREEN_KILL_METHOD_DROWN": "ドリンク"
     }
   },
   "localisedLines": {

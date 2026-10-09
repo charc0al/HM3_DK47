@@ -134,6 +134,6 @@ dancing + more on carusos mothers grave
 
 
 Audio filters:
-	Sloth | harebell_dream - 00319A1B59D6BD36, chunk3 | InSloth, OutofStamina | Lowered pitch; the exhausted state also applies low-pass muffling on affected audio branches
-	Lust | ambrosia_dream - 009C10DC1621305A, chunk4 | InLust | Low-pass filtering and a **Wwise Flanger**
-	Gluttony | azalea_dream - 004890230B513D01, chunk6 | InGluttony | Pitch/filter changes on selected sounds and music
+	harebell_dream - 00319A1B59D6BD36, chunk3
+	ambrosia_dream - 009C10DC1621305A, chunk4
+	azalea_dream - 004890230B513D01, chunk6
