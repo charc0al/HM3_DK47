@@ -386,8 +386,8 @@
     "cafe7a11c0ffee22": {
       "parent": "975617a94a7708b2",
       "name": "ItemHelper_Logic_BananaSlip_01",
-      "factory": "[assembly:/_pro/design/gamecore/itemhelpers.template?/itemhelper_logic_bananaslip.entitytemplate].pc_entitytype",
-      "blueprint": "[assembly:/_pro/design/gamecore/itemhelpers.template?/itemhelper_logic_bananaslip.entitytemplate].pc_entityblueprint",
+      "factory": "[assembly:/_pro/design/gamecore/drunk47.template?/itemhelper_logic_pisspuddleslip.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/gamecore/drunk47.template?/itemhelper_logic_pisspuddleslip.entitytemplate].pc_entityblueprint",
       "properties": {
         "m_sId": {
           "type": "ZGuid",
@@ -891,8 +891,8 @@
     "d47b00000000010d": {
       "parent": "975617a94a7708b2",
       "name": "ItemHelper_Logic_BananaSlip_Huge",
-      "factory": "[assembly:/_pro/design/gamecore/itemhelpers.template?/itemhelper_logic_bananaslip.entitytemplate].pc_entitytype",
-      "blueprint": "[assembly:/_pro/design/gamecore/itemhelpers.template?/itemhelper_logic_bananaslip.entitytemplate].pc_entityblueprint",
+      "factory": "[assembly:/_pro/design/gamecore/drunk47.template?/itemhelper_logic_pisspuddleslip.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/gamecore/drunk47.template?/itemhelper_logic_pisspuddleslip.entitytemplate].pc_entityblueprint",
       "properties": {
         "m_sId": {
           "type": "ZGuid",
@@ -1134,8 +1134,8 @@
     "d47b000000000113": {
       "parent": "975617a94a7708b2",
       "name": "ItemHelper_Logic_BananaSlip_Medium",
-      "factory": "[assembly:/_pro/design/gamecore/itemhelpers.template?/itemhelper_logic_bananaslip.entitytemplate].pc_entitytype",
-      "blueprint": "[assembly:/_pro/design/gamecore/itemhelpers.template?/itemhelper_logic_bananaslip.entitytemplate].pc_entityblueprint",
+      "factory": "[assembly:/_pro/design/gamecore/drunk47.template?/itemhelper_logic_pisspuddleslip.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/gamecore/drunk47.template?/itemhelper_logic_pisspuddleslip.entitytemplate].pc_entityblueprint",
       "properties": {
         "m_sId": {
           "type": "ZGuid",
@@ -1377,8 +1377,8 @@
     "d47b000000000119": {
       "parent": "975617a94a7708b2",
       "name": "ItemHelper_Logic_BananaSlip_Large",
-      "factory": "[assembly:/_pro/design/gamecore/itemhelpers.template?/itemhelper_logic_bananaslip.entitytemplate].pc_entitytype",
-      "blueprint": "[assembly:/_pro/design/gamecore/itemhelpers.template?/itemhelper_logic_bananaslip.entitytemplate].pc_entityblueprint",
+      "factory": "[assembly:/_pro/design/gamecore/drunk47.template?/itemhelper_logic_pisspuddleslip.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/gamecore/drunk47.template?/itemhelper_logic_pisspuddleslip.entitytemplate].pc_entityblueprint",
       "properties": {
         "m_sId": {
           "type": "ZGuid",

@@ -10,6 +10,8 @@
     "[assembly:/localization/hitman6/conversations/ui/pro/drunk47_actions.sweetmenutext?/ui_drunk47_action_open_lid.sweetline].pc_sweetline",
     "[assembly:/_pro/design/items/drunk47.template?/prop_melee_champagne_proper.entitytemplate].pc_entitytemplate",
     "[assembly:/_pro/design/items/drunk47.template?/prop_melee_champagne_proper.entitytemplate].pc_entityblueprint",
-    "[assembly:/drunk47/animationnetworks/hitman01_walk_test.aln].pc_rtn"
+    "[assembly:/drunk47/animationnetworks/hitman01_walk_test.aln].pc_rtn",
+    "[assembly:/_pro/design/gamecore/drunk47.template?/itemhelper_logic_pisspuddleslip.entitytemplate].pc_entitytype",
+    "[assembly:/_pro/design/gamecore/drunk47.template?/itemhelper_logic_pisspuddleslip.entitytemplate].pc_entityblueprint"
   ]
 }

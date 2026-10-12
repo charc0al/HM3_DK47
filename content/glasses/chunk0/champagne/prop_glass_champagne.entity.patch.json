@@ -565,8 +565,8 @@
 				{
 					"parent": "cafe804726621396",
 					"name": "ItemHelper_Logic_BananaSlip",
-					"factory": "[assembly:/_pro/design/gamecore/itemhelpers.template?/itemhelper_logic_bananaslip.entitytemplate].pc_entitytype",
-					"blueprint": "[assembly:/_pro/design/gamecore/itemhelpers.template?/itemhelper_logic_bananaslip.entitytemplate].pc_entityblueprint",
+					"factory": "[assembly:/_pro/design/gamecore/drunk47.template?/itemhelper_logic_pisspuddleslip.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/gamecore/drunk47.template?/itemhelper_logic_pisspuddleslip.entitytemplate].pc_entityblueprint",
 					"properties": {
 						"m_sId": {
 							"type": "ZGuid",
