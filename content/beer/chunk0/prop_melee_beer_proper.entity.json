@@ -107,7 +107,7 @@
 			"exposedEntities": {
 				"PropHelper_Item_Placement": {
 					"isArray": false,
-					"refersTo": ["cafeaabbccdde007"]
+					"refersTo": ["cafe528a14102d6c"]
 				}
 			}
 		},
@@ -297,7 +297,7 @@
 				},
 				"m_pIllegalCondition": {
 					"type": "SEntityTemplateReference",
-					"value": "cafe1ea44a66b10e"
+					"value": "cafe6fabb7d1dad7"
 				},
 				"m_bIsIllegal": { "type": "bool", "value": true },
 				"m_eAnimSetFrontSide": {
@@ -326,7 +326,7 @@
 				},
 				"m_PosHandAttach": {
 					"type": "SEntityTemplateReference",
-					"value": "cafeaabbccdde004"
+					"value": "cafec2022f8caf59"
 				},
 				"m_bKinematic": { "type": "bool", "value": true },
 				"m_DisposalType": {
@@ -368,12 +368,12 @@
 				"m_aSubactions": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
-						"cafe1ea44a66b101",
-						"cafe1ea44a66b125",
-						"cafe1ea44a66b207",
-						"cafe1ea44a66b220",
-						"cafe1ea44a66b223",
-						"cafe1ea44a66b263"
+						"cafe9622a2754a62",
+						"cafed5e9a2407b60",
+						"cafea9d2f193c645",
+						"cafe88e6072d48dd",
+						"cafe2d55de5cab6b",
+						"cafed8ab079b6c60"
 					]
 				}
 			},
@@ -385,83 +385,83 @@
 				},
 				"WeaponPlayerEquipped": {
 					"Item_Equipped": ["998aa66552397b66"],
-					"TransmitEvent": ["cafe1ea44a66b251"],
-					"SetTrue": ["cafe1ea44a66b281"]
+					"TransmitEvent": ["cafe2df88e1f9a11"],
+					"SetTrue": ["cafe18fd00e2a054"]
 				},
 				"WeaponPlayerUnEquipped": {
 					"Item_UnEquipped": ["998aa66552397b66"],
-					"GetPosition": ["cafe1ea44a66b276"],
+					"GetPosition": ["cafee612358ae25d"],
 					"SetFalse": [
-						"cafe1ea44a66b20c",
-						"cafe1ea44a66b281",
+						"cafe53b824e5ad8f",
+						"cafe18fd00e2a054",
 						"cafe0ba1a17413ca"
 					],
 					"Abort": [
-						"cafe1ea44a66b27b",
-						"cafe1ea44a66b284",
-						"cafe1ea44a66b289"
+						"cafec42a1d1b9f27",
+						"cafe59f46681dfde",
+						"cafeb0aa14e8e3c5"
 					],
-					"Forget": ["cafe1ea44a66b283"]
+					"Forget": ["cafe5ad0c87da015"]
 				},
 				"OnPutInContainer": {
 					"ItemPlaced": ["998aa66552397b66"],
-					"GetPosition": ["cafe1ea44a66b276"],
+					"GetPosition": ["cafee612358ae25d"],
 					"SetFalse": [
-						"cafe1ea44a66b20c",
-						"cafe1ea44a66b281",
+						"cafe53b824e5ad8f",
+						"cafe18fd00e2a054",
 						"cafe0ba1a17413ca"
 					],
 					"Abort": [
-						"cafe1ea44a66b27b",
-						"cafe1ea44a66b284",
-						"cafe1ea44a66b289"
+						"cafec42a1d1b9f27",
+						"cafe59f46681dfde",
+						"cafeb0aa14e8e3c5"
 					],
-					"Forget": ["cafe1ea44a66b283"]
+					"Forget": ["cafe5ad0c87da015"]
 				},
 				"OnPlaced": {
 					"ItemPlaced": ["998aa66552397b66"],
-					"GetPosition": ["cafe1ea44a66b276"],
+					"GetPosition": ["cafee612358ae25d"],
 					"SetFalse": [
-						"cafe1ea44a66b20c",
-						"cafe1ea44a66b281",
+						"cafe53b824e5ad8f",
+						"cafe18fd00e2a054",
 						"cafe0ba1a17413ca"
 					],
 					"Abort": [
-						"cafe1ea44a66b27b",
-						"cafe1ea44a66b284",
-						"cafe1ea44a66b289"
+						"cafec42a1d1b9f27",
+						"cafe59f46681dfde",
+						"cafeb0aa14e8e3c5"
 					],
-					"Forget": ["cafe1ea44a66b283"]
+					"Forget": ["cafe5ad0c87da015"]
 				},
 				"OnDrop": {
 					"OnDrop_MixingEvent": ["998aa66552397b66"],
-					"GetPosition": ["cafe1ea44a66b276"],
+					"GetPosition": ["cafee612358ae25d"],
 					"SetFalse": [
-						"cafe1ea44a66b20c",
-						"cafe1ea44a66b281",
+						"cafe53b824e5ad8f",
+						"cafe18fd00e2a054",
 						"cafe0ba1a17413ca"
 					],
 					"Abort": [
-						"cafe1ea44a66b27b",
-						"cafe1ea44a66b284",
-						"cafe1ea44a66b289"
+						"cafec42a1d1b9f27",
+						"cafe59f46681dfde",
+						"cafeb0aa14e8e3c5"
 					],
-					"Forget": ["cafe1ea44a66b283"]
+					"Forget": ["cafe5ad0c87da015"]
 				},
 				"OnThrown": {
 					"OnThrown_MixingEvent": ["998aa66552397b66"],
-					"GetPosition": ["cafe1ea44a66b276"],
+					"GetPosition": ["cafee612358ae25d"],
 					"SetFalse": [
-						"cafe1ea44a66b20c",
-						"cafe1ea44a66b281",
+						"cafe53b824e5ad8f",
+						"cafe18fd00e2a054",
 						"cafe0ba1a17413ca"
 					],
 					"Abort": [
-						"cafe1ea44a66b27b",
-						"cafe1ea44a66b284",
-						"cafe1ea44a66b289"
+						"cafec42a1d1b9f27",
+						"cafe59f46681dfde",
+						"cafeb0aa14e8e3c5"
 					],
-					"Forget": ["cafe1ea44a66b283"]
+					"Forget": ["cafe5ad0c87da015"]
 				},
 				"ImpactBack": {
 					"OnMeleeImpact": ["28cf92781d4d4cde"],
@@ -869,7 +869,7 @@
 				}
 			}
 		},
-		"cafeaabbccdde004": {
+		"cafec2022f8caf59": {
 			"parent": "cafe2517cbb9c6d0",
 			"name": "BeerProper_HandAttacherOffset",
 			"factory": "[modules:/zdebuggizmoentity.class].pc_entitytype",
@@ -900,7 +900,7 @@
 				}
 			}
 		},
-		"cafeaabbccdde007": {
+		"cafe528a14102d6c": {
 			"parent": "9b02512ec9334431",
 			"name": "PropHelper_Item_Placement",
 			"factory": "[assembly:/_pro/design/gamecore/prophelpers.template?/prophelper_item_placement.entitytemplate].pc_entitytype",
@@ -920,7 +920,7 @@
 				}
 			}
 		},
-		"cafe1ea44a66b101": {
+		"cafe9622a2754a62": {
 			"parent": "cafe2517cbb9c6d0",
 			"name": "Interaction_Subaction_DrinkBeer",
 			"factory": "[assembly:/_pro/design/gamecore/interactionbase.template?/interaction_subaction.entitytemplate].pc_entitytype",
@@ -943,23 +943,23 @@
 				"m_ConditionList_Visible": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
-						"cafe1ea44a66b206",
-						"cafe1ea44a66b20a",
-						"cafe1ea44a66b20b",
-						"cafe1ea44a66b20e",
-						"cafe1ea44a66b21c",
-						"cafe1ea44a66b267"
+						"cafe1b7b69b36fde",
+						"cafe7c492106484b",
+						"cafefdcb6439ccec",
+						"cafef4f2cd07b36f",
+						"cafeb4ccc44e2aa3",
+						"cafe261ac203c02d"
 					]
 				},
 				"m_ConditionList_Usable": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
-						"cafe1ea44a66b206",
-						"cafe1ea44a66b20a",
-						"cafe1ea44a66b20b",
-						"cafe1ea44a66b20e",
-						"cafe1ea44a66b21c",
-						"cafe1ea44a66b267"
+						"cafe1b7b69b36fde",
+						"cafe7c492106484b",
+						"cafefdcb6439ccec",
+						"cafef4f2cd07b36f",
+						"cafeb4ccc44e2aa3",
+						"cafe261ac203c02d"
 					]
 				},
 				"m_RuntimeNetworkResourceID": {
@@ -1005,20 +1005,20 @@
 				"Started": {
 					"SetFalse": ["cafe0ba1a17413ca"],
 					"TransmitEvent": [
-						"cafe1ea44a66b214",
-						"cafe1ea44a66b197"
+						"cafeb4f37a612a01",
+						"cafeacfaa84f9a08"
 					],
 					"In": ["cafef3ba7b308bb0"]
 				}
 			}
 		},
-		"cafe1ea44a66b124": {
+		"cafe18b16c76e642": {
 			"parent": "cafe2517cbb9c6d0",
 			"name": "ValueBool_Drunk47BathroomAvailable_Mirror",
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint"
 		},
-		"cafe1ea44a66b125": {
+		"cafed5e9a2407b60": {
 			"parent": "cafe2517cbb9c6d0",
 			"name": "Interaction_Subaction_UseBathroom",
 			"factory": "[assembly:/_pro/design/gamecore/interactionbase.template?/interaction_subaction.entitytemplate].pc_entitytype",
@@ -1044,23 +1044,23 @@
 				"m_ConditionList_Visible": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
-						"cafe1ea44a66b124",
-						"cafe1ea44a66b20a",
-						"cafe1ea44a66b20b",
-						"cafe1ea44a66b20e",
-						"cafe1ea44a66b21c",
-						"cafe1ea44a66b267"
+						"cafe18b16c76e642",
+						"cafe7c492106484b",
+						"cafefdcb6439ccec",
+						"cafef4f2cd07b36f",
+						"cafeb4ccc44e2aa3",
+						"cafe261ac203c02d"
 					]
 				},
 				"m_ConditionList_Usable": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
-						"cafe1ea44a66b124",
-						"cafe1ea44a66b20a",
-						"cafe1ea44a66b20b",
-						"cafe1ea44a66b20e",
-						"cafe1ea44a66b21c",
-						"cafe1ea44a66b267"
+						"cafe18b16c76e642",
+						"cafe7c492106484b",
+						"cafefdcb6439ccec",
+						"cafef4f2cd07b36f",
+						"cafeb4ccc44e2aa3",
+						"cafe261ac203c02d"
 					]
 				},
 				"m_RuntimeNetworkResourceID": {
@@ -1087,10 +1087,10 @@
 				}
 			},
 			"events": {
-				"Started": { "TransmitEvent": ["cafe1ea44a66b216"] }
+				"Started": { "TransmitEvent": ["cafed6cec3f981c6"] }
 			}
 		},
-		"cafe1ea44a66b126": {
+		"cafea8b15f8488d2": {
 			"parent": "cafe2517cbb9c6d0",
 			"name": "Not_BeerBathroomReady",
 			"factory": "[modules:/zinvertedcondition.class].pc_entitytype",
@@ -1098,11 +1098,11 @@
 			"properties": {
 				"m_rCondition": {
 					"type": "SEntityTemplateReference",
-					"value": "cafe1ea44a66b124"
+					"value": "cafe18b16c76e642"
 				}
 			}
 		},
-		"cafe1ea44a66b180": {
+		"cafe720dff8f3710": {
 			"parent": "cafe2517cbb9c6d0",
 			"name": "EventChannelTransmitter_Drunk47DrinkComplete",
 			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_void.entitytemplate].pc_entitytype",
@@ -1110,13 +1110,13 @@
 			"properties": {
 				"m_rChannelToken": {
 					"type": "SEntityTemplateReference",
-					"value": "cafe1ea44a66b181",
+					"value": "cafeb2462148c118",
 					"postInit": true
 				}
 			}
 		},
-		"cafe1ea44a66b181": {
-			"parent": "cafe1ea44a66b180",
+		"cafeb2462148c118": {
+			"parent": "cafe720dff8f3710",
 			"name": "TokenID_Drunk47_DrinkComplete",
 			"factory": "[modules:/ztokenidentity.class].pc_entitytype",
 			"blueprint": "[modules:/ztokenidentity.class].pc_entityblueprint",
@@ -1127,7 +1127,7 @@
 				}
 			}
 		},
-		"cafe1ea44a66b184": {
+		"cafe100022223cab": {
 			"parent": "cafe2517cbb9c6d0",
 			"name": "EventChannelReceiver_Drunk47_BathroomAvailable",
 			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_bool.entitytemplate].pc_entitytype",
@@ -1135,17 +1135,17 @@
 			"properties": {
 				"m_rChannelToken": {
 					"type": "SEntityTemplateReference",
-					"value": "cafe1ea44a66b185",
+					"value": "cafe8f4773a45d15",
 					"postInit": true
 				}
 			},
 			"events": {
-				"OnTrue": { "SetTrue": ["cafe1ea44a66b124"] },
-				"OnFalse": { "SetFalse": ["cafe1ea44a66b124"] }
+				"OnTrue": { "SetTrue": ["cafe18b16c76e642"] },
+				"OnFalse": { "SetFalse": ["cafe18b16c76e642"] }
 			}
 		},
-		"cafe1ea44a66b185": {
-			"parent": "cafe1ea44a66b214",
+		"cafe8f4773a45d15": {
+			"parent": "cafeb4f37a612a01",
 			"name": "TokenID_Drunk47_BathroomAvailable",
 			"factory": "[modules:/ztokenidentity.class].pc_entitytype",
 			"blueprint": "[modules:/ztokenidentity.class].pc_entityblueprint",
@@ -1156,16 +1156,16 @@
 				}
 			}
 		},
-		"cafe1ea44a66b10e": {
+		"cafe6fabb7d1dad7": {
 			"parent": "cafe2517cbb9c6d0",
 			"name": "ValueBool_BeerBathroomPissFx",
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
 			"events": {
-				"OnFalse": { "TransmitEvent": ["cafe1ea44a66b189"] }
+				"OnFalse": { "TransmitEvent": ["cafe78a6963a6509"] }
 			}
 		},
-		"cafe1ea44a66b187": {
+		"cafe9b97b3154534": {
 			"parent": "cafe2517cbb9c6d0",
 			"name": "EventChannelReceiver_Drunk47VoluntaryBathroomStarted_Mirror",
 			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_void.entitytemplate].pc_entitytype",
@@ -1173,16 +1173,16 @@
 			"properties": {
 				"m_rChannelToken": {
 					"type": "SEntityTemplateReference",
-					"value": "cafe1ea44a66b188",
+					"value": "cafeb04630a60213",
 					"postInit": true
 				}
 			},
 			"events": {
-				"EventReceived": { "SetTrue": ["cafe1ea44a66b10e"] }
+				"EventReceived": { "SetTrue": ["cafe6fabb7d1dad7"] }
 			}
 		},
-		"cafe1ea44a66b188": {
-			"parent": "cafe1ea44a66b187",
+		"cafeb04630a60213": {
+			"parent": "cafe9b97b3154534",
 			"name": "TokenID_Drunk47_VoluntaryBathroomStarted",
 			"factory": "[modules:/ztokenidentity.class].pc_entitytype",
 			"blueprint": "[modules:/ztokenidentity.class].pc_entityblueprint",
@@ -1193,7 +1193,7 @@
 				}
 			}
 		},
-		"cafe1ea44a66b189": {
+		"cafe78a6963a6509": {
 			"parent": "cafe2517cbb9c6d0",
 			"name": "EventChannelTransmitter_Drunk47BathroomIllegalStop",
 			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_void.entitytemplate].pc_entitytype",
@@ -1201,13 +1201,13 @@
 			"properties": {
 				"m_rChannelToken": {
 					"type": "SEntityTemplateReference",
-					"value": "cafe1ea44a66b190",
+					"value": "cafee3249ed584e5",
 					"postInit": true
 				}
 			}
 		},
-		"cafe1ea44a66b190": {
-			"parent": "cafe1ea44a66b189",
+		"cafee3249ed584e5": {
+			"parent": "cafe78a6963a6509",
 			"name": "TokenID_Drunk47_BathroomIllegalStop",
 			"factory": "[modules:/ztokenidentity.class].pc_entitytype",
 			"blueprint": "[modules:/ztokenidentity.class].pc_entityblueprint",
@@ -1218,7 +1218,7 @@
 				}
 			}
 		},
-		"cafe1ea44a66b20e": {
+		"cafef4f2cd07b36f": {
 			"parent": "cafe2517cbb9c6d0",
 			"name": "BeerItemInRightHand",
 			"factory": "[modules:/zheroitemcondition.class].pc_entitytype",
@@ -1231,7 +1231,7 @@
 				}
 			}
 		},
-		"cafe1ea44a66b193": {
+		"cafe08b1b32bb8e8": {
 			"parent": "cafe2517cbb9c6d0",
 			"name": "EventChannelTransmitter_Drunk47BathroomStop",
 			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_void.entitytemplate].pc_entitytype",
@@ -1239,13 +1239,13 @@
 			"properties": {
 				"m_rChannelToken": {
 					"type": "SEntityTemplateReference",
-					"value": "cafe1ea44a66b194",
+					"value": "cafe4f71dd0c7cb8",
 					"postInit": true
 				}
 			}
 		},
-		"cafe1ea44a66b194": {
-			"parent": "cafe1ea44a66b193",
+		"cafe4f71dd0c7cb8": {
+			"parent": "cafe08b1b32bb8e8",
 			"name": "TokenID_Drunk47_BathroomStop",
 			"factory": "[modules:/ztokenidentity.class].pc_entitytype",
 			"blueprint": "[modules:/ztokenidentity.class].pc_entityblueprint",
@@ -1256,7 +1256,7 @@
 				}
 			}
 		},
-		"cafe1ea44a66b197": {
+		"cafeacfaa84f9a08": {
 			"parent": "cafe2517cbb9c6d0",
 			"name": "EventChannelTransmitter_Drunk47BathroomVoiceCheck",
 			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_void.entitytemplate].pc_entitytype",
@@ -1264,13 +1264,13 @@
 			"properties": {
 				"m_rChannelToken": {
 					"type": "SEntityTemplateReference",
-					"value": "cafe1ea44a66b198",
+					"value": "cafe0a4764c9e605",
 					"postInit": true
 				}
 			}
 		},
-		"cafe1ea44a66b198": {
-			"parent": "cafe1ea44a66b197",
+		"cafe0a4764c9e605": {
+			"parent": "cafeacfaa84f9a08",
 			"name": "TokenID_Drunk47_BathroomVoiceCheck",
 			"factory": "[modules:/ztokenidentity.class].pc_entitytype",
 			"blueprint": "[modules:/ztokenidentity.class].pc_entityblueprint",
@@ -1281,7 +1281,7 @@
 				}
 			}
 		},
-		"cafe1ea44a66b199": {
+		"cafeacef262ce760": {
 			"parent": "cafe2517cbb9c6d0",
 			"name": "EventChannelReceiver_Drunk47BathroomAnimationStop",
 			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_void.entitytemplate].pc_entitytype",
@@ -1289,16 +1289,16 @@
 			"properties": {
 				"m_rChannelToken": {
 					"type": "SEntityTemplateReference",
-					"value": "cafe1ea44a66b200",
+					"value": "cafe698536c8d311",
 					"postInit": true
 				}
 			},
 			"events": {
-				"EventReceived": { "SetFalse": ["cafe1ea44a66b10e"] }
+				"EventReceived": { "SetFalse": ["cafe6fabb7d1dad7"] }
 			}
 		},
-		"cafe1ea44a66b200": {
-			"parent": "cafe1ea44a66b199",
+		"cafe698536c8d311": {
+			"parent": "cafeacef262ce760",
 			"name": "TokenID_Drunk47_BathroomAnimationStop",
 			"factory": "[modules:/ztokenidentity.class].pc_entitytype",
 			"blueprint": "[modules:/ztokenidentity.class].pc_entityblueprint",
@@ -1309,7 +1309,7 @@
 				}
 			}
 		},
-		"cafe1ea44a66b202": {
+		"cafe01132a57bd76": {
 			"parent": "cafe2517cbb9c6d0",
 			"name": "EventChannelTransmitter_Drunk47BlackoutStart",
 			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_void.entitytemplate].pc_entitytype",
@@ -1317,13 +1317,13 @@
 			"properties": {
 				"m_rChannelToken": {
 					"type": "SEntityTemplateReference",
-					"value": "cafe1ea44a66b203",
+					"value": "cafed6bc5ef7d04b",
 					"postInit": true
 				}
 			}
 		},
-		"cafe1ea44a66b203": {
-			"parent": "cafe1ea44a66b202",
+		"cafed6bc5ef7d04b": {
+			"parent": "cafe01132a57bd76",
 			"name": "TokenID_Drunk47_BlackoutStart",
 			"factory": "[modules:/ztokenidentity.class].pc_entitytype",
 			"blueprint": "[modules:/ztokenidentity.class].pc_entityblueprint",
@@ -1334,13 +1334,13 @@
 				}
 			}
 		},
-		"cafe1ea44a66b204": {
+		"cafe5fe23bfe3c6d": {
 			"parent": "cafe2517cbb9c6d0",
 			"name": "ValueBool_Drunk47BlackoutAvailable_Mirror",
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint"
 		},
-		"cafe1ea44a66b205": {
+		"cafe8df2b06bc26c": {
 			"parent": "cafe2517cbb9c6d0",
 			"name": "EventChannelReceiver_Drunk47_BlackoutAvailable",
 			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_bool.entitytemplate].pc_entitytype",
@@ -1348,16 +1348,16 @@
 			"properties": {
 				"m_rChannelToken": {
 					"type": "SEntityTemplateReference",
-					"value": "cafe1ea44a66b249",
+					"value": "cafe45b30e4e52e6",
 					"postInit": true
 				}
 			},
 			"events": {
-				"OnTrue": { "SetTrue": ["cafe1ea44a66b204"] },
-				"OnFalse": { "SetFalse": ["cafe1ea44a66b204"] }
+				"OnTrue": { "SetTrue": ["cafe5fe23bfe3c6d"] },
+				"OnFalse": { "SetFalse": ["cafe5fe23bfe3c6d"] }
 			}
 		},
-		"cafe1ea44a66b206": {
+		"cafe1b7b69b36fde": {
 			"parent": "cafe2517cbb9c6d0",
 			"name": "Not_DrunkennessIsNine_BlackoutAvailable",
 			"factory": "[modules:/zinvertedcondition.class].pc_entitytype",
@@ -1365,11 +1365,11 @@
 			"properties": {
 				"m_rCondition": {
 					"type": "SEntityTemplateReference",
-					"value": "cafe1ea44a66b204"
+					"value": "cafe5fe23bfe3c6d"
 				}
 			}
 		},
-		"cafe1ea44a66b207": {
+		"cafea9d2f193c645": {
 			"parent": "cafe2517cbb9c6d0",
 			"name": "Interaction_Subaction_BlackOut",
 			"factory": "[assembly:/_pro/design/gamecore/interactionbase.template?/interaction_subaction.entitytemplate].pc_entitytype",
@@ -1395,21 +1395,21 @@
 				"m_ConditionList_Visible": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
-						"cafe1ea44a66b204",
-						"cafe1ea44a66b21c",
-						"cafe1ea44a66b267",
-						"cafe1ea44a66b20e",
-						"cafe1ea44a66b20a"
+						"cafe5fe23bfe3c6d",
+						"cafeb4ccc44e2aa3",
+						"cafe261ac203c02d",
+						"cafef4f2cd07b36f",
+						"cafe7c492106484b"
 					]
 				},
 				"m_ConditionList_Usable": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
-						"cafe1ea44a66b204",
-						"cafe1ea44a66b21c",
-						"cafe1ea44a66b267",
-						"cafe1ea44a66b20e",
-						"cafe1ea44a66b20a"
+						"cafe5fe23bfe3c6d",
+						"cafeb4ccc44e2aa3",
+						"cafe261ac203c02d",
+						"cafef4f2cd07b36f",
+						"cafe7c492106484b"
 					]
 				},
 				"m_RuntimeNetworkResourceID": {
@@ -1453,12 +1453,12 @@
 			},
 			"events": {
 				"Started": {
-					"SetTrue": ["cafe1ea44a66b21b", "cafe0ba1a17413ca"],
+					"SetTrue": ["cafea164f2a65884", "cafe0ba1a17413ca"],
 					"In": ["cafef3ba7b308bb0"]
 				}
 			}
 		},
-		"cafe1ea44a66b20a": {
+		"cafe7c492106484b": {
 			"parent": "cafe2517cbb9c6d0",
 			"name": "Not_BeerDrinkAnimationActive",
 			"factory": "[modules:/zinvertedcondition.class].pc_entitytype",
@@ -1466,11 +1466,11 @@
 			"properties": {
 				"m_rCondition": {
 					"type": "SEntityTemplateReference",
-					"value": "cafe1ea44a66b20c"
+					"value": "cafe53b824e5ad8f"
 				}
 			}
 		},
-		"cafe1ea44a66b20b": {
+		"cafefdcb6439ccec": {
 			"parent": "cafe2517cbb9c6d0",
 			"name": "Not_BeerBathroomAnimationActive",
 			"factory": "[modules:/zinvertedcondition.class].pc_entitytype",
@@ -1478,17 +1478,17 @@
 			"properties": {
 				"m_rCondition": {
 					"type": "SEntityTemplateReference",
-					"value": "cafe1ea44a66b10e"
+					"value": "cafe6fabb7d1dad7"
 				}
 			}
 		},
-		"cafe1ea44a66b20c": {
+		"cafe53b824e5ad8f": {
 			"parent": "cafe2517cbb9c6d0",
 			"name": "ValueBool_BeerDrinkAnimationActive",
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint"
 		},
-		"cafe1ea44a66b214": {
+		"cafeb4f37a612a01": {
 			"parent": "cafe2517cbb9c6d0",
 			"name": "EventChannelTransmitter_Drunk47DrinkStarted",
 			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_void.entitytemplate].pc_entitytype",
@@ -1496,13 +1496,13 @@
 			"properties": {
 				"m_rChannelToken": {
 					"type": "SEntityTemplateReference",
-					"value": "cafe1ea44a66b215",
+					"value": "cafee914478e2411",
 					"postInit": true
 				}
 			}
 		},
-		"cafe1ea44a66b215": {
-			"parent": "cafe1ea44a66b214",
+		"cafee914478e2411": {
+			"parent": "cafeb4f37a612a01",
 			"name": "TokenID_Drunk47_DrinkStarted",
 			"factory": "[modules:/ztokenidentity.class].pc_entitytype",
 			"blueprint": "[modules:/ztokenidentity.class].pc_entityblueprint",
@@ -1513,7 +1513,7 @@
 				}
 			}
 		},
-		"cafe1ea44a66b216": {
+		"cafed6cec3f981c6": {
 			"parent": "cafe2517cbb9c6d0",
 			"name": "EventChannelTransmitter_Drunk47UseBathroom",
 			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_void.entitytemplate].pc_entitytype",
@@ -1521,13 +1521,13 @@
 			"properties": {
 				"m_rChannelToken": {
 					"type": "SEntityTemplateReference",
-					"value": "cafe1ea44a66b217",
+					"value": "cafe263f11416c80",
 					"postInit": true
 				}
 			}
 		},
-		"cafe1ea44a66b217": {
-			"parent": "cafe1ea44a66b216",
+		"cafe263f11416c80": {
+			"parent": "cafed6cec3f981c6",
 			"name": "TokenID_Drunk47_UseBathroom",
 			"factory": "[modules:/ztokenidentity.class].pc_entitytype",
 			"blueprint": "[modules:/ztokenidentity.class].pc_entityblueprint",
@@ -1538,7 +1538,7 @@
 				}
 			}
 		},
-		"cafe1ea44a66b219": {
+		"cafe7a2c0ea02899": {
 			"parent": "cafe2517cbb9c6d0",
 			"name": "EventChannelReceiver_Drunk47InvoluntaryBathroomStarted_Mirror",
 			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_void.entitytemplate].pc_entitytype",
@@ -1546,16 +1546,16 @@
 			"properties": {
 				"m_rChannelToken": {
 					"type": "SEntityTemplateReference",
-					"value": "cafe1ea44a66b21a",
+					"value": "cafe6740ed1d4e65",
 					"postInit": true
 				}
 			},
 			"events": {
-				"EventReceived": { "SetTrue": ["cafe1ea44a66b10e"] }
+				"EventReceived": { "SetTrue": ["cafe6fabb7d1dad7"] }
 			}
 		},
-		"cafe1ea44a66b21a": {
-			"parent": "cafe1ea44a66b219",
+		"cafe6740ed1d4e65": {
+			"parent": "cafe7a2c0ea02899",
 			"name": "TokenID_Drunk47_InvoluntaryBathroomStarted",
 			"factory": "[modules:/ztokenidentity.class].pc_entitytype",
 			"blueprint": "[modules:/ztokenidentity.class].pc_entityblueprint",
@@ -1566,13 +1566,13 @@
 				}
 			}
 		},
-		"cafe1ea44a66b21b": {
+		"cafea164f2a65884": {
 			"parent": "cafe2517cbb9c6d0",
 			"name": "ValueBool_BeerBlackoutActive",
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint"
 		},
-		"cafe1ea44a66b21c": {
+		"cafeb4ccc44e2aa3": {
 			"parent": "cafe2517cbb9c6d0",
 			"name": "Not_BeerBlackoutActive",
 			"factory": "[modules:/zinvertedcondition.class].pc_entitytype",
@@ -1580,11 +1580,11 @@
 			"properties": {
 				"m_rCondition": {
 					"type": "SEntityTemplateReference",
-					"value": "cafe1ea44a66b21b"
+					"value": "cafea164f2a65884"
 				}
 			}
 		},
-		"cafe1ea44a66b21d": {
+		"cafe610e60fb1aab": {
 			"parent": "cafe2517cbb9c6d0",
 			"name": "EventChannelReceiver_BeerBlackoutStarted",
 			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_void.entitytemplate].pc_entitytype",
@@ -1592,15 +1592,15 @@
 			"properties": {
 				"m_rChannelToken": {
 					"type": "SEntityTemplateReference",
-					"value": "cafe1ea44a66b203",
+					"value": "cafed6bc5ef7d04b",
 					"postInit": true
 				}
 			},
 			"events": {
-				"EventReceived": { "SetTrue": ["cafe1ea44a66b21b"] }
+				"EventReceived": { "SetTrue": ["cafea164f2a65884"] }
 			}
 		},
-		"cafe1ea44a66b21e": {
+		"cafe62e9ae73e607": {
 			"parent": "cafe2517cbb9c6d0",
 			"name": "EventChannelReceiver_BeerBlackoutStopped",
 			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_void.entitytemplate].pc_entitytype",
@@ -1608,15 +1608,15 @@
 			"properties": {
 				"m_rChannelToken": {
 					"type": "SEntityTemplateReference",
-					"value": "cafe1ea44a66b190",
+					"value": "cafee3249ed584e5",
 					"postInit": true
 				}
 			},
 			"events": {
-				"EventReceived": { "SetFalse": ["cafe1ea44a66b21b"] }
+				"EventReceived": { "SetFalse": ["cafea164f2a65884"] }
 			}
 		},
-		"cafe1ea44a66b220": {
+		"cafe88e6072d48dd": {
 			"parent": "cafe2517cbb9c6d0",
 			"name": "Interaction_Subaction_DrinkBeerDuringBlackout",
 			"factory": "[assembly:/_pro/design/gamecore/interactionbase.template?/interaction_subaction.entitytemplate].pc_entitytype",
@@ -1639,21 +1639,21 @@
 				"m_ConditionList_Visible": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
-						"cafe1ea44a66b21b",
-						"cafe1ea44a66b20a",
-						"cafe1ea44a66b20b",
-						"cafe1ea44a66b20e",
-						"cafe1ea44a66b267"
+						"cafea164f2a65884",
+						"cafe7c492106484b",
+						"cafefdcb6439ccec",
+						"cafef4f2cd07b36f",
+						"cafe261ac203c02d"
 					]
 				},
 				"m_ConditionList_Usable": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
-						"cafe1ea44a66b21b",
-						"cafe1ea44a66b20a",
-						"cafe1ea44a66b20b",
-						"cafe1ea44a66b20e",
-						"cafe1ea44a66b267"
+						"cafea164f2a65884",
+						"cafe7c492106484b",
+						"cafefdcb6439ccec",
+						"cafef4f2cd07b36f",
+						"cafe261ac203c02d"
 					]
 				},
 				"m_RuntimeNetworkResourceID": {
@@ -1698,12 +1698,12 @@
 			"events": {
 				"Started": {
 					"SetFalse": ["cafe0ba1a17413ca"],
-					"TransmitEvent": ["cafe1ea44a66b214"],
+					"TransmitEvent": ["cafeb4f37a612a01"],
 					"In": ["cafef3ba7b308bb0"]
 				}
 			}
 		},
-		"cafe1ea44a66b221": {
+		"cafe80da41b00be9": {
 			"parent": "cafe2517cbb9c6d0",
 			"name": "EventChannelReceiver_Drunk47_DanceAvailable",
 			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_bool.entitytemplate].pc_entitytype",
@@ -1711,22 +1711,22 @@
 			"properties": {
 				"m_rChannelToken": {
 					"type": "SEntityTemplateReference",
-					"value": "cafe1ea44a66b250",
+					"value": "cafea4c8c4bdec4c",
 					"postInit": true
 				}
 			},
 			"events": {
-				"OnTrue": { "SetTrue": ["cafe1ea44a66b222"] },
-				"OnFalse": { "SetFalse": ["cafe1ea44a66b222"] }
+				"OnTrue": { "SetTrue": ["cafe9deb630aec4e"] },
+				"OnFalse": { "SetFalse": ["cafe9deb630aec4e"] }
 			}
 		},
-		"cafe1ea44a66b222": {
+		"cafe9deb630aec4e": {
 			"parent": "cafe2517cbb9c6d0",
 			"name": "ValueBool_Drunk47DanceAvailable_Mirror",
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint"
 		},
-		"cafe1ea44a66b223": {
+		"cafe2d55de5cab6b": {
 			"parent": "cafe2517cbb9c6d0",
 			"name": "Interaction_Subaction_Dance",
 			"factory": "[assembly:/_pro/design/gamecore/interactionbase.template?/interaction_subaction.entitytemplate].pc_entitytype",
@@ -1749,25 +1749,25 @@
 				"m_ConditionList_Visible": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
-						"cafe1ea44a66b222",
-						"cafe1ea44a66b20a",
-						"cafe1ea44a66b20b",
-						"cafe1ea44a66b20e",
-						"cafe1ea44a66b21c",
-						"cafe1ea44a66b22a",
-						"cafe1ea44a66b267"
+						"cafe9deb630aec4e",
+						"cafe7c492106484b",
+						"cafefdcb6439ccec",
+						"cafef4f2cd07b36f",
+						"cafeb4ccc44e2aa3",
+						"cafe35dba85b78cb",
+						"cafe261ac203c02d"
 					]
 				},
 				"m_ConditionList_Usable": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
-						"cafe1ea44a66b222",
-						"cafe1ea44a66b20a",
-						"cafe1ea44a66b20b",
-						"cafe1ea44a66b20e",
-						"cafe1ea44a66b21c",
-						"cafe1ea44a66b22a",
-						"cafe1ea44a66b267"
+						"cafe9deb630aec4e",
+						"cafe7c492106484b",
+						"cafefdcb6439ccec",
+						"cafef4f2cd07b36f",
+						"cafeb4ccc44e2aa3",
+						"cafe35dba85b78cb",
+						"cafe261ac203c02d"
 					]
 				},
 				"m_RuntimeNetworkResourceID": {
@@ -1795,18 +1795,18 @@
 			},
 			"events": {
 				"Started": {
-					"SetTrue": ["cafe1ea44a66b229"],
-					"TransmitEvent": ["cafe1ea44a66b22d"]
+					"SetTrue": ["cafeff28ed931931"],
+					"TransmitEvent": ["cafe704661a6f441"]
 				}
 			}
 		},
-		"cafe1ea44a66b229": {
+		"cafeff28ed931931": {
 			"parent": "cafe2517cbb9c6d0",
 			"name": "ValueBool_Drunk47DanceActive_Mirror",
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint"
 		},
-		"cafe1ea44a66b22a": {
+		"cafe35dba85b78cb": {
 			"parent": "cafe2517cbb9c6d0",
 			"name": "Not_Drunk47DanceActive_Mirror",
 			"factory": "[modules:/zinvertedcondition.class].pc_entitytype",
@@ -1814,11 +1814,11 @@
 			"properties": {
 				"m_rCondition": {
 					"type": "SEntityTemplateReference",
-					"value": "cafe1ea44a66b229"
+					"value": "cafeff28ed931931"
 				}
 			}
 		},
-		"cafe1ea44a66b22d": {
+		"cafe704661a6f441": {
 			"parent": "cafe2517cbb9c6d0",
 			"name": "EventChannelTransmitter_Drunk47DanceStart",
 			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_void.entitytemplate].pc_entitytype",
@@ -1826,13 +1826,13 @@
 			"properties": {
 				"m_rChannelToken": {
 					"type": "SEntityTemplateReference",
-					"value": "cafe1ea44a66b22e",
+					"value": "cafebd162c432aba",
 					"postInit": true
 				}
 			}
 		},
-		"cafe1ea44a66b22e": {
-			"parent": "cafe1ea44a66b22d",
+		"cafebd162c432aba": {
+			"parent": "cafe704661a6f441",
 			"name": "TokenID_Drunk47_DanceStart",
 			"factory": "[modules:/ztokenidentity.class].pc_entitytype",
 			"blueprint": "[modules:/ztokenidentity.class].pc_entityblueprint",
@@ -1843,8 +1843,8 @@
 				}
 			}
 		},
-		"cafe1ea44a66b22f": {
-			"parent": "cafe1ea44a66b230",
+		"cafe9470c3c88ed5": {
+			"parent": "cafe102f673cd0a7",
 			"name": "TokenID_Drunk47_DanceStopped",
 			"factory": "[modules:/ztokenidentity.class].pc_entitytype",
 			"blueprint": "[modules:/ztokenidentity.class].pc_entityblueprint",
@@ -1855,7 +1855,7 @@
 				}
 			}
 		},
-		"cafe1ea44a66b230": {
+		"cafe102f673cd0a7": {
 			"parent": "cafe2517cbb9c6d0",
 			"name": "EventChannelReceiver_Drunk47DanceStopped",
 			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_void.entitytemplate].pc_entitytype",
@@ -1863,16 +1863,16 @@
 			"properties": {
 				"m_rChannelToken": {
 					"type": "SEntityTemplateReference",
-					"value": "cafe1ea44a66b22f",
+					"value": "cafe9470c3c88ed5",
 					"postInit": true
 				}
 			},
 			"events": {
-				"EventReceived": { "SetFalse": ["cafe1ea44a66b229"] }
+				"EventReceived": { "SetFalse": ["cafeff28ed931931"] }
 			}
 		},
-		"cafe1ea44a66b247": {
-			"parent": "cafe1ea44a66b248",
+		"cafeed8f5b4c835c": {
+			"parent": "cafe944a0ae46665",
 			"name": "TokenID_Drunk47_BathroomAnimationStopped",
 			"factory": "[modules:/ztokenidentity.class].pc_entitytype",
 			"blueprint": "[modules:/ztokenidentity.class].pc_entityblueprint",
@@ -1883,7 +1883,7 @@
 				}
 			}
 		},
-		"cafe1ea44a66b248": {
+		"cafe944a0ae46665": {
 			"parent": "cafe2517cbb9c6d0",
 			"name": "EventChannelReceiver_Drunk47BathroomAnimationStopped",
 			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_void.entitytemplate].pc_entitytype",
@@ -1891,16 +1891,16 @@
 			"properties": {
 				"m_rChannelToken": {
 					"type": "SEntityTemplateReference",
-					"value": "cafe1ea44a66b247",
+					"value": "cafeed8f5b4c835c",
 					"postInit": true
 				}
 			},
 			"events": {
-				"EventReceived": { "SetFalse": ["cafe1ea44a66b10e"] }
+				"EventReceived": { "SetFalse": ["cafe6fabb7d1dad7"] }
 			}
 		},
-		"cafe1ea44a66b249": {
-			"parent": "cafe1ea44a66b214",
+		"cafe45b30e4e52e6": {
+			"parent": "cafeb4f37a612a01",
 			"name": "TokenID_Drunk47_BlackoutAvailable",
 			"factory": "[modules:/ztokenidentity.class].pc_entitytype",
 			"blueprint": "[modules:/ztokenidentity.class].pc_entityblueprint",
@@ -1911,8 +1911,8 @@
 				}
 			}
 		},
-		"cafe1ea44a66b250": {
-			"parent": "cafe1ea44a66b214",
+		"cafea4c8c4bdec4c": {
+			"parent": "cafeb4f37a612a01",
 			"name": "TokenID_Drunk47_DanceAvailable",
 			"factory": "[modules:/ztokenidentity.class].pc_entitytype",
 			"blueprint": "[modules:/ztokenidentity.class].pc_entityblueprint",
@@ -1923,7 +1923,7 @@
 				}
 			}
 		},
-		"cafe1ea44a66b251": {
+		"cafe2df88e1f9a11": {
 			"parent": "cafe2517cbb9c6d0",
 			"name": "EventChannelTransmitter_Drunk47ActionAvailabilityRequest",
 			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_void.entitytemplate].pc_entitytype",
@@ -1931,13 +1931,13 @@
 			"properties": {
 				"m_rChannelToken": {
 					"type": "SEntityTemplateReference",
-					"value": "cafe1ea44a66b252",
+					"value": "cafe103b521ceb9a",
 					"postInit": true
 				}
 			}
 		},
-		"cafe1ea44a66b252": {
-			"parent": "cafe1ea44a66b214",
+		"cafe103b521ceb9a": {
+			"parent": "cafeb4f37a612a01",
 			"name": "TokenID_Drunk47_ActionAvailabilityRequest",
 			"factory": "[modules:/ztokenidentity.class].pc_entitytype",
 			"blueprint": "[modules:/ztokenidentity.class].pc_entityblueprint",
@@ -1948,13 +1948,13 @@
 				}
 			}
 		},
-		"cafe1ea44a66b260": {
+		"cafe3bb48f7e1155": {
 			"parent": "cafe2517cbb9c6d0",
 			"name": "ValueBool_Drunk47VomitAvailable_Mirror",
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint"
 		},
-		"cafe1ea44a66b261": {
+		"cafe48e622bf8cfa": {
 			"parent": "cafe2517cbb9c6d0",
 			"name": "EventChannelReceiver_Drunk47VomitAvailable",
 			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_bool.entitytemplate].pc_entitytype",
@@ -1962,16 +1962,16 @@
 			"properties": {
 				"m_rChannelToken": {
 					"type": "SEntityTemplateReference",
-					"value": "cafe1ea44a66b262",
+					"value": "cafe26b012af1249",
 					"postInit": true
 				}
 			},
 			"events": {
-				"OnTrue": { "SetTrue": ["cafe1ea44a66b260"] },
-				"OnFalse": { "SetFalse": ["cafe1ea44a66b260"] }
+				"OnTrue": { "SetTrue": ["cafe3bb48f7e1155"] },
+				"OnFalse": { "SetFalse": ["cafe3bb48f7e1155"] }
 			}
 		},
-		"cafe1ea44a66b262": {
+		"cafe26b012af1249": {
 			"parent": "cafe2517cbb9c6d0",
 			"name": "TokenID_Drunk47_VomitAvailable",
 			"factory": "[modules:/ztokenidentity.class].pc_entitytype",
@@ -1983,7 +1983,7 @@
 				}
 			}
 		},
-		"cafe1ea44a66b263": {
+		"cafed8ab079b6c60": {
 			"parent": "cafe2517cbb9c6d0",
 			"name": "Interaction_Subaction_Vomit",
 			"factory": "[assembly:/_pro/design/gamecore/interactionbase.template?/interaction_subaction.entitytemplate].pc_entitytype",
@@ -2006,25 +2006,25 @@
 				"m_ConditionList_Visible": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
-						"cafe1ea44a66b260",
-						"cafe1ea44a66b20a",
-						"cafe1ea44a66b20b",
-						"cafe1ea44a66b20e",
-						"cafe1ea44a66b21c",
-						"cafe1ea44a66b22a",
-						"cafe1ea44a66b267"
+						"cafe3bb48f7e1155",
+						"cafe7c492106484b",
+						"cafefdcb6439ccec",
+						"cafef4f2cd07b36f",
+						"cafeb4ccc44e2aa3",
+						"cafe35dba85b78cb",
+						"cafe261ac203c02d"
 					]
 				},
 				"m_ConditionList_Usable": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
-						"cafe1ea44a66b260",
-						"cafe1ea44a66b20a",
-						"cafe1ea44a66b20b",
-						"cafe1ea44a66b20e",
-						"cafe1ea44a66b21c",
-						"cafe1ea44a66b22a",
-						"cafe1ea44a66b267"
+						"cafe3bb48f7e1155",
+						"cafe7c492106484b",
+						"cafefdcb6439ccec",
+						"cafef4f2cd07b36f",
+						"cafeb4ccc44e2aa3",
+						"cafe35dba85b78cb",
+						"cafe261ac203c02d"
 					]
 				},
 				"m_RuntimeNetworkResourceID": {
@@ -2052,12 +2052,12 @@
 			},
 			"events": {
 				"Started": {
-					"SetTrue": ["cafe1ea44a66b266"],
-					"TransmitEvent": ["cafe1ea44a66b264"]
+					"SetTrue": ["cafe412a46d4d01b"],
+					"TransmitEvent": ["cafed81f411aa91f"]
 				}
 			}
 		},
-		"cafe1ea44a66b264": {
+		"cafed81f411aa91f": {
 			"parent": "cafe2517cbb9c6d0",
 			"name": "EventChannelTransmitter_Drunk47VomitStart",
 			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_void.entitytemplate].pc_entitytype",
@@ -2065,12 +2065,12 @@
 			"properties": {
 				"m_rChannelToken": {
 					"type": "SEntityTemplateReference",
-					"value": "cafe1ea44a66b265",
+					"value": "cafe4cebe8ca5d30",
 					"postInit": true
 				}
 			}
 		},
-		"cafe1ea44a66b265": {
+		"cafe4cebe8ca5d30": {
 			"parent": "cafe2517cbb9c6d0",
 			"name": "TokenID_Drunk47_VomitStart",
 			"factory": "[modules:/ztokenidentity.class].pc_entitytype",
@@ -2082,13 +2082,13 @@
 				}
 			}
 		},
-		"cafe1ea44a66b266": {
+		"cafe412a46d4d01b": {
 			"parent": "cafe2517cbb9c6d0",
 			"name": "ValueBool_Drunk47VomitActive_Mirror",
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint"
 		},
-		"cafe1ea44a66b267": {
+		"cafe261ac203c02d": {
 			"parent": "cafe2517cbb9c6d0",
 			"name": "Not_Drunk47VomitActive_Mirror",
 			"factory": "[modules:/zinvertedcondition.class].pc_entitytype",
@@ -2096,11 +2096,11 @@
 			"properties": {
 				"m_rCondition": {
 					"type": "SEntityTemplateReference",
-					"value": "cafe1ea44a66b266"
+					"value": "cafe412a46d4d01b"
 				}
 			}
 		},
-		"cafe1ea44a66b268": {
+		"cafe7b5f8666e874": {
 			"parent": "cafe2517cbb9c6d0",
 			"name": "EventChannelReceiver_Drunk47VomitStopped",
 			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_void.entitytemplate].pc_entitytype",
@@ -2108,15 +2108,15 @@
 			"properties": {
 				"m_rChannelToken": {
 					"type": "SEntityTemplateReference",
-					"value": "cafe1ea44a66b269",
+					"value": "cafe97d3142a29fe",
 					"postInit": true
 				}
 			},
 			"events": {
-				"EventReceived": { "SetFalse": ["cafe1ea44a66b266"] }
+				"EventReceived": { "SetFalse": ["cafe412a46d4d01b"] }
 			}
 		},
-		"cafe1ea44a66b269": {
+		"cafe97d3142a29fe": {
 			"parent": "cafe2517cbb9c6d0",
 			"name": "TokenID_Drunk47_VomitStopped",
 			"factory": "[modules:/ztokenidentity.class].pc_entitytype",
@@ -2128,7 +2128,7 @@
 				}
 			}
 		},
-		"cafe1ea44a66b26a": {
+		"cafee57a2461e265": {
 			"parent": "cafe2517cbb9c6d0",
 			"name": "EventChannelReceiver_Drunk47VomitStarted",
 			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_void.entitytemplate].pc_entitytype",
@@ -2136,16 +2136,16 @@
 			"properties": {
 				"m_rChannelToken": {
 					"type": "SEntityTemplateReference",
-					"value": "cafe1ea44a66b26b",
+					"value": "cafe3fad31c6f9c2",
 					"postInit": true
 				}
 			},
 			"events": {
-				"EventReceived": { "SetTrue": ["cafe1ea44a66b266"] }
+				"EventReceived": { "SetTrue": ["cafe412a46d4d01b"] }
 			}
 		},
-		"cafe1ea44a66b26b": {
-			"parent": "cafe1ea44a66b26a",
+		"cafe3fad31c6f9c2": {
+			"parent": "cafee57a2461e265",
 			"name": "TokenID_Drunk47_VomitStarted",
 			"factory": "[modules:/ztokenidentity.class].pc_entitytype",
 			"blueprint": "[modules:/ztokenidentity.class].pc_entityblueprint",
@@ -2156,7 +2156,7 @@
 				}
 			}
 		},
-		"cafe1ea44a66b273": {
+		"cafe909fa36a294a": {
 			"parent": "cafe2517cbb9c6d0",
 			"name": "Beer_DrinkPositionOffset",
 			"factory": "[modules:/zspatialentity.class].pc_entitytype",
@@ -2175,7 +2175,7 @@
 				}
 			}
 		},
-		"cafe1ea44a66b274": {
+		"cafe170e5988fe98": {
 			"parent": "cafe2517cbb9c6d0",
 			"name": "Beer_RestPositionOffset",
 			"factory": "[modules:/zspatialentity.class].pc_entitytype",
@@ -2198,7 +2198,7 @@
 				}
 			}
 		},
-		"cafe1ea44a66b275": {
+		"cafeca6c6d13338b": {
 			"parent": "cafe2517cbb9c6d0",
 			"name": "GetPosition_BeerDrinkOffset",
 			"factory": "[modules:/zgetpositionentity.class].pc_entitytype",
@@ -2206,7 +2206,7 @@
 			"properties": {
 				"m_Source": {
 					"type": "SEntityTemplateReference",
-					"value": "cafe1ea44a66b273",
+					"value": "cafe909fa36a294a",
 					"postInit": true
 				},
 				"m_bWorldPostion": { "type": "bool", "value": false },
@@ -2217,10 +2217,10 @@
 				}
 			},
 			"events": {
-				"PositionOutput": { "Position": ["cafe1ea44a66b277"] }
+				"PositionOutput": { "Position": ["cafeabc0fc51a836"] }
 			}
 		},
-		"cafe1ea44a66b276": {
+		"cafee612358ae25d": {
 			"parent": "cafe2517cbb9c6d0",
 			"name": "GetPosition_BeerRestOffset",
 			"factory": "[modules:/zgetpositionentity.class].pc_entitytype",
@@ -2228,7 +2228,7 @@
 			"properties": {
 				"m_Source": {
 					"type": "SEntityTemplateReference",
-					"value": "cafe1ea44a66b274",
+					"value": "cafe170e5988fe98",
 					"postInit": true
 				},
 				"m_bWorldPostion": { "type": "bool", "value": false },
@@ -2239,10 +2239,10 @@
 				}
 			},
 			"events": {
-				"PositionOutput": { "Position": ["cafe1ea44a66b277"] }
+				"PositionOutput": { "Position": ["cafeabc0fc51a836"] }
 			}
 		},
-		"cafe1ea44a66b277": {
+		"cafeabc0fc51a836": {
 			"parent": "cafe2517cbb9c6d0",
 			"name": "SetPosition_BeerHandAttacher",
 			"factory": "[modules:/zsetpositionentity.class].pc_entitytype",
@@ -2251,12 +2251,12 @@
 				"m_bSetLocalPosition": { "type": "bool", "value": true },
 				"m_Entity": {
 					"type": "SEntityTemplateReference",
-					"value": "cafeaabbccdde004",
+					"value": "cafec2022f8caf59",
 					"postInit": true
 				}
 			}
 		},
-		"cafe1ea44a66b27b": {
+		"cafec42a1d1b9f27": {
 			"parent": "cafe2517cbb9c6d0",
 			"name": "Delay_BeerDrinkAnimation",
 			"factory": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
@@ -2264,9 +2264,9 @@
 			"properties": {
 				"Delay time (ms)": { "type": "int32", "value": 100 }
 			},
-			"events": { "Out": { "Poll": ["cafe1ea44a66b27e"] } }
+			"events": { "Out": { "Poll": ["cafe82ce173c0af9"] } }
 		},
-		"cafe1ea44a66b27e": {
+		"cafe82ce173c0af9": {
 			"parent": "cafe2517cbb9c6d0",
 			"name": "Poll_BeerDrinkStillActive",
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
@@ -2274,12 +2274,12 @@
 			"properties": {
 				"m_rValueEntity": {
 					"type": "SEntityTemplateReference",
-					"value": "cafe1ea44a66b20c"
+					"value": "cafe53b824e5ad8f"
 				}
 			},
-			"events": { "PollTrue": { "In": ["cafe1ea44a66b286"] } }
+			"events": { "PollTrue": { "In": ["cafef80358118b1c"] } }
 		},
-		"cafe1ea44a66b281": {
+		"cafe18fd00e2a054": {
 			"parent": "cafe2517cbb9c6d0",
 			"name": "ValueBool_BeerEquippedForAttachmentRefresh",
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
@@ -2288,17 +2288,17 @@
 				"m_bValue": { "type": "bool", "value": false }
 			}
 		},
-		"cafe1ea44a66b282": {
+		"cafe39678efebca1": {
 			"parent": "cafe2517cbb9c6d0",
 			"name": "HeroItemAction_BeerAttachmentRefresh",
 			"factory": "[modules:/zheroitemaction.class].pc_entitytype",
 			"blueprint": "[modules:/zheroitemaction.class].pc_entityblueprint",
 			"events": {
-				"Item": { "SetItem": ["cafe1ea44a66b283"] },
-				"OnNoItem": { "Forget": ["cafe1ea44a66b283"] }
+				"Item": { "SetItem": ["cafe5ad0c87da015"] },
+				"OnNoItem": { "Forget": ["cafe5ad0c87da015"] }
 			}
 		},
-		"cafe1ea44a66b283": {
+		"cafe5ad0c87da015": {
 			"parent": "cafe2517cbb9c6d0",
 			"name": "HeroItemAttachment_BeerRightHandRefresh",
 			"factory": "[modules:/zheroitemattachment.class].pc_entitytype",
@@ -2314,7 +2314,7 @@
 				}
 			}
 		},
-		"cafe1ea44a66b284": {
+		"cafe59f46681dfde": {
 			"parent": "cafe2517cbb9c6d0",
 			"name": "Delay_BeerBindAttachmentItem",
 			"factory": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
@@ -2322,9 +2322,9 @@
 			"properties": {
 				"Delay time (ms)": { "type": "int32", "value": 1 }
 			},
-			"events": { "Out": { "Poll": ["cafe1ea44a66b285"] } }
+			"events": { "Out": { "Poll": ["cafee258facb5aa9"] } }
 		},
-		"cafe1ea44a66b285": {
+		"cafee258facb5aa9": {
 			"parent": "cafe2517cbb9c6d0",
 			"name": "Poll_BeerDrinkActiveBeforeBindingAttachment",
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
@@ -2332,23 +2332,23 @@
 			"properties": {
 				"m_rValueEntity": {
 					"type": "SEntityTemplateReference",
-					"value": "cafe1ea44a66b20c"
+					"value": "cafe53b824e5ad8f"
 				}
 			},
-			"events": { "PollTrue": { "GetItem": ["cafe1ea44a66b282"] } }
+			"events": { "PollTrue": { "GetItem": ["cafe39678efebca1"] } }
 		},
-		"cafe1ea44a66b286": {
+		"cafef80358118b1c": {
 			"parent": "cafe2517cbb9c6d0",
 			"name": "ApplyDrinkOffsetThenAttachThenExecute_BeerDrink",
 			"factory": "[modules:/zsignalforkentity_void.class].pc_entitytype",
 			"blueprint": "[modules:/zsignalforkentity_void.class].pc_entityblueprint",
 			"events": {
-				"Out01": { "GetPosition": ["cafe1ea44a66b275"] },
-				"Out02": { "Attach": ["cafe1ea44a66b283"] },
-				"Out03": { "Execute": ["cafe1ea44a66b278"] }
+				"Out01": { "GetPosition": ["cafeca6c6d13338b"] },
+				"Out02": { "Attach": ["cafe5ad0c87da015"] },
+				"Out03": { "Execute": ["cafe928b7cc53473"] }
 			}
 		},
-		"cafe1ea44a66b289": {
+		"cafeb0aa14e8e3c5": {
 			"parent": "cafe2517cbb9c6d0",
 			"name": "Delay_BeerRefreshRestoredHoldingPose",
 			"factory": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
@@ -2356,9 +2356,9 @@
 			"properties": {
 				"Delay time (ms)": { "type": "int32", "value": 1 }
 			},
-			"events": { "Out": { "Poll": ["cafe1ea44a66b28a"] } }
+			"events": { "Out": { "Poll": ["cafee103e4f81a42"] } }
 		},
-		"cafe1ea44a66b28a": {
+		"cafee103e4f81a42": {
 			"parent": "cafe2517cbb9c6d0",
 			"name": "Poll_BeerStillEquippedAfterDrink",
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
@@ -2366,12 +2366,12 @@
 			"properties": {
 				"m_rValueEntity": {
 					"type": "SEntityTemplateReference",
-					"value": "cafe1ea44a66b281"
+					"value": "cafe18fd00e2a054"
 				}
 			},
-			"events": { "PollTrue": { "Attach": ["cafe1ea44a66b283"] } }
+			"events": { "PollTrue": { "Attach": ["cafe5ad0c87da015"] } }
 		},
-		"cafe1ea44a66b278": {
+		"cafe928b7cc53473": {
 			"parent": "cafe2517cbb9c6d0",
 			"name": "Animation_DrinkBeer",
 			"factory": "[assembly:/_pro/design/gamecore/interactionbase.template?/interaction_subaction_noinvestigate.entitytemplate].pc_entitytype",
@@ -2457,8 +2457,8 @@
 				}
 			},
 			"events": {
-				"PollTrue": { "TransmitEvent": ["cafe1ea44a66b202"] },
-				"PollFalse": { "TransmitEvent": ["cafe1ea44a66b180"] }
+				"PollTrue": { "TransmitEvent": ["cafe01132a57bd76"] },
+				"PollFalse": { "TransmitEvent": ["cafe720dff8f3710"] }
 			}
 		},
 		"cafe9b464f496bea": {
@@ -2467,7 +2467,7 @@
 			"factory": "[modules:/zsignalforkentity_void.class].pc_entitytype",
 			"blueprint": "[modules:/zsignalforkentity_void.class].pc_entityblueprint",
 			"events": {
-				"Out01": { "SetFalse": ["cafe1ea44a66b20c"] },
+				"Out01": { "SetFalse": ["cafe53b824e5ad8f"] },
 				"Out02": { "Poll": ["cafe2e2084523721"] },
 				"Out03": { "In": ["cafec807d86a511d"] }
 			}
@@ -2478,10 +2478,10 @@
 			"factory": "[modules:/zsignalforkentity_void.class].pc_entitytype",
 			"blueprint": "[modules:/zsignalforkentity_void.class].pc_entityblueprint",
 			"events": {
-				"Out01": { "SetFalse": ["cafe1ea44a66b20c"] },
+				"Out01": { "SetFalse": ["cafe53b824e5ad8f"] },
 				"Out02": { "SetFalse": ["cafe0ba1a17413ca"] },
-				"Out03": { "GetPosition": ["cafe1ea44a66b276"] },
-				"Out04": { "In": ["cafe1ea44a66b289"] }
+				"Out03": { "GetPosition": ["cafee612358ae25d"] },
+				"Out04": { "In": ["cafeb0aa14e8e3c5"] }
 			}
 		},
 		"cafef3ba7b308bb0": {
@@ -2491,12 +2491,12 @@
 			"blueprint": "[modules:/zsignalforkentity_void.class].pc_entityblueprint",
 			"events": {
 				"Out01": {
-					"SetTrue": ["cafe1ea44a66b20c", "cafe1ea44a66b281"]
+					"SetTrue": ["cafe53b824e5ad8f", "cafe18fd00e2a054"]
 				},
-				"Out02": { "GetPosition": ["cafe1ea44a66b275"] },
-				"Out03": { "UseEquipped": ["cafe1ea44a66b282"] },
-				"Out04": { "In": ["cafe1ea44a66b284"] },
-				"Out05": { "In": ["cafe1ea44a66b27b"] }
+				"Out02": { "GetPosition": ["cafeca6c6d13338b"] },
+				"Out03": { "UseEquipped": ["cafe39678efebca1"] },
+				"Out04": { "In": ["cafe59f46681dfde"] },
+				"Out05": { "In": ["cafec42a1d1b9f27"] }
 			}
 		},
 		"cafe2517cbb9c6d0": {

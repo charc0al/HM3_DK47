@@ -120,7 +120,7 @@
 				}
 			}
 		},
-		"d47a000000000001": {
+		"cafe4f879c94659e": {
 			"parent": "a0e99c2327e3dde4",
 			"name": "FX_PB_Spray_Piss_Medium",
 			"factory": "[assembly:/_pro/effects/templates/impacts/fx_impacts_materialbased.template?/fx_pb_spray_blood.entitytemplate].pc_entitytype",
@@ -184,7 +184,7 @@
 				}
 			}
 		},
-		"d47a000000000002": {
+		"cafe4a7cf538bf06": {
 			"parent": "a0e99c2327e3dde4",
 			"name": "FX_PB_Spray_Piss_Large",
 			"factory": "[assembly:/_pro/effects/templates/impacts/fx_impacts_materialbased.template?/fx_pb_spray_blood.entitytemplate].pc_entitytype",
@@ -248,7 +248,7 @@
 				}
 			}
 		},
-		"d47a000000000003": {
+		"cafe34480c3a8cb0": {
 			"parent": "a0e99c2327e3dde4",
 			"name": "ParticleEmitterBox_Medium",
 			"factory": "[modules:/zparticleemitterboxentity.class].pc_entitytype",
@@ -257,7 +257,7 @@
 				"m_fSpeedMin": { "type": "float32", "value": 3 },
 				"m_ParticleController": {
 					"type": "SEntityTemplateReference",
-					"value": "d47a000000000001"
+					"value": "cafe4f879c94659e"
 				},
 				"m_ParticleRender": {
 					"type": "SEntityTemplateReference",
@@ -289,7 +289,7 @@
 				}
 			}
 		},
-		"d47a000000000004": {
+		"cafec4fa8b9368ef": {
 			"parent": "a0e99c2327e3dde4",
 			"name": "ParticleEmitterBox_Large",
 			"factory": "[modules:/zparticleemitterboxentity.class].pc_entitytype",
@@ -298,7 +298,7 @@
 				"m_fSpeedMin": { "type": "float32", "value": 3 },
 				"m_ParticleController": {
 					"type": "SEntityTemplateReference",
-					"value": "d47a000000000002"
+					"value": "cafe4a7cf538bf06"
 				},
 				"m_ParticleRender": {
 					"type": "SEntityTemplateReference",
@@ -330,7 +330,7 @@
 				}
 			}
 		},
-		"d47a000000000005": {
+		"cafeefb14040d517": {
 			"parent": "a0e99c2327e3dde4",
 			"name": "FX_PB_Spray_Piss_Blackout",
 			"factory": "[assembly:/_pro/effects/templates/impacts/fx_impacts_materialbased.template?/fx_pb_spray_blood.entitytemplate].pc_entitytype",
@@ -394,7 +394,7 @@
 				}
 			}
 		},
-		"d47a000000000006": {
+		"cafe2a44fa81e6fa": {
 			"parent": "a0e99c2327e3dde4",
 			"name": "ParticleEmitterBox_Blackout",
 			"factory": "[modules:/zparticleemitterboxentity.class].pc_entitytype",
@@ -403,7 +403,7 @@
 				"m_fSpeedMin": { "type": "float32", "value": 3 },
 				"m_ParticleController": {
 					"type": "SEntityTemplateReference",
-					"value": "d47a000000000005"
+					"value": "cafeefb14040d517"
 				},
 				"m_ParticleRender": {
 					"type": "SEntityTemplateReference",
@@ -717,50 +717,50 @@
 				"Activate": {
 					"Deactivate": [
 						"619f8fed155dab52",
-						"d47a000000000003",
-						"d47a000000000004",
-						"d47a000000000006"
+						"cafe34480c3a8cb0",
+						"cafec4fa8b9368ef",
+						"cafe2a44fa81e6fa"
 					]
 				},
 				"Deactivate": {
 					"Deactivate": [
 						"619f8fed155dab52",
-						"d47a000000000003",
-						"d47a000000000004",
-						"d47a000000000006"
+						"cafe34480c3a8cb0",
+						"cafec4fa8b9368ef",
+						"cafe2a44fa81e6fa"
 					]
 				},
 				"ActivateSmall": {
 					"Deactivate": [
-						"d47a000000000003",
-						"d47a000000000004",
-						"d47a000000000006"
+						"cafe34480c3a8cb0",
+						"cafec4fa8b9368ef",
+						"cafe2a44fa81e6fa"
 					],
 					"Activate": ["619f8fed155dab52"]
 				},
 				"ActivateMedium": {
 					"Deactivate": [
 						"619f8fed155dab52",
-						"d47a000000000004",
-						"d47a000000000006"
+						"cafec4fa8b9368ef",
+						"cafe2a44fa81e6fa"
 					],
-					"Activate": ["d47a000000000003"]
+					"Activate": ["cafe34480c3a8cb0"]
 				},
 				"ActivateLarge": {
 					"Deactivate": [
 						"619f8fed155dab52",
-						"d47a000000000003",
-						"d47a000000000006"
+						"cafe34480c3a8cb0",
+						"cafe2a44fa81e6fa"
 					],
-					"Activate": ["d47a000000000004"]
+					"Activate": ["cafec4fa8b9368ef"]
 				},
 				"ActivateBlackout": {
 					"Deactivate": [
 						"619f8fed155dab52",
-						"d47a000000000003",
-						"d47a000000000004"
+						"cafe34480c3a8cb0",
+						"cafec4fa8b9368ef"
 					],
-					"Activate": ["d47a000000000006"]
+					"Activate": ["cafe2a44fa81e6fa"]
 				},
 				"SetSpeedMin": {
 					"SetSpeedMin": [
@@ -853,37 +853,37 @@
 				"MediumStreamTTLMin": [
 					{
 						"originalProperty": "m_fTimeToLiveSecondsMin",
-						"originalEntity": "d47a000000000001"
+						"originalEntity": "cafe4f879c94659e"
 					}
 				],
 				"MediumStreamTTLMax": [
 					{
 						"originalProperty": "m_fTimeToLiveSecondsMax",
-						"originalEntity": "d47a000000000001"
+						"originalEntity": "cafe4f879c94659e"
 					}
 				],
 				"LargeStreamTTLMin": [
 					{
 						"originalProperty": "m_fTimeToLiveSecondsMin",
-						"originalEntity": "d47a000000000002"
+						"originalEntity": "cafe4a7cf538bf06"
 					}
 				],
 				"LargeStreamTTLMax": [
 					{
 						"originalProperty": "m_fTimeToLiveSecondsMax",
-						"originalEntity": "d47a000000000002"
+						"originalEntity": "cafe4a7cf538bf06"
 					}
 				],
 				"BlackoutStreamTTLMin": [
 					{
 						"originalProperty": "m_fTimeToLiveSecondsMin",
-						"originalEntity": "d47a000000000005"
+						"originalEntity": "cafeefb14040d517"
 					}
 				],
 				"BlackoutStreamTTLMax": [
 					{
 						"originalProperty": "m_fTimeToLiveSecondsMax",
-						"originalEntity": "d47a000000000005"
+						"originalEntity": "cafeefb14040d517"
 					}
 				]
 			}

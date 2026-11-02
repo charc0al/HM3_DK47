@@ -4,7 +4,7 @@
 	"patch": [
 		{
 			"AddEntity": [
-				"cafe1ea44a66e200",
+				"cafebad4b326a273",
 				{
 					"parent": "9a925166659d44f5",
 					"name": "Drunk47_LegalToiletInteraction",
@@ -15,9 +15,9 @@
 		},
 		{
 			"AddEntity": [
-				"cafe1ea44a66e201",
+				"cafe4cc1b1386e26",
 				{
-					"parent": "cafe1ea44a66e200",
+					"parent": "cafebad4b326a273",
 					"name": "Interaction_MainActionHelper_UseToilet",
 					"factory": "[assembly:/_pro/design/gamecore/interactionbase.template?/interaction_mainactionhelper_noglow.entitytemplate].pc_entitytype",
 					"blueprint": "[assembly:/_pro/design/gamecore/interactionbase.template?/interaction_mainactionhelper_noglow.entitytemplate].pc_entityblueprint",
@@ -33,15 +33,15 @@
 						"m_aSubactions": {
 							"type": "TArray<SEntityTemplateReference>",
 							"value": [
-								"cafe1ea44a66e202",
-								"cafe1ea44a66e21f",
-								"cafe1ea44a66e220"
+								"cafec214c97630ba",
+								"cafe1c4bbcdd92bd",
+								"cafe5efd688fdc36"
 							],
 							"postInit": true
 						},
 						"m_aPromptPositions": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": ["cafe1ea44a66e203"],
+							"value": ["cafe3b4dd5ca4423"],
 							"postInit": true
 						},
 						"m_Object": {
@@ -65,9 +65,9 @@
 		},
 		{
 			"AddEntity": [
-				"cafe1ea44a66e202",
+				"cafec214c97630ba",
 				{
-					"parent": "cafe1ea44a66e200",
+					"parent": "cafebad4b326a273",
 					"name": "Interaction_Subaction_UseToilet",
 					"factory": "[assembly:/_pro/design/gamecore/interactionbase.template?/interaction_subaction.entitytemplate].pc_entitytype",
 					"blueprint": "[assembly:/_pro/design/gamecore/interactionbase.template?/interaction_subaction.entitytemplate].pc_entityblueprint",
@@ -116,15 +116,15 @@
 						"m_ConditionList_Visible": {
 							"type": "TArray<SEntityTemplateReference>",
 							"value": [
-								"cafe1ea44a66e215",
-								"cafe1ea44a66e219"
+								"cafe8d89189d9fc0",
+								"cafec9eec25d25e3"
 							]
 						},
 						"m_ConditionList_Usable": {
 							"type": "TArray<SEntityTemplateReference>",
 							"value": [
-								"cafe1ea44a66e215",
-								"cafe1ea44a66e219"
+								"cafe8d89189d9fc0",
+								"cafec9eec25d25e3"
 							]
 						},
 						"m_rPromptTextResource": {
@@ -137,9 +137,9 @@
 					},
 					"events": {
 						"Completed": {
-							"EnterSafeZone": ["cafe1ea44a66e204"],
-							"TransmitEvent": ["cafe1ea44a66e20a"],
-							"SetTrue": ["cafe1ea44a66e216"]
+							"EnterSafeZone": ["cafe5eca346d06b0"],
+							"TransmitEvent": ["cafe40d898217dda"],
+							"SetTrue": ["cafe82c87e709218"]
 						}
 					}
 				}
@@ -147,9 +147,9 @@
 		},
 		{
 			"AddEntity": [
-				"cafe1ea44a66e203",
+				"cafe3b4dd5ca4423",
 				{
-					"parent": "cafe1ea44a66e200",
+					"parent": "cafebad4b326a273",
 					"name": "PromptPosition_UseToilet",
 					"factory": "[modules:/zspatialentity.class].pc_entitytype",
 					"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
@@ -176,20 +176,20 @@
 		},
 		{
 			"AddEntity": [
-				"cafe1ea44a66e204",
+				"cafe5eca346d06b0",
 				{
-					"parent": "cafe1ea44a66e200",
+					"parent": "cafebad4b326a273",
 					"name": "HM5DisguiseSafeZone_UseToilet",
 					"factory": "[modules:/zhm5disguisesafezoneentity.class].pc_entitytype",
 					"blueprint": "[modules:/zhm5disguisesafezoneentity.class].pc_entityblueprint",
 					"properties": {
 						"m_pSafeZoneNetwork": {
 							"type": "SEntityTemplateReference",
-							"value": "cafe1ea44a66e205"
+							"value": "cafe95ce9716c19f"
 						},
 						"m_aInputListeners": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": ["cafe1ea44a66e208"],
+							"value": ["cafe5845903d7135"],
 							"postInit": true
 						},
 						"m_bSetPositionOnExit": {
@@ -208,7 +208,7 @@
 						},
 						"m_pSafeZoneOrigin": {
 							"type": "SEntityTemplateReference",
-							"value": "cafe1ea44a66e209"
+							"value": "cafe8d1d217b07fd"
 						},
 						"m_bBlendOutCloth": {
 							"type": "bool",
@@ -237,21 +237,21 @@
 		},
 		{
 			"AddEntity": [
-				"cafe1ea44a66e205",
+				"cafe95ce9716c19f",
 				{
-					"parent": "cafe1ea44a66e200",
+					"parent": "cafebad4b326a273",
 					"name": "LegalToiletPissNetworkSelector",
 					"factory": "[modules:/zchildnetworkselectorentity.class].pc_entitytype",
 					"blueprint": "[modules:/zchildnetworkselectorentity.class].pc_entityblueprint",
 					"properties": {
 						"m_aChildNetworks": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": ["cafe1ea44a66e206"],
+							"value": ["cafea9437bcf45c6"],
 							"postInit": true
 						},
 						"m_rSelectedIndex": {
 							"type": "SEntityTemplateReference",
-							"value": "cafe1ea44a66e207",
+							"value": "cafe101a8bf0efea",
 							"postInit": true
 						}
 					}
@@ -260,9 +260,9 @@
 		},
 		{
 			"AddEntity": [
-				"cafe1ea44a66e206",
+				"cafea9437bcf45c6",
 				{
-					"parent": "cafe1ea44a66e200",
+					"parent": "cafebad4b326a273",
 					"name": "MR_Stand_Piss_LegalToilet",
 					"factory": "[modules:/zchildnetworkentity.class].pc_entitytype",
 					"blueprint": "[modules:/zchildnetworkentity.class].pc_entityblueprint",
@@ -280,9 +280,9 @@
 		},
 		{
 			"AddEntity": [
-				"cafe1ea44a66e207",
+				"cafe101a8bf0efea",
 				{
-					"parent": "cafe1ea44a66e200",
+					"parent": "cafebad4b326a273",
 					"name": "LegalToiletPissNetworkIndex",
 					"factory": "[assembly:/_pro/design/logic/valueint.template?/valueint.entitytemplate].pc_entitytype",
 					"blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint.entitytemplate].pc_entityblueprint"
@@ -291,9 +291,9 @@
 		},
 		{
 			"AddEntity": [
-				"cafe1ea44a66e208",
+				"cafe5845903d7135",
 				{
-					"parent": "cafe1ea44a66e200",
+					"parent": "cafebad4b326a273",
 					"name": "CancelToExitLegalToilet",
 					"factory": "[modules:/zinputlistenerbuttonentity.class].pc_entitytype",
 					"blueprint": "[modules:/zinputlistenerbuttonentity.class].pc_entityblueprint",
@@ -312,16 +312,16 @@
 						}
 					},
 					"events": {
-						"OnPressed": { "In": ["cafe1ea44a66e218"] }
+						"OnPressed": { "In": ["cafe29fb91a77f51"] }
 					}
 				}
 			]
 		},
 		{
 			"AddEntity": [
-				"cafe1ea44a66e209",
+				"cafe8d1d217b07fd",
 				{
-					"parent": "cafe1ea44a66e200",
+					"parent": "cafebad4b326a273",
 					"name": "LegalToiletPissSafeZoneOrigin",
 					"factory": "[modules:/zspatialentity.class].pc_entitytype",
 					"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
@@ -348,16 +348,16 @@
 		},
 		{
 			"AddEntity": [
-				"cafe1ea44a66e20a",
+				"cafe40d898217dda",
 				{
-					"parent": "cafe1ea44a66e200",
+					"parent": "cafebad4b326a273",
 					"name": "EventChannelTransmitter_Drunk47LegalToiletStart",
 					"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_void.entitytemplate].pc_entitytype",
 					"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_void.entitytemplate].pc_entityblueprint",
 					"properties": {
 						"m_rChannelToken": {
 							"type": "SEntityTemplateReference",
-							"value": "cafe1ea44a66e20b",
+							"value": "cafea9f7ff195655",
 							"postInit": true
 						}
 					}
@@ -366,9 +366,9 @@
 		},
 		{
 			"AddEntity": [
-				"cafe1ea44a66e20b",
+				"cafea9f7ff195655",
 				{
-					"parent": "cafe1ea44a66e20a",
+					"parent": "cafe40d898217dda",
 					"name": "TokenID_Drunk47_LegalToiletStart",
 					"factory": "[modules:/ztokenidentity.class].pc_entitytype",
 					"blueprint": "[modules:/ztokenidentity.class].pc_entityblueprint",
@@ -383,16 +383,16 @@
 		},
 		{
 			"AddEntity": [
-				"cafe1ea44a66e20c",
+				"cafe3b86ab4d339e",
 				{
-					"parent": "cafe1ea44a66e200",
+					"parent": "cafebad4b326a273",
 					"name": "EventChannelTransmitter_Drunk47LegalToiletStop",
 					"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_void.entitytemplate].pc_entitytype",
 					"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_void.entitytemplate].pc_entityblueprint",
 					"properties": {
 						"m_rChannelToken": {
 							"type": "SEntityTemplateReference",
-							"value": "cafe1ea44a66e20d",
+							"value": "cafe00f31d0b2a5e",
 							"postInit": true
 						}
 					}
@@ -401,9 +401,9 @@
 		},
 		{
 			"AddEntity": [
-				"cafe1ea44a66e20d",
+				"cafe00f31d0b2a5e",
 				{
-					"parent": "cafe1ea44a66e20c",
+					"parent": "cafe3b86ab4d339e",
 					"name": "TokenID_Drunk47_LegalToiletStop",
 					"factory": "[modules:/ztokenidentity.class].pc_entitytype",
 					"blueprint": "[modules:/ztokenidentity.class].pc_entityblueprint",
@@ -418,30 +418,30 @@
 		},
 		{
 			"AddEntity": [
-				"cafe1ea44a66e20e",
+				"cafe3e245433285a",
 				{
-					"parent": "cafe1ea44a66e200",
+					"parent": "cafebad4b326a273",
 					"name": "EventChannelReceiver_Drunk47LegalToiletAutoExit",
 					"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_void.entitytemplate].pc_entitytype",
 					"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_void.entitytemplate].pc_entityblueprint",
 					"properties": {
 						"m_rChannelToken": {
 							"type": "SEntityTemplateReference",
-							"value": "cafe1ea44a66e20f",
+							"value": "cafe068fa675c158",
 							"postInit": true
 						}
 					},
 					"events": {
-						"EventReceived": { "Poll": ["cafe1ea44a66e217"] }
+						"EventReceived": { "Poll": ["cafeb82c7c750713"] }
 					}
 				}
 			]
 		},
 		{
 			"AddEntity": [
-				"cafe1ea44a66e20f",
+				"cafe068fa675c158",
 				{
-					"parent": "cafe1ea44a66e20e",
+					"parent": "cafe3e245433285a",
 					"name": "TokenID_Drunk47_LegalToiletAutoExit",
 					"factory": "[modules:/ztokenidentity.class].pc_entitytype",
 					"blueprint": "[modules:/ztokenidentity.class].pc_entityblueprint",
@@ -456,9 +456,9 @@
 		},
 		{
 			"AddEntity": [
-				"cafe1ea44a66e210",
+				"cafedba2f4611b59",
 				{
-					"parent": "cafe1ea44a66e200",
+					"parent": "cafebad4b326a273",
 					"name": "ValueInt_LegalToiletDrunkennessMirror",
 					"factory": "[assembly:/_pro/design/logic/valueint.template?/valueint_basic.entitytemplate].pc_entitytype",
 					"blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint_basic.entitytemplate].pc_entityblueprint",
@@ -470,29 +470,29 @@
 						}
 					},
 					"events": {
-						"OnValue": { "Get": ["cafe1ea44a66e213"] }
+						"OnValue": { "Get": ["cafe166588d5bdc2"] }
 					}
 				}
 			]
 		},
 		{
 			"AddEntity": [
-				"cafe1ea44a66e211",
+				"cafea69efc7e2cc5",
 				{
-					"parent": "cafe1ea44a66e200",
+					"parent": "cafebad4b326a273",
 					"name": "EventChannelReceiver_Drunk47DrunkennessLevel_LegalToilet",
 					"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_int32.entitytemplate].pc_entitytype",
 					"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_int32.entitytemplate].pc_entityblueprint",
 					"properties": {
 						"m_rChannelToken": {
 							"type": "SEntityTemplateReference",
-							"value": "cafe1ea44a66e212",
+							"value": "cafe2a97c0d8c33c",
 							"postInit": true
 						}
 					},
 					"events": {
 						"EventReceived": {
-							"SetValue": ["cafe1ea44a66e210"]
+							"SetValue": ["cafedba2f4611b59"]
 						}
 					}
 				}
@@ -500,9 +500,9 @@
 		},
 		{
 			"AddEntity": [
-				"cafe1ea44a66e212",
+				"cafe2a97c0d8c33c",
 				{
-					"parent": "cafe1ea44a66e211",
+					"parent": "cafea69efc7e2cc5",
 					"name": "TokenID_Drunk47_Drunkenness_LevelChanged_LegalToilet",
 					"factory": "[modules:/ztokenidentity.class].pc_entitytype",
 					"blueprint": "[modules:/ztokenidentity.class].pc_entityblueprint",
@@ -517,20 +517,20 @@
 		},
 		{
 			"AddEntity": [
-				"cafe1ea44a66e213",
+				"cafe166588d5bdc2",
 				{
-					"parent": "cafe1ea44a66e200",
+					"parent": "cafebad4b326a273",
 					"name": "DrunkennessAboveZero_LegalToilet",
 					"factory": "[assembly:/_pro/design/logic/valueint.template?/valueint_comparator_poll.entitytemplate].pc_entitytype",
 					"blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint_comparator_poll.entitytemplate].pc_entityblueprint",
 					"properties": {
 						"m_rFirstValueInt": {
 							"type": "SEntityTemplateReference",
-							"value": "cafe1ea44a66e210"
+							"value": "cafedba2f4611b59"
 						},
 						"m_rSecondValueInt": {
 							"type": "SEntityTemplateReference",
-							"value": "cafe1ea44a66e214"
+							"value": "cafefb1cace3eb2e"
 						},
 						"m_eEvaluation": {
 							"type": "ZValueInt_Comparator_Poll.EEvaluationType",
@@ -538,17 +538,17 @@
 						}
 					},
 					"events": {
-						"GetTrue": { "SetTrue": ["cafe1ea44a66e215"] },
-						"GetFalse": { "SetFalse": ["cafe1ea44a66e215"] }
+						"GetTrue": { "SetTrue": ["cafe8d89189d9fc0"] },
+						"GetFalse": { "SetFalse": ["cafe8d89189d9fc0"] }
 					}
 				}
 			]
 		},
 		{
 			"AddEntity": [
-				"cafe1ea44a66e214",
+				"cafefb1cace3eb2e",
 				{
-					"parent": "cafe1ea44a66e200",
+					"parent": "cafebad4b326a273",
 					"name": "ValueInt_Zero_LegalToilet",
 					"factory": "[assembly:/_pro/design/logic/valueint.template?/valueint.entitytemplate].pc_entitytype",
 					"blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint.entitytemplate].pc_entityblueprint",
@@ -560,9 +560,9 @@
 		},
 		{
 			"AddEntity": [
-				"cafe1ea44a66e215",
+				"cafe8d89189d9fc0",
 				{
-					"parent": "cafe1ea44a66e200",
+					"parent": "cafebad4b326a273",
 					"name": "ValueBool_DrunkennessAboveZero_LegalToilet",
 					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
 					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint"
@@ -571,9 +571,9 @@
 		},
 		{
 			"AddEntity": [
-				"cafe1ea44a66e216",
+				"cafe82c87e709218",
 				{
-					"parent": "cafe1ea44a66e200",
+					"parent": "cafebad4b326a273",
 					"name": "ValueBool_LegalToiletActionActive",
 					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
 					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint"
@@ -582,37 +582,37 @@
 		},
 		{
 			"AddEntity": [
-				"cafe1ea44a66e217",
+				"cafeb82c7c750713",
 				{
-					"parent": "cafe1ea44a66e200",
+					"parent": "cafebad4b326a273",
 					"name": "Poll_LegalToiletActionActive_ForExit",
 					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
 					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
 					"properties": {
 						"m_rValueEntity": {
 							"type": "SEntityTemplateReference",
-							"value": "cafe1ea44a66e216"
+							"value": "cafe82c87e709218"
 						}
 					},
 					"events": {
-						"PollTrue": { "In": ["cafe1ea44a66e218"] }
+						"PollTrue": { "In": ["cafe29fb91a77f51"] }
 					}
 				}
 			]
 		},
 		{
 			"AddEntity": [
-				"cafe1ea44a66e218",
+				"cafe29fb91a77f51",
 				{
-					"parent": "cafe1ea44a66e200",
+					"parent": "cafebad4b326a273",
 					"name": "ExitLegalToiletAction",
 					"factory": "[modules:/zentity.class].pc_entitytype",
 					"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 					"inputCopying": {
 						"In": {
-							"ExitSafeZoneNoAnim": ["cafe1ea44a66e204"],
-							"TransmitEvent": ["cafe1ea44a66e20c"],
-							"SetFalse": ["cafe1ea44a66e216"]
+							"ExitSafeZoneNoAnim": ["cafe5eca346d06b0"],
+							"TransmitEvent": ["cafe3b86ab4d339e"],
+							"SetFalse": ["cafe82c87e709218"]
 						}
 					}
 				}
@@ -620,9 +620,9 @@
 		},
 		{
 			"AddEntity": [
-				"cafe1ea44a66e219",
+				"cafec9eec25d25e3",
 				{
-					"parent": "cafe1ea44a66e200",
+					"parent": "cafebad4b326a273",
 					"name": "LegalToiletSeatIsUpProperty",
 					"factory": "[modules:/zvaluebool_entityproperty.class].pc_entitytype",
 					"blueprint": "[modules:/zvaluebool_entityproperty.class].pc_entityblueprint",
@@ -642,16 +642,16 @@
 		},
 		{
 			"AddEntity": [
-				"cafe1ea44a66e21a",
+				"cafe9d557c3a3234",
 				{
-					"parent": "cafe1ea44a66e200",
+					"parent": "cafebad4b326a273",
 					"name": "LegalToiletRaiseSeat",
 					"factory": "[modules:/zvaluebool_set.class].pc_entitytype",
 					"blueprint": "[modules:/zvaluebool_set.class].pc_entityblueprint",
 					"properties": {
 						"m_aValueEntities": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": ["cafe1ea44a66e219"],
+							"value": ["cafec9eec25d25e3"],
 							"postInit": true
 						}
 					}
@@ -660,16 +660,16 @@
 		},
 		{
 			"AddEntity": [
-				"cafe1ea44a66e21b",
+				"cafe82369787cfb4",
 				{
-					"parent": "cafe1ea44a66e200",
+					"parent": "cafebad4b326a273",
 					"name": "LegalToiletSeatIsClosed",
 					"factory": "[modules:/zinvertedcondition.class].pc_entitytype",
 					"blueprint": "[modules:/zinvertedcondition.class].pc_entityblueprint",
 					"properties": {
 						"m_rCondition": {
 							"type": "SEntityTemplateReference",
-							"value": "cafe1ea44a66e219",
+							"value": "cafec9eec25d25e3",
 							"postInit": true
 						}
 					}
@@ -678,9 +678,9 @@
 		},
 		{
 			"AddEntity": [
-				"cafe1ea44a66e21c",
+				"cafe9a11238e1ae5",
 				{
-					"parent": "cafe1ea44a66e200",
+					"parent": "cafebad4b326a273",
 					"name": "ValueBool_LegalToiletSeatManuallyOpened",
 					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
 					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
@@ -692,16 +692,16 @@
 		},
 		{
 			"AddEntity": [
-				"cafe1ea44a66e21d",
+				"cafe5e9b1f49196d",
 				{
-					"parent": "cafe1ea44a66e200",
+					"parent": "cafebad4b326a273",
 					"name": "Set_LegalToiletSeatManuallyOpened",
 					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entitytype",
 					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entityblueprint",
 					"properties": {
 						"m_aValueEntities": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": ["cafe1ea44a66e21c"],
+							"value": ["cafe9a11238e1ae5"],
 							"postInit": true
 						}
 					}
@@ -710,16 +710,16 @@
 		},
 		{
 			"AddEntity": [
-				"cafe1ea44a66e21e",
+				"cafe1767e2fabd03",
 				{
-					"parent": "cafe1ea44a66e200",
+					"parent": "cafebad4b326a273",
 					"name": "Condition_LegalToiletSeatNotManuallyOpened",
 					"factory": "[modules:/zinvertedcondition.class].pc_entitytype",
 					"blueprint": "[modules:/zinvertedcondition.class].pc_entityblueprint",
 					"properties": {
 						"m_rCondition": {
 							"type": "SEntityTemplateReference",
-							"value": "cafe1ea44a66e21c",
+							"value": "cafe9a11238e1ae5",
 							"postInit": true
 						}
 					}
@@ -728,9 +728,9 @@
 		},
 		{
 			"AddEntity": [
-				"cafe1ea44a66e21f",
+				"cafe1c4bbcdd92bd",
 				{
-					"parent": "cafe1ea44a66e200",
+					"parent": "cafebad4b326a273",
 					"name": "Interaction_Subaction_OpenToiletLid",
 					"factory": "[assembly:/_pro/design/gamecore/interactionbase.template?/interaction_subaction.entitytemplate].pc_entitytype",
 					"blueprint": "[assembly:/_pro/design/gamecore/interactionbase.template?/interaction_subaction.entitytemplate].pc_entityblueprint",
@@ -763,15 +763,15 @@
 						"m_ConditionList_Visible": {
 							"type": "TArray<SEntityTemplateReference>",
 							"value": [
-								"cafe1ea44a66e21b",
-								"cafe1ea44a66e21e"
+								"cafe82369787cfb4",
+								"cafe1767e2fabd03"
 							]
 						},
 						"m_ConditionList_Usable": {
 							"type": "TArray<SEntityTemplateReference>",
 							"value": [
-								"cafe1ea44a66e21b",
-								"cafe1ea44a66e21e"
+								"cafe82369787cfb4",
+								"cafe1767e2fabd03"
 							]
 						},
 						"m_rPromptTextResource": {
@@ -785,8 +785,8 @@
 					"events": {
 						"Completed": {
 							"SetTrue": [
-								"cafe1ea44a66e21a",
-								"cafe1ea44a66e21d"
+								"cafe9d557c3a3234",
+								"cafe5e9b1f49196d"
 							]
 						}
 					}
@@ -795,9 +795,9 @@
 		},
 		{
 			"AddEntity": [
-				"cafe1ea44a66e220",
+				"cafe5efd688fdc36",
 				{
-					"parent": "cafe1ea44a66e200",
+					"parent": "cafebad4b326a273",
 					"name": "Interaction_Subaction_UseToilet_AfterOpeningLid",
 					"factory": "[assembly:/_pro/design/gamecore/interactionbase.template?/interaction_subaction.entitytemplate].pc_entitytype",
 					"blueprint": "[assembly:/_pro/design/gamecore/interactionbase.template?/interaction_subaction.entitytemplate].pc_entityblueprint",
@@ -846,15 +846,15 @@
 						"m_ConditionList_Visible": {
 							"type": "TArray<SEntityTemplateReference>",
 							"value": [
-								"cafe1ea44a66e215",
-								"cafe1ea44a66e21c"
+								"cafe8d89189d9fc0",
+								"cafe9a11238e1ae5"
 							]
 						},
 						"m_ConditionList_Usable": {
 							"type": "TArray<SEntityTemplateReference>",
 							"value": [
-								"cafe1ea44a66e215",
-								"cafe1ea44a66e21c"
+								"cafe8d89189d9fc0",
+								"cafe9a11238e1ae5"
 							]
 						},
 						"m_rPromptTextResource": {
@@ -867,9 +867,9 @@
 					},
 					"events": {
 						"Completed": {
-							"EnterSafeZone": ["cafe1ea44a66e204"],
-							"TransmitEvent": ["cafe1ea44a66e20a"],
-							"SetTrue": ["cafe1ea44a66e216"]
+							"EnterSafeZone": ["cafe5eca346d06b0"],
+							"TransmitEvent": ["cafe40d898217dda"],
+							"SetTrue": ["cafe82c87e709218"]
 						}
 					}
 				}

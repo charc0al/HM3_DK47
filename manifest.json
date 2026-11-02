@@ -52,6 +52,16 @@
         "content/unlockables"
       ]
     },
+	{
+      "name": "Safehouse | Beer",
+      "tooltip": "Adds a six beer bottles around the safehouse. See if you can find them all!",
+      "group": "Safehouse",
+      "type": "checkbox",
+      "enabledByDefault": true,
+      "contentFolders": [
+        "content/safehouse_beer"
+      ]
+    },
     {
       "name": "Safehouse | Vodka",
       "tooltip": "Adds a drinkable vodka bottle to the Freelancer safehouse garage.",
