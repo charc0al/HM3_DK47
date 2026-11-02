@@ -4,12 +4,29 @@
 	"patch": [
 		{
 			"AddEntity": [
+				"cafe83cf825355c6",
+				{
+					"parent": "bdd2f3ef19f86bbb",
+					"name": "ItemKey_Drunk47_Beer_Picnic",
+					"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+					"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+					"properties": {
+						"m_RepositoryId": {
+							"type": "ZGuid",
+							"value": "c5e815bd-f0c9-4d7e-9a76-b5dd670ee895"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
 				"cafe5773f7f85527",
 				{
 					"parent": "bdd2f3ef19f86bbb",
 					"name": "Item_Drunk47_Beer_Picnic_1",
-					"factory": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/setpiece_evergreen_cosmeticitem.entitytemplate].pc_entitytype",
-					"blueprint": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/setpiece_evergreen_cosmeticitem.entitytemplate].pc_entityblueprint",
+					"factory": "[modules:/zitemspawner.class].pc_entitytype",
+					"blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
 					"properties": {
 						"m_mTransform": {
 							"type": "SMatrix43",
@@ -26,14 +43,16 @@
 								}
 							}
 						},
-						"repositoryId": {
-							"type": "ZGuid",
-							"value": "c5e815bd-f0c9-4d7e-9a76-b5dd670ee895"
+						"m_rMainItemKey": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe83cf825355c6",
+							"postInit": true
 						},
 						"m_bSpawnOnStart": {
 							"type": "bool",
 							"value": true
 						},
+						"m_bVisible": { "type": "bool", "value": true },
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
 							"value": "fffffffffffffffe",
@@ -49,8 +68,8 @@
 				{
 					"parent": "bdd2f3ef19f86bbb",
 					"name": "Item_Drunk47_Beer_Picnic_2",
-					"factory": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/setpiece_evergreen_cosmeticitem.entitytemplate].pc_entitytype",
-					"blueprint": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/setpiece_evergreen_cosmeticitem.entitytemplate].pc_entityblueprint",
+					"factory": "[modules:/zitemspawner.class].pc_entitytype",
+					"blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
 					"properties": {
 						"m_mTransform": {
 							"type": "SMatrix43",
@@ -67,14 +86,16 @@
 								}
 							}
 						},
-						"repositoryId": {
-							"type": "ZGuid",
-							"value": "c5e815bd-f0c9-4d7e-9a76-b5dd670ee895"
+						"m_rMainItemKey": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe83cf825355c6",
+							"postInit": true
 						},
 						"m_bSpawnOnStart": {
 							"type": "bool",
 							"value": true
 						},
+						"m_bVisible": { "type": "bool", "value": true },
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
 							"value": "fffffffffffffffe",
@@ -90,8 +111,8 @@
 				{
 					"parent": "bdd2f3ef19f86bbb",
 					"name": "Item_Drunk47_Beer_Picnic_3",
-					"factory": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/setpiece_evergreen_cosmeticitem.entitytemplate].pc_entitytype",
-					"blueprint": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/setpiece_evergreen_cosmeticitem.entitytemplate].pc_entityblueprint",
+					"factory": "[modules:/zitemspawner.class].pc_entitytype",
+					"blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
 					"properties": {
 						"m_mTransform": {
 							"type": "SMatrix43",
@@ -108,14 +129,16 @@
 								}
 							}
 						},
-						"repositoryId": {
-							"type": "ZGuid",
-							"value": "c5e815bd-f0c9-4d7e-9a76-b5dd670ee895"
+						"m_rMainItemKey": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe83cf825355c6",
+							"postInit": true
 						},
 						"m_bSpawnOnStart": {
 							"type": "bool",
 							"value": true
 						},
+						"m_bVisible": { "type": "bool", "value": true },
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
 							"value": "fffffffffffffffe",
@@ -131,8 +154,8 @@
 				{
 					"parent": "bdd2f3ef19f86bbb",
 					"name": "Item_Drunk47_Beer_Picnic_4",
-					"factory": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/setpiece_evergreen_cosmeticitem.entitytemplate].pc_entitytype",
-					"blueprint": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/setpiece_evergreen_cosmeticitem.entitytemplate].pc_entityblueprint",
+					"factory": "[modules:/zitemspawner.class].pc_entitytype",
+					"blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
 					"properties": {
 						"m_mTransform": {
 							"type": "SMatrix43",
@@ -149,14 +172,16 @@
 								}
 							}
 						},
-						"repositoryId": {
-							"type": "ZGuid",
-							"value": "c5e815bd-f0c9-4d7e-9a76-b5dd670ee895"
+						"m_rMainItemKey": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe83cf825355c6",
+							"postInit": true
 						},
 						"m_bSpawnOnStart": {
 							"type": "bool",
 							"value": true
 						},
+						"m_bVisible": { "type": "bool", "value": true },
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
 							"value": "fffffffffffffffe",
@@ -172,8 +197,8 @@
 				{
 					"parent": "bdd2f3ef19f86bbb",
 					"name": "Item_Drunk47_Beer_Picnic_5",
-					"factory": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/setpiece_evergreen_cosmeticitem.entitytemplate].pc_entitytype",
-					"blueprint": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/setpiece_evergreen_cosmeticitem.entitytemplate].pc_entityblueprint",
+					"factory": "[modules:/zitemspawner.class].pc_entitytype",
+					"blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
 					"properties": {
 						"m_mTransform": {
 							"type": "SMatrix43",
@@ -190,14 +215,16 @@
 								}
 							}
 						},
-						"repositoryId": {
-							"type": "ZGuid",
-							"value": "c5e815bd-f0c9-4d7e-9a76-b5dd670ee895"
+						"m_rMainItemKey": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe83cf825355c6",
+							"postInit": true
 						},
 						"m_bSpawnOnStart": {
 							"type": "bool",
 							"value": true
 						},
+						"m_bVisible": { "type": "bool", "value": true },
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
 							"value": "fffffffffffffffe",
@@ -213,8 +240,8 @@
 				{
 					"parent": "bdd2f3ef19f86bbb",
 					"name": "Item_Drunk47_Beer_Picnic_6",
-					"factory": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/setpiece_evergreen_cosmeticitem.entitytemplate].pc_entitytype",
-					"blueprint": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/setpiece_evergreen_cosmeticitem.entitytemplate].pc_entityblueprint",
+					"factory": "[modules:/zitemspawner.class].pc_entitytype",
+					"blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
 					"properties": {
 						"m_mTransform": {
 							"type": "SMatrix43",
@@ -231,14 +258,16 @@
 								}
 							}
 						},
-						"repositoryId": {
-							"type": "ZGuid",
-							"value": "c5e815bd-f0c9-4d7e-9a76-b5dd670ee895"
+						"m_rMainItemKey": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe83cf825355c6",
+							"postInit": true
 						},
 						"m_bSpawnOnStart": {
 							"type": "bool",
 							"value": true
 						},
+						"m_bVisible": { "type": "bool", "value": true },
 						"m_eidParent": {
 							"type": "SEntityTemplateReference",
 							"value": "fffffffffffffffe",
