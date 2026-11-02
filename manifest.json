@@ -93,6 +93,16 @@
         "content/safehouse_whiskey_glass",
         "content/glasses"
       ]
+    },
+    {
+      "name": "Freelancer crash fix",
+      "tooltip": "Removes two Freelancer safehouse carpets linked to a QuickEntity property ID crash.",
+      "group": "Safehouse",
+      "type": "checkbox",
+      "enabledByDefault": false,
+      "contentFolders": [
+        "content/freelancer_crash_fix"
+      ]
     }
   ],
   "dependencies": [
