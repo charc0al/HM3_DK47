@@ -1,13 +1,13 @@
 {
   "$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "id": "Charc0al.Drunk47",
   "name": "Drunk 47",
   "description": "Allow 47 to loosen up a bit.",
   "authors": [
     "Charc0al"
   ],
-  "frameworkVersion": "2.33.42",
+  "frameworkVersion": "2.33.45",
   "contentFolders": [
     "content/main"
   ],
@@ -52,7 +52,7 @@
         "content/unlockables"
       ]
     },
-	{
+    {
       "name": "Safehouse | Beer",
       "tooltip": "Adds a six beer bottles around the safehouse. See if you can find them all!",
       "group": "Safehouse",
