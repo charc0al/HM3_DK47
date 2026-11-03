@@ -118,7 +118,7 @@
 							"value": [
 								"cafef81262ff79fa",
 								{
-									"ref": "3726a11ea9950e57",
+									"ref": "9ad296989f285f51",
 									"exposedEntity": "ValueBool_SeatUp"
 								},
 								"cafed8bdf893fd39",
@@ -130,7 +130,7 @@
 							"value": [
 								"cafef81262ff79fa",
 								{
-									"ref": "3726a11ea9950e57",
+									"ref": "9ad296989f285f51",
 									"exposedEntity": "ValueBool_SeatUp"
 								},
 								"cafed8bdf893fd39",
@@ -680,7 +680,7 @@
 						"m_rCondition": {
 							"type": "SEntityTemplateReference",
 							"value": {
-								"ref": "3726a11ea9950e57",
+								"ref": "9ad296989f285f51",
 								"exposedEntity": "ValueBool_SeatUp"
 							},
 							"postInit": true
