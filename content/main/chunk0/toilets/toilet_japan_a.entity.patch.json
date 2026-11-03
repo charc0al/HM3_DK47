@@ -111,11 +111,17 @@
 						},
 						"m_ConditionList_Visible": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": ["cafed4071559c926"]
+							"value": [
+								"cafed4071559c926",
+								"cafea186f235b572"
+							]
 						},
 						"m_ConditionList_Usable": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": ["cafed4071559c926"]
+							"value": [
+								"cafed4071559c926",
+								"cafea186f235b572"
+							]
 						},
 						"m_rPromptTextResource": {
 							"type": "ZRuntimeResourceID",
@@ -603,6 +609,23 @@
 							"ExitSafeZoneNoAnim": ["cafea4bb0f74f1f4"],
 							"TransmitEvent": ["cafe8133f1327b6a"],
 							"SetFalse": ["cafe50f4e3c3e72a"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafea186f235b572",
+				{
+					"parent": "cafeebdaa0b8bfa8",
+					"name": "Condition_Drunk47ToiletVisualVisible",
+					"factory": "[assembly:/_pro/design/logic/conditions.template?/visiblecondition.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/conditions.template?/visiblecondition.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aRenderables": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["95e85ab69eb43406"]
 						}
 					}
 				}

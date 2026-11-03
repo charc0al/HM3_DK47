@@ -1,0 +1,112 @@
+{
+	"tempHash": "00A9B93A825F5BDC",
+	"tbluHash": "005BA5CA6AC00627",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"a381ba801d9ccd01",
+				{
+					"RemoveAllEventConnectionsForTrigger": [
+						"OnTrue",
+						"Disable"
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"a381ba801d9ccd01",
+				{
+					"AddEventConnection": [
+						"OnTrue",
+						"EnableVolumeTrigger",
+						"36bcfee29106b6fe"
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"a381ba801d9ccd01",
+				{
+					"AddEventConnection": [
+						"OnFalse",
+						"Disable",
+						"36bcfee29106b6fe"
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"46fb1fea9b790a5a",
+				{
+					"RemoveAllEventConnectionsForTrigger": [
+						"OnTrue",
+						"Disable"
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"46fb1fea9b790a5a",
+				{
+					"AddEventConnection": [
+						"OnTrue",
+						"EnableVolumeTrigger",
+						"3ff249c438aeedc1"
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"46fb1fea9b790a5a",
+				{
+					"AddEventConnection": [
+						"OnFalse",
+						"Disable",
+						"3ff249c438aeedc1"
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"eea87d59ddf49bb7",
+				{
+					"RemoveAllEventConnectionsForTrigger": [
+						"OnTrue",
+						"Disable"
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"eea87d59ddf49bb7",
+				{
+					"AddEventConnection": [
+						"OnTrue",
+						"EnableVolumeTrigger",
+						"ebaf1066b3be2053"
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"eea87d59ddf49bb7",
+				{
+					"AddEventConnection": [
+						"OnFalse",
+						"Disable",
+						"ebaf1066b3be2053"
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

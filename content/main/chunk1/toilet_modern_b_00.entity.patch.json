@@ -117,14 +117,16 @@
 							"type": "TArray<SEntityTemplateReference>",
 							"value": [
 								"cafe8d89189d9fc0",
-								"cafec9eec25d25e3"
+								"cafec9eec25d25e3",
+								"cafe96595a60b4fe"
 							]
 						},
 						"m_ConditionList_Usable": {
 							"type": "TArray<SEntityTemplateReference>",
 							"value": [
 								"cafe8d89189d9fc0",
-								"cafec9eec25d25e3"
+								"cafec9eec25d25e3",
+								"cafe96595a60b4fe"
 							]
 						},
 						"m_rPromptTextResource": {
@@ -764,14 +766,16 @@
 							"type": "TArray<SEntityTemplateReference>",
 							"value": [
 								"cafe82369787cfb4",
-								"cafe1767e2fabd03"
+								"cafe1767e2fabd03",
+								"cafe96595a60b4fe"
 							]
 						},
 						"m_ConditionList_Usable": {
 							"type": "TArray<SEntityTemplateReference>",
 							"value": [
 								"cafe82369787cfb4",
-								"cafe1767e2fabd03"
+								"cafe1767e2fabd03",
+								"cafe96595a60b4fe"
 							]
 						},
 						"m_rPromptTextResource": {
@@ -847,14 +851,16 @@
 							"type": "TArray<SEntityTemplateReference>",
 							"value": [
 								"cafe8d89189d9fc0",
-								"cafe9a11238e1ae5"
+								"cafe9a11238e1ae5",
+								"cafe96595a60b4fe"
 							]
 						},
 						"m_ConditionList_Usable": {
 							"type": "TArray<SEntityTemplateReference>",
 							"value": [
 								"cafe8d89189d9fc0",
-								"cafe9a11238e1ae5"
+								"cafe9a11238e1ae5",
+								"cafe96595a60b4fe"
 							]
 						},
 						"m_rPromptTextResource": {
@@ -870,6 +876,23 @@
 							"EnterSafeZone": ["cafe5eca346d06b0"],
 							"TransmitEvent": ["cafe40d898217dda"],
 							"SetTrue": ["cafe82c87e709218"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe96595a60b4fe",
+				{
+					"parent": "cafebad4b326a273",
+					"name": "Condition_Drunk47ToiletVisualVisible",
+					"factory": "[assembly:/_pro/design/logic/conditions.template?/visiblecondition.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/conditions.template?/visiblecondition.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aRenderables": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["9a925166659d44f5"]
 						}
 					}
 				}

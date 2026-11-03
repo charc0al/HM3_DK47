@@ -117,14 +117,24 @@
 							"type": "TArray<SEntityTemplateReference>",
 							"value": [
 								"cafef81262ff79fa",
-								"cafebf4237a81406"
+								{
+									"ref": "3726a11ea9950e57",
+									"exposedEntity": "ValueBool_SeatUp"
+								},
+								"cafed8bdf893fd39",
+								"cafe9e57f9183403"
 							]
 						},
 						"m_ConditionList_Usable": {
 							"type": "TArray<SEntityTemplateReference>",
 							"value": [
 								"cafef81262ff79fa",
-								"cafebf4237a81406"
+								{
+									"ref": "3726a11ea9950e57",
+									"exposedEntity": "ValueBool_SeatUp"
+								},
+								"cafed8bdf893fd39",
+								"cafe9e57f9183403"
 							]
 						},
 						"m_rPromptTextResource": {
@@ -669,7 +679,10 @@
 					"properties": {
 						"m_rCondition": {
 							"type": "SEntityTemplateReference",
-							"value": "cafebf4237a81406",
+							"value": {
+								"ref": "3726a11ea9950e57",
+								"exposedEntity": "ValueBool_SeatUp"
+							},
 							"postInit": true
 						}
 					}
@@ -764,14 +777,16 @@
 							"type": "TArray<SEntityTemplateReference>",
 							"value": [
 								"cafe03b1ec07c1d9",
-								"cafed8bdf893fd39"
+								"cafed8bdf893fd39",
+								"cafe9e57f9183403"
 							]
 						},
 						"m_ConditionList_Usable": {
 							"type": "TArray<SEntityTemplateReference>",
 							"value": [
 								"cafe03b1ec07c1d9",
-								"cafed8bdf893fd39"
+								"cafed8bdf893fd39",
+								"cafe9e57f9183403"
 							]
 						},
 						"m_rPromptTextResource": {
@@ -784,10 +799,8 @@
 					},
 					"events": {
 						"Completed": {
-							"SetTrue": [
-								"cafe5e04ebc7b7ef",
-								"cafeec8cc3d084a6"
-							]
+							"OpenSeat": ["3726a11ea9950e57"],
+							"SetTrue": ["cafeec8cc3d084a6"]
 						}
 					}
 				}
@@ -847,14 +860,16 @@
 							"type": "TArray<SEntityTemplateReference>",
 							"value": [
 								"cafef81262ff79fa",
-								"cafe6c4b58b5ae7f"
+								"cafe6c4b58b5ae7f",
+								"cafe9e57f9183403"
 							]
 						},
 						"m_ConditionList_Usable": {
 							"type": "TArray<SEntityTemplateReference>",
 							"value": [
 								"cafef81262ff79fa",
-								"cafe6c4b58b5ae7f"
+								"cafe6c4b58b5ae7f",
+								"cafe9e57f9183403"
 							]
 						},
 						"m_rPromptTextResource": {
@@ -870,6 +885,23 @@
 							"EnterSafeZone": ["cafe97589b5e22e4"],
 							"TransmitEvent": ["cafed16cc17d2a0b"],
 							"SetTrue": ["cafe21012471584e"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe9e57f9183403",
+				{
+					"parent": "cafe285ae5e98c05",
+					"name": "Condition_Drunk47ToiletVisualVisible",
+					"factory": "[assembly:/_pro/design/logic/conditions.template?/visiblecondition.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/conditions.template?/visiblecondition.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aRenderables": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["3726a11ea9950e57"]
 						}
 					}
 				}
