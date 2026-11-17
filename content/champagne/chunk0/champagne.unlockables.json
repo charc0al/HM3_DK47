@@ -1,11 +1,4 @@
 {
-  "PACKAGE_STARTING_PACKAGE": {
-    "Properties": {
-      "Unlocks": [
-        "PROP_MELEE_CHAMPAGNE_PROPER"
-      ]
-    }
-  },
   "PROP_MELEE_CHAMPAGNE_PROPER": {
     "Id": "PROP_MELEE_CHAMPAGNE_PROPER",
     "Guid": "fd06d57a-6311-4dc1-af40-85c65bbc7b1f",
