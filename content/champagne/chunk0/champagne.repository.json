@@ -38,7 +38,7 @@
     "Evergreen_UnlockEntitlement": "",
     "Evergreen_UnlockMastery": 0,
     "ForbidCloseCombat": false,
-    "GripAnimType": "IGT_Melee_1H_Rock",
+    "GripAnimType": "IGT_Melee_1H_Knife",
     "GripAnimTypeVR": "IGT_VR_Default",
     "HarmlessImpact": false,
     "HitmanCanConceal": false,

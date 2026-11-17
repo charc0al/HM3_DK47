@@ -1,16 +1,16 @@
 {
   "tempHash": "00AF942599CAA3AD",
   "tbluHash": "008A750828C1420E",
-  "rootEntity": "b3ebea6f9964d241",
+  "rootEntity": "cafedee56840eac4",
   "entities": {
-    "fb265ded61ad9cf6": {
-      "parent": "b3ebea6f9964d241",
+    "cafe177032d0f19b": {
+      "parent": "cafedee56840eac4",
       "name": "FX_PR_Liquid_Splash_8x3_Water",
       "factory": "[assembly:/_pro/effects/templates/particlerenderers/fx_pr_liquids.template?/fx_pr_liquid_splash_8x3_water.entitytemplate].pc_entitytype",
       "blueprint": "[assembly:/_pro/effects/templates/particlerenderers/fx_pr_liquids.template?/fx_pr_liquid_splash_8x3_water.entitytemplate].pc_entityblueprint"
     },
-    "3436242145fab4c0": {
-      "parent": "b3ebea6f9964d241",
+    "cafe7d55c8ff4587": {
+      "parent": "cafedee56840eac4",
       "name": "FX_PB_Impact_Debris02",
       "factory": "[assembly:/_pro/effects/templates/impacts/fx_impacts_materialbased.template?/fx_pb_impact_debris.entitytemplate].pc_entitytype",
       "blueprint": "[assembly:/_pro/effects/templates/impacts/fx_impacts_materialbased.template?/fx_pb_impact_debris.entitytemplate].pc_entityblueprint",
@@ -91,8 +91,8 @@
         }
       }
     },
-    "429af7e07c2238d8": {
-      "parent": "b3ebea6f9964d241",
+    "cafeae228ab25c0d": {
+      "parent": "cafedee56840eac4",
       "name": "ParticleEmitterPoint_Milk_Decal",
       "factory": "[modules:/zparticleemitterboxentity.class].pc_entitytype",
       "blueprint": "[modules:/zparticleemitterboxentity.class].pc_entityblueprint",
@@ -143,11 +143,11 @@
         },
         "m_ParticleController": {
           "type": "SEntityTemplateReference",
-          "value": "3436242145fab4c0"
+          "value": "cafe7d55c8ff4587"
         },
         "m_ParticleRender": {
           "type": "SEntityTemplateReference",
-          "value": "fb265ded61ad9cf6"
+          "value": "cafe177032d0f19b"
         },
         "m_vGlobalSize": {
           "type": "SVector3",
@@ -175,13 +175,13 @@
         },
         "m_eidParent": {
           "type": "SEntityTemplateReference",
-          "value": "b3ebea6f9964d241",
+          "value": "cafedee56840eac4",
           "postInit": true
         }
       }
     },
-    "3d930397b5956576": {
-      "parent": "b3ebea6f9964d241",
+    "cafe3be02b5a5064": {
+      "parent": "cafedee56840eac4",
       "name": "FX_PB_Impact_Debris_Cheap",
       "factory": "[assembly:/_pro/effects/templates/impacts/fx_impacts_materialbased.template?/fx_pb_impact_debris_cheap.entitytemplate].pc_entitytype",
       "blueprint": "[assembly:/_pro/effects/templates/impacts/fx_impacts_materialbased.template?/fx_pb_impact_debris_cheap.entitytemplate].pc_entityblueprint",
@@ -220,14 +220,14 @@
         }
       }
     },
-    "c5dd5deb5e616fd0": {
-      "parent": "b3ebea6f9964d241",
+    "cafef45fa6a690c4": {
+      "parent": "cafedee56840eac4",
       "name": "FX_PR_Debris_Vegetables_4x4_01",
       "factory": "[assembly:/_pro/effects/templates/particlerenderers/fx_pr_debris.template?/fx_pr_debris_vegetables_4x4_01.entitytemplate].pc_entitytype",
       "blueprint": "[assembly:/_pro/effects/templates/particlerenderers/fx_pr_debris.template?/fx_pr_debris_vegetables_4x4_01.entitytemplate].pc_entityblueprint"
     },
-    "8fc27591c37953ed": {
-      "parent": "b3ebea6f9964d241",
+    "cafe1f45002f7ae1": {
+      "parent": "cafedee56840eac4",
       "name": "ParticleEmitterPoint_Debris_Glass_Small",
       "factory": "[modules:/zparticleemitterboxentity.class].pc_entitytype",
       "blueprint": "[modules:/zparticleemitterboxentity.class].pc_entityblueprint",
@@ -278,11 +278,11 @@
         },
         "m_ParticleController": {
           "type": "SEntityTemplateReference",
-          "value": "3d930397b5956576"
+          "value": "cafe3be02b5a5064"
         },
         "m_ParticleRender": {
           "type": "SEntityTemplateReference",
-          "value": "c5dd5deb5e616fd0"
+          "value": "cafef45fa6a690c4"
         },
         "m_vGlobalSize": {
           "type": "SVector3",
@@ -306,13 +306,13 @@
         },
         "m_eidParent": {
           "type": "SEntityTemplateReference",
-          "value": "b3ebea6f9964d241",
+          "value": "cafedee56840eac4",
           "postInit": true
         }
       }
     },
-    "777b593b3f1340fc": {
-      "parent": "1a7bc73f411bebf1",
+    "cafea61982fa11e6": {
+      "parent": "cafef0e209521afd",
       "name": "FX_PB_Impact_Water_Splash04",
       "factory": "[assembly:/_pro/effects/templates/impacts/fx_impacts_materialbased.template?/fx_pb_impact_water_splash.entitytemplate].pc_entitytype",
       "blueprint": "[assembly:/_pro/effects/templates/impacts/fx_impacts_materialbased.template?/fx_pb_impact_water_splash.entitytemplate].pc_entityblueprint",
@@ -404,14 +404,14 @@
         }
       }
     },
-    "8baa5924df517a27": {
-      "parent": "1a7bc73f411bebf1",
+    "cafe3c45098b566e": {
+      "parent": "cafef0e209521afd",
       "name": "FX_PR_Liquid_Rupture_8x3_Water_02",
       "factory": "[assembly:/_pro/effects/templates/particlerenderers/fx_pr_liquids.template?/fx_pr_liquid_rupture_8x3_water_02.entitytemplate].pc_entitytype",
       "blueprint": "[assembly:/_pro/effects/templates/particlerenderers/fx_pr_liquids.template?/fx_pr_liquid_rupture_8x3_water_02.entitytemplate].pc_entityblueprint"
     },
-    "328a5266a5175818": {
-      "parent": "1a7bc73f411bebf1",
+    "cafe2299936ddf92": {
+      "parent": "cafef0e209521afd",
       "name": "FX_PB_Impact_Water_Splash03",
       "factory": "[assembly:/_pro/effects/templates/impacts/fx_impacts_materialbased.template?/fx_pb_impact_water_splash.entitytemplate].pc_entitytype",
       "blueprint": "[assembly:/_pro/effects/templates/impacts/fx_impacts_materialbased.template?/fx_pb_impact_water_splash.entitytemplate].pc_entityblueprint",
@@ -511,8 +511,8 @@
         }
       }
     },
-    "a61381898e4fc043": {
-      "parent": "b3ebea6f9964d241",
+    "cafe6088d234e956": {
+      "parent": "cafedee56840eac4",
       "name": "FX_PB_Impact_Debris",
       "factory": "[assembly:/_pro/effects/templates/impacts/fx_impacts_materialbased.template?/fx_pb_impact_debris.entitytemplate].pc_entitytype",
       "blueprint": "[assembly:/_pro/effects/templates/impacts/fx_impacts_materialbased.template?/fx_pb_impact_debris.entitytemplate].pc_entityblueprint",
@@ -570,8 +570,8 @@
         }
       }
     },
-    "52dbc38008d4905a": {
-      "parent": "b3ebea6f9964d241",
+    "cafe3a20071b6e7d": {
+      "parent": "cafedee56840eac4",
       "name": "ParticleEmitterPoint_Debris_Glass",
       "factory": "[modules:/zparticleemitterboxentity.class].pc_entitytype",
       "blueprint": "[modules:/zparticleemitterboxentity.class].pc_entityblueprint",
@@ -622,11 +622,11 @@
         },
         "m_ParticleController": {
           "type": "SEntityTemplateReference",
-          "value": "a61381898e4fc043"
+          "value": "cafe6088d234e956"
         },
         "m_ParticleRender": {
           "type": "SEntityTemplateReference",
-          "value": "c5dd5deb5e616fd0"
+          "value": "cafef45fa6a690c4"
         },
         "m_fInnerConeAngle": {
           "type": "float32",
@@ -650,13 +650,13 @@
         },
         "m_eidParent": {
           "type": "SEntityTemplateReference",
-          "value": "b3ebea6f9964d241",
+          "value": "cafedee56840eac4",
           "postInit": true
         }
       }
     },
-    "d6c604674e7155d6": {
-      "parent": "1a7bc73f411bebf1",
+    "cafefbf7ba45d0da": {
+      "parent": "cafef0e209521afd",
       "name": "FX_PB_Impact_Water_Splash",
       "factory": "[assembly:/_pro/effects/templates/impacts/fx_impacts_materialbased.template?/fx_pb_impact_water_splash.entitytemplate].pc_entitytype",
       "blueprint": "[assembly:/_pro/effects/templates/impacts/fx_impacts_materialbased.template?/fx_pb_impact_water_splash.entitytemplate].pc_entityblueprint",
@@ -691,14 +691,14 @@
         }
       }
     },
-    "8c50289ba6a6cfcc": {
-      "parent": "1a7bc73f411bebf1",
+    "cafefcc6a91c170e": {
+      "parent": "cafef0e209521afd",
       "name": "FX_PR_Liquid_Impact_4x1_Water_01",
       "factory": "[assembly:/_pro/effects/templates/particlerenderers/fx_pr_liquids.template?/fx_pr_liquid_impact_4x1_water_01.entitytemplate].pc_entitytype",
       "blueprint": "[assembly:/_pro/effects/templates/particlerenderers/fx_pr_liquids.template?/fx_pr_liquid_impact_4x1_water_01.entitytemplate].pc_entityblueprint"
     },
-    "f69105041fda3151": {
-      "parent": "1a7bc73f411bebf1",
+    "cafe8f4fa75ce365": {
+      "parent": "cafef0e209521afd",
       "name": "ParticleEmitterPoint_Water_Splash",
       "factory": "[modules:/zparticleemitterboxentity.class].pc_entitytype",
       "blueprint": "[modules:/zparticleemitterboxentity.class].pc_entityblueprint",
@@ -744,11 +744,11 @@
         },
         "m_ParticleController": {
           "type": "SEntityTemplateReference",
-          "value": "d6c604674e7155d6"
+          "value": "cafefbf7ba45d0da"
         },
         "m_ParticleRender": {
           "type": "SEntityTemplateReference",
-          "value": "8c50289ba6a6cfcc"
+          "value": "cafefcc6a91c170e"
         },
         "m_vGlobalSize": {
           "type": "SVector3",
@@ -764,13 +764,13 @@
         },
         "m_eidParent": {
           "type": "SEntityTemplateReference",
-          "value": "1a7bc73f411bebf1",
+          "value": "cafef0e209521afd",
           "postInit": true
         }
       }
     },
-    "c3322b194dda0b62": {
-      "parent": "1a7bc73f411bebf1",
+    "cafe559156f65e03": {
+      "parent": "cafef0e209521afd",
       "name": "FX_E_Liquid_Sparks_Water",
       "factory": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/fx_e_liquid_sparks_water.entitytemplate].pc_entitytype",
       "blueprint": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/fx_e_liquid_sparks_water.entitytemplate].pc_entityblueprint",
@@ -840,13 +840,13 @@
         },
         "m_eidParent": {
           "type": "SEntityTemplateReference",
-          "value": "1a7bc73f411bebf1",
+          "value": "cafef0e209521afd",
           "postInit": true
         }
       }
     },
-    "39056db11b56f969": {
-      "parent": "1a7bc73f411bebf1",
+    "cafecbe0927e4336": {
+      "parent": "cafef0e209521afd",
       "name": "ParticleEmitterPoint_Rupture_Water02",
       "factory": "[modules:/zparticleemitterboxentity.class].pc_entitytype",
       "blueprint": "[modules:/zparticleemitterboxentity.class].pc_entityblueprint",
@@ -892,11 +892,11 @@
         },
         "m_ParticleController": {
           "type": "SEntityTemplateReference",
-          "value": "328a5266a5175818"
+          "value": "cafe2299936ddf92"
         },
         "m_ParticleRender": {
           "type": "SEntityTemplateReference",
-          "value": "8baa5924df517a27"
+          "value": "cafe3c45098b566e"
         },
         "m_bUseTrackSequence": {
           "type": "bool",
@@ -924,13 +924,13 @@
         },
         "m_eidParent": {
           "type": "SEntityTemplateReference",
-          "value": "1a7bc73f411bebf1",
+          "value": "cafef0e209521afd",
           "postInit": true
         }
       }
     },
-    "f577c2fdccec9d7e": {
-      "parent": "1a7bc73f411bebf1",
+    "cafed62a70a98dd6": {
+      "parent": "cafef0e209521afd",
       "name": "ParticleEmitterPoint_Rupture_Water01",
       "factory": "[modules:/zparticleemitterboxentity.class].pc_entitytype",
       "blueprint": "[modules:/zparticleemitterboxentity.class].pc_entityblueprint",
@@ -976,11 +976,11 @@
         },
         "m_ParticleController": {
           "type": "SEntityTemplateReference",
-          "value": "777b593b3f1340fc"
+          "value": "cafea61982fa11e6"
         },
         "m_ParticleRender": {
           "type": "SEntityTemplateReference",
-          "value": "8baa5924df517a27"
+          "value": "cafe3c45098b566e"
         },
         "m_bUseTrackSequence": {
           "type": "bool",
@@ -1008,13 +1008,13 @@
         },
         "m_eidParent": {
           "type": "SEntityTemplateReference",
-          "value": "1a7bc73f411bebf1",
+          "value": "cafef0e209521afd",
           "postInit": true
         }
       }
     },
-    "1a7bc73f411bebf1": {
-      "parent": "b3ebea6f9964d241",
+    "cafef0e209521afd": {
+      "parent": "cafedee56840eac4",
       "name": "FX_E_Impact_Water_NoRings",
       "factory": "[modules:/zcompositeentity.class].pc_entitytype",
       "blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
@@ -1053,17 +1053,17 @@
         },
         "m_eidParent": {
           "type": "SEntityTemplateReference",
-          "value": "b3ebea6f9964d241",
+          "value": "cafedee56840eac4",
           "postInit": true
         }
       },
       "inputCopying": {
         "Activate": {
           "Activate": [
-            "c3322b194dda0b62",
-            "f69105041fda3151",
-            "f577c2fdccec9d7e",
-            "39056db11b56f969"
+            "cafe559156f65e03",
+            "cafe8f4fa75ce365",
+            "cafed62a70a98dd6",
+            "cafecbe0927e4336"
           ]
         }
       },
@@ -1071,54 +1071,54 @@
         "m_ParticleColorRangeEnd": [
           {
             "originalProperty": "m_ParticleColorRangeEnd",
-            "originalEntity": "328a5266a5175818"
+            "originalEntity": "cafe2299936ddf92"
           },
           {
             "originalProperty": "m_ParticleColorRangeEnd",
-            "originalEntity": "777b593b3f1340fc"
+            "originalEntity": "cafea61982fa11e6"
           }
         ],
         "m_ParticleColorRangeStart": [
           {
             "originalProperty": "m_ParticleColorRangeStart",
-            "originalEntity": "c3322b194dda0b62"
+            "originalEntity": "cafe559156f65e03"
           },
           {
             "originalProperty": "m_ParticleColorRangeStart",
-            "originalEntity": "d6c604674e7155d6"
+            "originalEntity": "cafefbf7ba45d0da"
           },
           {
             "originalProperty": "m_ParticleColorRangeStart",
-            "originalEntity": "328a5266a5175818"
+            "originalEntity": "cafe2299936ddf92"
           },
           {
             "originalProperty": "m_ParticleColorRangeStart",
-            "originalEntity": "777b593b3f1340fc"
+            "originalEntity": "cafea61982fa11e6"
           }
         ],
         "m_fParticleSizeMax": [
           {
             "originalProperty": "m_fParticleSizeMax",
-            "originalEntity": "777b593b3f1340fc"
+            "originalEntity": "cafea61982fa11e6"
           },
           {
             "originalProperty": "m_fParticleSizeMax",
-            "originalEntity": "328a5266a5175818"
+            "originalEntity": "cafe2299936ddf92"
           }
         ],
         "m_fParticleSizeMin": [
           {
             "originalProperty": "m_fParticleSizeMin",
-            "originalEntity": "777b593b3f1340fc"
+            "originalEntity": "cafea61982fa11e6"
           },
           {
             "originalProperty": "m_fParticleSizeMin",
-            "originalEntity": "328a5266a5175818"
+            "originalEntity": "cafe2299936ddf92"
           }
         ]
       }
     },
-    "b3ebea6f9964d241": {
+    "cafedee56840eac4": {
       "parent": null,
       "name": "FX_Drunk47Vomit_NPC",
       "factory": "[modules:/zcompositeentity.class].pc_entitytype",
@@ -1163,20 +1163,20 @@
       "inputCopying": {
         "Activate": {
           "Activate": [
-            "52dbc38008d4905a",
-            "8fc27591c37953ed",
-            "429af7e07c2238d8"
+            "cafe3a20071b6e7d",
+            "cafe1f45002f7ae1",
+            "cafeae228ab25c0d"
           ]
         },
         "Deactivate": {
           "Deactivate": [
-            "429af7e07c2238d8",
-            "8fc27591c37953ed",
-            "52dbc38008d4905a",
-            "f69105041fda3151",
-            "39056db11b56f969",
-            "f577c2fdccec9d7e",
-            "c3322b194dda0b62"
+            "cafeae228ab25c0d",
+            "cafe1f45002f7ae1",
+            "cafe3a20071b6e7d",
+            "cafe8f4fa75ce365",
+            "cafecbe0927e4336",
+            "cafed62a70a98dd6",
+            "cafe559156f65e03"
           ]
         }
       },
@@ -1184,53 +1184,53 @@
         "FoodColorEnd": [
           {
             "originalProperty": "m_ParticleColorRangeEnd",
-            "originalEntity": "a61381898e4fc043"
+            "originalEntity": "cafe6088d234e956"
           },
           {
             "originalProperty": "m_ParticleColorRangeEnd",
-            "originalEntity": "3d930397b5956576"
+            "originalEntity": "cafe3be02b5a5064"
           }
         ],
         "FoodColorStart": [
           {
             "originalProperty": "m_ParticleColorRangeStart",
-            "originalEntity": "a61381898e4fc043"
+            "originalEntity": "cafe6088d234e956"
           },
           {
             "originalProperty": "m_ParticleColorRangeStart",
-            "originalEntity": "3d930397b5956576"
+            "originalEntity": "cafe3be02b5a5064"
           }
         ],
         "LiquidColorEnd": [
           {
             "originalProperty": "m_ParticleColorRangeEnd",
-            "originalEntity": "1a7bc73f411bebf1"
+            "originalEntity": "cafef0e209521afd"
           },
           {
             "originalProperty": "m_ParticleColorRangeEnd",
-            "originalEntity": "3436242145fab4c0"
+            "originalEntity": "cafe7d55c8ff4587"
           }
         ],
         "LiquidColorStart": [
           {
             "originalProperty": "m_ParticleColorRangeStart",
-            "originalEntity": "1a7bc73f411bebf1"
+            "originalEntity": "cafef0e209521afd"
           },
           {
             "originalProperty": "m_ParticleColorRangeStart",
-            "originalEntity": "3436242145fab4c0"
+            "originalEntity": "cafe7d55c8ff4587"
           }
         ],
         "LiquidSizeMax": [
           {
             "originalProperty": "LiquidSizeMax",
-            "originalEntity": "1a7bc73f411bebf1"
+            "originalEntity": "cafef0e209521afd"
           }
         ],
         "LiquidSizeMin": [
           {
             "originalProperty": "LiquidSizeMin",
-            "originalEntity": "1a7bc73f411bebf1"
+            "originalEntity": "cafef0e209521afd"
           }
         ]
       }

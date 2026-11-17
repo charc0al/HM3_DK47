@@ -555,7 +555,7 @@
 				"LeakSpeed": { "type": "float32", "value": 0.4 },
 				"ConstantColorRGB_01_Value": {
 					"type": "SColorRGB",
-					"value": "#D8BD77"
+					"value": "#41370b"
 				}
 			}
 		},

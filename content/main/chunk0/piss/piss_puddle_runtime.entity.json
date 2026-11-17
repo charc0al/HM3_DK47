@@ -1,10 +1,10 @@
 {
 	"tempHash": "00E1A44A66B120C0",
 	"tbluHash": "00E1A44A66B120C1",
-	"rootEntity": "975617a94a7708b2",
+	"rootEntity": "cafe82067426dabd",
 	"entities": {
 		"cafefb8642310afb": {
-			"parent": "975617a94a7708b2",
+			"parent": "cafe82067426dabd",
 			"name": "FX_Piss_Puddle_Small",
 			"factory": "[assembly:/_pro/effects/templates/water/fx_water_leaks.template?/fx_water_leak_3x3m_a.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/effects/templates/water/fx_water_leaks.template?/fx_water_leak_3x3m_a.entitytemplate].pc_entityblueprint",
@@ -30,7 +30,7 @@
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "dbc101917b6c0c62",
+					"value": "cafeba2e3d2ab3a1",
 					"postInit": true
 				},
 				"m_PrimitiveScale": {
@@ -40,7 +40,7 @@
 			}
 		},
 		"cafeabdc5922402c": {
-			"parent": "975617a94a7708b2",
+			"parent": "cafe82067426dabd",
 			"name": "FX_Piss_Puddle_Huge",
 			"factory": "[assembly:/_pro/effects/templates/water/fx_water_leaks.template?/fx_water_leak_3x3m_a.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/effects/templates/water/fx_water_leaks.template?/fx_water_leak_3x3m_a.entitytemplate].pc_entityblueprint",
@@ -72,8 +72,8 @@
 				}
 			}
 		},
-		"dfac4441e9f822ff": {
-			"parent": "975617a94a7708b2",
+		"cafe599c8743468c": {
+			"parent": "cafe82067426dabd",
 			"name": "ItemCoreNoPhys",
 			"factory": "[assembly:/_pro/design/gamecore/itemcore.template?/itemcorenophys.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/itemcore.template?/itemcorenophys.entitytemplate].pc_entityblueprint",
@@ -90,15 +90,15 @@
 			},
 			"events": {
 				"OnVisible": {
-					"Activate": ["dbc101917b6c0c62"],
+					"Activate": ["cafeba2e3d2ab3a1"],
 					"In": ["cafe6e343577fd80", "cafe2d228d740f53"],
 					"SetTrue": ["cafec676e30b9b91"]
 				}
 			},
-			"subsets": { "Replicable": ["975617a94a7708b2"] }
+			"subsets": { "Replicable": ["cafe82067426dabd"] }
 		},
 		"cafe7bdcbd2b2b47": {
-			"parent": "975617a94a7708b2",
+			"parent": "cafe82067426dabd",
 			"name": "PissPuddle_ItemCoreGeometryAnchor",
 			"factory": "[assembly:/_pro/effects/templates/water/fx_water_leaks.template?/fx_water_leak_3x3m_a.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/effects/templates/water/fx_water_leaks.template?/fx_water_leak_3x3m_a.entitytemplate].pc_entityblueprint",
@@ -128,8 +128,8 @@
 				}
 			}
 		},
-		"6d7c0746337380e2": {
-			"parent": "975617a94a7708b2",
+		"cafe1879b88d06a5": {
+			"parent": "cafe82067426dabd",
 			"name": "PropHelper_SlipperyFloors",
 			"factory": "[assembly:/_pro/design/gamecore/prophelpers.template?/prophelper_slipperyfloors.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/prophelpers.template?/prophelper_slipperyfloors.entitytemplate].pc_entityblueprint",
@@ -149,7 +149,7 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
 						{
-							"ref": "dfac4441e9f822ff",
+							"ref": "cafe599c8743468c",
 							"externalScene": null,
 							"exposedEntity": "ItemVisible"
 						}
@@ -158,14 +158,14 @@
 				"AllowSoap": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "dbc101917b6c0c62",
+					"value": "cafeba2e3d2ab3a1",
 					"postInit": true
 				},
 				"m_Boxes": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
 						{
-							"ref": "dbc101917b6c0c62",
+							"ref": "cafeba2e3d2ab3a1",
 							"externalScene": null,
 							"exposedEntity": "VolumeBox_electrify"
 						}
@@ -174,8 +174,8 @@
 				}
 			}
 		},
-		"dbc101917b6c0c62": {
-			"parent": "975617a94a7708b2",
+		"cafeba2e3d2ab3a1": {
+			"parent": "cafe82067426dabd",
 			"name": "PropHelper_WaterSpill",
 			"factory": "[assembly:/_pro/design/gamecore/prophelpers.template?/prophelper_waterspill_scalable_evergreen.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/prophelpers.template?/prophelper_waterspill_scalable_evergreen.entitytemplate].pc_entityblueprint",
@@ -207,9 +207,9 @@
 			"events": {
 				"WaterSpillActivated": { "Signal": ["cafe6d47535659bd"] }
 			},
-			"subsets": { "AudioEmitters": ["975617a94a7708b2"] }
+			"subsets": { "AudioEmitters": ["cafe82067426dabd"] }
 		},
-		"975617a94a7708b2": {
+		"cafe82067426dabd": {
 			"parent": null,
 			"name": "BathroomPissPuddle_Runtime",
 			"factory": "[modules:/zentity.class].pc_entitytype",
@@ -231,13 +231,13 @@
 				"m_eidParent": [
 					{
 						"originalProperty": "m_eidParent",
-						"originalEntity": "dbc101917b6c0c62"
+						"originalEntity": "cafeba2e3d2ab3a1"
 					}
 				],
 				"m_mTransform": [
 					{
 						"originalProperty": "m_mTransform",
-						"originalEntity": "dbc101917b6c0c62"
+						"originalEntity": "cafeba2e3d2ab3a1"
 					}
 				]
 			},
@@ -248,14 +248,14 @@
 				}
 			},
 			"exposedInterfaces": {
-				"ZHM5Item": "dfac4441e9f822ff",
-				"IItemBase": "dfac4441e9f822ff",
-				"IItem": "dfac4441e9f822ff",
-				"ZSpatialEntity": "dbc101917b6c0c62"
+				"ZHM5Item": "cafe599c8743468c",
+				"IItemBase": "cafe599c8743468c",
+				"IItem": "cafe599c8743468c",
+				"ZSpatialEntity": "cafeba2e3d2ab3a1"
 			}
 		},
 		"cafead465be2a725": {
-			"parent": "975617a94a7708b2",
+			"parent": "cafe82067426dabd",
 			"name": "WaterPuddleSlipVolume_01",
 			"factory": "[modules:/zspherevolumeentity.class].pc_entitytype",
 			"blueprint": "[modules:/zspherevolumeentity.class].pc_entityblueprint",
@@ -270,13 +270,13 @@
 				"m_fRadius": { "type": "float32", "value": 0.45 },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "dbc101917b6c0c62",
+					"value": "cafeba2e3d2ab3a1",
 					"postInit": true
 				}
 			}
 		},
 		"cafe62d268a1867f": {
-			"parent": "975617a94a7708b2",
+			"parent": "cafe82067426dabd",
 			"name": "ItemHelper_Logic_BananaSlip_01",
 			"factory": "[assembly:/_pro/design/gamecore/drunk47.template?/itemhelper_logic_pisspuddleslip.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/drunk47.template?/itemhelper_logic_pisspuddleslip.entitytemplate].pc_entityblueprint",
@@ -292,7 +292,7 @@
 				},
 				"m_rItem": {
 					"type": "SEntityTemplateReference",
-					"value": "dfac4441e9f822ff",
+					"value": "cafe599c8743468c",
 					"postInit": true
 				},
 				"m_rGeomEntity": {
@@ -312,7 +312,7 @@
 			}
 		},
 		"cafe868d25a92999": {
-			"parent": "975617a94a7708b2",
+			"parent": "cafe82067426dabd",
 			"name": "EventChannelTransmitter_Drunk47BathroomPuddleNPCSlip",
 			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_void.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_void.entitytemplate].pc_entityblueprint",
@@ -337,23 +337,23 @@
 			}
 		},
 		"cafe6e343577fd80": {
-			"parent": "975617a94a7708b2",
+			"parent": "cafe82067426dabd",
 			"name": "DetachFromSpawnerDelay",
 			"factory": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"Delay time (ms)": { "type": "int32", "value": 100 }
 			},
-			"events": { "Out": { "Detach": ["dbc101917b6c0c62"] } }
+			"events": { "Out": { "Detach": ["cafeba2e3d2ab3a1"] } }
 		},
 		"cafec676e30b9b91": {
-			"parent": "975617a94a7708b2",
+			"parent": "cafe82067426dabd",
 			"name": "ValueBool_Drunk47BathroomPuddleRearmActive",
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint"
 		},
 		"cafe1321371017d3": {
-			"parent": "975617a94a7708b2",
+			"parent": "cafe82067426dabd",
 			"name": "Poll_Drunk47BathroomPuddleRearmActive",
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
@@ -365,13 +365,13 @@
 			},
 			"events": {
 				"PollTrue": {
-					"Activate": ["dbc101917b6c0c62"],
+					"Activate": ["cafeba2e3d2ab3a1"],
 					"In": ["cafe2d228d740f53"]
 				}
 			}
 		},
 		"cafe2d228d740f53": {
-			"parent": "975617a94a7708b2",
+			"parent": "cafe82067426dabd",
 			"name": "Drunk47BathroomPuddleElectricRearmTimer",
 			"factory": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entityblueprint",
@@ -381,7 +381,7 @@
 			"events": { "Out": { "Poll": ["cafe1321371017d3"] } }
 		},
 		"cafef7824c903b1a": {
-			"parent": "975617a94a7708b2",
+			"parent": "cafe82067426dabd",
 			"name": "EventChannelReceiver_Drunk47BathroomEffectsStart_PuddleRearm",
 			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_void.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_void.entitytemplate].pc_entityblueprint",
@@ -412,7 +412,7 @@
 			}
 		},
 		"cafe328c730ab9c5": {
-			"parent": "975617a94a7708b2",
+			"parent": "cafe82067426dabd",
 			"name": "EventChannelReceiver_Drunk47BathroomStop_PuddleRearm",
 			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_void.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_void.entitytemplate].pc_entityblueprint",
@@ -443,14 +443,14 @@
 			}
 		},
 		"cafe6d47535659bd": {
-			"parent": "975617a94a7708b2",
+			"parent": "cafe82067426dabd",
 			"name": "VoidSignalOnce_Drunk47BathroomPuddleVariantStart",
 			"factory": "[assembly:/_pro/design/logic/signalpipes.template?/voidsignalonce_simple.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/signalpipes.template?/voidsignalonce_simple.entitytemplate].pc_entityblueprint",
 			"events": { "Out": {} }
 		},
 		"cafe8d29cd69fd49": {
-			"parent": "975617a94a7708b2",
+			"parent": "cafe82067426dabd",
 			"name": "ValueInt_Drunk47Drunkenness_PuddleSize",
 			"factory": "[assembly:/_pro/design/logic/valueint.template?/valueint_basic.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint_basic.entitytemplate].pc_entityblueprint",
@@ -464,7 +464,7 @@
 			"events": { "OnValue": { "Signal": ["cafec88aca68255d"] } }
 		},
 		"cafe321459be928b": {
-			"parent": "975617a94a7708b2",
+			"parent": "cafe82067426dabd",
 			"name": "EventChannelReceiver_Drunk47DrunkennessLevel_PuddleSize",
 			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_int32.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_int32.entitytemplate].pc_entityblueprint",
@@ -480,7 +480,7 @@
 			}
 		},
 		"cafe22d1b0ab8d76": {
-			"parent": "975617a94a7708b2",
+			"parent": "cafe82067426dabd",
 			"name": "DrunkennessAbove8_PuddleHuge",
 			"factory": "[assembly:/_pro/design/logic/valueint.template?/valueint_comparator_poll.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint_comparator_poll.entitytemplate].pc_entityblueprint",
@@ -509,14 +509,14 @@
 			}
 		},
 		"cafef45f0e0e82db": {
-			"parent": "975617a94a7708b2",
+			"parent": "cafe82067426dabd",
 			"name": "ValueInt_PuddleHugeThreshold8",
 			"factory": "[assembly:/_pro/design/logic/valueint.template?/valueint_basic.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint_basic.entitytemplate].pc_entityblueprint",
 			"properties": { "m_nValue": { "type": "int32", "value": 8 } }
 		},
 		"cafe9ddc89108bd6": {
-			"parent": "975617a94a7708b2",
+			"parent": "cafe82067426dabd",
 			"name": "Delay_Drunk47PuddleVariantSelection",
 			"factory": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entityblueprint",
@@ -538,7 +538,7 @@
 			}
 		},
 		"cafe04d779f579ea": {
-			"parent": "975617a94a7708b2",
+			"parent": "cafe82067426dabd",
 			"name": "PropHelper_WaterSpill_PissPuddleHugeVisual",
 			"factory": "[assembly:/_pro/design/gamecore/prophelpers.template?/prophelper_waterspill_scalable_evergreen.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/prophelpers.template?/prophelper_waterspill_scalable_evergreen.entitytemplate].pc_entityblueprint",
@@ -564,7 +564,7 @@
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "dbc101917b6c0c62",
+					"value": "cafeba2e3d2ab3a1",
 					"postInit": true
 				}
 			},
@@ -573,21 +573,21 @@
 			}
 		},
 		"cafe10786ea4b339": {
-			"parent": "975617a94a7708b2",
+			"parent": "cafe82067426dabd",
 			"name": "VoidSignalOnce_PissPuddleHugeVisualActivation",
 			"factory": "[assembly:/_pro/design/logic/signalpipes.template?/voidsignalonce_simple.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/signalpipes.template?/voidsignalonce_simple.entitytemplate].pc_entityblueprint",
 			"events": { "Out": { "Activate": ["cafeabdc5922402c"] } }
 		},
 		"cafec88aca68255d": {
-			"parent": "975617a94a7708b2",
+			"parent": "cafe82067426dabd",
 			"name": "VoidSignalOnce_Drunk47PuddleDrunkennessCaptured",
 			"factory": "[assembly:/_pro/design/logic/signalpipes.template?/voidsignalonce_simple.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/signalpipes.template?/voidsignalonce_simple.entitytemplate].pc_entityblueprint",
 			"events": { "Out": { "In": ["cafe9ddc89108bd6"] } }
 		},
 		"cafe91a83bdf4e30": {
-			"parent": "975617a94a7708b2",
+			"parent": "cafe82067426dabd",
 			"name": "PropHelper_SlipperyFloors_PissPuddleHuge",
 			"factory": "[assembly:/_pro/design/gamecore/prophelpers.template?/prophelper_slipperyfloors.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/prophelpers.template?/prophelper_slipperyfloors.entitytemplate].pc_entityblueprint",
@@ -607,7 +607,7 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
 						{
-							"ref": "dfac4441e9f822ff",
+							"ref": "cafe599c8743468c",
 							"externalScene": null,
 							"exposedEntity": "ItemVisible"
 						}
@@ -633,7 +633,7 @@
 			}
 		},
 		"cafe525b60190e17": {
-			"parent": "975617a94a7708b2",
+			"parent": "cafe82067426dabd",
 			"name": "WaterPuddleSlipVolume_Huge",
 			"factory": "[modules:/zspherevolumeentity.class].pc_entitytype",
 			"blueprint": "[modules:/zspherevolumeentity.class].pc_entityblueprint",
@@ -654,7 +654,7 @@
 			}
 		},
 		"cafe23c4176d9464": {
-			"parent": "975617a94a7708b2",
+			"parent": "cafe82067426dabd",
 			"name": "ItemHelper_Logic_BananaSlip_Huge",
 			"factory": "[assembly:/_pro/design/gamecore/drunk47.template?/itemhelper_logic_pisspuddleslip.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/drunk47.template?/itemhelper_logic_pisspuddleslip.entitytemplate].pc_entityblueprint",
@@ -670,7 +670,7 @@
 				},
 				"m_rItem": {
 					"type": "SEntityTemplateReference",
-					"value": "dfac4441e9f822ff",
+					"value": "cafe599c8743468c",
 					"postInit": true
 				},
 				"m_rGeomEntity": {
@@ -690,7 +690,7 @@
 			}
 		},
 		"cafef480b8969c5b": {
-			"parent": "975617a94a7708b2",
+			"parent": "cafe82067426dabd",
 			"name": "FX_Piss_Puddle_Medium",
 			"factory": "[assembly:/_pro/effects/templates/water/fx_water_leaks.template?/fx_water_leak_3x3m_a.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/effects/templates/water/fx_water_leaks.template?/fx_water_leak_3x3m_a.entitytemplate].pc_entityblueprint",
@@ -726,7 +726,7 @@
 			}
 		},
 		"cafecf164e12ead7": {
-			"parent": "975617a94a7708b2",
+			"parent": "cafe82067426dabd",
 			"name": "PropHelper_WaterSpill_PissPuddleMediumVisual",
 			"factory": "[assembly:/_pro/design/gamecore/prophelpers.template?/prophelper_waterspill_scalable_evergreen.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/prophelpers.template?/prophelper_waterspill_scalable_evergreen.entitytemplate].pc_entityblueprint",
@@ -752,7 +752,7 @@
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "dbc101917b6c0c62",
+					"value": "cafeba2e3d2ab3a1",
 					"postInit": true
 				}
 			},
@@ -761,14 +761,14 @@
 			}
 		},
 		"cafe8c5816c61c31": {
-			"parent": "975617a94a7708b2",
+			"parent": "cafe82067426dabd",
 			"name": "VoidSignalOnce_PissPuddleMediumVisualActivation",
 			"factory": "[assembly:/_pro/design/logic/signalpipes.template?/voidsignalonce_simple.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/signalpipes.template?/voidsignalonce_simple.entitytemplate].pc_entityblueprint",
 			"events": { "Out": { "Activate": ["cafef480b8969c5b"] } }
 		},
 		"cafe46df746aa4c0": {
-			"parent": "975617a94a7708b2",
+			"parent": "cafe82067426dabd",
 			"name": "PropHelper_SlipperyFloors_PissPuddleMedium",
 			"factory": "[assembly:/_pro/design/gamecore/prophelpers.template?/prophelper_slipperyfloors.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/prophelpers.template?/prophelper_slipperyfloors.entitytemplate].pc_entityblueprint",
@@ -788,7 +788,7 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
 						{
-							"ref": "dfac4441e9f822ff",
+							"ref": "cafe599c8743468c",
 							"externalScene": null,
 							"exposedEntity": "ItemVisible"
 						}
@@ -814,7 +814,7 @@
 			}
 		},
 		"cafe74fa9d4e654e": {
-			"parent": "975617a94a7708b2",
+			"parent": "cafe82067426dabd",
 			"name": "WaterPuddleSlipVolume_Medium",
 			"factory": "[modules:/zspherevolumeentity.class].pc_entitytype",
 			"blueprint": "[modules:/zspherevolumeentity.class].pc_entityblueprint",
@@ -835,7 +835,7 @@
 			}
 		},
 		"cafe09ca57d60430": {
-			"parent": "975617a94a7708b2",
+			"parent": "cafe82067426dabd",
 			"name": "ItemHelper_Logic_BananaSlip_Medium",
 			"factory": "[assembly:/_pro/design/gamecore/drunk47.template?/itemhelper_logic_pisspuddleslip.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/drunk47.template?/itemhelper_logic_pisspuddleslip.entitytemplate].pc_entityblueprint",
@@ -851,7 +851,7 @@
 				},
 				"m_rItem": {
 					"type": "SEntityTemplateReference",
-					"value": "dfac4441e9f822ff",
+					"value": "cafe599c8743468c",
 					"postInit": true
 				},
 				"m_rGeomEntity": {
@@ -871,7 +871,7 @@
 			}
 		},
 		"cafec686c8d1aa31": {
-			"parent": "975617a94a7708b2",
+			"parent": "cafe82067426dabd",
 			"name": "FX_Piss_Puddle_Large",
 			"factory": "[assembly:/_pro/effects/templates/water/fx_water_leaks.template?/fx_water_leak_3x3m_a.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/effects/templates/water/fx_water_leaks.template?/fx_water_leak_3x3m_a.entitytemplate].pc_entityblueprint",
@@ -907,7 +907,7 @@
 			}
 		},
 		"cafe5d1b4ac499d8": {
-			"parent": "975617a94a7708b2",
+			"parent": "cafe82067426dabd",
 			"name": "PropHelper_WaterSpill_PissPuddleLargeVisual",
 			"factory": "[assembly:/_pro/design/gamecore/prophelpers.template?/prophelper_waterspill_scalable_evergreen.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/prophelpers.template?/prophelper_waterspill_scalable_evergreen.entitytemplate].pc_entityblueprint",
@@ -933,7 +933,7 @@
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "dbc101917b6c0c62",
+					"value": "cafeba2e3d2ab3a1",
 					"postInit": true
 				}
 			},
@@ -942,14 +942,14 @@
 			}
 		},
 		"cafe1af94626c4b8": {
-			"parent": "975617a94a7708b2",
+			"parent": "cafe82067426dabd",
 			"name": "VoidSignalOnce_PissPuddleLargeVisualActivation",
 			"factory": "[assembly:/_pro/design/logic/signalpipes.template?/voidsignalonce_simple.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/signalpipes.template?/voidsignalonce_simple.entitytemplate].pc_entityblueprint",
 			"events": { "Out": { "Activate": ["cafec686c8d1aa31"] } }
 		},
 		"cafe96e46b034228": {
-			"parent": "975617a94a7708b2",
+			"parent": "cafe82067426dabd",
 			"name": "PropHelper_SlipperyFloors_PissPuddleLarge",
 			"factory": "[assembly:/_pro/design/gamecore/prophelpers.template?/prophelper_slipperyfloors.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/prophelpers.template?/prophelper_slipperyfloors.entitytemplate].pc_entityblueprint",
@@ -969,7 +969,7 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
 						{
-							"ref": "dfac4441e9f822ff",
+							"ref": "cafe599c8743468c",
 							"externalScene": null,
 							"exposedEntity": "ItemVisible"
 						}
@@ -995,7 +995,7 @@
 			}
 		},
 		"cafe6a5d377d49d0": {
-			"parent": "975617a94a7708b2",
+			"parent": "cafe82067426dabd",
 			"name": "WaterPuddleSlipVolume_Large",
 			"factory": "[modules:/zspherevolumeentity.class].pc_entitytype",
 			"blueprint": "[modules:/zspherevolumeentity.class].pc_entityblueprint",
@@ -1016,7 +1016,7 @@
 			}
 		},
 		"cafe41936c27b20a": {
-			"parent": "975617a94a7708b2",
+			"parent": "cafe82067426dabd",
 			"name": "ItemHelper_Logic_BananaSlip_Large",
 			"factory": "[assembly:/_pro/design/gamecore/drunk47.template?/itemhelper_logic_pisspuddleslip.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/drunk47.template?/itemhelper_logic_pisspuddleslip.entitytemplate].pc_entityblueprint",
@@ -1032,7 +1032,7 @@
 				},
 				"m_rItem": {
 					"type": "SEntityTemplateReference",
-					"value": "dfac4441e9f822ff",
+					"value": "cafe599c8743468c",
 					"postInit": true
 				},
 				"m_rGeomEntity": {
@@ -1052,14 +1052,14 @@
 			}
 		},
 		"cafe58bd917f4a90": {
-			"parent": "975617a94a7708b2",
+			"parent": "cafe82067426dabd",
 			"name": "ValueInt_PuddleLargeThreshold5",
 			"factory": "[assembly:/_pro/design/logic/valueint.template?/valueint_basic.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint_basic.entitytemplate].pc_entityblueprint",
 			"properties": { "m_nValue": { "type": "int32", "value": 5 } }
 		},
 		"cafe07f120e13f09": {
-			"parent": "975617a94a7708b2",
+			"parent": "cafe82067426dabd",
 			"name": "DrunkennessAbove5_PuddleLarge",
 			"factory": "[assembly:/_pro/design/logic/valueint.template?/valueint_comparator_poll.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint_comparator_poll.entitytemplate].pc_entityblueprint",
@@ -1088,14 +1088,14 @@
 			}
 		},
 		"cafe0b3156e02fc8": {
-			"parent": "975617a94a7708b2",
+			"parent": "cafe82067426dabd",
 			"name": "ValueInt_PuddleMediumThreshold2",
 			"factory": "[assembly:/_pro/design/logic/valueint.template?/valueint_basic.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint_basic.entitytemplate].pc_entityblueprint",
 			"properties": { "m_nValue": { "type": "int32", "value": 2 } }
 		},
 		"cafe98a7a60f8283": {
-			"parent": "975617a94a7708b2",
+			"parent": "cafe82067426dabd",
 			"name": "DrunkennessAbove2_PuddleMedium",
 			"factory": "[assembly:/_pro/design/logic/valueint.template?/valueint_comparator_poll.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint_comparator_poll.entitytemplate].pc_entityblueprint",
@@ -1122,13 +1122,13 @@
 				},
 				"GetFalse": {
 					"Activate": ["cafefb8642310afb"],
-					"EnableSlipping": ["6d7c0746337380e2"],
+					"EnableSlipping": ["cafe1879b88d06a5"],
 					"Rig": ["cafe62d268a1867f"]
 				}
 			}
 		},
 		"cafe5f457436f8a7": {
-			"parent": "975617a94a7708b2",
+			"parent": "cafe82067426dabd",
 			"name": "ValueBool_PissPuddleContinuousSlipRearmActive",
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
@@ -1137,7 +1137,7 @@
 			}
 		},
 		"cafe0949e0915744": {
-			"parent": "975617a94a7708b2",
+			"parent": "cafe82067426dabd",
 			"name": "EventChannelReceiver_PissPuddleContinuousSlipEligibility",
 			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_bool.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_bool.entitytemplate].pc_entityblueprint",
@@ -1160,7 +1160,7 @@
 			}
 		},
 		"cafeb13333a0d39e": {
-			"parent": "975617a94a7708b2",
+			"parent": "cafe82067426dabd",
 			"name": "TokenID_Drunk47_PuddleContinuousSlipEligible",
 			"factory": "[modules:/ztokenidentity.class].pc_entitytype",
 			"blueprint": "[modules:/ztokenidentity.class].pc_entityblueprint",
@@ -1172,7 +1172,7 @@
 			}
 		},
 		"cafe14a6c10612d4": {
-			"parent": "975617a94a7708b2",
+			"parent": "cafe82067426dabd",
 			"name": "EventChannelReceiver_PissPuddleSlipRearmStop_BathroomEnded",
 			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_void.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_void.entitytemplate].pc_entityblueprint",
@@ -1191,7 +1191,7 @@
 			}
 		},
 		"cafec63f5dbfa6d2": {
-			"parent": "975617a94a7708b2",
+			"parent": "cafe82067426dabd",
 			"name": "TokenID_PissPuddleSlipRearmStop_BathroomEnded",
 			"factory": "[modules:/ztokenidentity.class].pc_entitytype",
 			"blueprint": "[modules:/ztokenidentity.class].pc_entityblueprint",
@@ -1203,7 +1203,7 @@
 			}
 		},
 		"cafe0017c817758f": {
-			"parent": "975617a94a7708b2",
+			"parent": "cafe82067426dabd",
 			"name": "EventChannelReceiver_PissPuddleSlipRearmStop_BlackoutStarted",
 			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_void.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_void.entitytemplate].pc_entityblueprint",
@@ -1222,7 +1222,7 @@
 			}
 		},
 		"cafe8dd4aa8191bc": {
-			"parent": "975617a94a7708b2",
+			"parent": "cafe82067426dabd",
 			"name": "TokenID_PissPuddleSlipRearmStop_BlackoutStarted",
 			"factory": "[modules:/ztokenidentity.class].pc_entitytype",
 			"blueprint": "[modules:/ztokenidentity.class].pc_entityblueprint",
@@ -1234,7 +1234,7 @@
 			}
 		},
 		"cafecb6426d52c73": {
-			"parent": "975617a94a7708b2",
+			"parent": "cafe82067426dabd",
 			"name": "PissPuddleSlipRearmDelay_Small",
 			"factory": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entityblueprint",
@@ -1244,7 +1244,7 @@
 			"events": { "Out": { "Poll": ["cafec4999a2c8172"] } }
 		},
 		"cafec4999a2c8172": {
-			"parent": "975617a94a7708b2",
+			"parent": "cafe82067426dabd",
 			"name": "Poll_PissPuddleContinuousSlipRearmActive_Small",
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
@@ -1258,7 +1258,7 @@
 			"events": { "PollTrue": { "Rig": ["cafe62d268a1867f"] } }
 		},
 		"cafe697e0e6f60e3": {
-			"parent": "975617a94a7708b2",
+			"parent": "cafe82067426dabd",
 			"name": "PissPuddleSlipRearmDelay_Medium",
 			"factory": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entityblueprint",
@@ -1268,7 +1268,7 @@
 			"events": { "Out": { "Poll": ["cafe51124e4a26bf"] } }
 		},
 		"cafe51124e4a26bf": {
-			"parent": "975617a94a7708b2",
+			"parent": "cafe82067426dabd",
 			"name": "Poll_PissPuddleContinuousSlipRearmActive_Medium",
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
@@ -1282,7 +1282,7 @@
 			"events": { "PollTrue": { "Rig": ["cafe09ca57d60430"] } }
 		},
 		"cafe5795fa0beba7": {
-			"parent": "975617a94a7708b2",
+			"parent": "cafe82067426dabd",
 			"name": "PissPuddleSlipRearmDelay_Large",
 			"factory": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entityblueprint",
@@ -1292,7 +1292,7 @@
 			"events": { "Out": { "Poll": ["cafe284e165b58fb"] } }
 		},
 		"cafe284e165b58fb": {
-			"parent": "975617a94a7708b2",
+			"parent": "cafe82067426dabd",
 			"name": "Poll_PissPuddleContinuousSlipRearmActive_Large",
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
@@ -1306,7 +1306,7 @@
 			"events": { "PollTrue": { "Rig": ["cafe41936c27b20a"] } }
 		},
 		"cafeff1f3749f94d": {
-			"parent": "975617a94a7708b2",
+			"parent": "cafe82067426dabd",
 			"name": "PissPuddleSlipRearmDelay_Huge",
 			"factory": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entityblueprint",
@@ -1316,7 +1316,7 @@
 			"events": { "Out": { "Poll": ["cafeb4c4e09032e4"] } }
 		},
 		"cafeb4c4e09032e4": {
-			"parent": "975617a94a7708b2",
+			"parent": "cafe82067426dabd",
 			"name": "Poll_PissPuddleContinuousSlipRearmActive_Huge",
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
